@@ -1,0 +1,11 @@
+/.w/
+/.xml/
+/.db/
+/.acc/
+/dist/
+*.env.cmd
+/vbOnline.log
+/buildstatus.log
+/junit/*
+validation.tsv
+.lintres.xml
