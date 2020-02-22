@@ -5,15 +5,9 @@ SETLOCAL
 chcp 65001 >nul
 set ROOT_DIR=%~dp0\..\
 
-IF NOT DEFINED EDT_ProjectDir_Configuration (
-  echo Set EDT_ProjectDir_Configuration ! 1>&2
-  exit /b 1
-)
 
 set _1CE_ACCDir=.acc
 set _1CE_ACCDBConnection="File='%_1CE_ACCDir%'"
-
-set EDT_ProjectPath=%ROOT_DIR%\%EDT_ProjectDir_Configuration%
 
 pushd %ROOT_DIR%
 
