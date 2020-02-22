@@ -11,16 +11,13 @@ IF NOT DEFINED _1CE_TargetDBConnection (
 
 pushd %ROOT_DIR%
 
-set _1CE_CheckConfigResult=%CD%\1cv8.log
+set _1CE_Log=%CD%\checkconfig.log
 
 call .\3dparty\1cv8-log DESIGNER /WA- /DisableStartupDialogs /IBConnectionString %_1CE_TargetDBConnection% /CheckConfig -IncorrectReferences -ThinClient -WebClient -Server -ExtendedModulesCheck -CheckUseSyncronousCalls -CheckUseModality -AllExtensions
 set _1CE_ERRORLEVEL=%ERRORLEVEL%
 
 popd
 
-call .\build\tools\cat-error-log "%_1CE_CheckConfigResult%" ".\build\config\exclude-check-config" Default
-IF ERRORLEVEL 1 (
-  exit /b %_1CE_ERRORLEVEL%
-) ELSE (
-  exit /b
-)
+call .\build\tools\cat-error-log "%_1CE_Log%" ".\build\config\exclude-check-config" Default
+
+exit /b %_1CE_ERRORLEVEL%
