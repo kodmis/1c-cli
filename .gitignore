@@ -9,3 +9,4 @@
 /junit/*
 validation.tsv
 .lintres.xml
+/.errors/
