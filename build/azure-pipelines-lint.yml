@@ -1,0 +1,36 @@
+﻿steps:
+- task: BatchScript@1
+  displayName: 'EDT: Валидация исходных кодов'
+  inputs:
+    filename: 'build/edt-validate'
+    failOnStandardError: true
+  continueOnError: true
+
+- task: PublishPipelineArtifact@0
+  displayName: 'Публикация отчета валидации исходников от EDT'
+  inputs:
+    artifactName: 'Отчет валидации исходников от EDT'
+    targetPath: validation.tsv
+  continueOnError: true
+  condition: succeededOrFailed()
+
+- task: BatchScript@1
+  displayName: '1CE: Проверка модулей'
+  inputs:
+    filename: 'build/check-modules'
+    failOnStandardError: true
+
+- task: BatchScript@1
+  displayName: '1CE: Проверка конфигурации'
+  inputs:
+    filename: 'build/1ce-acc-check'
+    failOnStandardError: true
+
+- task: PublishTestResults@2
+  displayName: 'Публикация отчета проверки конфигурации'
+  inputs:
+    testResultsFiles: .lintres.xml
+    mergeTestResults: true
+    failTaskOnFailedTests: true
+    testRunTitle: 'Автоматизированная проверка конфигураций'
+    condition: succeededOrFailed()

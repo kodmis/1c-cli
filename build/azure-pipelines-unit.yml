@@ -1,0 +1,23 @@
+﻿steps:
+- task: BatchScript@1
+  displayName: '1С: Запуск модульных тестов'
+  inputs:
+    filename: build/test.cmd
+    failOnStandardError: true
+  condition: succeededOrFailed()
+
+- task: PublishTestResults@2
+  displayName: 'Публикация результатов тестов из junit/*.xml'
+  inputs:
+    testResultsFiles: 'junit/*.xml'
+    mergeTestResults: true
+    failTaskOnFailedTests: true
+    condition: succeededOrFailed()
+
+- task: PublishPipelineArtifact@0
+  displayName: 'Публикация отчетов об ошибках тестирования'
+  inputs:
+    artifactName: 'Отчеты об ошибках тестирования'
+    targetPath: .errors
+  continueOnError: true
+  condition: failed()
