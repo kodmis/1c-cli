@@ -1,0 +1,8 @@
+$env:_1CE_Version = ""
+$env:_1CE_TestUnitDir = ""
+$env:EDT_ProjectDir_Configuration = ""
+$env:EDT_ProjectDir_Extension1 = ""
+$env:Extension1 = ""
+$env:EDT_ProjectDir_Extension2 = ""
+$env:Extension2 = ""
+$env:system_debug = ""

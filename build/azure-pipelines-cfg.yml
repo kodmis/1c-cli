@@ -1,9 +1,9 @@
 steps:
-- task: BatchScript@1
+- task: PowerShell@2
   displayName: '1CE: Выгрузка конфигурации и расширений в файлы'
   inputs:
-    filename: 'build/dump-cfg.cmd'
-    failOnStandardError: true
+    filePath: 'build/dump-cfg.ps1'
+    failOnStderr: true
   condition: succeededOrFailed()
 
 - task: PublishBuildArtifacts@1

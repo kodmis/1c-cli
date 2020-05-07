@@ -1,9 +1,9 @@
 ﻿steps:
-- task: BatchScript@1
+- task: PowerShell@2
   displayName: '1С: Запуск модульных тестов'
   inputs:
-    filename: build/test.cmd
-    failOnStandardError: true
+    filePath: build/test.ps1
+    failOnStderr: true
   condition: succeededOrFailed()
 
 - task: PublishTestResults@2
@@ -14,7 +14,7 @@
     failTaskOnFailedTests: true
     condition: succeededOrFailed()
 
-- task: PublishPipelineArtifact@0
+- task: PublishPipelineArtifact@1
   displayName: 'Публикация отчетов об ошибках тестирования'
   inputs:
     artifactName: 'Отчеты об ошибках тестирования'

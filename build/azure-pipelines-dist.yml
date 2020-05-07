@@ -1,9 +1,9 @@
 ﻿steps:
-- task: BatchScript@1
+- task: PowerShell@2
   displayName: '1CE: Создание файлов поставки конфигурации и расширений'
   inputs:
-    filename: 'build/dump-distr.cmd'
-    failOnStandardError: true
+    filePath: 'build/dump-distr.ps1'
+    failOnStderr: true
   condition: succeededOrFailed()
 
 - task: PublishBuildArtifacts@1

@@ -3,10 +3,13 @@
 /.db/
 /.acc/
 /dist/
-*.env.cmd
+*.env.ps1
 /vbOnline.log
 /buildstatus.log
 /junit/*
 validation.tsv
 .lintres.xml
 /.errors/
+.vscode
+*.log
+/tmp
