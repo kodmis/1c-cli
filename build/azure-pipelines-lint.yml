@@ -1,12 +1,12 @@
 ﻿steps:
-- task: BatchScript@1
+- task: PowerShell@2
   displayName: 'EDT: Валидация исходных кодов'
   inputs:
-    filename: 'build/edt-validate'
-    failOnStandardError: true
+    filePath: 'build/edt-validate.ps1'
+    failOnStderr: true
   continueOnError: true
 
-- task: PublishPipelineArtifact@0
+- task: PublishPipelineArtifact@1
   displayName: 'Публикация отчета валидации исходников от EDT'
   inputs:
     artifactName: 'Отчет валидации исходников от EDT'
@@ -14,17 +14,17 @@
   continueOnError: true
   condition: succeededOrFailed()
 
-- task: BatchScript@1
+- task: PowerShell@2
   displayName: '1CE: Проверка модулей'
   inputs:
-    filename: 'build/check-modules'
-    failOnStandardError: true
+    filePath: 'build/check-modules.ps1'
+    failOnStderr: true
 
-- task: BatchScript@1
+- task: PowerShell@2
   displayName: '1CE: Проверка конфигурации'
   inputs:
-    filename: 'build/1ce-acc-check'
-    failOnStandardError: true
+    filePath: 'build/1ce-acc-check.ps1'
+    failOnStderr: true
 
 - task: PublishTestResults@2
   displayName: 'Публикация отчета проверки конфигурации'

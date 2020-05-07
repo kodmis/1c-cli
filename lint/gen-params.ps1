@@ -1,0 +1,13 @@
+﻿Write-Output '<?xml version="1.0" encoding="UTF-8"?>'
+Write-Output "<Параметры>"
+Write-Output "<ФайлНастроекПроверки>$(Get-Location)\lint\checkParams.xml</ФайлНастроекПроверки>"
+Write-Output "<КаталогЗагрузки/>"
+Write-Output "<ФайлСпискаЗагружаемыхФайлов/>"
+Write-Output "<ФайлРезультатовПроверки>$(Get-Location)\.lintres.xml</ФайлРезультатовПроверки>"
+Write-Output "<ФайлОсобенностей>$(Get-Location)\lint\particularities.xml</ФайлОсобенностей>"
+Write-Output "<ФайлЛога/>"
+Write-Output "<КаталогКонфигурации>$(Get-Location)\.db</КаталогКонфигурации>"
+Write-Output "<Пользователь/>"
+Write-Output "<Пароль/>"
+Write-Output "<СтрокаЗапускаПлатформы>1cv8.exe</СтрокаЗапускаПлатформы>"
+Write-Output "</Параметры>"
