@@ -1,0 +1,13 @@
+{
+    "filter": {
+        "extensions": ["$UnitTestExtension"]
+    },
+    "reportPath": "$RootDir/.test/unit/junit.xml",
+    "reportFormat": "jUnit",
+    "closeAfterTests": true,
+    "logging": {
+        "file": "$RootDir/.test/unit/tests.log",
+        "level": "error"
+    },
+    "exitCode": "$RootDir/.test/unit/exitCode.txt"
+}

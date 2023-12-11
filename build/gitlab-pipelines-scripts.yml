@@ -1,0 +1,14 @@
+.aux-ib-cache-use:
+  params:
+    key: $CI_PROJECT_NAME-$CI_COMMIT_SHA
+    paths: [".db"]
+    policy: pull
+
+.prepaire-1ce-platform:
+  script:
+  - ./build/DisableUnsafeActionProtection.ps1
+  - ./build/SetPathTo1c.ps1
+
+.if-missing-prepare-aux-ib:
+  script:
+    - if(-not (Test-Path -Path .db)) { ./build/create-db.ps1}

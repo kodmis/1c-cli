@@ -1,0 +1,62 @@
+include:
+  - 'build/gitlab-pipelines-scripts.yml'
+stages:          
+  - Сборка
+variables:
+    PACKAGE_REGISTRY_URL_PRE: "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/${CI_PROJECT_TITLE}"
+
+"Определить версию сборки":
+  stage: Сборка
+  script:
+    - $version = Get-Content ${EDT_ProjectDir_Configuration}\src\Configuration\Configuration.mdo | Out-String -Stream | Select-String -Pattern "<version>\d+\.\d+\.\d+\.\d+</version>"
+    - $version -match "(?<=<version>)(.+?)(?=</version>)"
+    - $version = $matches[0]
+    - Add-Content -Path version.env -Value "version = $version"
+  artifacts:
+    reports:
+      dotenv: version.env
+
+"Сборка дистрибутива":
+  stage: Сборка
+  needs: 
+    - job: "1CE: Модульные тесты"
+    - job: "1CE: Дымовые тесты"
+      optional: true
+  cache: !reference [.aux-ib-cache-use, params]
+  before_script:
+    - !reference [.prepaire-1ce-platform, script]
+    - !reference [.if-missing-prepare-aux-ib, script]
+  script: 
+    - ["build/dump-distr.cmd"]
+    - Compress-Archive -LiteralPath dist -DestinationPath dist/dist.zip
+    - Remove-Item dist -Exclude dist.zip -Recurse
+  artifacts:
+    name: distr
+    paths:
+      - dist
+
+"Загрузка дистрибутива":
+  stage: Сборка
+  needs: 
+    - job: "Определить версию сборки"
+    - job: "Сборка дистрибутива"
+  dependencies:
+    - "Определить версию сборки"
+    - "Сборка дистрибутива"
+  script:
+    - Invoke-RestMethod -Headers @{ "JOB-TOKEN"="$CI_JOB_TOKEN" } -InFile dist/dist.zip -uri "${PACKAGE_REGISTRY_URL_PRE}/${version}/${CI_PROJECT_TITLE}-$version.zip" -Method put
+
+"Выпуск релиза":
+  stage: Сборка
+  needs:
+    - job: "Определить версию сборки"
+    - job: "Загрузка дистрибутива"
+  dependencies:
+    - "Определить версию сборки"
+  image: registry.gitlab.com/gitlab-org/release-cli
+  script:
+    - $env:asset = "{`"name`":`"${CI_PROJECT_TITLE}-${version}(zip)`",`"url`":`"${PACKAGE_REGISTRY_URL_PRE}/${version}/${CI_PROJECT_TITLE}-${version}.zip`"}"
+    - $env:assetjson = $env:asset | ConvertTo-Json
+    - release-cli --insecure-https create --name=${CI_PROJECT_TITLE}-${version} --description "Релиз ${CI_PROJECT_TITLE} ${version}" --ref $CI_COMMIT_REF_NAME --tag-name ${version} --assets-link=$env:assetjson
+
+

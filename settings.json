@@ -1,0 +1,14 @@
+{
+    "EDT_ProjectDir": "src/OneSBuild",
+	"Extensions": [{"name": "Расширение", "EDT_ProjectDir": "src/OneSBuild.Расширение"}, 
+	{"name": "Тесты", "EDT_ProjectDir": "src/Tests"}],
+	"JobsTimeout": 3600,
+	"UnitTests": {
+		"Config": "./test/unit/test-config.json",
+		"Extension": "Тесты"
+	},
+	"Build":{
+		"Extensions": ["Расширение"]
+	}
+
+}

@@ -1,0 +1,83 @@
+variables:
+  variant:
+    value: "quality"
+    options:
+      - "dist"
+      - "cfg"
+      - "quality"
+    description: "Вариант сборочной линии: создание файла поставки, сохранение конфигурации в файл или только проверки."
+
+stages:          
+  - Подготовка кеша
+  - Статический анализ
+  - Тесты
+  - Сборка
+
+.rules_mr: &rules_mr
+  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  - if: $CI_PIPELINE_SOURCE == "web" && ($variant == "quality" || $variant == null) 
+.rules_dev: &rules_dev
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "development"
+  - if: $CI_PIPELINE_SOURCE == "web" && $variant == "cfg"
+.rules_rel: &rules_rel
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH =~ /^release\/.*/
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH =~ /^hotfix\/.*/
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH =~ /^bugfix\/.*/
+  - if: $CI_PIPELINE_SOURCE == "web" && $variant == "dist"
+
+workflow:
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  - if: $CI_PIPELINE_SOURCE == "web"
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "development"
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH =~ /^release\/.*/
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH =~ /^hotfix\/.*/
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH =~ /^bugfix\/.*/
+
+include: 
+  - local: 'build/gitlab-pipelines-prepare.yml'
+  - local: 'build/gitlab-pipelines-lint.yml'  # АПК, валидация EDT, проверка конфигуратором, сонар отключены
+    rules: *rules_mr
+  - local: 'build/gitlab-pipelines-unit.yml'
+  - local: 'build/gitlab-pipelines-smoke.yml' # дымовые тесты отключены
+  - local: 'build/gitlab-pipelines-cfg.yml'
+    rules: *rules_dev
+  - local: 'build/gitlab-pipelines-dist.yml'
+    rules: *rules_rel
+    
+"EDT: Валидация исходных кодов":
+  stage: Статический анализ
+  rules:
+  - if: $CI_COMMIT_BRANCH == $CI_COMMIT_BRANCH
+    when: never
+  script: [""]
+
+"1CE: Проверка модулей":
+  stage: Статический анализ
+  rules:
+  - if: $CI_COMMIT_BRANCH == $CI_COMMIT_BRANCH
+    when: never
+  script: [""]
+ 
+"1CE: Проверка конфигурации":   
+  stage: Статический анализ
+  rules:
+  - if: $CI_COMMIT_BRANCH == $CI_COMMIT_BRANCH
+    when: never
+  script: [""]
+  
+sonarqube-check:
+  stage: Статический анализ
+  rules:
+  - if: $CI_COMMIT_BRANCH == $CI_COMMIT_BRANCH
+    when: never
+  script: [""]
+
+"1CE: Дымовые тесты": 
+  stage: Тесты
+  rules:
+  - if: $CI_COMMIT_BRANCH == $CI_COMMIT_BRANCH
+    when: never
+  script: [""]

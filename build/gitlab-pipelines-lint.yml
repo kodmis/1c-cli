@@ -1,0 +1,77 @@
+include:
+  - 'build/gitlab-pipelines-scripts.yml'
+stages:          
+  - Статический анализ
+
+"EDT: Валидация исходных кодов":
+  stage: Статический анализ
+  needs: []
+  variables:
+    GIT_DEPTH: 1
+  allow_failure: true
+  script: ["build/edt-validate.cmd"]
+  artifacts:
+    paths:
+      - validation.log
+    expose_as: 'EDT source validation'
+    when: always
+
+"1CE: Проверка модулей":
+  stage: Статический анализ
+  needs: ["EDT & 1CE: Создание пустой ИБ из исходников"]
+  variables:
+    GIT_DEPTH: 1
+  cache: !reference [.aux-ib-cache-use, params]
+  before_script:
+    - !reference [.prepaire-1ce-platform, script]
+    - !reference [.if-missing-prepare-aux-ib, script]
+  script: ["build/check-modules.cmd"]
+
+"1CE: Проверка конфигурации":
+  stage: Статический анализ
+  needs: ["EDT & 1CE: Создание пустой ИБ из исходников"]
+  variables:
+    GIT_DEPTH: 1
+  cache: !reference [.aux-ib-cache-use, params]
+  before_script:
+    - !reference [.prepaire-1ce-platform, script]
+    - !reference [.if-missing-prepare-aux-ib, script]
+  script:
+    - build/1ce-acc-check.cmd
+    - if(Test-Path -Path '.lintres.xml') {if (-not (Select-String -Path '.lintres.xml' -SimpleMatch "Проверка АПК не выявила ошибок" -Quiet)) {echo "ACC check failed! View the results in 'lintres.xml'."; exit 1}} else {echo "File 'lintres.xml' with ACC check results is absent!"; exit 10};
+  artifacts:
+    reports:
+      junit:
+        .lintres.xml
+    when: always
+
+# sonarqube-check:
+  # stage: Статический анализ
+  # needs: ["EDT & 1CE: Создание пустой ИБ из исходников", "EDT: Валидация исходных кодов"]
+  # variables:
+    # SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"  # Defines the location of the analysis task cache
+    # GIT_DEPTH: 0 # Tells git to fetch all the branches of the project, required by the analysis task
+  # cache:
+    # - key: "${CI_JOB_NAME}"
+      # paths:
+        # - .sonar/cache
+    # - !reference [.aux-ib-cache-use, params]
+  # before_script:
+    # - !reference [.prepaire-1ce-platform, script]
+    # - !reference [.if-missing-prepare-aux-ib, script]
+  # script: 
+    # - echo "Start convert EDT validatuon result to Sonarqube generic issues"
+    # - wget https://oscript.io/downloads/latest/x64/OneScript-1.8.0-x64.zip -OutFile OneScript-1.8.0-x64.zip
+    # - Expand-Archive OneScript-1.8.0-x64.zip -DestinationPath onescript
+    # - onescript\bin\oscript.exe onescript\lib\opm\src\cmd\opm.os i stebi@1.10.4
+    # - copy -Force -Recurse 3dparty\stebi-1.10.4\* onescript\lib\stebi\
+    # - onescript\bin\oscript.exe onescript\lib\stebi\src\main.os c -e validation.log validation.json .\$Env:EDT_ProjectDir_Configuration\src
+    # - echo "Get current configuration version"
+    # - $Namespace = @{mdclass = "http://g5.1c.ru/v8/dt/metadata/mdclass"}
+    # - $VersionTag=Select-Xml -Path .\$Env:EDT_ProjectDir_Configuration\src\Configuration\Configuration.mdo -Namespace $Namespace -XPath "mdclass:Configuration/version"
+    # - $confVersion=$VersionTag.Node.InnerText
+    # - If ($CI_MERGE_REQUEST_TARGET_BRANCH_NAME -eq "development") {$confVersionSuffix="-dev"} else { If ($CI_MERGE_REQUEST_TARGET_BRANCH_NAME -eq "master") {$confVersionSuffix="-rel"} else {$confVersionSuffix=""}}
+    # - echo "Start Sonar scanner"
+    # - sonar-scanner -D"sonar.projectVersion=$confVersion$confVersionSuffix" -D"sonar.sources=$Env:EDT_ProjectDir_Configuration"
+  # allow_failure: false
+  # when: always

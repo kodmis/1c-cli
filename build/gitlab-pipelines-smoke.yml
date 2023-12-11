@@ -1,0 +1,24 @@
+include:
+  - 'build/gitlab-pipelines-scripts.yml'
+stages:          
+  - Тесты
+
+"1CE: Дымовые тесты":   
+  stage: Тесты
+  needs: ["EDT & 1CE: Создание пустой ИБ из исходников"]
+  cache: !reference [.aux-ib-cache-use, params]
+  before_script:
+    - !reference [.prepaire-1ce-platform, script]
+    - !reference [.if-missing-prepare-aux-ib, script]
+  script:
+    - build/smoke-test.cmd
+    - $filelog='junitforsmoke\smokelog.txt'
+    - if(Test-Path -Path $filelog)
+      { if(Select-String -Path $filelog -Pattern "^0$" -Quiet) {exit 0} 
+        elseif (Select-String -Path $filelog -Pattern "^1$" -Quiet) {echo "Smoke tests failed! View the results in 'junitforsmoke/'."; exit 1} 
+        else {echo "In smoke tests log file '$filelog' unexpected code."; exit 1} } 
+      else {echo "File '$filelog' with smoke tests results is absent!"; exit 1};
+  artifacts:
+    reports:
+      junit:
+        junitforsmoke/*.xml

@@ -1,0 +1,19 @@
+include:
+  - 'build/gitlab-pipelines-scripts.yml'
+stages:          
+  - Тесты
+
+"1CE: Модульные тесты":
+  stage: Тесты
+  needs: ["EDT & 1CE: Создание пустой ИБ из исходников"]
+  cache: 
+    - !reference [.aux-ib-cache-use, params]
+  before_script:
+    - !reference [.prepaire-1ce-platform, script]
+    - !reference [.if-missing-prepare-aux-ib, script]
+  script:
+    - ./build/test.ps1
+  artifacts:
+    reports:
+      junit:
+        .test\unit\junit.xml

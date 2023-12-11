@@ -1,0 +1,16 @@
+include:
+  - 'build/gitlab-pipelines-scripts.yml'
+stages:          
+  - Подготовка кеша
+
+"EDT & 1CE: Создание пустой ИБ из исходников":
+  stage: Подготовка кеша
+  needs: []
+  cache:
+    key: !reference [.aux-ib-cache-use, params, key]
+    paths: !reference [.aux-ib-cache-use, params, paths]
+    policy: pull-push
+  before_script:
+    - !reference [.prepaire-1ce-platform, script]
+  script:
+    - !reference [.if-missing-prepare-aux-ib, script]
