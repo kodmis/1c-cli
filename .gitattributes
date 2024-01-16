@@ -21,6 +21,7 @@
 *.rights text
 *.schedule text
 *.xdto text
+*.svg text
 *.addin binary
 *.bin binary
 *.cf binary
