@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea97b67e-1182-49c3-b95a-8fcce4cd3d09">
+  <name>ДобавитьПользователейСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить пользователей сервиса</value>
+  </synonym>
+  <group>ActionsPanelCreate</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Добавить существующих пользователей сервиса</value>
+  </toolTip>
+</mdclass:CommonCommand>

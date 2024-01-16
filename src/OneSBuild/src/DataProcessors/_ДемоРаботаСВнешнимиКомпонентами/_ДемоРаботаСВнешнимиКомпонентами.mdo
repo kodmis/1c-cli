@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcfa190d-9257-4f51-b20b-d82fd534daa1">
+  <producedTypes>
+    <objectType typeId="2978105a-e893-41d6-972e-42d22ead0456" valueTypeId="85868a03-2687-44fd-849c-1230f926db5d"/>
+    <managerType typeId="49591aca-4cf2-4f95-a926-da6d528e49f4" valueTypeId="e2ec8d98-2c29-481f-b6ae-82010567f4a7"/>
+  </producedTypes>
+  <name>_ДемоРаботаСВнешнимиКомпонентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Работа с внешними компонентами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоРаботаСВнешнимиКомпонентами.Form.Форма</defaultForm>
+  <forms uuid="baeb7e78-31d5-4259-8b4e-258c1a0c97ab">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3f85a3a1-ccf6-44fb-b68f-192c0932d69d">
+    <name>КомпонентаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонента обмена</value>
+    </synonym>
+    <templateType>AddIn</templateType>
+  </templates>
+</mdclass:DataProcessor>

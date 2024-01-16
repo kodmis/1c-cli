@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6334a593-abf8-4ba0-81da-e57bafcff43f">
+  <name>_ДемоСервисныеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисные подсистемы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистемы, не требующие тесной интеграции с объектами конфигурации</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделСтандартныеПодсистемы</picture>
+  </picture>
+  <content>CommonPicture._ДемоРазделСтандартныеПодсистемы48</content>
+  <content>CommonPicture._ДемоРазделСтандартныеПодсистемы</content>
+  <content>Role.Подсистема_ДемоСервисныеПодсистемы</content>
+  <content>DataProcessor._ДемоРаботаСВнешнимиКомпонентами</content>
+  <content>Report.РезультатыПроверкиУчета</content>
+  <subsystems>_ДемоБазоваяФункциональность</subsystems>
+  <subsystems>_ДемоВызовОнлайнПоддержки</subsystems>
+  <subsystems>_ДемоГрупповоеИзменениеОбъектов</subsystems>
+  <subsystems>_ДемоКонтрольВеденияУчета</subsystems>
+  <subsystems>_ДемоОбновлениеВерсииИБ</subsystems>
+  <subsystems>_ДемоОтчетОДвиженияхДокумента</subsystems>
+  <subsystems>_ДемоОценкаПроизводительности</subsystems>
+  <subsystems>_ДемоПоискИУдалениеДублей</subsystems>
+  <subsystems>_ДемоПолнотекстовыйПоиск</subsystems>
+  <subsystems>_ДемоПолучениеФайловИзИнтернета</subsystems>
+  <subsystems>_ДемоПроверкаЛегальностиПолученияОбновления</subsystems>
+  <subsystems>_ДемоРассылкиОтчетов</subsystems>
+  <subsystems>_ДемоУдалениеПомеченныхОбъектов</subsystems>
+  <subsystems>_ДемоУправлениеИтогамиИАгрегатами</subsystems>
+</mdclass:Subsystem>

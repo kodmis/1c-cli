@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d9d2284-e592-44c5-93bb-247037ab6b95">
+  <name>РаботаСБанкамиСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с банками служебный</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

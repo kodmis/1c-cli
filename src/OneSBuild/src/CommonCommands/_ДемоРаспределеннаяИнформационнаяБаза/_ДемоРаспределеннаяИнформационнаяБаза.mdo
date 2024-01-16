@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd34aed4-cad9-4724-a0c7-16763b9c51c1">
+  <name>_ДемоРаспределеннаяИнформационнаяБаза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Распределенная ИБ</value>
+  </synonym>
+  <group>CommandGroup._ДемоНастроитьСинхронизациюДанных</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:CommonCommand>

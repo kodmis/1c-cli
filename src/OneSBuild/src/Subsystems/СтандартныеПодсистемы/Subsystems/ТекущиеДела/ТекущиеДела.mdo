@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f3b124f-bf85-4307-8f0c-47be1fb5c8b0">
+  <name>ТекущиеДела</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие дела</value>
+  </synonym>
+  <content>CommonModule.ТекущиеДелаСлужебный</content>
+  <content>DataProcessor.ТекущиеДела</content>
+  <content>StyleItem.ЗаголовокДелаЦвет</content>
+  <content>CommonModule.ТекущиеДелаПереопределяемый</content>
+  <content>CommonModule.ТекущиеДелаСлужебныйПовтИсп</content>
+  <content>Role.ИспользованиеОбработкиТекущиеДела</content>
+  <content>CommonPicture.СтрелкаВправоКрасная</content>
+  <content>CommonModule.ТекущиеДелаСервер</content>
+  <content>StyleItem.ТекущиеДелаЗаголовокДочернегоДела</content>
+  <content>StyleItem.ТекущиеДелаЗаголовокРазделаШрифт</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f38b6034-5246-42a7-8f3c-51eaf3e5399c">
+  <producedTypes>
+    <managerType typeId="d2d562b3-e090-4d7b-bd6b-0b438d8c5518" valueTypeId="59ee95cd-e168-4f34-9e3d-be65a9a4b9f6"/>
+    <valueManagerType typeId="7e82d5b2-b5cb-4e1e-9977-7cbf27154f4a" valueTypeId="d8fbbb73-bf61-4475-b810-2e18dba9b14d"/>
+    <valueKeyType typeId="bbdc0996-001f-4f77-8a53-b279f1b47550" valueTypeId="aadbd674-9089-44cb-86a9-2bbbf4808b2b"/>
+  </producedTypes>
+  <name>ИспользоватьУчетОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет оригиналов первичных документов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

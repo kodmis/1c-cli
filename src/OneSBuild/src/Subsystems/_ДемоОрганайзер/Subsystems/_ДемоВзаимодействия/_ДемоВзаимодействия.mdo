@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57c2001c-3607-4f85-8eac-837bb2bc12fa">
+  <name>_ДемоВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>FunctionalOption._ДемоИспользоватьПочтовыйКлиентБСП</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <subsystems>Использование</subsystems>
+  <parentSubsystem>Subsystem._ДемоОрганайзер</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7ff3dc6-d49a-4dcb-86ca-035f71f8db18">
+  <name>_ДемоВалюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Валюты</content>
+  <content>Document._ДемоСчетНаОплатуПокупателю</content>
+  <parentSubsystem>Subsystem._ДемоНормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

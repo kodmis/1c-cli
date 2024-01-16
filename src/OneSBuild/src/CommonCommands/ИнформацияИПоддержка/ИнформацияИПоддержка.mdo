@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb722783-1e0b-4543-b110-fdf69b4fe20e">
+  <name>ИнформацияИПоддержка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация и поддержка</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

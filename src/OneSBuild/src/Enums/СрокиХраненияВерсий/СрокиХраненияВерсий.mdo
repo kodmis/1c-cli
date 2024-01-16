@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c33adc7-abea-4e0f-9e5d-d8f10abb63df">
+  <producedTypes>
+    <refType typeId="0872a672-8cb3-4716-b174-28c4f1ff0bfd" valueTypeId="c66e48c8-7521-48bb-a972-6994871d878f"/>
+    <listType typeId="4e3c6d43-0243-48d5-a2fa-79deb299f802" valueTypeId="83855296-186a-4dce-ba47-05b9d4f226c9"/>
+    <managerType typeId="12f8901c-0427-400e-b2e5-1c4286073bab" valueTypeId="4e0de58a-18c8-4db7-b57a-74c739321ffc"/>
+  </producedTypes>
+  <name>СрокиХраненияВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сроки хранения версий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4090c6f7-1d25-4b17-9baa-18daa0640b0f">
+    <name>ЗаПоследнююНеделю</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последнюю неделю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26125e58-dfc8-4bbb-a3a4-80616471746e">
+    <name>ЗаПоследнийМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последний месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1c699cd-efdc-461c-ad37-10bfd4bc9674">
+    <name>ЗаПоследниеТриМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последние три месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6add1920-5073-4b1e-b7e0-13bf1e65e4c3">
+    <name>ЗаПоследниеШестьМесяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последние шесть месяцев</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f12c946c-98e4-4da6-8a88-c555e9dc3bdd">
+    <name>ЗаПоследнийГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>За последний год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec5718b7-1c4d-4bdc-9426-40a339bb29cf">
+    <name>Бессрочно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бессрочно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

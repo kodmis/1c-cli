@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9299b382-fc65-4f89-8329-94fec125761c">
+  <name>ПродлениеДостоверностиПодписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продление достоверности подписей</value>
+  </synonym>
+  <methodName>CommonModule.ЭлектроннаяПодпись.ПродлениеДостоверностиПодписей</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

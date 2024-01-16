@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ff3ec4c-ae39-4f67-8e61-f5405c67c3bd">
+  <name>ИнтернетПоддержкаПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет-поддержка пользователей</value>
+  </synonym>
+  <content>Constant.СвойстваБИП</content>
+  <content>DataProcessor.ПодключениеСервисовСопровождения</content>
+  <content>CommonPicture.ПревышеноВремяОжидания</content>
+  <content>CommonModule.ПодключениеСервисовСопровождения</content>
+  <content>CommonModule.ПодключениеСервисовСопровожденияВызовСервера</content>
+  <content>CommonModule.ПодключениеСервисовСопровожденияГлобальный</content>
+  <content>CommonModule.ПодключениеСервисовСопровожденияКлиент</content>
+  <content>CommonModule.ПодключениеСервисовСопровожденияКлиентСервер</content>
+  <content>Enum.СостоянияПодключенияСервисов</content>
+  <content>InformationRegister.ИдентификаторыЗапросовНаПодключение</content>
+  <content>InformationRegister.КэшТестовыхПериодов</content>
+  <content>ScheduledJob.ПодключениеТестовыхПериодов</content>
+  <content>Role.ПодключениеСервисовСопровождения</content>
+  <content>Catalog.ИдентификаторыСервисовСопровождения</content>
+  <subsystems>БазоваяФункциональностьБИП</subsystems>
+  <subsystems>ОбменДаннымиСВнешнимиСистемами</subsystems>
+  <subsystems>ПолучениеВнешнихКомпонент</subsystems>
+  <subsystems>ПолучениеОбновленийПрограммы</subsystems>
+  <subsystems>РаботаВМоделиСервиса</subsystems>
+  <subsystems>РаботаСКлассификаторами</subsystems>
+</mdclass:Subsystem>

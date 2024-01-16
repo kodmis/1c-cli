@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="913743c3-9529-4c86-b056-93e954df7819">
+  <name>ПолезныйСоветКонтрольВеденияУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полезный совет контроль ведения учета</value>
+  </synonym>
+</mdclass:CommonPicture>

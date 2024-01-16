@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36999e1b-865e-41ad-b9d6-1b3ac887acfb">
+  <producedTypes>
+    <managerType typeId="cfe729d8-7a7c-41b2-8ed1-6ce6bca82136" valueTypeId="300d626b-bdb6-42d7-91e3-cdcc6c00c77e"/>
+    <valueManagerType typeId="76856a3f-0f4b-43e4-ac9f-5642ccfe2c81" valueTypeId="abc960b5-4656-4b41-b57e-abaf00646233"/>
+    <valueKeyType typeId="74f959bb-4902-49f8-84f3-06f8c81516d1" valueTypeId="f26af9ad-3736-4cea-a629-49a5d2299b0c"/>
+  </producedTypes>
+  <name>АккредитованныеУдостоверяющиеЦентры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккредитованные удостоверяющие центры</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

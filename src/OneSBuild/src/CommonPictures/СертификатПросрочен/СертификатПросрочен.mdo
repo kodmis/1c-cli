@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="676b2ea2-a559-4685-b5ca-7b619b02f101">
+  <name>СертификатПросрочен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификат просрочен</value>
+  </synonym>
+</mdclass:CommonPicture>

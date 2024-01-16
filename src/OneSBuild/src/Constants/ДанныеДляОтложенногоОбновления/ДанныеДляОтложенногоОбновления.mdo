@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b4b7424-1af7-4d80-8404-8819fcfeae75">
+  <producedTypes>
+    <managerType typeId="5f6db249-3558-4a3e-afad-0e7d7a621e9d" valueTypeId="60f963be-1db0-4f12-a232-cb28f37d68cd"/>
+    <valueManagerType typeId="51e8ebc7-afbe-4749-b04c-f9ca09b74f1d" valueTypeId="36f24686-db86-4540-bd81-f0c91e9425a4"/>
+    <valueKeyType typeId="433f5e0f-d16a-5835-ab47-b620c2e0aabe" valueTypeId="77c30a73-3a7c-5f0b-b3cf-21bfd3b6bce5"/>
+  </producedTypes>
+  <name>ДанныеДляОтложенногоОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные для отложенного обновления</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

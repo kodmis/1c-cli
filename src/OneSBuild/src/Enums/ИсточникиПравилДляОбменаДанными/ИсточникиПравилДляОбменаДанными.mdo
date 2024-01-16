@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e754ad5c-cf3c-4198-af81-128475924cb0">
+  <producedTypes>
+    <refType typeId="c85de6c6-645f-4f19-8196-9a5b77e21527" valueTypeId="c3f7c913-20df-4f15-bfe6-dbb26ae0f68e"/>
+    <listType typeId="1e312bec-2899-480c-80de-d4ce2d835efb" valueTypeId="d12dc09e-4ce9-40b2-9e6e-e46f3a6d274a"/>
+    <managerType typeId="5f8213d7-850a-4ab7-b131-510180294a7c" valueTypeId="62631b5b-842d-41e0-a804-1df23d4d7f55"/>
+  </producedTypes>
+  <name>ИсточникиПравилДляОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники правил для обмена данными</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed65d504-b210-4014-85ec-275ad633ef04">
+    <name>МакетКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет конфигурации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc31edb1-273e-4b1a-8e69-32393479ff36">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b369842d-c20e-4b68-9d0e-701707584b2f">
+    <name>МенеджерТиповой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер (Типовой)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de23a2ca-4607-4488-be7b-23ea28875d02">
+    <name>МенеджерПользовательский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер (Пользовательский)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

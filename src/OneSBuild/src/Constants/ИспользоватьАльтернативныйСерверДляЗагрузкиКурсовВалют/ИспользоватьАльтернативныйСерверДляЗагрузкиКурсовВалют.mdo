@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="973609a2-5b5d-45c4-9606-a13d0de1a09b">
+  <producedTypes>
+    <managerType typeId="00be9844-55b2-4755-8a36-ab65effb6ef9" valueTypeId="923787b4-f632-4b7c-9dff-3bda143e0775"/>
+    <valueManagerType typeId="74c169cd-83b1-41ba-8b29-400cb86e61a9" valueTypeId="d1499be9-1b8d-4b16-a7ad-6786d9fe8656"/>
+    <valueKeyType typeId="aab747cf-3d6f-5811-af52-ec6c3b6873ce" valueTypeId="302e360a-0b57-5cf8-ad72-4b6c3036a68e"/>
+  </producedTypes>
+  <name>ИспользоватьАльтернативныйСерверДляЗагрузкиКурсовВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать альтернативный сервер для загрузки курсов валют</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

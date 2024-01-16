@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51d06532-f61a-4ed5-afaa-cc4563633e0c">
+  <name>Печать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать</value>
+  </synonym>
+  <content>Catalog.ЯзыкиПечатныхФорм</content>
+  <content>CommonModule.УправлениеПечатьюМультиязычность</content>
+  <content>CommonModule.УправлениеПечатьюМультиязычностьКлиент</content>
+  <content>CommonModule.УправлениеПечатьюМультиязычностьПереопределяемый</content>
+  <content>CommonPicture.ПереводТекста</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.Мультиязычность</parentSubsystem>
+</mdclass:Subsystem>

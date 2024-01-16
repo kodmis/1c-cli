@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d02ca78-c396-4797-909c-e6b910c0ff66">
+  <name>ApplicationExtensionsManifest_1_0_0_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Application extensions manifest 1 0 0 2</value>
+  </synonym>
+  <namespace>http://www.1c.ru/1cFresh/ApplicationExtensions/Manifest/1.0.0.2</namespace>
+</mdclass:XDTOPackage>

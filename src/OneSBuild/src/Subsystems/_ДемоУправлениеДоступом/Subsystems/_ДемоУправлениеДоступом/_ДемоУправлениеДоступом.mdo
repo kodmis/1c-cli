@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1b9061d-4410-4766-8785-cdddef3e33f5">
+  <name>_ДемоУправлениеДоступом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление доступом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема Управление доступом</value>
+  </explanation>
+  <content>Role._ДемоПечатьНепроведенныхДокументов</content>
+  <content>Role._ДемоДобавлениеИзменениеЗарплаты</content>
+  <content>Role._ДемоЧтениеЗарплаты</content>
+  <content>CommonPicture._ДемоРазделУправлениеДоступом48</content>
+  <content>Role._ДемоДобавлениеИзменениеНоменклатуры</content>
+  <content>CommonPicture._ДемоРазделУправлениеДоступом</content>
+  <content>Role.Подсистема_ДемоУправлениеДоступом</content>
+  <content>Role._ДемоОплатаСчетовВнешнимиПользователями</content>
+  <content>Role._ДемоДобавлениеИзменениеДокументовПокупателей</content>
+  <content>Role._ДемоДобавлениеИзменениеСкладскихДокументов</content>
+  <content>Role._ДемоЧтениеДокументовПокупателей</content>
+  <content>Role._ДемоЧтениеСкладскихДокументов</content>
+  <content>Role._ДемоДобавлениеИзменениеКассовыхДокументов</content>
+  <content>Role._ДемоДобавлениеИзменениеБанковскихДокументов</content>
+  <content>Role._ДемоЧтениеБанковскихДокументов</content>
+  <content>Role._ДемоЧтениеКассовыхДокументов</content>
+  <content>Catalog.ПрофилиГруппДоступа</content>
+  <content>Catalog.ГруппыДоступа</content>
+  <content>DataProcessor.УправлениеДоступом</content>
+  <content>Role._ДемоДобавлениеИзменениеПеремещенийТоваров</content>
+  <content>Role._ДемоЧтениеПеремещенийТоваров</content>
+  <content>EventSubscription._ДемоОбновитьРеестрСкладскихДокументов</content>
+  <subsystems>Настройка</subsystems>
+  <subsystems>Использование</subsystems>
+  <parentSubsystem>Subsystem._ДемоУправлениеДоступом</parentSubsystem>
+</mdclass:Subsystem>

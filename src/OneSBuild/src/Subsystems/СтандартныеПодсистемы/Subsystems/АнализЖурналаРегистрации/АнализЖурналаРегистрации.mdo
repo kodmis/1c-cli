@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d8acec9-f5a9-411e-921c-446ed0dd3332">
+  <name>АнализЖурналаРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ журнала регистрации</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>Report.АнализЖурналаРегистрации</content>
+  <content>CommonModule.АнализЖурналаРегистрацииСлужебный</content>
+  <content>CommonModule.АнализЖурналаРегистрацииКлиент</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

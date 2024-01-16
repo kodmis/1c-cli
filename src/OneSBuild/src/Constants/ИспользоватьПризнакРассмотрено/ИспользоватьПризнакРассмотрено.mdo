@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28fecf1b-7cab-4087-b66e-2052edb8ce3a">
+  <producedTypes>
+    <managerType typeId="29f1eae7-1ae7-4fdb-a307-ffff05907fac" valueTypeId="e99f5f0f-4ede-4e4f-84ec-7487f242f412"/>
+    <valueManagerType typeId="d5fd8564-955e-4290-bc47-8819ab38522d" valueTypeId="8bf67199-2108-4345-8aad-10a07af38f77"/>
+    <valueKeyType typeId="b0f14897-46f9-5f1a-b7c4-0b4bef80446f" valueTypeId="4748cff4-4397-5305-a194-4e7546e1fcd7"/>
+  </producedTypes>
+  <name>ИспользоватьПризнакРассмотрено</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать признак &quot;Рассмотрено&quot;</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0279d768-3aae-4569-aa18-c2bb0e70dc4a">
+  <name>МиграцияПриложенийПередУдалениемОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция приложений перед удалением объекта</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject</types>
+    <types>ChartOfCalculationTypesObject</types>
+    <types>ChartOfAccountsObject</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>CatalogObject</types>
+    <types>TaskObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.МиграцияПриложений.ПередУдалениемОбъекта</handler>
+</mdclass:EventSubscription>

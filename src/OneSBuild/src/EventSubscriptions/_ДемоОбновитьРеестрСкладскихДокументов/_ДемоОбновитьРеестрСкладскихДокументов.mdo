@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23b4f737-fe43-4bad-ab9e-d6714d0d624c">
+  <name>_ДемоОбновитьРеестрСкладскихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обновить реестр складских документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject._ДемоПеремещениеТоваров</types>
+    <types>DocumentObject._ДемоСписаниеТоваров</types>
+    <types>DocumentObject._ДемоОприходованиеТоваров</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule._ДемоСтандартныеПодсистемыСобытия._ДемоОбновитьРеестрСкладскихДокументовПриЗаписи</handler>
+</mdclass:EventSubscription>

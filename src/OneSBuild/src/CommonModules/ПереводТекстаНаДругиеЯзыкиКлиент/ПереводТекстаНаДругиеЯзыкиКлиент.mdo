@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61c1ff46-2a30-43bb-b1df-4db2271b1b12">
+  <name>ПереводТекстаНаДругиеЯзыкиКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перевод текста на другие языки клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38ac9a13-665a-4201-b5cc-687fe4a01130">
+  <name>КонтрольНеразделенныхНаборовЗаписейПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль неразделенных наборов записей при записи</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ДанныеПроизводственногоКалендаря</types>
+    <types>InformationRegisterRecordSet.ПодпискиПолучателей</types>
+    <types>InformationRegisterRecordSet.ЗемельныеУчастки</types>
+    <types>InformationRegisterRecordSet.ПравилаДляОбменаДанными</types>
+    <types>InformationRegisterRecordSet.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</types>
+    <types>InformationRegisterRecordSet.РазрешенияНаИспользованиеВнешнихРесурсов</types>
+    <types>InformationRegisterRecordSet.УровниСокращенийАдресныхСведений</types>
+    <types>InformationRegisterRecordSet.ОриентирыАдресныхОбъектов</types>
+    <types>InformationRegisterRecordSet.ВерсииПодсистем</types>
+    <types>InformationRegisterRecordSet.ПричиныИзмененияАдресныхСведений</types>
+    <types>InformationRegisterRecordSet.СообщенияОбменаДанными</types>
+    <types>InformationRegisterRecordSet.АдресныеОбъекты</types>
+    <types>InformationRegisterRecordSet.УдалитьЗамерыВремени3</types>
+    <types>InformationRegisterRecordSet.ОбщиеПоставляемыеМакетыПечати</types>
+    <types>InformationRegisterRecordSet.БезопасноеХранилищеДанных</types>
+    <types>InformationRegisterRecordSet.НеразделенныеПользователи</types>
+    <types>InformationRegisterRecordSet.РежимыПодключенияВнешнихМодулей</types>
+    <types>InformationRegisterRecordSet.СлужебныеАдресныеСведения</types>
+    <types>InformationRegisterRecordSet.ЗависимостиПравДоступа</types>
+    <types>InformationRegisterRecordSet.ПараметрыРаботыПрограммы</types>
+    <types>InformationRegisterRecordSet.НастройкиОтправителя</types>
+    <types>InformationRegisterRecordSet.ПакетыИнформацииПриЗапуске</types>
+    <types>InformationRegisterRecordSet.ОбработчикиОбновленияОбщихДанных</types>
+    <types>InformationRegisterRecordSet.НастройкиТранспортаОбменаОбластейДанных</types>
+    <types>InformationRegisterRecordSet.СвязиАдресныхОбъектов</types>
+    <types>InformationRegisterRecordSet.ДомаЗданияСтроения</types>
+    <types>InformationRegisterRecordSet.ДополнительныеАдресныеСведения</types>
+    <types>InformationRegisterRecordSet.НастройкиТранспортаОбменаСообщениями</types>
+    <types>InformationRegisterRecordSet.ОбластиПерсональныхДанных</types>
+    <types>InformationRegisterRecordSet.ЗагруженныеВерсииАдресныхСведений</types>
+    <types>InformationRegisterRecordSet.ИсторияАдресныхОбъектов</types>
+    <types>InformationRegisterRecordSet.ПраваРолей</types>
+    <types>InformationRegisterRecordSet.ПериодыНерабочихДнейКалендаря</types>
+    <types>InformationRegisterRecordSet.ПоставляемыеДанныеТребующиеОбработки</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РаботаВМоделиСервисаБСП.КонтрольНеразделенныхНаборовЗаписейПриЗаписи</handler>
+</mdclass:EventSubscription>

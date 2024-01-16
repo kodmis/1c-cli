@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f057ed4-805f-496c-a8f0-4407faa3e1bc">
+  <name>СводныеПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводные приложения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.СводныеПриложения</content>
+  <content>CommonModule.СообщенияАдминистрированиеСводныеПриложенияКонтрольИнтерфейс</content>
+  <content>CommonModule.СообщенияАдминистрированиеСводныеПриложенияУправлениеИнтерфейс</content>
+  <content>CommonModule.СообщенияАдминистрированиеСводныеПриложенияУправлениеОбработчикСообщения_1_0_0_1</content>
+  <content>CommonModule.СообщенияАдминистрированиеСводныеПриложенияУправлениеРеализация</content>
+  <content>ScheduledJob.СводныеПриложенияВыгрузка</content>
+  <content>EventSubscription.СводныеПриложенияПередЗаписьюДокумента</content>
+  <content>EventSubscription.СводныеПриложенияПередЗаписьюНабора</content>
+  <content>EventSubscription.СводныеПриложенияПередЗаписьюНабораРасчета</content>
+  <content>EventSubscription.СводныеПриложенияПередЗаписьюОбъекта</content>
+  <content>ScheduledJob.СводныеПриложенияЗагрузка</content>
+  <content>Constant.ИспользоватьВыгрузкуВСводноеПриложение</content>
+  <content>InformationRegister.СводныеПриложенияОчередьЗагрузки</content>
+  <content>InformationRegister.СводныеПриложенияСостояниеВыгрузки</content>
+  <content>InformationRegister.СводныеПриложенияСостояниеЗагрузки</content>
+  <content>CommonModule.СводныеПриложенияПереопределяемый</content>
+  <content>FunctionalOption.ИспользоватьВыгрузкуВСводноеПриложение</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

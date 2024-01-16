@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c79ba5a5-e6d9-4a3f-ab23-eca876607f7f">
+  <producedTypes>
+    <managerType typeId="8fb93bea-0a2f-4271-8c66-7a106122dc33" valueTypeId="3a483a1e-1d79-4672-a418-dbe052c06d52"/>
+    <valueManagerType typeId="cf8dcc97-2984-43e5-a18f-b9e9a3305b5c" valueTypeId="0c4850c7-a87b-478a-84d1-cc1fe78760d4"/>
+    <valueKeyType typeId="382f5d44-bc92-470b-8bb0-2b80f3b12ba0" valueTypeId="48d9ac14-f0dc-4e8c-9245-9ec2de6be8a6"/>
+  </producedTypes>
+  <name>ИспользоватьСервисПереводаТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис перевода текста</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5e9f987-4466-4161-8e36-278b0b3ce056">
+  <producedTypes>
+    <managerType typeId="b7335fc6-bc9d-4987-bcfe-3a703c45aaae" valueTypeId="397f1ed4-9e2b-4385-afab-a6c647491025"/>
+    <valueManagerType typeId="6917216b-b610-46ce-905b-d36db59f3b18" valueTypeId="a368d387-c902-4a09-a807-d0ccf6f9c586"/>
+    <valueKeyType typeId="13214190-d5c3-5804-8d30-9b26de1e0880" valueTypeId="94a6d031-145c-5c8a-b1be-2672cda44a62"/>
+  </producedTypes>
+  <name>СообщениеОбменаДаннымиИзГлавногоУзла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщение обмена данными из главного узла</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

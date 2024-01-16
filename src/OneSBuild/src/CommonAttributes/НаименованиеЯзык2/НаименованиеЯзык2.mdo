@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30031e74-e58a-44a2-98dd-fc8c950831c4">
+  <name>НаименованиеЯзык2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наименование (дополнительный язык 2)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataHistory>Use</dataHistory>
+  <fillValue xsi:type="core:StringValue">
+    <value></value>
+  </fillValue>
+  <content>
+    <metadata>Catalog.НаборыДополнительныхРеквизитовИСведений</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ВариантыОтчетов</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ПредопределенныеВариантыОтчетовРасширений</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.РолиИсполнителей</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ВидыКонтактнойИнформации</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ПредопределенныеВариантыОтчетов</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ЗначенияСвойствОбъектовИерархия</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ЗначенияСвойствОбъектов</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog._ДемоНоменклатура</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <configurationExtensionsSeparation>DontUse</configurationExtensionsSeparation>
+  <indexing>IndexWithAdditionalOrder</indexing>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92c06db1-51e1-4e58-8be5-70832ff23799">
+  <producedTypes>
+    <objectType typeId="6d1315d2-17b6-485f-8975-d67038ea256e" valueTypeId="cac61b18-1e4c-43a6-a35b-8737454b1151"/>
+    <managerType typeId="a8e7e5d3-e85c-4ae1-9169-096fe7a77ab7" valueTypeId="7b2c44a1-1cfa-4101-ae86-12482ff85f4c"/>
+  </producedTypes>
+  <name>_ДемоПечатьКарточкиОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Печать карточки организации</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоПечатьКарточкиОрганизации.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="1db969b8-66a5-4f6c-aebf-a1ad60d76e79">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="228635de-8303-4076-b822-1763efa13df5">
+    <name>ПФ_MXL_КарточкаОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка организации</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="702fcca5-94b6-48ab-aee6-ff243fda3f5b">
+  <producedTypes>
+    <objectType typeId="b02e6190-bb03-4e23-8a37-591b28fc16a4" valueTypeId="9e280023-5ea8-4a2b-9df7-a979ed22c211"/>
+    <managerType typeId="de1dbf85-b654-4774-9017-919765bb1efa" valueTypeId="03c6399b-5018-4af4-a587-d02e374fea09"/>
+  </producedTypes>
+  <name>УправлениеИтогамиИАгрегатамиИнструментРазработчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление итогами и агрегатами инструмент разработчика</value>
+  </synonym>
+  <defaultForm>DataProcessor.УправлениеИтогамиИАгрегатамиИнструментРазработчика.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="bfe91c30-ca46-445e-a547-47c8a5529ae2">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c553ac14-01f5-4dec-950c-15efc3b9abe2">
+    <name>ИнструментыРазработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструменты разработчика</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

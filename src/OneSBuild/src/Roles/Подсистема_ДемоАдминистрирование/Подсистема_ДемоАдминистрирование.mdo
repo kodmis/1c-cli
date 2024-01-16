@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef0cd94b-bcef-499c-8c72-7c3d1ea5af8c">
+  <name>Подсистема_ДемоАдминистрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел &quot;Администрирование&quot;</value>
+  </synonym>
+</mdclass:Role>

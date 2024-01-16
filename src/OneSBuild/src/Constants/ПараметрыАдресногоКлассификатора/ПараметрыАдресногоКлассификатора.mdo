@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76cdcc51-0e6a-4f9c-a115-1864998c2add">
+  <producedTypes>
+    <managerType typeId="1c617745-8c3c-45d1-af51-d5d13c0bd21a" valueTypeId="3ed90f3c-b837-47c3-9f57-e78256710c91"/>
+    <valueManagerType typeId="d41cfa2a-a114-423b-a868-e281a8dc6159" valueTypeId="84e935cc-4dd5-4d18-ba98-fa5aeb42b715"/>
+    <valueKeyType typeId="3d888342-66ab-5b89-af80-cb41b3d348c2" valueTypeId="aefda1ac-b214-5659-8470-d21dea3e281a"/>
+  </producedTypes>
+  <name>ПараметрыАдресногоКлассификатора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры адресного классификатора</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

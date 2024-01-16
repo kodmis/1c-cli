@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e834b1e5-ecd6-416d-8844-b70e3b2900c6">
+  <producedTypes>
+    <containerType typeId="f2c1f683-1fd4-4123-8416-d7ea4637e29d" valueTypeId="51320575-fbfd-4c85-a4f1-35659c4f2da7"/>
+  </producedTypes>
+  <name>КонтрагентБИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагент БИП</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

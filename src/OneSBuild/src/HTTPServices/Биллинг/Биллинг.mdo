@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db821e7a-ff22-4889-b166-1a1bc1118587">
+  <name>Биллинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Биллинг</value>
+  </synonym>
+  <rootURL>billing</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="bbd4d7c8-2488-474c-b92c-8f689a56e62e">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <template>/version</template>
+    <methods uuid="f909d950-4db8-490c-aaf6-7a2e975a310d">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ВерсияПолучить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0696a18a-99b4-4f95-ab71-5cfb9c107b74">
+    <name>СчетНаОплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату</value>
+    </synonym>
+    <template>/bill/{Версия}/*</template>
+    <methods uuid="9a5ba47b-8383-471c-a759-5a152d4db574">
+      <name>Добавить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Добавить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СчетНаОплатуДобавить</handler>
+    </methods>
+    <methods uuid="31bc76d8-d2ee-40e9-8cd2-24e174fb04a4">
+      <name>Изменить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изменить</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>СчетНаОплатуИзменить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2d07a3e8-46fc-421b-a8b0-a7809e871cfd">
+    <name>УстановитьНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить настройки</value>
+    </synonym>
+    <template>/setup</template>
+    <methods uuid="fc3bd079-6491-436c-bb0d-7da15c511e1a">
+      <name>Добавить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Добавить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>УстановитьНастройкиДобавить</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

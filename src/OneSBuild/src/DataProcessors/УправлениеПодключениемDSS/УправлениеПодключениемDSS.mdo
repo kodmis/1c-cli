@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f06c867-6fec-4a4d-a360-6d8e98e4e7a4">
+  <producedTypes>
+    <objectType typeId="e2c62f41-3623-4754-ac36-5e0129b3f9bc" valueTypeId="90c598e3-f183-4edc-9aea-ac65386e01b8"/>
+    <managerType typeId="e7be3654-5571-423f-8044-1a08aa9521a5" valueTypeId="58f5bc0c-8adf-49e5-b8e8-0192de6c1518"/>
+  </producedTypes>
+  <name>УправлениеПодключениемDSS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление подключением DSS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеПодключениемDSS.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="34ee9617-9935-425f-9637-bdffd5a64042">
+    <name>ВводПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод пароля</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e6160f4-eed6-4dd6-a8fb-96c1a90d39be">
+    <name>ВводПинКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод пин кода</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="778cd9f9-7afd-4eb7-bd4e-90ff7d9cf4f0">
+    <name>ВебАутентификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб аутентификация</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fb8f3edd-bf12-4312-8ffe-7bbd627fa52b">
+    <name>ВыборПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор программы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6ddad5e2-b2c3-47bc-b339-54ccd7391e33">
+    <name>ВыборСервисаИзОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор сервиса из описания</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="761ca1c1-c843-47a1-bacc-2f9d1d68634d">
+    <name>ВыборТекущейУчетнойЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор текущей учетной записи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="af4a815b-d9d4-4fe6-9b2b-3932381e7346">
+    <name>ВыборУчетнойЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор учетной записи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9dbca72a-fb38-4d86-a3ff-83f7edc0fdb4">
+    <name>ВыборЭкземпляровСервераDSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор экземпляров сервера DSS</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fab77796-a103-40a6-95bd-238979fc345d">
+    <name>ВывестиИнформацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывести информацию</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6fad175b-eaf0-4e45-aaa1-c1ebc98e0ed0">
+    <name>ЗаявлениеНаИзменениеРеквизитовПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление на изменение реквизитов подключения</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0ef5e38c-6f7c-46e7-9c14-4fde6814f93f">
+    <name>НовыйЗапросНаСертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый запрос на сертификат</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f306dafa-350e-4ff9-bfe2-211be647afe8">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6d447b01-21ae-4cc1-9262-4ec4ed5e04f5">
+    <name>ПодборУчетнойЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор учетной записи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dcd64d40-e57f-4cb5-9ccd-67b27ac546d4">
+    <name>ПодтверждениеОперацииВыборНавигационнойСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение операции выбор навигационной ссылки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8d0ad48c-6e27-44c2-87f6-62eef78b6427">
+    <name>ПодтверждениеОперацииВыборСпособа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение операции выбор способа</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4fb3b42-60f6-4413-bba8-6e507b13d5d3">
+    <name>ПодтверждениеОперацииКодПодтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение операции код подтверждения</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a5e3b305-392c-40a2-9b66-7fdc72c041a3">
+    <name>ПодтверждениеОперацииМобильноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение операции мобильное приложение</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="266d41c0-92a1-4d42-bf5b-60a1bddb8912">
+    <name>ПодтверждениеОперацииОфлайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение операции офлайн</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1aad9f99-422a-40e8-83da-6e29b8a4e85a">
+    <name>ПодтверждениеОперацииОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение операции ошибка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d9010dc7-b0de-4079-944d-fbec7ba5997f">
+    <name>ПодтверждениеПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение пользователя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5defd7f7-cc7d-4e7b-83e3-755f8a2514ea">
+    <name>ПроверкаСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка сервиса</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="744ca01b-41b6-4c30-a280-85e44ad456ba">
+    <name>РасширенныеНастройкиСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки сервера</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="779856af-2c4a-4643-9bea-a04aa24ee488">
+    <name>СвойствоСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство сертификата</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c6f12f3-7cb6-4b10-9859-7b72bae3fc76">
+    <name>СменаПинКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смена пин-кода</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d00313c8-ee4a-4463-8d5b-7e87e4e14986">
+    <name>СписокСертификатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список сертификатов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6db400f2-873a-44a2-9274-2cd7883bfd87">
+    <name>СписокУчетныхЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список учетных записей</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3b925fd2-adb8-451a-8675-7b081fc7c570">
+    <name>СписокЭкземпляровСервераDSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список экземпляров сервера DSS</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e9e13d-8f87-4a5b-9c80-49d2cff1a290">
+    <name>ФормаУчетнойЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма учетной записи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="04b7e8b2-6bc1-49dc-9476-7eadf94b9188">
+    <name>ФормаЭкземпляраСервераDSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма экземпляра сервера DSS</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="135c86fc-2979-4833-9107-38d749a9f82f">
+    <name>ПодключениеУчетнойЗаписиDSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключение учетной записи DSS</value>
+    </synonym>
+  </templates>
+  <commands uuid="78288ff9-d838-4970-84bd-9a6b229e6ef0">
+    <name>СписокСертификатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список сертификатов</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="8310f927-1123-4b4b-a65e-0ff29be73329">
+    <name>СерверыDSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серверы DSS</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="80a9df2d-593d-483d-8d69-28b1c08ec648">
+    <name>УчетныеЗаписиDSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетные записи DSS</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

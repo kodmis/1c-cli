@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b76ded4-814a-4267-99c5-2c8fb05ee352">
+  <producedTypes>
+    <managerType typeId="de77a468-18f8-4068-9b08-9b4e7ab694fa" valueTypeId="47d7e417-74ad-417b-8ab1-c7fc6e097bcd"/>
+    <valueManagerType typeId="1faedbc0-5836-42ec-b5be-eb80a51291c8" valueTypeId="b2fd84c6-e230-46b0-ba18-1a89112ad227"/>
+    <valueKeyType typeId="8aafc634-3cf8-4f9b-ba0d-e3543f1fcc33" valueTypeId="25f237f2-1106-43f5-9aab-2b4d6d8114c7"/>
+  </producedTypes>
+  <name>СервисПереводаТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис перевода текста</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СервисыПереводаТекста</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

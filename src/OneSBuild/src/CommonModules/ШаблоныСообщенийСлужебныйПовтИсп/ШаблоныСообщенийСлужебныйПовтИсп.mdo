@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90f358ae-9c80-40cf-8e8f-aa02d78a2cdb">
+  <name>ШаблоныСообщенийСлужебныйПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны сообщений служебный повт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

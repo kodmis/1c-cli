@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0894db61-51f6-4068-9634-e55d95e2a8ac">
+  <producedTypes>
+    <managerType typeId="c5f6dd7d-81f3-4a02-af9e-f102be6c5a31" valueTypeId="418f1323-c616-4373-ade0-9e2fb88c4c4a"/>
+    <valueManagerType typeId="7c31487c-ad38-4367-b852-b630e0c96d59" valueTypeId="ceab479a-38a1-4a3f-b037-0d27635f2836"/>
+    <valueKeyType typeId="19025a40-e7cd-549b-b50f-cb75c673a419" valueTypeId="1435593d-0d24-5ded-9fd5-292e444a196d"/>
+  </producedTypes>
+  <name>ПараметрыИтоговИАгрегатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры итогов и агрегатов</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

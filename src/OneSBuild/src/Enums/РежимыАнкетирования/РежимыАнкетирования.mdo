@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e44d463-f253-4a64-8d68-631fcb66935c">
+  <producedTypes>
+    <refType typeId="3ccee095-fab7-4651-acb3-1b60b223a7a8" valueTypeId="d8620744-bbcb-4559-8b91-9ff0f6e8ee1b"/>
+    <listType typeId="823b0587-0d18-433c-9848-548e72be8798" valueTypeId="eb208c6f-4f3c-4ec6-98c0-a88518bc459c"/>
+    <managerType typeId="d395397c-a874-4887-8b0c-08c47413191a" valueTypeId="11e505fc-8ebe-4a91-b859-deb3f1f60b81"/>
+  </producedTypes>
+  <name>РежимыАнкетирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы анкетирования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="653d6483-029b-4453-a7d0-3a3c6d9d0b05">
+    <name>Анкета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анкета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac507771-50bd-4f8b-b72f-5954562c9131">
+    <name>Интервью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервью</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

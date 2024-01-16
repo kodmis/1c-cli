@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7442d9a-fc93-4873-be44-55e62b4b4885">
+  <name>ТехнологияСервисаВЛокальномРежиме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технология сервиса в локальном режиме</value>
+  </synonym>
+  <location>Constant.НеИспользоватьРазделениеПоОбластямДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonForm.ЗагрузкаДанныхИзСервиса</content>
+  <content>CommonCommand.ПерейтиВОблачныйСервис</content>
+</mdclass:FunctionalOption>

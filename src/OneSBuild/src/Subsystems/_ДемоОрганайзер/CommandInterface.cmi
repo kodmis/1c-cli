@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand._ДемоПанельОтчетовОрганайзер</commands>
+      <commands>Catalog.РассылкиОтчетов.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem._ДемоОрганайзер.Subsystem._ДемоВзаимодействия</subsystems>
+    <subsystems>Subsystem._ДемоОрганайзер.Subsystem._ДемоЗаметкиПользователя</subsystems>
+    <subsystems>Subsystem._ДемоОрганайзер.Subsystem._ДемоНапоминанияПользователя</subsystems>
+    <subsystems>Subsystem._ДемоОрганайзер.Subsystem._ДемоВариантыОтчетов</subsystems>
+    <subsystems>Subsystem._ДемоОрганайзер.Subsystem._ДемоОтправкаSMS</subsystems>
+    <subsystems>Subsystem._ДемоОрганайзер.Subsystem._ДемоПереводТекста</subsystems>
+    <subsystems>Subsystem._ДемоОрганайзер.Subsystem._ДемоРаботаСПочтовымиСообщениями</subsystems>
+    <subsystems>Subsystem._ДемоОрганайзер.Subsystem._ДемоРаботаСФайлами</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

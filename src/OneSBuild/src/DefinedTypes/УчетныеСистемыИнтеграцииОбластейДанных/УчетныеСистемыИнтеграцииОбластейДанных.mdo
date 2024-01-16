@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2bc9682-8cb0-41ec-adbe-70c23d3ce11d">
+  <producedTypes>
+    <containerType typeId="1127b3d7-102a-4140-9eb9-e9bbb5bcd466" valueTypeId="7292226e-cc89-4bb2-bdd5-30c170d33027"/>
+  </producedTypes>
+  <name>УчетныеСистемыИнтеграцииОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные системы интеграции областей данных</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9e5bb39-ed0a-4e12-b7e4-2d9b5015bf9c">
+  <producedTypes>
+    <objectType typeId="37ae0b89-6a99-4722-9a92-8ebdd8f64163" valueTypeId="a4a92be2-d8e5-4c08-bf40-3aaabfce8b65"/>
+    <managerType typeId="0897cc27-bea7-4d08-af1f-9cf1fd1870b3" valueTypeId="abf55882-5cf3-45e9-bd44-9175afeff173"/>
+  </producedTypes>
+  <name>ДоступныеАнкеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступные анкеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДоступныеАнкеты.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="dbced4aa-6432-4f0c-a99a-5a3e7b0f6755">
+    <name>Респондент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Респондент</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Респондент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6b28a716-2fb1-47f7-a7d6-f2fe7edb32c3">
+    <name>РежимАнкетирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим анкетирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыАнкетирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e849e46c-2ce6-427b-92bc-06d7997f59bf">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a971dc0-28bf-4426-9426-9f456aea080a">
+    <name>АрхивАнкет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив анкет</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

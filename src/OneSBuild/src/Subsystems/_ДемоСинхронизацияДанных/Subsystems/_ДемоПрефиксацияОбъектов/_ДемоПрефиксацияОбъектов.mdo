@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b372ec2-d0dd-4dd2-987c-1f8b0af41ccb">
+  <name>_ДемоПрефиксацияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префиксация объектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>EventSubscription._ДемоУстановитьПрефиксОрганизацииНомеруДокумента</content>
+  <content>EventSubscription._ДемоПроверитьНомерБизнесПроцессаПоДате</content>
+  <content>EventSubscription._ДемоПроверитьНомерДокументаПоДатеИОрганизации</content>
+  <content>EventSubscription._ДемоУстановитьПрефиксИнформационнойБазыИОрганизацииНомеруДокумента</content>
+  <content>EventSubscription._ДемоУстановитьПрефиксИнформационнойБазыКодуСправочника</content>
+  <content>EventSubscription._ДемоУстановитьПрефиксИнформационнойБазыНомеруБизнесПроцесса</content>
+  <content>EventSubscription._ДемоУстановитьПрефиксИнформационнойБазыНомеруДокумента</content>
+  <content>EventSubscription._ДемоПроверитьКодСправочникаПоОрганизации</content>
+  <content>Constant._ДемоИспользоватьНесколькоОрганизаций</content>
+  <content>Constant._ДемоНеИспользоватьНесколькоОрганизаций</content>
+  <content>FunctionalOption._ДемоПрефиксыОрганизаций</content>
+  <content>Catalog._ДемоОрганизации</content>
+  <content>FunctionalOptionsParameter._ДемоОрганизация</content>
+  <content>FunctionalOption._ДемоИспользоватьНесколькоОрганизаций</content>
+  <subsystems>Использование</subsystems>
+  <parentSubsystem>Subsystem._ДемоСинхронизацияДанных</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c03f9972-5a1f-449b-b170-5a958c2b5846">
+  <name>МоиЗаметкиПоПредмету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мои заметки</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DefinedType.ПредметЗаметок</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+</mdclass:CommonCommand>

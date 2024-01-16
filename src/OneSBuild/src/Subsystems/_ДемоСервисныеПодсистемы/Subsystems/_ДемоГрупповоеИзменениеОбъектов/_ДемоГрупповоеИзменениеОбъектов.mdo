@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bafa7ae-03d4-4a32-8c97-991100543eec">
+  <name>_ДемоГрупповоеИзменениеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповое изменение объектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Групповое изменение объектов не является самостоятельной подсистемой. Поставляется в рамках подсистемы &quot;Базовая функциональность&quot;.</value>
+  </explanation>
+  <content>Catalog._ДемоНоменклатура</content>
+  <content>BusinessProcess._ДемоЗаданиеСРолевойАдресацией</content>
+  <content>Catalog._ДемоКонтрагенты</content>
+  <content>DocumentJournal._ДемоСкладскиеДокументы</content>
+  <content>Enum._ДемоСовместимостьНоменклатуры</content>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

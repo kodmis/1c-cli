@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa61df43-49e7-4d5f-a0b9-f35af199f9f5">
+  <producedTypes>
+    <managerType typeId="e28d51c7-49f6-4b59-b3ad-59d9684eeb3d" valueTypeId="36c72498-a66d-4c85-aca7-0b3e033bbef3"/>
+    <valueManagerType typeId="c79215d8-ab22-4858-b57c-fb14eb60b32f" valueTypeId="719d03de-029c-48fb-a10b-ae9ec5679a7b"/>
+    <valueKeyType typeId="954204bd-1f51-4fc2-ac9d-9ec9885e91ab" valueTypeId="47c00ba6-bc08-469c-8174-1765e69aff88"/>
+  </producedTypes>
+  <name>УсовершенствоватьПодписиСДаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Усовершенствовать подписи с даты</value>
+  </synonym>
+  <comment>Если подпись создана позже указанной даты, она будет попадать в отчеты и обрабатываться регламентным заданием</comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

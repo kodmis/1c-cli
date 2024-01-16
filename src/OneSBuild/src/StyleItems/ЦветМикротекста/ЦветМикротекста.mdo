@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34998676-bd27-4c00-a902-5052139a0e34">
+  <name>ЦветМикротекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет микротекста</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>130</red>
+      <green>110</green>
+      <blue>80</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

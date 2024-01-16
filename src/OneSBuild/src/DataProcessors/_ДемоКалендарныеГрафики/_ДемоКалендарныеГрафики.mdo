@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f505aee-448f-433b-9a56-41d45ff04abd">
+  <producedTypes>
+    <objectType typeId="0212db99-c882-486c-9e7d-92a415878923" valueTypeId="02e80f07-2385-48bf-aabe-ca42e4e18de6"/>
+    <managerType typeId="ee1e4b33-20d3-4c12-8d0e-549dcf6c82e8" valueTypeId="91f70d26-f392-48de-9f7e-6073515be203"/>
+  </producedTypes>
+  <name>_ДемоКалендарныеГрафики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Календарные графики</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоКалендарныеГрафики.Form.Форма</defaultForm>
+  <forms uuid="60b5133a-b7ad-48b0-8fea-8cd5f4d36248">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="e88b2341-e785-4959-85e8-64576ee2751e">
+    <name>_ДемоКалендарныеГрафики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Календарные графики</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9b3f958-3eb0-4f31-aa27-73d42a32881c">
+  <producedTypes>
+    <objectType typeId="97daaf02-3d2e-4cce-ac79-266fcbf2154e" valueTypeId="71f1fd0b-ee72-48e2-99ae-aa240adfa836"/>
+    <managerType typeId="d289d725-2c1b-4a5b-8fdc-fb47b27f1300" valueTypeId="4131978d-c679-4d63-acfc-7423da2486a2"/>
+  </producedTypes>
+  <name>_ДемоФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Файлы</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report._ДемоФайлы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="256a45a2-91cc-40c1-8529-22f694455595">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

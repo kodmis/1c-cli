@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbd8391c-a174-43d6-a8db-d9ab76b4edbe">
+  <name>ДатаОбновленияПовторноИспользуемыхЗначенийМРО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата обновления повторно используемых значений МРО</value>
+  </synonym>
+  <comment>Дата на которую повторно-используемые значения механизма регистрации объектов были считаны в текущем сеансе</comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+</mdclass:SessionParameter>

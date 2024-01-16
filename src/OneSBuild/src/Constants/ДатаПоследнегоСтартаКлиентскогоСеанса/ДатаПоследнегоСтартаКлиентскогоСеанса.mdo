@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="405c52c4-25fe-45ff-abab-bf01041e768d">
+  <producedTypes>
+    <managerType typeId="f446d597-aa36-4413-ad99-8a4543322d2b" valueTypeId="aa1f5f75-d5bb-4d5f-b08d-79db6afd4c35"/>
+    <valueManagerType typeId="4cb96295-4ce7-4150-b14f-89f4f93477e9" valueTypeId="dc023fe1-6d0a-405f-b431-3a76fca6668d"/>
+    <valueKeyType typeId="5c524220-09de-5f42-b744-affff8bb365b" valueTypeId="b57b2191-92ec-59df-b713-75b5782a0a73"/>
+  </producedTypes>
+  <name>ДатаПоследнегоСтартаКлиентскогоСеанса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата последнего старта клиентского сеанса</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Универсальная дата последнего запуска клиентского сеанса</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

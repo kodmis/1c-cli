@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f79e15eb-ace7-4df1-8cbe-304569617d72">
+  <name>_ДемоОграничиватьДоступПоНоменклатуре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Ограничивать доступ по номенклатуре</value>
+  </synonym>
+  <location>Constant._ДемоОграничиватьДоступПоНоменклатуре</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog._ДемоВидыНоменклатуры.Attribute.ГруппаДоступа</content>
+  <content>Catalog._ДемоНоменклатура.Attribute.ГруппаДоступа</content>
+</mdclass:FunctionalOption>

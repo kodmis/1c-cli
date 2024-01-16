@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f25646a-90f9-4747-a778-7efdaabc284c">
+  <producedTypes>
+    <managerType typeId="d93f3480-b3ec-44f2-ba52-66b636c16813" valueTypeId="da11efa7-6705-427a-b94f-a94cdd8ddb0e"/>
+    <valueManagerType typeId="37c4ef14-8fc3-4a71-ae69-a777563f28c4" valueTypeId="82416ec3-0136-42be-bf45-9622a62b46a1"/>
+    <valueKeyType typeId="cc489b92-7ba0-5fd3-82e3-11cc5b9c1d9b" valueTypeId="d7ed13ee-4dc8-5a40-8ea2-b2310cb708a2"/>
+  </producedTypes>
+  <name>НастройкиПодчиненногоУзлаРИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подчиненного узла РИБ</value>
+  </synonym>
+  <comment>Настройки для завершения создания обмена данными в подчиненном узле РИБ после его создания из начального образа</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

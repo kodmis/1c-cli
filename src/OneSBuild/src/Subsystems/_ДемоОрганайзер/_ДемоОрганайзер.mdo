@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9377b1a5-b543-4300-9a79-03bc5b456573">
+  <name>_ДемоОрганайзер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Органайзер</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделОрганайзер</picture>
+  </picture>
+  <content>CommonCommand._ДемоПанельОтчетовОрганайзер</content>
+  <content>CommonPicture._ДемоРазделОрганайзер</content>
+  <content>Role.Подсистема_ДемоОрганайзер</content>
+  <content>Catalog.РассылкиОтчетов</content>
+  <subsystems>_ДемоВариантыОтчетов</subsystems>
+  <subsystems>_ДемоВзаимодействия</subsystems>
+  <subsystems>_ДемоЗаметкиПользователя</subsystems>
+  <subsystems>_ДемоНапоминанияПользователя</subsystems>
+  <subsystems>_ДемоОтправкаSMS</subsystems>
+  <subsystems>_ДемоРаботаСПочтовымиСообщениями</subsystems>
+  <subsystems>_ДемоРаботаСФайлами</subsystems>
+  <subsystems>_ДемоПереводТекста</subsystems>
+</mdclass:Subsystem>

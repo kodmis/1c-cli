@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem._ДемоУправлениеДоступом</subsystems>
+    <subsystems>Subsystem._ДемоСинхронизацияДанных</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы</subsystems>
+    <subsystems>Subsystem._ДемоИнтегрируемыеПодсистемы</subsystems>
+    <subsystems>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение</subsystems>
+    <subsystems>Subsystem._ДемоБизнесПроцессыИЗадачи</subsystems>
+    <subsystems>Subsystem._ДемоАнкетирование</subsystems>
+    <subsystems>Subsystem._ДемоОрганайзер</subsystems>
+    <subsystems>Subsystem._ДемоНормативноСправочнаяИнформация</subsystems>
+    <subsystems>Subsystem._ДемоИнструментыРазработчика</subsystems>
+    <subsystems>Subsystem.Администрирование</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

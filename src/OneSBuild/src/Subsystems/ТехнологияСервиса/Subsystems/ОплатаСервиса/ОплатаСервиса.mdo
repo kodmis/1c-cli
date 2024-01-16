@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5ad4174-c86f-4d26-92d2-4608ab1bc4b2">
+  <name>ОплатаСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата сервиса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonCommand.ОплатаСервиса</content>
+  <content>CommonModule.ОплатаСервисаКлиент</content>
+  <content>CommonModule.ОплатаСервиса</content>
+  <content>Constant.ИмяПользователяУчетнойСистемы</content>
+  <content>HTTPService.Биллинг</content>
+  <content>CommonModule.ОплатаСервисаПереопределяемый</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

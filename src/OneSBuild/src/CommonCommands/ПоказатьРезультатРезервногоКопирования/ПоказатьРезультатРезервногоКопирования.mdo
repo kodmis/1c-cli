@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc3a7f15-4db6-445e-b282-f44d0460b7d3">
+  <name>ПоказатьРезультатРезервногоКопирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показать результат резервного копирования</value>
+  </synonym>
+  <group>NavigationPanelSeeAlso</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

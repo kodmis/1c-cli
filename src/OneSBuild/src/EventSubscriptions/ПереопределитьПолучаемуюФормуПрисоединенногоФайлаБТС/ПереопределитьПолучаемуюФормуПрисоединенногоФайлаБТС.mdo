@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c5e4ad8-91b4-4fe8-b528-cd0d0a449a2a">
+  <name>ПереопределитьПолучаемуюФормуПрисоединенногоФайлаБТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переопределить получаемую форму присоединенного файла БТС</value>
+  </synonym>
+  <source>
+    <types>CatalogManager.ИсторияПроверкиИКорректировкиДанныхПрисоединенныеФайлы</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

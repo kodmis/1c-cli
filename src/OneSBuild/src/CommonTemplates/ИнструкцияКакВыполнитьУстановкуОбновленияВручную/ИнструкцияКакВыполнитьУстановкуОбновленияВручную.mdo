@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e14c0841-226c-4c79-bec9-cfc8d2c3a160">
+  <name>ИнструкцияКакВыполнитьУстановкуОбновленияВручную</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструкция как выполнить установку обновления вручную</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

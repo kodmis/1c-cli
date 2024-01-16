@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="448c2c07-f227-4b3b-895a-50581f5ea8b9">
+  <name>УправлениеТарифами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление тарифами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.Тарификация</content>
+  <content>CommonModule.ТарификацияПереопределяемый</content>
+  <content>Enum.ТипыУслуг</content>
+  <content>Catalog.ПоставщикиУслугСервиса</content>
+  <content>Catalog.УслугиСервиса</content>
+  <content>Constant.ИспользоватьКонтрольТарификации</content>
+  <content>FunctionalOption.ИспользоватьКонтрольТарификации</content>
+  <content>InformationRegister.ДоступныеЛицензии</content>
+  <content>ScheduledJob.РегистрацияУслугСервиса</content>
+  <content>InformationRegister.ЗанятыеЛицензии</content>
+  <content>ScheduledJob.ЗапросЛицензийУникальныхУслуг</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

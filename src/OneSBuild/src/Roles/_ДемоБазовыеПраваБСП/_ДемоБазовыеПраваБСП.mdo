@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="052cd962-db94-4032-9ee1-41339801e6b8">
+  <name>_ДемоБазовыеПраваБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Базовые права БСП</value>
+  </synonym>
+  <comment>Роль для демо-объектов БСП, доступ к которым требуется всем пользователям (кроме внешних).</comment>
+</mdclass:Role>

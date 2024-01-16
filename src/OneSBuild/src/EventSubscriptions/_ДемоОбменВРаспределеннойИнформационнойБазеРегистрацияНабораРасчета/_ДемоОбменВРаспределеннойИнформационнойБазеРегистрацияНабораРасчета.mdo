@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f71c75d-a637-4253-8867-eb934707a43b">
+  <name>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияНабораРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен в распределенной информационной базе зарегистрировать изменение набора записей расчета</value>
+  </synonym>
+  <source>
+    <types>CalculationRegisterRecordSet._ДемоОсновныеНачисления</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule._ДемоОбменДаннымиСобытия._ДемоОбменВРаспределеннойИнформационнойБазеЗарегистрироватьИзменениеНабораЗаписейРасчетаПередЗаписью</handler>
+</mdclass:EventSubscription>

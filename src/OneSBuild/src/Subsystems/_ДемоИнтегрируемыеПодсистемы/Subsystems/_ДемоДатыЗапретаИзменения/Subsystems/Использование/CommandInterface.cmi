@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document._ДемоОприходованиеТоваров.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document._ДемоПеремещениеТоваров.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document._ДемоПоступлениеТоваров.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document._ДемоРеализацияТоваров.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document._ДемоЗаказПокупателя.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоОприходованиеТоваров.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоПеремещениеТоваров.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоПоступлениеТоваров.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоРеализацияТоваров.StandardCommand.OpenList</commands>
+      <commands>InformationRegister._ДемоЗаведующиеМестамиХранения.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоСписаниеБезналичныхДенежныхСредств.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоНачислениеЗарплаты.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоСписаниеТоваров.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

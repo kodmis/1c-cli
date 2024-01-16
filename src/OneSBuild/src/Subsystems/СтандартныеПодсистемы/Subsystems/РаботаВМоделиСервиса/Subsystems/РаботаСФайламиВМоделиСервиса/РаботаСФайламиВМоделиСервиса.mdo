@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e4dfdfa-ec05-4c9e-89bd-fc24f60f2678">
+  <name>РаботаСФайламиВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с файлами в модели сервиса</value>
+  </synonym>
+  <content>ScheduledJob.ПланированиеИзвлеченияТекстаВМоделиСервиса</content>
+  <content>CommonModule.РаботаСФайламиСлужебныйВМоделиСервиса</content>
+  <content>InformationRegister.ОчередьИзвлеченияТекста</content>
+  <content>CommonModule.РаботаСФайламиСлужебныйВМоделиСервисаПовтИсп</content>
+  <content>XDTOPackage.DataArtefacts_Files_1_0_0_1</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ad1ef06-d8b4-46da-b536-d23c40e85497">
+  <name>ИспользоватьСервисПереводаТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис перевода текста</value>
+  </synonym>
+  <location>Constant.ИспользоватьСервисПереводаТекста</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

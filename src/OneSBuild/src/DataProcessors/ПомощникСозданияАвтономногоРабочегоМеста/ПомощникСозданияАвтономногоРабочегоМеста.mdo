@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4507a92e-abb6-4329-88b2-3429bc694bc6">
+  <producedTypes>
+    <objectType typeId="e9be5ff8-2694-4be8-9893-87798974969d" valueTypeId="6d6004e7-0e80-4b5f-a539-519d491f6a41"/>
+    <managerType typeId="e5b1dc9f-ee24-4817-9916-e767cbcfcb4e" valueTypeId="fa303d8f-3e22-495d-b6aa-2dba9708c30a"/>
+  </producedTypes>
+  <name>ПомощникСозданияАвтономногоРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник создания автономного рабочего места</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПомощникСозданияАвтономногоРабочегоМеста.Form.НастройкаНаСторонеСервиса</defaultForm>
+  <attributes uuid="2694c1b4-536b-4187-adf6-0f8757aaae76">
+    <name>URLВебСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>URL веб-сервиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e523f88b-b3de-476e-a3cc-592970492dec">
+    <name>НаименованиеАвтономногоРабочегоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование автономного рабочего места</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0e2107e2-8648-4b2e-9dfb-c23b1ff5b007">
+    <name>АвтономноеРабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автономное рабочее место</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="efb6b3b6-d57b-469f-a7c2-f4e0308d0c7f">
+    <name>НастройкаНаСторонеСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка на стороне сервиса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ea0843f4-60fb-4d44-abf4-0021867c636b">
+    <name>ДополнительноеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное описание</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="59aadc03-adbc-481f-89bc-d7f391789522">
+    <name>ИнструкцияПоНастройкеАРМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция по настройке АРМ</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="254f6ccd-0451-4231-91c9-4abe57b647be">
+    <name>КакУстановитьИлиОбновитьВерсиюПлатформы1СПредприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Как установить или обновить версию платформы 1С:Предприятие</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

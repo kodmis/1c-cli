@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="554320a0-55dc-4289-bb08-63d405cb4ca5">
+  <name>СинхронизацияДанныхСПриложениемВИнтернете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных с приложением в Интернете</value>
+  </synonym>
+  <comment>Используется для синхронизации данных автономного рабочего места с приложением в Интернете</comment>
+  <methodName>CommonModule.АвтономнаяРаботаСлужебный.СинхронизироватьДанныеСПриложениемВИнтернете</methodName>
+  <key>1</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

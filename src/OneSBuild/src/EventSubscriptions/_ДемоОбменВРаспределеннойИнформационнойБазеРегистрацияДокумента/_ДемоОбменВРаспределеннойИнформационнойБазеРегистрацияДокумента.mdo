@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b19448a-f18c-4007-8f05-4d43528b339b">
+  <name>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен в распределенной информационной базе зарегистрировать изменение документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject._ДемоНачислениеЗарплаты</types>
+    <types>DocumentObject._ДемоСчетНаОплатуПокупателю</types>
+    <types>DocumentObject._ДемоРеализацияТоваров</types>
+    <types>DocumentObject.Встреча</types>
+    <types>DocumentObject.НазначениеОпросов</types>
+    <types>DocumentObject._ДемоПоступлениеТоваров</types>
+    <types>DocumentObject._ДемоКорректировкаОстатковТоваровВМестахХранения</types>
+    <types>DocumentObject.ЭлектронноеПисьмоВходящее</types>
+    <types>DocumentObject._ДемоРасходныйКассовыйОрдер</types>
+    <types>DocumentObject._ДемоПеремещениеТоваров</types>
+    <types>DocumentObject._ДемоСписаниеТоваров</types>
+    <types>DocumentObject.ОтзывСогласияНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.ЗапланированноеВзаимодействие</types>
+    <types>DocumentObject._ДемоОприходованиеТоваров</types>
+    <types>DocumentObject.Анкета</types>
+    <types>DocumentObject.СообщениеSMS</types>
+    <types>DocumentObject.ТелефонныйЗвонок</types>
+    <types>DocumentObject.СогласиеНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject._ДемоЗаказПокупателя</types>
+    <types>DocumentObject.ЭлектронноеПисьмоИсходящее</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule._ДемоОбменДаннымиСобытия._ДемоОбменВРаспределеннойИнформационнойБазеЗарегистрироватьИзменениеДокумента</handler>
+</mdclass:EventSubscription>

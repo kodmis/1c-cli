@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b317a88e-2a0c-4871-8c95-8b9a6b554545">
+  <name>КонтрольРезультатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль результатов замены</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccountingRegister._ДемоЖурналПроводокБухгалтерскогоУчета</content>
+  <content>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения</content>
+  <content>CalculationRegister._ДемоОсновныеНачисления</content>
+  <content>CommonCommand._ДемоЖурналПроводокБухгалтерскогоУчета</content>
+  <content>CommonCommand._ДемоОсновныеНачисленияСотрудников</content>
+  <content>CommonCommand._ДемоОстаткиТоваровВМестахХранения</content>
+  <content>Report._ДемоОборотноСальдоваяВедомость</content>
+  <content>Document._ДемоПоступлениеТоваров</content>
+  <content>Document._ДемоРеализацияТоваров</content>
+  <content>InformationRegister._ДемоОтветственныеЛица</content>
+  <content>Document._ДемоНачислениеЗарплаты</content>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоПоискИУдалениеДублей</parentSubsystem>
+</mdclass:Subsystem>

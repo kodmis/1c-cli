@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbc10f2e-abd7-4fe9-a000-093ccd43a2d5">
+  <name>ФайлыОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы областей данных</value>
+  </synonym>
+  <content>InformationRegister.ФайлыОбластейДанных</content>
+  <content>CommonModule.ФайлыОбластейДанных</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24641ed-3e92-46d7-852b-9958ab7bc520">
+  <producedTypes>
+    <objectType typeId="1b2a719f-0d1d-4210-be34-a1b18f21fb1b" valueTypeId="f9c276f5-020e-4889-b653-acd663dd5f69"/>
+    <managerType typeId="a94ce2c3-86dc-43c8-8ceb-a147bed65d05" valueTypeId="e8fb058d-d95c-4bfa-8e95-dbe586fa8932"/>
+  </producedTypes>
+  <name>АнализОпроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ опроса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АнализОпроса.Form.ФормаОтчета</defaultForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="bc2aa3f9-ef2c-49a5-8cd9-ddd8a8cbe19d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b6ac4cd6-c68f-4464-88e9-a8d335d581c6">
+    <name>РасшифровкаПростыхОтветов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка простых ответов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2c61114f-abd7-4415-8cdf-4fe95d9fe354">
+    <name>РасшифровкаТабличныхВопросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка табличных вопросов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="abd7a766-5cc1-48db-8d29-797e9d666a78">
+    <name>МакетОтветы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет ответы</value>
+    </synonym>
+  </templates>
+  <templates uuid="1704b5e3-8e77-4df6-9223-e6e5c41a280d">
+    <name>ПростыеВопросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простые вопросы</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="62eca88f-025d-44de-b92c-46cd8bc7e4a1">
+    <name>МакетОтветившие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет ответившие</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

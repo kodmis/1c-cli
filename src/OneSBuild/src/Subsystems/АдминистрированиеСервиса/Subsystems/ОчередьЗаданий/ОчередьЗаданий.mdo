@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b913837a-e6bf-4de3-8b61-9b742a1947ba">
+  <name>ОчередьЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь заданий</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ОчередьЗаданий</content>
+  <content>Catalog.ОбработчикиОчередиЗаданий</content>
+  <content>InformationRegister.ИсторияЗапускаЗаданийОчереди</content>
+  <parentSubsystem>Subsystem.АдминистрированиеСервиса</parentSubsystem>
+</mdclass:Subsystem>

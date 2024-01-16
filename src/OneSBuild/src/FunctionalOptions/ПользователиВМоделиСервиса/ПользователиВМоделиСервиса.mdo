@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bea697f4-46a8-4698-ac60-64326e442f2b">
+  <name>ПользователиВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи в модели сервиса</value>
+  </synonym>
+  <location>Constant.ИспользоватьРазделениеПоОбластямДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.НеразделенныеПользователи</content>
+</mdclass:FunctionalOption>

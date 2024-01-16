@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c28a190a-f487-4e99-b8f8-6928268086f8">
+  <name>ПолучитьПредставлениеБизнесПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить представление бизнес процесса</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessManager._ДемоЗаданиеСРолевойАдресацией</types>
+    <types>BusinessProcessManager.Задание</types>
+  </source>
+  <event>PresentationGetProcessing</event>
+  <handler>CommonModule.БизнесПроцессыИЗадачиКлиентСервер.ОбработкаПолученияПредставленияБизнесПроцесса</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0810af3-2233-43e8-9b90-46db37966ffa">
+  <producedTypes>
+    <managerType typeId="a11603d9-65a3-4601-a039-d19777b60e87" valueTypeId="21dc30c2-78e7-4340-b933-10779d1b5a0c"/>
+    <valueManagerType typeId="ae451a84-b307-403b-9b95-9dea95fbe0f6" valueTypeId="1872f115-beab-4a8c-bce1-0e2200a3a8b6"/>
+    <valueKeyType typeId="d998e6d0-f201-55f0-ab1b-6788caf187c0" valueTypeId="6f39e59e-b040-5252-bb9b-4e1bc2e3f652"/>
+  </producedTypes>
+  <name>АдресЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес ЦКК</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>300</length>
+    </stringQualifiers>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Адрес центра контроля качества</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

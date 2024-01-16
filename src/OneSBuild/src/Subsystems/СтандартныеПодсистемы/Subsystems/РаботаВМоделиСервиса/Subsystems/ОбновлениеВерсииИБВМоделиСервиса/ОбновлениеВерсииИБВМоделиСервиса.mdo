@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7cf3981-cf63-4a21-868b-8175a7704a8f">
+  <name>ОбновлениеВерсииИБВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление версии ИБ в модели сервиса</value>
+  </synonym>
+  <content>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВМоделиСервиса</content>
+  <content>InformationRegister.ВерсииПодсистемОбластейДанных</content>
+  <content>CommonForm.ПриоритетОбновленияВОбластяхДанных</content>
+  <content>Constant.ПриоритетОбновленияВОбластяхДанных</content>
+  <content>Report.ПрогрессОбновленияОбластейДанных</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

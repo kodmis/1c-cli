@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93016393-c637-4d81-8675-aa5e51e678e0">
+  <producedTypes>
+    <managerType typeId="467e2470-806f-4a85-a382-199e094a1ccb" valueTypeId="ce77eb05-362f-4de7-a496-a2af70194549"/>
+    <valueManagerType typeId="1872c625-b55b-4388-b77a-8b39834950b7" valueTypeId="c1d56907-fb25-4529-a6a4-8e66d57a6d15"/>
+    <valueKeyType typeId="3b6477dc-ecdf-50d3-9c51-ebc201f08e55" valueTypeId="d83c1154-dd8c-5c39-ad78-6b2fbe084697"/>
+  </producedTypes>
+  <name>ЧасовойПоясОбластиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Часовой пояс области данных</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

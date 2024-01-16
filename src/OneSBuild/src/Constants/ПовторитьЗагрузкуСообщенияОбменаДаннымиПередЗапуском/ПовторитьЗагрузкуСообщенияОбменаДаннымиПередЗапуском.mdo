@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed297409-6215-4fd4-b47d-a2247e0343da">
+  <producedTypes>
+    <managerType typeId="f105c6cb-6375-4b86-b2a8-8572e889f128" valueTypeId="c145443f-4137-4470-b61a-6ca1a0e4271d"/>
+    <valueManagerType typeId="48071d35-f608-4b0e-b31f-eb160192ad73" valueTypeId="e5eff087-4e4c-4eb1-bd6c-464762bfe275"/>
+    <valueKeyType typeId="20216445-a815-5149-ad7b-37aecca0eae1" valueTypeId="53a40aec-62e0-5a5c-a322-cf0071277703"/>
+  </producedTypes>
+  <name>ПовторитьЗагрузкуСообщенияОбменаДаннымиПередЗапуском</name>
+  <synonym>
+    <key>ru</key>
+    <value>Повторить загрузку сообщения обмена данными перед запуском</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

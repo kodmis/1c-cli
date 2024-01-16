@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f93c9a7f-0249-421e-b3d0-55f02d130017">
+  <name>ПриоритетныеДанныеОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритетные данные обмена</value>
+  </synonym>
+  <comment>Выгруженные данные, которые необходимо загружать самыми первыми до загрузки всех остальных данных, например, предопределенные данные.</comment>
+  <type>
+    <types>FixedArray</types>
+  </type>
+</mdclass:SessionParameter>

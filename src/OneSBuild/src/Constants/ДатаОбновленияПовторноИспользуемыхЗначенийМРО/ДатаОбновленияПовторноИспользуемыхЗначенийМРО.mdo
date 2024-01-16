@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94e08dcf-3885-4a73-82ab-cb291f1cf95f">
+  <producedTypes>
+    <managerType typeId="b8932325-41f4-48f7-845e-a2b74cff48f1" valueTypeId="1b23ea07-5397-4eed-991e-f550a3d8a2c7"/>
+    <valueManagerType typeId="8cac964a-a760-4182-8c3e-351a4540e95c" valueTypeId="f2d761a4-9b9b-456b-9aac-5abaa50e9aea"/>
+    <valueKeyType typeId="6bbf87eb-2fb7-57c3-b871-b61e24069846" valueTypeId="57e6c3cf-3a96-5055-84f8-fb01954f9ac2"/>
+  </producedTypes>
+  <name>ДатаОбновленияПовторноИспользуемыхЗначенийМРО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата обновления повторно используемых значений МРО</value>
+  </synonym>
+  <comment>Актуальная дата обновления повторно-используемых значений механизма регистрации объектов в ИБ</comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

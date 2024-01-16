@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bab16c3c-fd9a-4c3d-9960-ef8a03f0bd12">
+  <name>РаботаСКлассификаторамиВМоделиСервисаПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с классификаторами в модели сервиса переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

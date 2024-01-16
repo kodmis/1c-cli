@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09bc43bb-9f0f-4caf-9d25-a2b0667c2d41">
+  <name>_ДемоПроверитьНомерДокументаПоДатеИОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Проверить номер документа по дате и организации</value>
+  </synonym>
+  <source>
+    <types>DocumentObject._ДемоСчетНаОплатуПокупателю</types>
+    <types>DocumentObject._ДемоРеализацияТоваров</types>
+    <types>DocumentObject._ДемоПоступлениеТоваров</types>
+    <types>DocumentObject._ДемоПеремещениеТоваров</types>
+    <types>DocumentObject._ДемоСписаниеТоваров</types>
+    <types>DocumentObject._ДемоОприходованиеТоваров</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.ПроверитьНомерДокументаПоДатеИОрганизации</handler>
+</mdclass:EventSubscription>

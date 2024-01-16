@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c561fe6b-53ea-435b-a230-1850e2dc1ff5">
+  <name>ИспользоватьПочтовыйКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать почтовый клиент</value>
+  </synonym>
+  <location>Constant.ИспользоватьПочтовыйКлиент</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DocumentJournal.Взаимодействия</content>
+  <content>CommonForm.АдреснаяКнига</content>
+  <content>CommonForm.ВыборКонтакта</content>
+  <content>CommonForm.УточнениеКонтактов</content>
+  <content>Catalog.ЗакладкиВзаимодействий</content>
+  <content>Catalog.ПапкиЭлектронныхПисем</content>
+  <content>Catalog.ПравилаОбработкиЭлектроннойПочты</content>
+  <content>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</content>
+  <content>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</content>
+  <content>Document.ЭлектронноеПисьмоВходящее</content>
+  <content>Document.ЭлектронноеПисьмоИсходящее</content>
+  <content>DocumentJournal.Взаимодействия.Command.НаписатьЭлектронноеПисьмоПоКонтакту</content>
+  <content>DocumentJournal.Взаимодействия.Command.ВзаимодействияПоПредмету</content>
+  <content>DocumentJournal.Взаимодействия.Command.ПечатьЭлектронногоПисьма</content>
+  <content>DocumentJournal.Взаимодействия.Command.ВзаимодействияПоКонтакту</content>
+  <content>Enum.СтатусыИсходящегоЭлектронногоПисьма</content>
+  <content>Enum.ПорядокОтветовНаЗапросыУведомленийОПрочтении</content>
+  <content>InformationRegister.ИдентификаторыПолученныхЭлектронныхПисем</content>
+  <content>InformationRegister.НастройкиУчетныхЗаписейЭлектроннойПочты</content>
+  <content>InformationRegister.ПредметыПапкиВзаимодействий</content>
+  <content>InformationRegister.УведомленияОПрочтении</content>
+  <content>InformationRegister.ДатыПоследнейЗагрузкиПочтовыхСообщений</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc3b936b-b71b-42ff-8b87-6db28b7b8b5b">
+  <name>АсинхронноеПолучениеДанныхПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Асинхронное получение данных переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

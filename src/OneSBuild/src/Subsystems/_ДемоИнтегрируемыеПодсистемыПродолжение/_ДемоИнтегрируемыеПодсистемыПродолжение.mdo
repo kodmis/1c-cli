@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="414d9079-d2ff-4099-8edf-5ea7ec3f267b">
+  <name>_ДемоИнтегрируемыеПодсистемыПродолжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интегрируемые подсистемы (часть 2)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистемы, предназначенные для внедрения в объекты конфигурации (&quot;тесная&quot; интеграция)</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделИнтегрируемыеПодсистемы</picture>
+  </picture>
+  <content>Role.Подсистема_ДемоИнтегрируемыеПодсистемыПродолжение</content>
+  <subsystems>_ДемоЗагрузкаДанныхИзФайла</subsystems>
+  <subsystems>_ДемоКонтактнаяИнформация</subsystems>
+  <subsystems>_ДемоНастройкаПорядкаЭлементов</subsystems>
+  <subsystems>_ДемоПечать</subsystems>
+  <subsystems>_ДемоСвойства</subsystems>
+  <subsystems>_ДемоСтруктураПодчиненности</subsystems>
+  <subsystems>_ДемоСклонениеПредставленийОбъектов</subsystems>
+  <subsystems>_ДемоШаблоныСообщений</subsystems>
+  <subsystems>_ДемоЭлектроннаяПодпись</subsystems>
+  <subsystems>_ДемоУчетОригиналовПервичныхДокументов</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fef33c6-60cc-45bd-9ed8-4dbb89ae26a7">
+  <name>_ДемоДатыЗапретаИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты запрета изменения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Запрет изменения данных (документов и др.) ранее определенной даты, заданной по разрезам, спроектированным в прикладной конфигурации</value>
+  </explanation>
+  <content>EventSubscription._ДемоПроверитьДатуЗапретаИзмененияПередЗаписьюДокумента</content>
+  <content>EventSubscription._ДемоПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписей</content>
+  <content>InformationRegister.ДатыЗапретаИзменения</content>
+  <content>Catalog._ДемоБанковскиеСчета</content>
+  <content>Catalog._ДемоГруппыДоступаПартнеров</content>
+  <content>Catalog._ДемоМестаХранения</content>
+  <content>EventSubscription._ДемоПроверитьДатуЗапретаИзмененияПередУдалением</content>
+  <subsystems>Использование</subsystems>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

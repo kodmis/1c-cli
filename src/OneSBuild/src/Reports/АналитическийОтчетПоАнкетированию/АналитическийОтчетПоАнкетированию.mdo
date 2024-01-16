@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0dde395-8498-4469-9507-d290798117d7">
+  <producedTypes>
+    <objectType typeId="9b714102-c4f3-40be-9198-1919b7420e6e" valueTypeId="b5caea28-1449-460e-bead-71526cb01dc2"/>
+    <managerType typeId="0d46012b-ee34-4aa6-b977-033cd6361e6b" valueTypeId="7f10d417-0113-4cfb-8158-79c24d72b4bb"/>
+  </producedTypes>
+  <name>АналитическийОтчетПоАнкетированию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитический отчет по анкетированию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АналитическийОтчетПоАнкетированию.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="999616ea-0faa-4ae2-9841-6a6997ea6694">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

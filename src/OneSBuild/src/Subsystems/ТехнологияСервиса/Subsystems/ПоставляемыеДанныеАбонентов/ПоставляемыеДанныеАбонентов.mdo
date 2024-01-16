@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc03c05a-7855-46fb-88a0-b4cf413b2ba5">
+  <name>ПоставляемыеДанныеАбонентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставляемые данные абонентов</value>
+  </synonym>
+  <content>CommonModule.ПоставляемыеДанныеАбонентов</content>
+  <content>CommonModule.ПоставляемыеДанныеАбонентовПереопределяемый</content>
+  <content>CommonModule.ПоставляемыеДанныеАбонентовСловарь</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

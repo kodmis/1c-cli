@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="195ea1f8-3e38-4254-a33d-c87424b8f7dc">
+  <producedTypes>
+    <containerType typeId="8e203f23-ec2f-4bd8-bd93-977d44280971" valueTypeId="6869da4b-5fec-4dda-ac73-9ad55aefbf75"/>
+  </producedTypes>
+  <name>ВладелецГрафикаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец графика работы</value>
+  </synonym>
+  <type>
+    <types>CatalogRef._ДемоПодразделения</types>
+  </type>
+</mdclass:DefinedType>

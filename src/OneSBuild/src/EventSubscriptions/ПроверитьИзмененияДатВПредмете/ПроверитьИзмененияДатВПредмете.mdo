@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bde05768-2dd6-4800-985d-27075f610cca">
+  <name>ПроверитьИзмененияДатВПредмете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить изменения дат в предмете</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ПредметНапоминанияОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.НапоминанияПользователяСлужебный.ПроверитьИзмененияДатВПредметеПриЗаписи</handler>
+</mdclass:EventSubscription>

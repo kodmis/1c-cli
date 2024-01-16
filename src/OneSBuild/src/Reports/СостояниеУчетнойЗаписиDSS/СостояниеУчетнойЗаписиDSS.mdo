@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecc0ac05-9813-482d-bc39-0be1490d3f8b">
+  <producedTypes>
+    <objectType typeId="ff0211bd-f1da-4a14-be0e-a60158768cb9" valueTypeId="ef769dcb-eb35-461c-880a-a95289d882db"/>
+    <managerType typeId="4e62e48d-e255-4eb1-b0d4-5eeed34978dd" valueTypeId="9b0c9ca0-b70b-4218-9f6d-d1028d46e6bf"/>
+  </producedTypes>
+  <name>СостояниеУчетнойЗаписиDSS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние учетной записи DSS</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СостояниеУчетнойЗаписиDSS.Template.СостояниеУчетнойЗаписиDSS</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="866f53c8-4f1e-484a-a809-6130f7eef872">
+    <name>СостояниеУчетнойЗаписиDSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние учетной записи DSS</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

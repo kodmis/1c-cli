@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08a413ff-bebd-42e5-8ff3-2115746a0844">
+  <name>КонтрольВеденияУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль ведения учета</value>
+  </synonym>
+  <content>CommonModule.КонтрольВеденияУчета</content>
+  <content>CommonModule.КонтрольВеденияУчетаСлужебный</content>
+  <content>CommonModule.КонтрольВеденияУчетаКлиент</content>
+  <content>CommonModule.КонтрольВеденияУчетаПереопределяемый</content>
+  <content>Role.ЧтениеРезультатовПроверкиУчета</content>
+  <content>ScheduledJob.ПроверкаВеденияУчета</content>
+  <content>Catalog.ВидыПроверок</content>
+  <content>Report.РезультатыПроверкиУчета</content>
+  <content>InformationRegister.РезультатыПроверкиУчета</content>
+  <content>CommonModule.КонтрольВеденияУчетаСлужебныйКлиент</content>
+  <content>CommonModule.КонтрольВеденияУчетаСлужебныйПовтИсп</content>
+  <content>Catalog.ПравилаПроверкиУчета</content>
+  <content>DefinedType.КонтекстПроверокВеденияУчета</content>
+  <content>DefinedType.УточнениеКонтекстаПроверокВеденияУчета</content>
+  <content>Enum.ВажностьПроблемыУчета</content>
+  <content>Enum.СпособыВыполненияПроверки</content>
+  <content>InformationRegister.КлючиДоступаКРегиструРезультатыПроверкиУчета</content>
+  <content>CommonModule.КонтрольВеденияУчетаГлобальный</content>
+  <content>InformationRegister.СостоянияПроверокВеденияУчета</content>
+  <content>CommonPicture.КоллекцияВажностьПроблемВеденияУчета</content>
+  <content>CommonPicture.ПолезныйСоветКонтрольВеденияУчета</content>
+  <content>CommonModule.КонтрольВеденияУчетаВызовСервера</content>
+  <content>SessionParameter.СчетчикПроблемВеденияУчета</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

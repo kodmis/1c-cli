@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0805c647-55e7-4e29-9afb-a13a35a678eb">
+  <name>ПередачаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача данных</value>
+  </synonym>
+  <rootURL>dt</rootURL>
+  <reuseSessions>Use</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="7124b2c7-d38e-40b9-a934-e6eb9de99340">
+    <name>ХранилищеИИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище и идентификатор</value>
+    </synonym>
+    <template>/storage/{Storage}/{ID}</template>
+    <methods uuid="605f52a9-e95b-4900-9e41-449d7da01348">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ХранилищеИИдентификаторGETЗапрос</handler>
+    </methods>
+    <methods uuid="462355c3-a1d9-488b-91ea-979f880f910f">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ХранилищеИИдентификаторPOSTЗапрос</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a2c5b30f-2b9b-4b4c-97e1-9c87ffe2017d">
+    <name>ТомИПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Том и путь к файлу</value>
+    </synonym>
+    <template>/volume/{VolumeID}/*</template>
+    <methods uuid="eef86a5c-167f-45cc-b223-ec949be60a2f">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ТомИПутьКФайлуGETЗапрос</handler>
+    </methods>
+    <methods uuid="5da41133-446b-453b-95ff-2141a3c38059">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ТомИПутьКФайлуPOSTЗапрос</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0db3a754-10fd-41d4-aa40-ff26ff1ab0e8">
+    <name>Получить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить</value>
+    </synonym>
+    <template>/download/{ID}</template>
+    <methods uuid="60eb925b-bd12-42d2-8d1e-bcffb2e26580">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьGETЗапрос</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="64269878-6fd5-47b6-9892-f8f0e30caf1b">
+    <name>Отправить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить</value>
+    </synonym>
+    <template>/upload/{ID}</template>
+    <methods uuid="6070d55f-3274-492d-b1e5-1dca70f5aa5d">
+      <name>PUT</name>
+      <synonym>
+        <key>ru</key>
+        <value>PUT</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>ОтправитьPUTЗапрос</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2ab7ec1-042c-4fdb-b937-51568c48b4ea">
+  <producedTypes>
+    <managerType typeId="2338da00-0c10-4f70-ae9b-829b18587a51" valueTypeId="1f54d7ec-57b0-4680-a34a-0259475fbd6a"/>
+    <valueManagerType typeId="8003a336-e9a7-47ad-88ce-dce02889e990" valueTypeId="5d9bd777-7495-493d-a37f-b2ab6f360323"/>
+    <valueKeyType typeId="fe3d309f-3e4e-5a97-bbc2-a3c89c5eef48" valueTypeId="656083c9-763a-522e-9c35-a46797c397d9"/>
+  </producedTypes>
+  <name>АдресКриптосервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес криптосервиса</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

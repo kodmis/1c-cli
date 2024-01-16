@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6aa814fa-417e-428c-951e-6efd9d0775da">
+  <producedTypes>
+    <managerType typeId="0825447d-6434-4010-9d2c-f2103df243a5" valueTypeId="e8776d5c-3f0d-4aa8-951b-7359a0621fb2"/>
+    <valueManagerType typeId="58dfcc6e-e7fa-4290-ac37-d06aaed23b53" valueTypeId="f1e43320-7002-42d3-bc5e-341d1acbd281"/>
+    <valueKeyType typeId="ca286c2f-6cdc-5c11-818f-9c9f697fcbe5" valueTypeId="cec50ddb-093f-5bd6-9919-09925c80bfa3"/>
+  </producedTypes>
+  <name>ИспользоватьАнкетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать анкетирование</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

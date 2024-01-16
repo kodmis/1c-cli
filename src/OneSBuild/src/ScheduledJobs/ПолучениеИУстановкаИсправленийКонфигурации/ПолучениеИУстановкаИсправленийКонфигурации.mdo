@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="105cfe8f-bab0-4f30-8fdf-93b5e3e34c5e">
+  <name>ПолучениеИУстановкаИсправленийКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение и установка исправлений конфигурации</value>
+  </synonym>
+  <methodName>CommonModule.ПолучениеОбновленийПрограммы.РегламентноеЗаданиеПолучениеИУстановкаИсправленийКонфигурации</methodName>
+  <key>ПолучениеИУстановкаИсправленийКонфигурации</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

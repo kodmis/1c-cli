@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3ea2636-5ba3-4c1f-8dbd-b6874a5783a8">
+  <name>_ДемоРаботаСФайлами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с файлами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВерсииФайлов</content>
+  <content>Catalog.Файлы</content>
+  <content>Catalog.ПапкиФайлов</content>
+  <content>Report._ДемоДинамикаИзмененийФайлов</content>
+  <content>Report._ДемоФайлы</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>CommonCommand.ВсеФайлы</content>
+  <content>CommonCommand.РедактируемыеФайлы</content>
+  <subsystems>ПрисоединенныеФайлы</subsystems>
+  <subsystems>ДополнительныеФункции</subsystems>
+  <parentSubsystem>Subsystem._ДемоОрганайзер</parentSubsystem>
+</mdclass:Subsystem>

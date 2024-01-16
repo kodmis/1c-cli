@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f691fb49-bbc1-4ca2-ad67-392cdf805fd9">
+  <producedTypes>
+    <objectType typeId="7788d98a-ff57-40f0-8a6f-2efb0ad1f781" valueTypeId="fcd1fc73-3fc7-434c-ae81-be20f2575ad6"/>
+    <managerType typeId="0ab3a7a3-51a9-4779-a404-199ae1194e7e" valueTypeId="5ad81101-4d30-417a-bfcc-1779136b2856"/>
+  </producedTypes>
+  <name>ВыгрузкаЗагрузкаДанныхМенеджерПересозданияСсылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка загрузка данных менеджер пересоздания ссылок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

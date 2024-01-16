@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54dd3cd0-bc3d-46a1-8cc0-5500b49bf0c4">
+  <producedTypes>
+    <selectionType typeId="3ff62169-1287-4839-9235-b7edc8a1837a" valueTypeId="40b68c74-55c5-4346-a250-783c5c713cd4"/>
+    <listType typeId="111159f8-d2b3-4175-be45-fb522964cba0" valueTypeId="c1baa9a5-3883-4ddb-95c0-b5b6d56acf03"/>
+    <managerType typeId="9d243fb0-4e51-45ff-b26e-fb6545cee39a" valueTypeId="3f1ea069-16b6-4ef1-9e03-a8fea71425d8"/>
+    <recordSetType typeId="8eb315ea-44d4-40f0-80f1-8d668f238749" valueTypeId="1e7349ff-e7c2-4df9-8a78-b0bc4d02814d"/>
+    <recordKeyType typeId="b91d6534-0235-4567-9b16-95f17dc58fac" valueTypeId="c857c04b-d71b-4398-b71d-d5b319e8689c"/>
+    <recordType typeId="218ce045-0f81-4c23-95c3-417708e3e031" valueTypeId="78c1eaa3-20d3-4073-adf5-dd551288e022"/>
+    <recordManagerType typeId="162fc024-f57a-4351-8f80-9aae315d0892" valueTypeId="e34cae07-252a-477c-ac73-5391f8ecf942"/>
+  </producedTypes>
+  <name>СостоянияИнтеграцииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния интеграции объектов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bdfa7f74-0e0b-4295-b9b7-af28072f6de1">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияИнтеграцииОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e82ec0f7-a490-4e04-98c7-b4a5f40feb4c">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="e5aa7bec-2a8e-49fe-8757-c0659541b674">
+    <name>ИдентификаторОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="17f87411-3979-409b-933e-1080dce8a69e">
+    <name>УчетнаяСистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная система</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УчетныеСистемыИнтеграцииОбластейДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="994dc0c2-dddb-4f65-b5cd-7bf23391d1ba">
+    <name>СостоянияИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояния интеграции</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DefinedType.УчетныеСистемыИнтеграцииОбластейДанных</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

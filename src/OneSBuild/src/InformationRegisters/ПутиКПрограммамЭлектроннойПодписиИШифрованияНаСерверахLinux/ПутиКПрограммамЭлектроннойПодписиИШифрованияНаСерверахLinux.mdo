@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c429fe8-e663-4a58-817f-8f8382697dbb">
+  <producedTypes>
+    <selectionType typeId="07ae850a-bc1b-421f-98f6-762363021d6c" valueTypeId="8c15f6d0-2741-44c8-a3dc-eaec38f6cd28"/>
+    <listType typeId="f2dfb6de-d84f-41f6-ad39-f57820239d65" valueTypeId="161c6bd9-f67b-49c0-a291-084218cb8b0b"/>
+    <managerType typeId="34c45b8e-496a-478b-831d-8e26b16b5856" valueTypeId="7730d2cd-dc91-45d2-8e3e-a706c67f6e4e"/>
+    <recordSetType typeId="db8cd6a3-da5c-438f-bd41-4d9ee8c8eec3" valueTypeId="71e2818d-e772-4d4d-9767-29400f1aaa46"/>
+    <recordKeyType typeId="56eb43cd-aa52-477a-9051-eeab8f42d6fe" valueTypeId="9408889a-c25c-4865-8e96-0e2c54059bba"/>
+    <recordType typeId="f6a2ef7e-6b5a-4cd5-ac2c-c5dc4a666aee" valueTypeId="7064cd8a-8ae6-49ab-98de-350012a11481"/>
+    <recordManagerType typeId="86e13e78-d899-4673-8afa-b535c3acfb81" valueTypeId="63b9f5f0-d5ac-496a-8e10-7cfd1ae7bb17"/>
+  </producedTypes>
+  <name>ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пути к программам электронной подписи и шифрования на серверах Linux</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Путь к программе электронной подписи и шифрования на сервере Linux</value>
+  </recordPresentation>
+  <resources uuid="c37be0c3-d2db-4e63-a8cb-7956a5396650">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный текст.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="83180e0d-fc4b-41ec-9a17-5af555a4776f">
+    <name>ПутьКПрограмме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к программе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Путь к программе на компьютере, где работает сервер 1С:Предприятия.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="27c52afc-7127-41e1-af8a-1b1bd2c9bfa8">
+    <name>Программа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрограммыЭлектроннойПодписиИШифрования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Программа электронной подписи и шифрования, к которой нужно указать путь
+на компьютерах с ОС Linux, где работает сервер 1С:Предприятия.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7f68e4c1-c4f7-4c6c-8f0a-225e544e07ee">
+    <name>ИмяКомпьютера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя компьютера</value>
+    </synonym>
+    <comment>Имя компьютера, где расположен рабочий процесс</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя компьютера, где работает сервер 1С:Предприятия.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="561ed574-617d-4a46-b32b-f022e07846c8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cba706bf-a9a7-4dda-9c5a-a26e85119396">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="159a4eb5-00cd-426c-86e3-09cd3f569f22">
+    <name>ПутиКПрограммеНаСерверахLinux</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пути к программе на серверах Linux</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ПрограммыЭлектроннойПодписиИШифрования</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

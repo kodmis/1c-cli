@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="317ba37e-3c6a-4ab5-8a32-f1d44f16554c">
+  <name>ОбменДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.РегистрацияИзмененийДляОбменаДанными</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхXML</content>
+  <content>DataProcessor.УниверсальныйОбменДаннымиXML</content>
+  <parentSubsystem>Subsystem._ДемоИнструментыРазработчика</parentSubsystem>
+</mdclass:Subsystem>

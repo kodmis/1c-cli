@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52e6bbc7-9df1-4844-8582-5eb9cf5bcb2c">
+  <producedTypes>
+    <objectType typeId="75ae8cac-8734-40a7-a9ae-4a982436180b" valueTypeId="008359c3-0394-43f1-8c74-172c5d8745ef"/>
+    <managerType typeId="2381411b-67c3-487d-ac45-1178d51a9b7f" valueTypeId="2a7ccec8-e1bf-4ff5-a0dd-350d7d03cada"/>
+  </producedTypes>
+  <name>_ДемоШаблонСообщенияДляЗаказаПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Шаблон сообщения для заказа покупателя</value>
+  </synonym>
+  <comment>Для обновления следует поднять номер версии в функции СведенияОВнешнейОбработке и запустить обновление ИБ.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="426dcec4-a9e7-40d1-86da-9528531881d9">
+    <name>МакетПисьмоHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет письмо HTML</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="003a167f-7580-4cc8-b575-b33646df01c5">
+    <name>Логотип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логотип</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b78a9d0-7382-4115-a7dc-d06c9a1962d1">
+  <name>АдресныйКлассификатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адресный классификатор</value>
+  </synonym>
+  <namespace>http://www.v8.1c.ru/ssl/AddressSystem</namespace>
+</mdclass:XDTOPackage>

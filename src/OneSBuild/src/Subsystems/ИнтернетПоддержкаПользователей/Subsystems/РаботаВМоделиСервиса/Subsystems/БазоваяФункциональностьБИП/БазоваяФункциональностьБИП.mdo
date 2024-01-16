@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="effac0b4-946a-4a3b-9d33-6f61c5f476e9">
+  <name>БазоваяФункциональностьБИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность БИП</value>
+  </synonym>
+  <content>CommonModule.ИнтернетПоддержкаПользователейВМоделиСервиса</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейВМоделиСервисаПовтИсп</content>
+  <content>CommonModule.РаботаВМоделиСервисаБИП</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

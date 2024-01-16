@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a62906e5-27f8-4e72-8769-9a3eed6997d7">
+  <producedTypes>
+    <objectType typeId="c7043298-e776-4b37-b131-4e1c0175c52a" valueTypeId="eeb642a6-f66a-4485-87d4-b7daf4090b09"/>
+    <managerType typeId="1ca2526b-e98f-44c7-a9b9-b84e69c7d3f9" valueTypeId="87f045f5-1165-4a49-9c56-da35282b9f12"/>
+  </producedTypes>
+  <name>ПомощникИнтерактивногоОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник интерактивной синхронизации данных</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПомощникИнтерактивногоОбменаДанными.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="6c5d0ac3-6086-434c-812b-1c1158ecc574">
+    <name>ВидТранспортаСообщенийОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Укажите способ обмена данными</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыТранспортаСообщенийОбмена</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ обмена данными</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="783536d7-c0db-44c9-96e8-58b57804d7c8">
+    <name>ИмяВременногоКаталогаСообщенийОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя временного каталога сообщений обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Временный каталог для  хранения файлов обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a8295435-c2c4-4aff-874b-7412556aa76d">
+    <name>ИмяПланаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя плана обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование плана обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f6c4e24b-172b-4ba3-8e3e-988306ade660">
+    <name>ИмяФайлаСообщенияОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла сообщения обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл сообщения обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9baab24c-a5a3-46f4-ad17-a28d4a49f851">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Узел информационной базы обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="d1952319-0e42-4684-a386-fbe7c24526c2">
+    <producedTypes>
+      <objectType typeId="e564f1b7-d61a-4bf5-8385-f5e7a5d0b7cc" valueTypeId="51e5cdcf-3c11-4db1-be2e-35438161cfb0"/>
+      <rowType typeId="62c7df4f-8142-4040-b29f-f617ce0618f3" valueTypeId="004606cc-6d95-4952-a315-f9c0b29acc5c"/>
+    </producedTypes>
+    <name>ИнформацияСтатистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация статистики</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="01cd59fc-8577-4b3c-9d69-6db75e81e7c4">
+      <name>ДанныеУспешноЗагружены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные успешно загружены</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Флаг успешной загрузки данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="83b47a9d-d44b-4c40-becd-df74f9cb2e91">
+      <name>ИмяТаблицыПриемника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя таблицы приемника</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование таблицы приемника</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d03e636e-ff88-4e96-bf3c-d795d10cbcb0">
+      <name>ИндексКартинки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Индекс картинки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Индекс у картинки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="86e2a2eb-160f-4e93-a449-b2f726286d1b">
+      <name>ИспользоватьПредварительныйПросмотр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использовать предварительный просмотр</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Требуется использовать предварительный просмотр</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8e6e1f24-83bf-42c2-9eda-b3874c7910c3">
+      <name>Ключ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ</value>
+      </synonym>
+      <comment>Ключ строки для связи с деревом значений на форме</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ключ строки для связи с деревом значений на форме</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="364184c2-ec71-44be-b40c-ba719b4ab0e1">
+      <name>КоличествоОбъектовВИсточнике</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество объектов в источнике</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество объектов в базе-источнике, шт</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7ef46c54-ec0c-4211-a750-e5949956b593">
+      <name>КоличествоОбъектовВПриемнике</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество объектов в приемнике</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество объектов в этой базе, шт</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="04823681-875e-459a-b3cf-051c89527f38">
+      <name>КоличествоОбъектовНесопоставленных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество объектов несопоставленных</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество несопоставленных объектов, шт</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8e115a0c-a17c-4d7e-bd2c-305fb53d09ca">
+      <name>КоличествоОбъектовСопоставленных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество объектов сопоставленных</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество сопоставленных объектов, шт</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="38265f08-3301-40d1-b630-a319c983e826">
+      <name>ОдинКоМногим</name>
+      <synonym>
+        <key>ru</key>
+        <value>Один ко многим</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Отношение один ко многим</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5175c496-bac7-4c57-9628-793b727aecd0">
+      <name>ПоляПоиска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поля поиска</value>
+      </synonym>
+      <comment>Поля поиска по умолчанию</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Поля поиска по умолчанию</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1453309e-77d0-444d-ac3f-fd7c2cb65c0c">
+      <name>ПоляТаблицы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поля таблицы</value>
+      </synonym>
+      <comment>Поля таблицы, для которых определены правила конвертации свойств</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Поля таблицы, для которых определены правила конвертации свойств</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="fc42df4a-93f0-461f-acfe-fea09158030f">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Представление статистики</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9f0a7909-0b97-48a7-964f-a52cb3c19c4e">
+      <name>ПроцентСопоставленияОбъектов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сопоставление, %</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Процент сопоставления объектов</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6d002aef-00c9-4069-80df-153151218831">
+      <name>СинхронизироватьПоИдентификатору</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать по идентификатору</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Требуется синхронизировать по идентификатору</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4fec3a6c-5a99-4763-aa07-d5de8712559e">
+      <name>ТипИсточникаСтрокой</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип источника строкой</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип источника в текстом виде</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="968a1202-d271-43e0-bfd4-d38e49ceadd4">
+      <name>ТипОбъектаСтрокой</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип объекта строкой</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип объекта в текстовом виде</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="c80e2ef7-93b6-4cef-806a-2dfcf2fd80e6">
+      <name>ТипПриемникаСтрокой</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип приемника строкой</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип приемника в текстовом виде</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="b3b4fbf1-cbf0-4ee2-a490-4d657693479b">
+      <name>ЭтоКлассификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это классификатор</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Флаг того, что текущий объект - классификатор</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ea61e442-273e-4ce4-a806-8090893729ba">
+      <name>ЭтоУдалениеОбъекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это удаление объекта</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Флаг того, что текущий объект - удаление объекта</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="aef03c0b-2846-43b7-b382-9a51ec783e85">
+      <name>ЭтоНСИ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это НСИ</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Флаг того, что текущий объект является НСИ</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e7100f2b-d169-4635-ab87-7a2225ff12ee">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c0804a4a-64d5-457f-a542-8e5badccbdf1">
+    <name>ВыгрузкаДанныхДляСопоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка данных для сопоставления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

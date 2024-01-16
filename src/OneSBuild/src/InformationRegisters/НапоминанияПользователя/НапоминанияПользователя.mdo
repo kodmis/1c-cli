@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94b2e060-53b7-4b40-af05-30bea3520330">
+  <producedTypes>
+    <selectionType typeId="255dfa56-7562-4150-a1df-23e98d410774" valueTypeId="9b9d300a-24f0-4043-a1d6-6c2d0f35cf68"/>
+    <listType typeId="f2099ef1-a430-4464-b02f-aad6eb6ad758" valueTypeId="50f74298-715c-4c2c-b138-86bcbdc78d9a"/>
+    <managerType typeId="62c5c9d8-e27c-4bc7-a26b-66962e0fa5fe" valueTypeId="65c9d0a7-1928-4a6d-90d7-294fbadf7b65"/>
+    <recordSetType typeId="12c970ae-2231-4015-86ad-8a3f043a09b1" valueTypeId="59e09a16-c15e-4155-970f-138ce7a0fbcc"/>
+    <recordKeyType typeId="88ab91d7-8fe7-4b24-a6e8-c7aea7abcf48" valueTypeId="46f0f7c1-9b9c-4231-8adf-486e9016dfd1"/>
+    <recordType typeId="7266b037-7b2e-4ffd-b110-b16a2a342f73" valueTypeId="725e37bc-7ba4-44c4-b514-f23cd5579b33"/>
+    <recordManagerType typeId="72e7d3f2-8bb1-4d99-a7ce-3d7204ce0070" valueTypeId="cede8178-6cca-44e1-a212-6455325b534b"/>
+  </producedTypes>
+  <name>НапоминанияПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напоминания пользователя</value>
+  </synonym>
+  <editType>BothWays</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Напоминание</value>
+  </recordPresentation>
+  <resources uuid="0f634f7e-7d6b-43e4-8e5e-a31ed05898ea">
+    <name>СрокНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок напоминания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Время, когда необходимо напомнить.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="41b0dabd-85a3-4819-84dd-371eaf4f996e">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст напоминания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="86a5ba4d-0681-4ddc-a505-0f537528e1a3">
+    <name>СпособУстановкиВремениНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ установки времени напоминания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыУстановкиВремениНапоминания</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ указания желаемого времени напоминания.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыУстановкиВремениНапоминания.EnumValue.ОтносительноТекущегоВремени</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="12d936f5-932b-4561-b934-c8444808a450">
+    <name>ИнтервалВремениНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал времени напоминания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Интервал времени в секундах. Имеет смысл только для относительного способа указания времени напоминания.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>3600</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="2ccb06ca-9bb7-4b74-9a96-c109bb117984">
+    <name>ИмяРеквизитаИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя реквизита источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя реквизита источника, содержащего дату, относительно которой устанавливается время напоминания.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="ac1a661d-db18-4576-80a9-a19d4140c05e">
+    <name>Расписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Расписание показа напоминания. Используется для периодического напоминания.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="acd89f6c-a25f-47b9-ac21-036bfafcc0fc">
+    <name>ПредставлениеИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление источника</value>
+    </synonym>
+    <comment>Представление источника</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текстовое представление объекта напоминания (для списков).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="aa114d56-2faf-4925-8319-f0aa3993e9ee">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уточняет предмет напоминания, например, &quot;ДеньРождения&quot;.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="c3ffeb09-121b-4d77-9c15-def4648b4f3c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Владелец напоминания.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c2de0724-04c1-4adb-b62a-b7ba727dbe67">
+    <name>ВремяСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Время, относительно которого производится оценка времени просрочки напоминания.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4ae26777-69ff-4a55-942b-0bad8ab7a70a">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметНапоминания</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект, относительно которого установлено время напоминания.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a0d8fb0a-0e90-4140-8687-e249b153dc66">
+    <name>Напоминание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напоминание</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="917c6f60-2a07-4587-9496-d393aff93953">
+    <name>ФормаОповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма оповещения</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4bac50a2-762a-44e6-b8c5-3b09ef1a3f5e">
+    <name>МоиНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои напоминания</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9fe72d73-4c95-47e0-bf92-dcb714d747c6">
+    <name>НапоминанияПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напоминания пользователей</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="fe00e64f-2fa9-44a7-9bd7-854ebb6c0185">
+    <name>МоиНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои напоминания</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

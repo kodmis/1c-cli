@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e892154-3279-492c-9eae-124304225c5d">
+  <producedTypes>
+    <selectionType typeId="297e9915-73cd-4475-a1b0-3b5a374620f5" valueTypeId="1f7ab3a3-23b6-4f20-92d6-0e07d29225c9"/>
+    <listType typeId="d6b0e504-07ab-4260-b96e-6bc0a3e3cca9" valueTypeId="34a0fe5f-ca23-403d-a712-76537c3a7114"/>
+    <managerType typeId="3babaa8e-4b91-4f3f-a7d9-cd5d59936ec2" valueTypeId="6d79dca8-b379-43a1-ba58-302728c8a7d1"/>
+    <recordSetType typeId="f8151890-ba70-4952-88dd-32c89debfa32" valueTypeId="cfa358a7-147d-4a06-a751-bcb8b540f784"/>
+    <recordKeyType typeId="4237b6db-4bdc-4a33-b31d-6cac5e78da11" valueTypeId="c8cfff20-2cb8-4c4e-9cf0-bff3aecb6ab7"/>
+    <recordType typeId="4c2163d3-7a30-4998-9281-f14bbda1b5e1" valueTypeId="f904abf4-8021-42ba-8037-ec7774eaaf2a"/>
+    <recordManagerType typeId="850d9e3a-1419-42a3-8c6d-6a39626cc3ea" valueTypeId="e682407a-b872-4e79-b192-3b05f58f7901"/>
+  </producedTypes>
+  <name>СессииОбменаСообщениямиСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сессии обмена сообщениями системы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="53a6ffa4-31f8-4717-9ecc-2852e6e4cce9">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment>Дата начала сессии.</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала сессии. Используется для удаления устаревших сессий.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="575a135a-6ffd-4ae8-a597-7e584df9bac4">
+    <name>ЗавершенаУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершена успешно</value>
+    </synonym>
+    <comment>Признак успешного завершения сессии</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак успешного завершения сессии обмена сообщениями.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="693a7196-f525-4bd2-a417-e902977f21cb">
+    <name>ЗавершенаСОшибкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершена с ошибкой</value>
+    </synonym>
+    <comment>Признак неуспешного завершения сессии</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак неуспешного завершения сессии обмена сообщениями.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9bb39184-08b7-440e-a8f8-5caf0083ba0f">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Данные сессии обмена сообщениями</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d48e817e-f6a4-47e5-a052-35d09e066490">
+    <name>Сессия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сессия</value>
+    </synonym>
+    <comment>Уникальный идентификатор сессии</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор сессии обмена сообщениями</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

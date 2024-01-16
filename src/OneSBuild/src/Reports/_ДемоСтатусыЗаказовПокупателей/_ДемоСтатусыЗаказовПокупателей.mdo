@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d846305c-d0de-4f58-8501-b22872699068">
+  <producedTypes>
+    <objectType typeId="947a0567-28f3-4ee1-b21d-1c39affb1df5" valueTypeId="b6f3ae1e-9489-45bf-b24b-388f33127c8d"/>
+    <managerType typeId="2e0d3152-6f12-482f-874e-0e41f15aa32c" valueTypeId="b40cedf4-d442-4a98-b0e9-489cc1251971"/>
+  </producedTypes>
+  <name>_ДемоСтатусыЗаказовПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Статусы заказов покупателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report._ДемоСтатусыЗаказовПокупателей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="f47b5edd-3eda-4df7-b6ec-520704c63649">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="a0e5fe1e-3851-426b-972d-8a8f5bc1214c">
+    <name>_ДемоСтатусыЗаказовПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Статусы заказов покупателей</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="967a6fe8-4429-424f-aa09-dd39aca6790a">
+  <name>ПросмотрИнформацииОДоступныхОбновленияхПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр информации о доступных обновлениях программы</value>
+  </synonym>
+</mdclass:Role>

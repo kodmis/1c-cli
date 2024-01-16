@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51a0444d-13c8-45a8-97f6-f3f976964bf8">
+  <name>ВыборРолиИсполнителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор роли исполнителя</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

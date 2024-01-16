@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10c20301-8e77-4424-b39a-62bddd224507">
+  <name>ПолучениеОбновленийПрограммыКлиентПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение обновлений программы клиент переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

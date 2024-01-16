@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39cbb07c-4bac-480f-a374-fa5466e7c34d">
+  <name>ТехнологияСервисаВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технология сервиса в модели сервиса</value>
+  </synonym>
+  <location>Constant.ИспользоватьРазделениеПоОбластямДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ПереносДанныхПриложения</content>
+  <content>Constant.ВнешнийАдресУправляющегоПриложения</content>
+  <content>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</content>
+  <content>InformationRegister.РазрешенияНаИспользованиеВнешнихРесурсовВМоделиСервиса</content>
+  <content>InformationRegister.РазрешенияНаИспользованиеВнешнихРесурсовОбластейДанных</content>
+  <content>InformationRegister.РежимыПодключенияВнешнихМодулейВМоделиСервиса</content>
+  <content>InformationRegister.ПрименениеРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</content>
+  <content>InformationRegister.ПрименениеРазрешенийНаИспользованиеВнешнихРесурсовОбластейДанных</content>
+  <content>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсовОбластейДанных</content>
+  <content>InformationRegister.РежимыПодключенияВнешнихМодулейОбластейДанных</content>
+</mdclass:FunctionalOption>

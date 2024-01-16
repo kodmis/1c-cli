@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16f61c9e-9f3a-4201-9ff5-4bfaf7ee39a0">
+  <name>ОплатаСервисаТекущиеПодпискиЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата сервиса текущие подписки цвет</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>255</red>
+      <green>255</green>
+      <blue>217</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

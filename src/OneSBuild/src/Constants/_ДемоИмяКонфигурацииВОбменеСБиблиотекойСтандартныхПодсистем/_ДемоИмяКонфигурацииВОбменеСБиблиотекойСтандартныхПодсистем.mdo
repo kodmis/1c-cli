@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63eb6a1b-5f48-461a-9a6f-821db663c9d3">
+  <producedTypes>
+    <managerType typeId="82211c3a-a0cd-4ac5-8106-193203e97955" valueTypeId="72acea06-1205-4b0c-8db0-969d6002a9c9"/>
+    <valueManagerType typeId="49501720-15c0-4497-88d5-4d7a8a778371" valueTypeId="32b6a40a-64a5-424d-bba3-2fad12699c8d"/>
+    <valueKeyType typeId="0f5a15f4-3580-52e6-99e1-8d4ccc66a3ff" valueTypeId="80b42169-11c7-51db-8032-3520f0fc9f4b"/>
+  </producedTypes>
+  <name>_ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: имя конфигурации в обмене с библиотекой стандартных подсистем</value>
+  </synonym>
+  <comment>Содержит имя семейства конфигураций; должна принимать значения либо БСП1, либо БСП2</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>15</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

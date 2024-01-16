@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="477ca2ac-ae7e-4091-bea3-9ed2d3eae788">
+  <producedTypes>
+    <selectionType typeId="dbb09aec-a1bc-4848-b4b6-133494fab65f" valueTypeId="69adf255-51ef-4baf-b344-157aa9002509"/>
+    <listType typeId="da1dcfc2-9218-45a9-a96c-af664b1d2558" valueTypeId="5d3d0ed2-9c45-494e-a5e6-21079380fd7d"/>
+    <managerType typeId="a5d704b1-ee8f-4f1c-9eee-5a1c752f1a9b" valueTypeId="6fdf2691-c51c-4bbe-800f-fa501bfa174e"/>
+    <recordSetType typeId="b46884f0-1814-485f-bace-d74499c5efe2" valueTypeId="24013b98-adc8-4b5c-bf60-43d45fceb321"/>
+    <recordKeyType typeId="9be80dad-2469-4f94-b4ff-db3ed2d6e7ed" valueTypeId="f2001422-e4b2-48ef-952e-c0d40a87618b"/>
+    <recordType typeId="189ba9e4-9f57-41cf-a779-66e6238ad858" valueTypeId="31839a2c-d3be-45f6-ba74-f62ebedbd543"/>
+    <recordManagerType typeId="1683d89f-3db5-4ba7-94f1-1e1908ffd7b2" valueTypeId="8c48e5c2-19b9-4f05-bb21-f24c6c4e42b5"/>
+  </producedTypes>
+  <name>НастройкиТранспортаОбменаСообщениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки транспорта обмена сообщениями</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c9d0f1dd-bb93-4dbe-85f3-30c791a3c59e">
+    <name>АдресВебСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес веб-сервиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d023d15a-0f3f-46c3-8dea-43770f0a53b3">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>165</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пользователя (логин)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="daf12fe4-79fb-43b9-9f7a-8da311449193">
+    <name>ЗапомнитьПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запомнить пароль</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак сохранения пароля</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d0ad91a1-62aa-4e97-9868-82c5b8a46f22">
+    <name>КонечнаяТочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечная точка</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ОбменСообщениями</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

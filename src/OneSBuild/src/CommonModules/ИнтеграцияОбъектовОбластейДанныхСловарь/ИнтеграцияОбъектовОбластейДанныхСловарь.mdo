@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55b0ca8d-c806-4766-8c7c-036a3742e174">
+  <name>ИнтеграцияОбъектовОбластейДанныхСловарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция объектов областей данных словарь</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

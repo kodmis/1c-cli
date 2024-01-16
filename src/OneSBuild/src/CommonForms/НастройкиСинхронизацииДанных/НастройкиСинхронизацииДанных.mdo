@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbbc2d1f-2f78-4b7e-b5fb-ca7c74051221">
+  <name>НастройкиСинхронизацииДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки синхронизации данных</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

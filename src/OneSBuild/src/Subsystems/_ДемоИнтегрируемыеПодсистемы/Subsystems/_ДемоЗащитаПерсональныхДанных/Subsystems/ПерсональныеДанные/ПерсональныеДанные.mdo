@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31f3aea5-3082-4639-a697-3344c484ef33">
+  <name>ПерсональныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персональные данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog._ДемоКонтактныеЛицаПартнеров</content>
+  <content>Catalog._ДемоКонтрагенты</content>
+  <content>Catalog._ДемоПартнеры</content>
+  <content>Catalog._ДемоФизическиеЛица</content>
+  <content>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</content>
+  <content>Enum._ДемоПолФизическогоЛица</content>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемы.Subsystem._ДемоЗащитаПерсональныхДанных</parentSubsystem>
+</mdclass:Subsystem>

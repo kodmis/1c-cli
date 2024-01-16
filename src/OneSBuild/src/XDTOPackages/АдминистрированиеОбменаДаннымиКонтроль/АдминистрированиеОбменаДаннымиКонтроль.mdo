@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="593be64c-6792-46d9-8618-84c50c9ad9e4">
+  <name>АдминистрированиеОбменаДаннымиКонтроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование обмена данными контроль</value>
+  </synonym>
+  <namespace>http://www.1c.ru/SaaS/ExchangeAdministration/Control</namespace>
+</mdclass:XDTOPackage>

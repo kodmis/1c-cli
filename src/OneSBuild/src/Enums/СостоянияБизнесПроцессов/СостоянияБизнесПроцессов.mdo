@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b85b3a58-95e4-4698-b1ae-037901ecc1b1">
+  <producedTypes>
+    <refType typeId="645ed368-b47a-4aaa-9775-2a2cc3ab2ba4" valueTypeId="364f60d0-57dc-431e-9737-350e87fcf469"/>
+    <listType typeId="0bb53d1c-9309-4f98-a8ac-626f06927dd0" valueTypeId="cc3cec26-9d44-49b1-bc7d-c3a0003e5b39"/>
+    <managerType typeId="9c3c4e37-a49d-42ec-83e8-b1747eed9f71" valueTypeId="49402ca9-3d77-4eb6-b78d-c9c5dbfbe9a5"/>
+  </producedTypes>
+  <name>СостоянияБизнесПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния бизнес процессов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b77d748a-d180-432d-91c3-774e6ccf7efa">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5b9c1b0-4690-442c-b160-e6c587e42e57">
+    <name>Остановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановлен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

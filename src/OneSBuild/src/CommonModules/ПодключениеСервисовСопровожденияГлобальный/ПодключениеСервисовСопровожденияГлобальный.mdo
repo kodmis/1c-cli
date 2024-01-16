@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="098776c0-a520-4400-b643-fe80d9c30928">
+  <name>ПодключениеСервисовСопровожденияГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение сервисов сопровождения глобальный</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

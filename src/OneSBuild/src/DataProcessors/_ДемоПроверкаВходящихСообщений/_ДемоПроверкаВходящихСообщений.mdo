@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f0bc290-9df0-4b5f-9789-1dc827e7c544">
+  <producedTypes>
+    <objectType typeId="c441c049-56cf-4d34-b7ec-84bd5b37b7c6" valueTypeId="a2948dd2-eeca-4a0f-aba2-8e472ec04c9d"/>
+    <managerType typeId="60c09513-ab94-434b-bae7-37f4660966d1" valueTypeId="9cf1e99c-c8f8-45c4-9665-09d3c55d349b"/>
+  </producedTypes>
+  <name>_ДемоПроверкаВходящихСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Проверка входящих сообщений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоПроверкаВходящихСообщений.Form.Форма</defaultForm>
+  <forms uuid="cbc110e8-9400-429a-aea2-3d156e8b5307">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="265f8b02-1da1-48dc-ad3a-74c2c999ba5f">
+    <name>ПроверкаВходящихСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Проверка входящих сообщений</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="9fe86a1f-334d-4ae7-90e9-ba4d17415d87">
+    <name>ОтправитьСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Отправить сообщение</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

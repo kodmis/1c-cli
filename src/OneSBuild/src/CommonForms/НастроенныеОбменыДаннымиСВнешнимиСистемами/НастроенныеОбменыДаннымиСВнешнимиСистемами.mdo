@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdf9d4a3-0632-470a-bd37-74c2cabb7375">
+  <name>НастроенныеОбменыДаннымиСВнешнимиСистемами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настроенные обмены данными с внешними системами</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

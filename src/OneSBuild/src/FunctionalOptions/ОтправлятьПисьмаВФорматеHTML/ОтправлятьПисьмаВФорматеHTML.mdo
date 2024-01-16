@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2071f210-dc13-43c0-a58e-b982821d6842">
+  <name>ОтправлятьПисьмаВФорматеHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправлять письма в формате HTML</value>
+  </synonym>
+  <location>Constant.ОтправлятьПисьмаВФорматеHTML</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.НастройкиУчетныхЗаписейЭлектроннойПочты.Resource.ФорматПодписиДляНовыхСообщений</content>
+  <content>InformationRegister.НастройкиУчетныхЗаписейЭлектроннойПочты.Resource.ПодписьДляНовыхСообщенийФорматированныйДокумент</content>
+  <content>InformationRegister.НастройкиУчетныхЗаписейЭлектроннойПочты.Resource.ПодписьПриОтветеПересылкеФорматированныйДокумент</content>
+  <content>InformationRegister.НастройкиУчетныхЗаписейЭлектроннойПочты.Resource.ФорматПодписиПриОтветеПересылке</content>
+</mdclass:FunctionalOption>

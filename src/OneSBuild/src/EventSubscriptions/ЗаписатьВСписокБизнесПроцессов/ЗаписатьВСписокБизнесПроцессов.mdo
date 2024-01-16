@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9c632b0-7977-4e44-ac56-882617ad7cdc">
+  <name>ЗаписатьВСписокБизнесПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записать в список бизнес процессов</value>
+  </synonym>
+  <source>
+    <types>DefinedType.БизнесПроцессОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.БизнесПроцессыИЗадачиСобытия.ЗаписатьВСписокБизнесПроцессов</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bbbc96c-492e-40f2-bb1c-41b26316936a">
+  <producedTypes>
+    <objectType typeId="b3a3419c-493d-436e-9287-defa7c058dd0" valueTypeId="282cc050-d325-430f-89d5-3aa66f5d16ca"/>
+    <managerType typeId="64ee0b9c-9155-4693-a5c9-7f1f3ab1416a" valueTypeId="45a53ba3-d83e-41a6-b43d-c999b20ff43e"/>
+  </producedTypes>
+  <name>ПервоеВнедрениеБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Первое внедрение БСП</value>
+  </synonym>
+  <comment>АПК:1332 АПК:1345 АПК:1348 -выкл обработка предназначена для запуска на конфигурации без БСП</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПервоеВнедрениеБСП.Form.Форма</defaultForm>
+  <forms uuid="567a07b2-770b-4851-8138-e0072216db6b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="598fa20f-ce0b-4183-a929-959c95d5c89a">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e718d191-c420-4777-abd6-f029cfb20376">
+    <name>ШаблонНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон настроек</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

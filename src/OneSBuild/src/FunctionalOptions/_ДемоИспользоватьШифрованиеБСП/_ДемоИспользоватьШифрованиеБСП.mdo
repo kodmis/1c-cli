@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="daacf9ee-2e4b-4018-b519-df712302b8a7">
+  <name>_ДемоИспользоватьШифрованиеБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать Шифрование БСП</value>
+  </synonym>
+  <comment>Для управления видимостью прикладных объектов конфигурации.</comment>
+  <location>Constant.ИспользоватьШифрование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Файлы.Attribute.Зашифрован</content>
+  <content>Catalog.Файлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.Файлы.TabularSection.УдалитьСертификатыШифрования</content>
+  <content>Catalog._ДемоНоменклатураПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog._ДемоНоменклатураПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</content>
+  <content>Catalog._ДемоПроектыПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog._ДемоПроектыПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</content>
+  <content>Catalog._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</content>
+</mdclass:FunctionalOption>

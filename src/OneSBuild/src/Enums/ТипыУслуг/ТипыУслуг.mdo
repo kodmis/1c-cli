@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca2ddaf2-47a5-4f46-989c-807252fc0bf6">
+  <producedTypes>
+    <refType typeId="29260513-29bd-4720-a5e1-a8da700d4825" valueTypeId="e935a11c-3268-4405-8590-cdafa804fd4a"/>
+    <listType typeId="7ef95ec2-52b8-4a89-ad0b-adaecef1158d" valueTypeId="932008e0-233e-4da3-b735-2304f936545e"/>
+    <managerType typeId="82e86956-d7e8-47a7-9658-42d4d3a5bdbc" valueTypeId="abadb1cc-e5cb-4d17-8f3e-a7ca15351cbb"/>
+  </producedTypes>
+  <name>ТипыУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы услуг</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eab1e61a-2633-45ac-a37e-3914fb797eab">
+    <name>Безлимитная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безлимитная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ddbd6c09-3fbb-4081-beb5-9963198662f5">
+    <name>Лимитированная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимитированная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad9771bc-bbe2-4409-a25e-907624d3784b">
+    <name>Уникальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

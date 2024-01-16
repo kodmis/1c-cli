@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bbc8a63-65f1-496c-9896-797b326821e3">
+  <name>МониторингЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг ЦКК</value>
+  </synonym>
+  <methodName>CommonModule.ИнцидентыЦККСервер.ВыполнитьМониторингЦКК</methodName>
+  <description>Мониторинг центра контроля качества</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

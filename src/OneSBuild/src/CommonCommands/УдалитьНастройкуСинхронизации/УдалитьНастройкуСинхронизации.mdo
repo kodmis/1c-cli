@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a57f6dc1-59d7-4311-8acd-65ce57a9f386">
+  <name>УдалитьНастройкуСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить настройку синхронизации</value>
+  </synonym>
+  <group>CommandGroup.ПараметрыСинхронизацииДанных</group>
+  <commandParameterType>
+    <types>ExchangePlanRef._ДемоОбменВРаспределеннойИнформационнойБазе</types>
+    <types>ExchangePlanRef._ДемоАвтономнаяРабота</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Delete</picture>
+  </picture>
+</mdclass:CommonCommand>

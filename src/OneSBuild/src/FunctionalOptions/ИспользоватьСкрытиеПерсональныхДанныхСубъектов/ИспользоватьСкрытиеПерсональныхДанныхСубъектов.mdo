@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35823167-b658-4563-8d01-b0aab05aa619">
+  <name>ИспользоватьСкрытиеПерсональныхДанныхСубъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать скрытие персональных данных субъектов</value>
+  </synonym>
+  <location>Constant.ИспользоватьСкрытиеПерсональныхДанныхСубъектов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.СкрытьПерсональныеДанныеСубъектов</content>
+  <content>InformationRegister.СубъектыДляСкрытияПерсональныхДанных</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52f3e20c-1cf7-4284-a083-6539782f4bc3">
+  <producedTypes>
+    <managerType typeId="197d901c-cc49-4219-ac31-059df6a8f69a" valueTypeId="f0252b86-765a-4558-9e34-b11ede2414ee"/>
+    <valueManagerType typeId="25d74e5d-8fb2-4b63-94b9-95afbb8db990" valueTypeId="570f67e0-4fe1-43cb-b2a1-22d253b6d6ed"/>
+    <valueKeyType typeId="5270f0d3-86fe-4d3c-aa10-f377bdc84bc7" valueTypeId="73de01ed-6a9f-4436-ac95-7844c37c583b"/>
+  </producedTypes>
+  <name>КлассификаторОшибокКриптографии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор ошибок криптографии</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1731708f-53cb-4b00-b90e-f581b4baa845">
+  <producedTypes>
+    <selectionType typeId="cb513551-1a0e-4407-9c92-3c4b6c198a1a" valueTypeId="a4944e08-368b-482e-b718-8dec932a78ac"/>
+    <listType typeId="1f353ee5-baee-451f-ad60-946729470cb1" valueTypeId="0320311d-4c8b-4776-b7e1-f9b6b1f9abe0"/>
+    <managerType typeId="70c73692-84c7-47da-95bc-d3df3ff605de" valueTypeId="1c688986-62b0-4b96-8867-810d44d47837"/>
+    <recordSetType typeId="971aeb80-3c44-4df0-b99b-5777638a8353" valueTypeId="eb2d81cb-4967-4443-bd01-3d3c9b84fee4"/>
+    <recordKeyType typeId="6d651942-0110-440e-b16e-5eedd5e8ca51" valueTypeId="a39dbb67-95d8-4580-81b5-03050eb97f1a"/>
+    <recordType typeId="55cda8f7-1e3f-4207-81cc-d8e7c9fb52d3" valueTypeId="f0a3eaa1-7b0a-459c-a0cd-ec0bf9849a24"/>
+    <recordManagerType typeId="1e3f11d8-9689-48a9-88d3-afd6e15f79cf" valueTypeId="91a5c0b5-7f41-4a1b-ab58-36991ffdceb5"/>
+  </producedTypes>
+  <name>НастройкиУчетныхЗаписейЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки учетных записей электронной почты</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиУчетныхЗаписейЭлектроннойПочты.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкиУчетныхЗаписейЭлектроннойПочты.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d4b0feca-c00a-4d48-9f23-d92277ea6483">
+    <name>ВключатьПодписьДляНовыхСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать подпись для новых сообщений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак необходимости включения подписи для новых писем</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="00b2a0b3-6af8-4ea4-aa38-d1e078d5cbff">
+    <name>ФорматПодписиДляНовыхСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат подписи для новых сообщений</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыРедактированияЭлектронныхПисем</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Формат подписи для новых сообщений - обычный текст или HTML</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыРедактированияЭлектронныхПисем.EnumValue.ОбычныйТекст</value>
+    </fillValue>
+  </resources>
+  <resources uuid="20f7fdd2-30f6-4a52-a63b-7d2c326c0e83">
+    <name>ПодписьДляНовыхСообщенийПростойТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись для новых сообщений простой текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст неформатированной подписи для новых сообщений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="23cb5bc2-9638-4d1c-b4bc-d5297e271570">
+    <name>ПодписьДляНовыхСообщенийФорматированныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись для новых сообщений форматированный документ</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подпись для новых сообщений в формате HTML</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6e547ccb-6d5a-4f7c-aaf0-568c22d2c276">
+    <name>ВключатьПодписьПриОтветеПересылке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать подпись при ответе пересылке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак необходимости включения подписи для писем при ответе или пересылке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="04b7389d-697d-4b0d-a239-ac8c674cc46f">
+    <name>ФорматПодписиПриОтветеПересылке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат подписи при ответе пересылке</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыРедактированияЭлектронныхПисем</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Формат подписи для писем при ответе или пересылке - обычный текст или HTML</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыРедактированияЭлектронныхПисем.EnumValue.ОбычныйТекст</value>
+    </fillValue>
+  </resources>
+  <resources uuid="a1cf5173-2e86-4ed7-9a0b-1bd5e578326a">
+    <name>ПодписьПриОтветеПересылкеПростойТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись при ответе пересылке простой текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст неформатированной подписи для писем при ответе или пересылке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="864cad61-8280-415d-8fe1-bcb39d56670a">
+    <name>ПодписьПриОтветеПересылкеФорматированныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись при ответе пересылке форматированный документ</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подпись для писем при ответе или пересылке в формате HTML</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b106bd29-5dc7-44d7-94d0-00f61499392e">
+    <name>УдалитьПерсональнаяУчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Персональная учетная запись</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что эта учетная запись является персональной. Ответственный за данную учетную запись является ответственным за ведение папок и ответственным за входящую корреспонденцию.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a4febff8-0566-4977-bf55-1d574568fe9f">
+    <name>ОтветственныйЗаОбработкуПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за обработку писем</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за обработку писем для данной учетной записи по умолчанию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5199cc65-bed1-40b9-96fe-cf6d855a8b91">
+    <name>ОтветственныйЗаВедениеПапок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за ведение папок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за ведение папок для данной учетной записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f518add9-5c26-4dac-ab2e-b30fe3fbd347">
+    <name>УдалятьПисьмаПослеОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять письма после отправки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для исходящих писем данной учетной записи по умолчанию будет устанавливаться признак необходимости удалить это письмо из информационной базы после успешной отправки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="23f53317-7aa8-4816-8a69-3d39d5e76da0">
+    <name>ПомещатьПисьмоВПапкуПисьмаОснования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещать письмо в папку письма основания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Помещать письмо в папку письма основания в случае если письмо основание находится не в предопределенной папке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9ade5155-fa6d-4999-b019-a5e7e235a158">
+    <name>НеИспользоватьВоВстроенномПочтовомКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать во встроенном почтовом клиенте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования учетной записи во встроенном почтовом клиенте.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="8b302c5e-b255-4cb5-94d9-0dfef4250097">
+    <name>ВПредставлениеВключатьИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>В представление включать имя пользователя</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В представление учетной записи включать имя пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="08eb74b6-1e1c-4004-a0f8-b6f1fdfc68ef">
+    <name>ОбработкаПисемВыполняетсяВДругомПочтовомКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка писем выполняется в другом почтовом клиенте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Синхронизация признака прочтения не выполняется. Все письма загружаются рассмотренными.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d4eb3e9a-feb5-42d9-841b-ff20288228b6">
+    <name>ДатаПоследнегоИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего использования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="49d713b8-6a61-4bd1-9650-0de1869967d2">
+    <name>УчетнаяЗаписьЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись электронной почты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учетная запись, для которой выполняются настройки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4738ffd0-3c3b-4e5f-8773-0c9a80efdfbf">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bd0e4aeb-19f9-48fc-b838-38d785004360">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3d1bae2a-4dfd-48e5-bfe9-b7e30c8475f6">
+    <name>ДополнительныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные настройки</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Персональные настройки учетной записи</value>
+    </toolTip>
+  </commands>
+</mdclass:InformationRegister>

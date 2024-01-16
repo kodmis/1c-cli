@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69930d8e-9fba-4580-9b3f-96f68cbffee3">
+  <name>_ДемоРаботаСПочтовымиСообщениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с почтовыми сообщениями</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor._ДемоПроверкаВходящихСообщений</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Role._ДемоРаботаСПочтовымиСообщениями</content>
+  <parentSubsystem>Subsystem._ДемоОрганайзер</parentSubsystem>
+</mdclass:Subsystem>

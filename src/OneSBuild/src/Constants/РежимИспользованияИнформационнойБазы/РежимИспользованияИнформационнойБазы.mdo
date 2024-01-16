@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3436b16e-ef5b-4abb-9aad-c70a7c8560ed">
+  <producedTypes>
+    <managerType typeId="c8be9bdf-0e0c-4e2e-b900-59f058895172" valueTypeId="b2782552-6232-429a-86df-d05f7daa2efe"/>
+    <valueManagerType typeId="e10375e5-a204-4a7c-89b3-c6dc3f64e43d" valueTypeId="fbd78274-e4d8-4115-a4e9-51120ffe6146"/>
+    <valueKeyType typeId="90b720fc-c20e-5f8c-8262-07ccbb4cbd64" valueTypeId="bbbc70bc-bf11-5cdd-bb56-8f19b61f792e"/>
+  </producedTypes>
+  <name>РежимИспользованияИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим использования информационной базы</value>
+  </synonym>
+  <type>
+    <types>EnumRef.РежимыИспользованияИнформационнойБазы</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

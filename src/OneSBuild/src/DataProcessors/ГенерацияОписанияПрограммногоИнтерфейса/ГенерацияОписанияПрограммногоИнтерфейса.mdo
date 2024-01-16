@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b5252ea-d398-4794-8771-f4c50d1780bd">
+  <producedTypes>
+    <objectType typeId="22fee424-436a-4b85-8823-fa4668154057" valueTypeId="c06b3cbb-3ff3-4f1f-9b42-a6a193c07ec6"/>
+    <managerType typeId="0a914d7f-5ce6-4bef-8315-4ce175f98f62" valueTypeId="d7fba6a6-1973-46fd-a599-d6c0e455c668"/>
+  </producedTypes>
+  <name>ГенерацияОписанияПрограммногоИнтерфейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация описания программного интерфейса</value>
+  </synonym>
+  <comment>АПК:566 работа в веб-клиенте не предусмотрена</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГенерацияОписанияПрограммногоИнтерфейса.Form.Форма</defaultForm>
+  <attributes uuid="f329fdbe-38cb-4037-a766-25a0e9466d04">
+    <name>КаталогВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Расположение выгруженных файлов конфигурации.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82a37f16-8401-42f0-ad81-c21f9658445e">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Путь к файлу, в который будет сохранено описание программного интерфейса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="90f7729f-b1a2-46a9-bf4e-b05bbf4b83fd">
+    <name>ЛогСозданияОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лог создания описания</value>
+    </synonym>
+    <type/>
+    <toolTip>
+      <key>ru</key>
+      <value>Проблемы, которые были выявлены при подготовке программного интерфейса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d548d537-ae1d-498c-96e6-8f76ffaf7a86">
+    <name>АнализируемыеПодсистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализируемые подсистемы</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3245e75e-ebbb-4402-b920-af2d93721071">
+    <name>ЯзыкВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык версии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="43f6fd4c-2a16-40ff-9f4f-682267365dc6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="65a70f51-a4dd-4458-9a3d-917cfae175d2">
+    <name>ПредупрежденияПриСозданииОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждения при создании описания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="aafa2bbc-789a-4d2e-9c8c-8c0716aaaf22">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

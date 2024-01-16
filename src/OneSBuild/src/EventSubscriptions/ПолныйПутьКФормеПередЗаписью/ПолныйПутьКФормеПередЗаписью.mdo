@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7bb72b3-7e14-4746-9a76-82d23ed4ac8d">
+  <name>ПолныйПутьКФормеПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полный путь к форме перед записью</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ПолныеПутиКФормам</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ИнформационныйЦентрСервер.ПолныйПутьКФормеПередЗаписьюПередЗаписью</handler>
+</mdclass:EventSubscription>

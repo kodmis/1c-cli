@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9411a9f0-3b88-498d-8394-b25ed79488c6">
+  <name>РаспределенноеВыполнениеКоманд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределенное выполнение команд</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

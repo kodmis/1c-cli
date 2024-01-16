@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cf925d9-6811-4bce-b116-09d6a26ff3cb">
+  <producedTypes>
+    <managerType typeId="d38f3e49-2ab6-4543-8172-f0b2946d008a" valueTypeId="8a48a63b-a685-4d62-8f9f-2845dd54e586"/>
+    <valueManagerType typeId="44842170-ac0d-42ff-82a2-b507ba881373" valueTypeId="13f8c3df-ef49-47c7-9b55-dcc2dc2fc793"/>
+    <valueKeyType typeId="f4cf40b2-2026-43b2-8266-ab6d6d89db55" valueTypeId="43aa0577-de1f-44b6-8800-89f4e5d6e78d"/>
+  </producedTypes>
+  <name>АдресаСерверовМетокВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адреса серверов меток времени</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

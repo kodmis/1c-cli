@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbf6f37a-874a-434a-9c76-c357e6acf215">
+  <producedTypes>
+    <objectType typeId="c6adc5fa-e870-48fc-a758-a4b2e737501a" valueTypeId="9f835a9f-bf3f-4cd6-9c19-8423bcdfea68"/>
+    <managerType typeId="3cb98463-a428-44a9-8177-1ad10c995957" valueTypeId="0e82f57e-797e-4b7b-821d-37c63f59061d"/>
+  </producedTypes>
+  <name>ИнформационныйЦентр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационный центр</value>
+  </synonym>
+  <defaultForm>DataProcessor.ИнформационныйЦентр.Form.ИнформационныйЦентр</defaultForm>
+  <forms uuid="01e4c0ce-71ca-4421-a5a6-cd868bbd54fe">
+    <name>ИнформационныеСсылкиВКонтексте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационные ссылки в контексте</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a659a77-162f-4e1b-8339-695040f04559">
+    <name>ИнформационныйЦентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационный центр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4540062e-7a7b-4114-b96b-2597545cc85c">
+    <name>ОбсужденияНаФоруме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обсуждения на форуме</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fc98b0f2-7cfb-4a04-8dca-f4a6bd08104f">
+    <name>ОтображениеСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображение сообщений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="308209f9-4f6d-4fda-8f7e-cdd0e3c03705">
+    <name>ФормаПодключенияКСлужбеПоддержки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подключения к службе поддержки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8f23fe7f-5525-47a1-b886-27121f852a47">
+    <name>ФормаВводаКодаПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода кода пользователя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f79c8a19-5943-4109-9f56-6312564129ab">
+    <name>ВзаимодействиеПоОбращению</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7adc20a7-c54c-4ab8-b637-79d72b4ad6ea">
+    <name>ВзаимодействияПоОбращению</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4f0e38d5-8eb6-4d39-a940-56ba9933373f">
+    <name>НеПросмотренныеВзаимодействия</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ab13d26c-7534-4110-b279-813fd683f5b7">
+    <name>ОбращенияВСлужбуПоддержки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращения в службу поддержки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="127a46c7-8529-4e69-8634-bfb16de17f0b">
+    <name>ОтправкаСообщенияВСлужбуПоддержки</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

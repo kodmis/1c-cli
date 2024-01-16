@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b7b2102-2045-471a-ad47-34509053fbca">
+  <producedTypes>
+    <managerType typeId="c315ce85-4cdf-4fb9-84f3-52e2bb262b12" valueTypeId="84748dd6-e737-4f3a-9a14-7acc62cda559"/>
+    <valueManagerType typeId="84ec2da9-06f0-465a-8013-b8c30c7f730f" valueTypeId="b0acd2e5-84f5-4aca-8adf-5d146cbc187b"/>
+    <valueKeyType typeId="b278cef8-5115-54ba-aa7e-972346f7fed5" valueTypeId="27e76897-e682-54d6-bb2a-7b541600f33a"/>
+  </producedTypes>
+  <name>ИспользованиеКаталогаРасширенийВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование каталога расширений в модели сервиса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

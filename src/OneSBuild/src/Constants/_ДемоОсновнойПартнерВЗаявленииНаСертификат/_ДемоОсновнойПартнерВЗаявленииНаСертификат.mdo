@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdc24411-fc07-413b-961f-99e8d7cf8b75">
+  <producedTypes>
+    <managerType typeId="d624bea4-0e3e-43f4-aec3-58d1ee407be1" valueTypeId="d876d7a7-3f2a-4b75-bbe0-11bfabbd5ce1"/>
+    <valueManagerType typeId="76fdb954-7f37-46c1-ace9-61306ce68bb2" valueTypeId="94b42acb-e179-40d4-a292-04bfaa0ab693"/>
+    <valueKeyType typeId="a74fc75a-5b50-4e63-bf09-8ee5a89cb0c5" valueTypeId="1c4558de-b7dc-4de2-ab5b-49b9175f71c4"/>
+  </producedTypes>
+  <name>_ДемоОсновнойПартнерВЗаявленииНаСертификат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Основной партнер в заявлении на сертификат</value>
+  </synonym>
+  <type>
+    <types>CatalogRef._ДемоКонтрагенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

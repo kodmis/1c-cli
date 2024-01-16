@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a3eff9b-6598-4e11-9b8f-81249c53abec">
+  <name>УдаленныйДоступOData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаленный доступ (OData)</value>
+  </synonym>
+  <comment>АПК:164 не проверять право удаления; АПК:375 права на устаревший объект; АПК:229 изменение регистра подчиненного регистратору; АПК:507 права на объекты других подсистем</comment>
+</mdclass:Role>

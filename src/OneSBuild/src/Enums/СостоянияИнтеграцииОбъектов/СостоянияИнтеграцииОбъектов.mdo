@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f300a9ed-3ea4-438c-8e61-19155f2b266f">
+  <producedTypes>
+    <refType typeId="e2a45b7e-18d7-4af3-b6a2-9962969a35cf" valueTypeId="30eac7a4-e6a9-4dd1-a36e-16596ec674a1"/>
+    <listType typeId="59b8ba97-ae4b-41a8-9749-68e592738d6c" valueTypeId="f89cd1fc-06e4-4abd-941a-b6260a339d4e"/>
+    <managerType typeId="a1bf4f2b-b7c9-4c0e-bad7-06636659c9a7" valueTypeId="ed53239e-c1e1-4dd9-bf35-a3a68558afec"/>
+  </producedTypes>
+  <name>СостоянияИнтеграцииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния интеграции объектов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="50b638ed-6831-462d-a093-89366fb28dbc">
+    <name>Ожидание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e5b05eb-c383-4e85-9abb-92a1c9f0d2c4">
+    <name>Интегрирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интегрирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e7709d4-9a9b-48e1-9e6b-3cf5572358b0">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

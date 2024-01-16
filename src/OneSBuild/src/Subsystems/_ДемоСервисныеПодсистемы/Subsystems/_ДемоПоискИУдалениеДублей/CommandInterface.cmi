@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>ChartOfCharacteristicTypes._ДемоВидыСубконто.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:f4554046-493e-4960-94df-0a8b9d02f474</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.ПоискИУдалениеДублей.Command.ПоискИУдалениеДублей</commands>
+      <commands>Catalog._ДемоНоменклатура.StandardCommand.OpenList</commands>
+      <commands>ChartOfCharacteristicTypes._ДемоВидыСубконто.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes._ДемоОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfAccounts._ДемоОсновной.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

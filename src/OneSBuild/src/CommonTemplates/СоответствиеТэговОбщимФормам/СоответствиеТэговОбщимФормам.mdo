@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8d797cf-e72c-4d99-bd6f-f4a8b0ca7c8d">
+  <name>СоответствиеТэговОбщимФормам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие тэгов общим формам</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

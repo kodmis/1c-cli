@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ff23123-450c-40ae-9b79-c540da53e2a0">
+  <name>ТекущиеДелаПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие дела переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

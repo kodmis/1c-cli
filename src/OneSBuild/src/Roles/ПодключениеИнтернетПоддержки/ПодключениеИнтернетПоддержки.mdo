@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bf1beb4-e19b-48ac-b70a-3a1b3016da33">
+  <name>ПодключениеИнтернетПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение Интернет-поддержки</value>
+  </synonym>
+  <comment>Права для интерактивного подключения Интернет-поддержки пользователей</comment>
+</mdclass:Role>

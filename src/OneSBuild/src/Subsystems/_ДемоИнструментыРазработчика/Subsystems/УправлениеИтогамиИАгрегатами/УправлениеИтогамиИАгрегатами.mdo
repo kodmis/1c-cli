@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cdb01bf-c0b3-4c8f-865f-3e9fb6a7f290">
+  <name>УправлениеИтогамиИАгрегатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление итогами и агрегатами</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.УправлениеИтогамиИАгрегатамиИнструментРазработчика</content>
+  <parentSubsystem>Subsystem._ДемоИнструментыРазработчика</parentSubsystem>
+</mdclass:Subsystem>

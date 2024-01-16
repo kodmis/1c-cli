@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d83b8068-512d-4c10-88b4-f9b3413a3a81">
+  <name>УчетОригиналовПервичныхДокументовКлиентПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет оригиналов первичных документов клиент переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

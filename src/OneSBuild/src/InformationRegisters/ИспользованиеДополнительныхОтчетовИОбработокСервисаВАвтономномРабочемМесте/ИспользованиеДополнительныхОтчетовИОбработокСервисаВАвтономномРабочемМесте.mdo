@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdc51d67-5fc2-4d28-8875-69e33e625be6">
+  <producedTypes>
+    <selectionType typeId="c0b4b533-e323-4ffe-b6c8-43b19b28cea0" valueTypeId="781384b4-1387-4894-b093-14dac9718056"/>
+    <listType typeId="7d584e17-49ca-4497-a1ac-7d2b320ab201" valueTypeId="84655856-02e3-4fc1-84eb-54f78fc38b74"/>
+    <managerType typeId="435f89cf-57ac-49b5-a65c-0b4c7f487fca" valueTypeId="64d7fe92-152d-4e21-a1ad-4b1b6b768fa6"/>
+    <recordSetType typeId="1de43983-b8ac-442b-8ca6-edc101d9da69" valueTypeId="a18810f3-1382-4a44-a3b5-696d9ae165ab"/>
+    <recordKeyType typeId="2644f44b-f824-4d26-b1de-fb95a88866b5" valueTypeId="8fad6250-e869-458c-815f-baeb35f305af"/>
+    <recordType typeId="40120b30-99c7-48d3-93d4-788ee76d788a" valueTypeId="b5ae45d5-3b2d-40bc-94ea-2b44fe0115ef"/>
+    <recordManagerType typeId="11063433-bee3-42c8-b42f-1b31370f3f43" valueTypeId="c05a84dc-509a-4864-8f08-a227cd1cfe04"/>
+  </producedTypes>
+  <name>ИспользованиеДополнительныхОтчетовИОбработокСервисаВАвтономномРабочемМесте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование дополнительных отчетов и обработок сервиса в автономном рабочем месте</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="94ca9aa0-f61f-496b-8fef-9e6fb7bd8f87">
+    <name>Поставляемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставляемый</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b494ca7b-6548-4fa2-932c-acdf8c62a78a">
+    <name>ДополнительныйОтчетИлиОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный отчет или обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

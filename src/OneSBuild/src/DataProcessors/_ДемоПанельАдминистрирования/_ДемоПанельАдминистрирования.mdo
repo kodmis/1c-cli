@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eabcdcc2-b2f3-4f9b-9f5d-a1cd81e84dbc">
+  <producedTypes>
+    <objectType typeId="1bf0c4e5-e650-4dbb-bad0-34d7e19ace93" valueTypeId="4b3f04a6-2a26-43ec-9ec6-2b4055f23bf2"/>
+    <managerType typeId="270bdcec-ca3a-4c78-b5f2-3b739e35d602" valueTypeId="cc63792d-50c7-4eeb-8103-910ed0af18c7"/>
+  </producedTypes>
+  <name>_ДемоПанельАдминистрирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Панель администрирования</value>
+  </synonym>
+  <forms uuid="01a4f818-f51f-44ca-a847-40fb57879c55">
+    <name>ДругиеНастройкиСинхронизацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другие настройки синхронизации данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7f57702-fd3c-4118-9ec5-c16810aad762">
+    <name>ДругиеНастройкиСинхронизацииДанныхДляАдминистратораСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другие настройки синхронизации данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e1c515a-cee4-4d07-8751-de293fa4565a">
+    <name>ДругиеОбщиеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Другие общие настройки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ea80b8a-9a7c-4b2c-a773-5eaaa550ecf7">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4e000d2d-e036-46f2-baff-7aaa656b4a79">
+    <name>ПереносДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенос данных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d9766b7f-7388-43e1-b1a6-e3564b83d49f">
+    <name>Производительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Производительность</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d5507c4b-2185-4938-9b9f-9f424e9592a4">
+    <name>ДругиеНастройкиСинхронизацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Другие настройки</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="c411827b-fa66-4a84-9560-12ffff43ba8b">
+    <name>ДругиеНастройкиСинхронизацииДанныхДляАдминистратораСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Другие настройки</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="2a5a6e14-d41b-4218-8cf5-c59d5c683350">
+    <name>ДругиеОбщиеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Другие общие настройки</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="ab494025-00b8-46f2-92a0-7b097cf8c901">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Организации</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Управление параметрами организаций</value>
+    </toolTip>
+  </commands>
+  <commands uuid="22577964-6af5-44af-a2f2-6049dc67c1ce">
+    <name>ПереносДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Перенос данных</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Перенос данных в другие программы, переход с других программ.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="068cae63-6fae-4330-96ed-1c252842aa8b">
+    <name>Производительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Производительность</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

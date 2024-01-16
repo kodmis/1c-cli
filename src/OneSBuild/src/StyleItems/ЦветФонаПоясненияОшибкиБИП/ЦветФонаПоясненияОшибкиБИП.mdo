@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59420cb5-d903-4e2c-a9e1-bc5494168daf">
+  <name>ЦветФонаПоясненияОшибкиБИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет фона пояснения ошибки БИП</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>255</red>
+      <green>238</green>
+      <blue>238</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

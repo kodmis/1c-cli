@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e590825f-10c6-4fdd-98cd-3da01da2ed4f">
+  <name>НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Независимое использование дополнительных отчетов и обработок в модели сервиса</value>
+  </synonym>
+  <location>Constant.НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

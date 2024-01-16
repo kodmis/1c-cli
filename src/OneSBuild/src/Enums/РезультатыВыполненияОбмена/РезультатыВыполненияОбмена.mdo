@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e61d717-de36-4dce-8af9-b6c14ed76acb">
+  <producedTypes>
+    <refType typeId="1776d56b-066e-4ae9-8a7e-0a7bc86f43a3" valueTypeId="69a93d73-6b42-439a-8e6e-9a5c4649be16"/>
+    <listType typeId="517e8a94-0725-4be0-ab22-3e21f2eabdd8" valueTypeId="89f42797-8020-4994-8ff3-d5421497e2f7"/>
+    <managerType typeId="e3ed5289-a58b-4dd0-93ad-d9002d3f1121" valueTypeId="44cf6a5f-df90-4639-9dee-d6b998f7ccf7"/>
+  </producedTypes>
+  <name>РезультатыВыполненияОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты выполнения обмена</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="474518fe-9cb5-4a12-9388-bc7a64511617">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64337614-b1c9-4931-b576-448721fa4602">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d73b59c-0594-4ed3-b584-cf1261941e1d">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ff2547f-d596-4fa1-9e12-079e1cc4c057">
+    <name>Ошибка_ТранспортСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка транспорта сообщения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ab0c8f8-b908-4618-ae88-af37b8f1224e">
+    <name>Предупреждение_СообщениеОбменаБылоРанееПринято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение обмена было ранее принято</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd3ec5a9-161d-487e-ab1d-e5e15a6e3a7b">
+    <name>ВыполненоСПредупреждениями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено с предупреждениями</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

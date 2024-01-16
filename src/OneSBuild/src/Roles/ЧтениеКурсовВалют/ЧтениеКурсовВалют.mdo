@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c3085e1-2f86-4af4-a392-ab45e30a7152">
+  <name>ЧтениеКурсовВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение курсов валют</value>
+  </synonym>
+</mdclass:Role>

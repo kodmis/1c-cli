@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d33ca006-d81d-4ef8-8503-7878e81c599f">
+  <name>КоллекцияДоступныеАнкеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция доступные анкеты</value>
+  </synonym>
+</mdclass:CommonPicture>

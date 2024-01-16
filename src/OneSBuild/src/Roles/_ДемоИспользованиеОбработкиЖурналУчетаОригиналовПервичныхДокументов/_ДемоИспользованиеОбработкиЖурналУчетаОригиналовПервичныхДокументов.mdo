@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5952b193-8d61-42aa-b71b-430f5fe7c1b1">
+  <name>_ДемоИспользованиеОбработкиЖурналУчетаОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использование обработки журнал учета оригиналов первичных документов</value>
+  </synonym>
+</mdclass:Role>

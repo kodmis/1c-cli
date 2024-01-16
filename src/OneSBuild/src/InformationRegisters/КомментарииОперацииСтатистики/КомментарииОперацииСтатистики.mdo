@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee0412d3-58e7-4715-8774-d49778e1ef73">
+  <producedTypes>
+    <selectionType typeId="ab6610df-dc83-475d-be25-a7e31ca4ce7f" valueTypeId="b9d2bf40-e431-412f-af81-09bbde22daa4"/>
+    <listType typeId="ff06dcb8-649e-48c1-b17d-7b56bd2c1e57" valueTypeId="2818b26e-5822-474f-8619-5f64929c84d4"/>
+    <managerType typeId="4a6e2116-f09a-43b1-9f84-932fcba816b5" valueTypeId="8b2bb121-7cbd-4da3-ac19-576d9ce99b71"/>
+    <recordSetType typeId="7a6d8cb3-86b6-44c7-8f67-6586d51662cb" valueTypeId="bdc9a3ed-26d1-4cd1-82b3-bef7c486b3b4"/>
+    <recordKeyType typeId="efd60458-a34d-4f21-af0f-4249720a5d0d" valueTypeId="390cae85-87a8-4ee8-947a-b1e7c13d0b2e"/>
+    <recordType typeId="e9bda4f7-3293-4898-b9bd-0375095f0548" valueTypeId="97ed7aa5-9ff9-404b-a40f-744c7c4a3420"/>
+    <recordManagerType typeId="389ce1e8-b705-4a14-a914-d9fc6685502a" valueTypeId="ddd62539-95e2-4ecc-8891-4b3b7ed748a5"/>
+  </producedTypes>
+  <name>КомментарииОперацииСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарии операции статистики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="ea31df21-1402-417a-9788-b17a7116e842">
+    <name>ИдентификаторОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор операции</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7a93efb9-62bb-437a-8095-b26a2c8ce8ed">
+    <name>ИдентификаторКомментария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор комментария</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

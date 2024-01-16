@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d31ce50d-4f72-4c6b-b31e-091df304a6a3">
+  <name>_ДемоПоПравиламКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>По правилам конвертации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog._ДемоБанковскиеСчета</content>
+  <content>Catalog._ДемоДоговорыКонтрагентов</content>
+  <content>Catalog._ДемоКонтрагенты</content>
+  <content>Catalog._ДемоМестаХранения</content>
+  <content>Catalog._ДемоНоменклатура</content>
+  <content>Catalog._ДемоПодразделения</content>
+  <content>Catalog._ДемоСтавкиНДС</content>
+  <content>Catalog._ДемоФизическиеЛица</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Catalog._ДемоОрганизации</content>
+  <content>Document._ДемоПоступлениеТоваров</content>
+  <content>Document._ДемоРеализацияТоваров</content>
+  <content>ChartOfCharacteristicTypes._ДемоВидыСубконто</content>
+  <content>ChartOfAccounts._ДемоОсновной</content>
+  <content>InformationRegister._ДемоОтветственныеЛица</content>
+  <content>InformationRegister._ДемоРаботникиОрганизаций</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>InformationRegister.СоответствияОбъектовИнформационныхБаз</content>
+  <content>AccountingRegister._ДемоЖурналПроводокБухгалтерскогоУчета</content>
+  <content>Enum._ДемоСовместимостьНоменклатуры</content>
+  <parentSubsystem>Subsystem._ДемоСинхронизацияДанных.Subsystem._ДемоСинхронизируемыеДанные</parentSubsystem>
+</mdclass:Subsystem>

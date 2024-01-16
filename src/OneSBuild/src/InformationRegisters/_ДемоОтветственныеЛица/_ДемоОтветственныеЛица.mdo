@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dc54180-2350-4310-9900-9d37425dbae6">
+  <producedTypes>
+    <selectionType typeId="2687c6c3-1f48-4648-b3a2-069d16e3dcbf" valueTypeId="033c06f8-6f2c-4812-8d92-67a0562d1bd9"/>
+    <listType typeId="84760d3f-ee14-4f40-8147-a9779f66471a" valueTypeId="635f527a-0140-4fb9-994f-2f14fa619ed1"/>
+    <managerType typeId="91387783-8323-41e4-b4ab-ac2e32868a33" valueTypeId="f16c077b-f67b-429a-9fd7-d6b6099dfb19"/>
+    <recordSetType typeId="23c5c841-0ffa-40c6-9ab2-1844a046b27f" valueTypeId="c82deb97-c832-4f39-ac5e-9cb566739b56"/>
+    <recordKeyType typeId="193f7e37-1613-4deb-be74-58822e529be0" valueTypeId="f35dba9a-0ed3-43a8-8d25-7f87ebaf094f"/>
+    <recordType typeId="05987dd8-a664-44f3-8452-e2f8214dbcfd" valueTypeId="fe79b238-f6f6-4b2c-829e-b232000251a3"/>
+    <recordManagerType typeId="3b08661f-3af8-4cba-9412-ccfb984e0c23" valueTypeId="209fe544-f0fa-42a0-826a-e43d880e7c02"/>
+  </producedTypes>
+  <name>_ДемоОтветственныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Ответственные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister._ДемоОтветственныеЛица.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister._ДемоОтветственныеЛица.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="f507a8c9-cc17-490d-92ca-be3d51377121">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственное лицо</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog._ДемоФизическиеЛица.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="343ca3c1-cd49-4872-8c3b-f31f42916617">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоКонтрагенты</types>
+      <types>CatalogRef._ДемоОрганизации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Зона ответственности - организация</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog._ДемоОрганизации.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9dde73c2-f1d4-4949-afa3-6db8446b7bc7">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоМестаХранения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Зона ответственности - склад</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog._ДемоМестаХранения.EmptyRef</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="73a0c46d-c13f-4449-a602-7c1f7cfd0113">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоПодразделения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Зона ответственности - подразделение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog._ДемоПодразделения.EmptyRef</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="69bb91c8-3e7a-497b-9a34-504e3233c6f3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="536da121-5816-4e2e-b3c5-fdc73425215f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

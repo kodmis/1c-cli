@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f660bf92-7de1-4a22-9cea-777069e4679d">
+  <producedTypes>
+    <objectType typeId="2b34cc13-286b-4651-a9e4-ce88886d223d" valueTypeId="2fef8046-a0db-45ce-a80b-af12963071bc"/>
+    <managerType typeId="dc9b1ee2-7ab0-437d-8b4e-7ce0bcdb8bc0" valueTypeId="1ac6b431-3664-429f-9be1-22c238153202"/>
+  </producedTypes>
+  <name>ПрограммыЭлектроннойПодписиИШифрования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программы электронной подписи и шифрования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="54f3fbe7-ac93-44f6-ba6e-37cb99f3569c">
+    <name>ВстроенныйКриптопровайдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенный криптопровайдер</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="766f2abe-1dfd-4e16-bffd-83f44d25d82a">
+    <name>КлассификаторАУЦ_1_0_0_0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор АУЦ</value>
+    </synonym>
+    <comment>АПК:497 Не подлежит переводу, находится в локализованной части</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="0e7a34a8-ce5a-4767-8283-fd094e13d969">
+    <name>КлассификаторОшибокКриптографии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор ошибок криптографии</value>
+    </synonym>
+    <comment>АПК:497 Не подлежит переводу, находится в локализованной части</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

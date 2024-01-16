@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9a51e79-4c79-4a43-931b-c0321c1cd65b">
+  <name>RemoteAdministrationOfExchange_2_1_6_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Remote administration of exchange 2.1.6.1</value>
+  </synonym>
+  <namespace>http://www.1c.ru/SaaS/1.0/WS/RemoteAdministrationOfExchange_2_1_6_1</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.АдминистрированиеОбменаДанными</value>
+  </xdtoPackages>
+  <descriptorFileName>RemoteAdministrationOfExchange_2_1_6_1.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="e8644d90-ec2f-4ac0-8fbd-a7aa95c9bcec">
+    <name>GetExchangeFeatures</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get exchange features</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ExchangeFeatures</name>
+      <nsUri>http://www.1c.ru/SaaS/ExchangeAdministration/Common</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПолучитьПланыОбменаКонфигурации</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="048a1d86-bcf5-47aa-a36c-eb20c3f9f7e5">
+    <name>PrepareExchangeExecution</name>
+    <synonym>
+      <key>ru</key>
+      <value>Prepare exchange execution</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ЗапланироватьВыполнениеОбменаДанными</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="22f2696e-0ac1-4a74-bca9-987b267b2b59">
+      <name>Scenario</name>
+      <synonym>
+        <key>ru</key>
+        <value>Scenario</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Map</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="d705cacc-3485-46d7-9ff4-48c3c0757c81">
+    <name>StartExchangeExecutionInFirstDataBase</name>
+    <synonym>
+      <key>ru</key>
+      <value>Start exchange execution in first data base</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ВыполнитьДействиеСценарияОбменаДаннымиВПервойИнформационнойБазе</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="98f043ea-633c-4a03-a56f-efbc9e6ef288">
+      <name>Index</name>
+      <synonym>
+        <key>ru</key>
+        <value>Index</value>
+      </synonym>
+      <xdtoValueType>
+        <name>int</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="2033b92a-0750-478a-a12d-cf4f74d0a9da">
+      <name>Scenario</name>
+      <synonym>
+        <key>ru</key>
+        <value>Scenario</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueTable</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="92fa2196-d8e5-45f9-9d2e-59d837b163ea">
+    <name>StartExchangeExecutionInSecondDataBase</name>
+    <synonym>
+      <key>ru</key>
+      <value>Start exchange execution in second data base</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ВыполнитьДействиеСценарияОбменаДаннымиВоВторойИнформационнойБазе</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="25dc2290-e283-4449-81c1-1ce15b58067f">
+      <name>Index</name>
+      <synonym>
+        <key>ru</key>
+        <value>Index</value>
+      </synonym>
+      <xdtoValueType>
+        <name>int</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="c534a865-a17f-41e7-88b9-c6af89c9d202">
+      <name>Scenario</name>
+      <synonym>
+        <key>ru</key>
+        <value>Scenario</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueTable</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="0214bfe6-fb98-4487-8d98-6b10d24a3c4d">
+    <name>TestConnection</name>
+    <synonym>
+      <key>ru</key>
+      <value>Test connection</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПроверитьПодключение</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="0127937c-94c0-43fe-9630-cc2ec6904ad8">
+      <name>Settings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Structure</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="ce7c87b8-e4ab-47e2-b70a-7dcae8bfb8a8">
+      <name>ConnectionType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Connection type</value>
+      </synonym>
+      <comment>Вид транспорта сообщений обмена</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="8df5b3cd-7788-4198-a530-e88be83f1cdf">
+      <name>ResultMessage</name>
+      <synonym>
+        <key>ru</key>
+        <value>Result message</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="ffaeea66-66d5-4741-a9b5-875afebfce7f">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>Ping</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+</mdclass:WebService>

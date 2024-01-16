@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d05d614-18c3-4ad0-a43b-4b29e6ff4f81">
+  <name>_ДемоПереводТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перевод текста</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor._ДемоПереводТекста</content>
+  <parentSubsystem>Subsystem._ДемоОрганайзер</parentSubsystem>
+</mdclass:Subsystem>

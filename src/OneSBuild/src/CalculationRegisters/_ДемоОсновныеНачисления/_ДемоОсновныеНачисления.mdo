@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6756af4-964f-400d-97d4-0bd3f5916693">
+  <producedTypes>
+    <selectionType typeId="1a452343-844a-41a4-85e5-8375d84249b3" valueTypeId="7f1771d3-825a-4041-ab1c-6e791010b604"/>
+    <listType typeId="e37d0dae-5cb7-4be8-8f90-8c10bd6f7fdd" valueTypeId="af70e5a8-52b6-46a9-9cd4-33dbc6fdfcdd"/>
+    <managerType typeId="79464a6c-826a-4733-ab71-7d68e40348cb" valueTypeId="634a81b3-fc25-4128-88d0-eaabcc495206"/>
+    <recordSetType typeId="90cb0219-a64d-4cad-9e06-c3487f8293e6" valueTypeId="cbc0ad6f-a810-4200-ad1d-df5659c4853f"/>
+    <recordKeyType typeId="930c9ac8-9486-4474-a6b5-64c3c6481368" valueTypeId="1ba7e42b-92fa-4bee-8a71-03d3f30e7b9d"/>
+    <recordType typeId="7f0b707e-7684-4eed-b7e3-c8a25b51db87" valueTypeId="f38e5e77-9dfd-4397-acde-2bc0c4d6503d"/>
+    <recalcsType typeId="bac82510-0f81-4d0b-957e-55243c4938f7" valueTypeId="2aac9d67-6c87-48f1-9c2d-7a1fa2127f67"/>
+  </producedTypes>
+  <name>_ДемоОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Основные начисления сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>CalculationRegister._ДемоОсновныеНачисления.Form.ФормаСписка</defaultListForm>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister._ДемоГрафикиРаботы</schedule>
+  <scheduleValue>InformationRegister._ДемоГрафикиРаботы.Resource.Значение</scheduleValue>
+  <scheduleDate>InformationRegister._ДемоГрафикиРаботы.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes._ДемоОсновныеНачисления</chartOfCalculationTypes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RegistrationPeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReversingEntry</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>EndOfBasePeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>BegOfBasePeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>EndOfActionPeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>BegOfActionPeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ActionPeriod</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>CalculationType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4558b4e5-1d87-4e2f-81d0-60f2d5319764">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Результат расчета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="492fc00e-ac22-4ed0-a0f7-3784eeb84270">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоОрганизации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация начисления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </dimensions>
+  <dimensions uuid="c0da38f0-12ad-4703-adfe-60de1b02a042">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Физическое лицо начисления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <baseDimension>true</baseDimension>
+  </dimensions>
+  <recalculations uuid="8215bfd6-dfdd-4bea-b079-3812893a1c4e">
+    <producedTypes>
+      <recordType typeId="8385834a-9e58-4aba-9cce-2fd975fa5a4a" valueTypeId="6f53c5cf-4005-4e18-9ea5-6d6235eb02b2"/>
+      <managerType typeId="3fecd4a1-88ce-4526-a5e1-b0d98275e662" valueTypeId="42a6f6b7-d68c-4935-a171-715d6feb22ff"/>
+      <recordSetType typeId="b93c0197-68fe-4842-b7f3-2ba6653c9aa7" valueTypeId="c4bd4acc-73b7-4a85-acda-b757b620b805"/>
+    </producedTypes>
+    <name>ПерерасчетОсновныхНачислений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перерасчет основных начислений</value>
+    </synonym>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <dimensions uuid="9e6b6e61-7c56-434d-9add-b2b926a9e3f7">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <registerDimension>CalculationRegister._ДемоОсновныеНачисления.Dimension.Организация</registerDimension>
+      <leadingRegisterData>CalculationRegister._ДемоОсновныеНачисления.Dimension.Организация</leadingRegisterData>
+    </dimensions>
+    <dimensions uuid="457dac10-a0dd-406c-a097-6dadda5e6d34">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <registerDimension>CalculationRegister._ДемоОсновныеНачисления.Dimension.ФизическоеЛицо</registerDimension>
+      <leadingRegisterData>CalculationRegister._ДемоОсновныеНачисления.Dimension.ФизическоеЛицо</leadingRegisterData>
+    </dimensions>
+  </recalculations>
+  <forms uuid="dafd4131-f955-4461-b7c2-726df6d62fbb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d8899bb-bf62-48ee-8c51-c461638c3db6">
+    <name>ФактическийПериодДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактический период действия</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:CalculationRegister>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a0ead0b-5baa-42b8-9fa6-2892920176f7">
+  <producedTypes>
+    <objectType typeId="d42f6924-3f0c-404a-8130-01140116d8fd" valueTypeId="5cba3852-3e13-40c3-a930-081a0b82d95c"/>
+    <managerType typeId="564ef327-05d2-42b5-b5aa-4e1aec47f342" valueTypeId="583c9b8d-0d5c-4b20-ba46-33b269589602"/>
+  </producedTypes>
+  <name>СбросНастроекРезервногоКопирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сброс настроек резервного копирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СбросНастроекРезервногоКопирования.Form.Форма</defaultForm>
+  <forms uuid="53d04459-2c5b-4390-bc95-ff9f1498b7eb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d7b30f8d-8ca8-48b8-b993-eb7c8a353a88">
+    <name>СбросНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сброс настроек</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

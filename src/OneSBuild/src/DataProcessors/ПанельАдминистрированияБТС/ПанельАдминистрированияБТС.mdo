@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3db90c2b-8fbb-4c41-a5ee-2f6bad7da5c1">
+  <producedTypes>
+    <objectType typeId="45b0ef03-e7c5-46be-9694-8ea946da39f4" valueTypeId="75f6b9ae-3f7e-4378-b11b-c881dcc73c1e"/>
+    <managerType typeId="56802c37-2945-438b-8dd2-5d3fb6a03626" valueTypeId="73efaef0-f675-4ffb-ad03-861b2e6826fa"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияБТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования БТС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПанельАдминистрированияБТС.Form.Форма</defaultForm>
+  <forms uuid="1feaabc9-ee93-4df5-88c2-65b99d20e886">
+    <name>НастройкиБиллингаСервиса1СФреш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки биллинга сервиса 1С:Фреш</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6d34799-e32d-491c-a3cf-c388f9077918">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="76db7fb3-f473-4512-bbb0-c2b0196c7fb1">
+    <name>НастройкиБиллингаСервиса1СФреш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки биллинга сервиса 1С:Фреш</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

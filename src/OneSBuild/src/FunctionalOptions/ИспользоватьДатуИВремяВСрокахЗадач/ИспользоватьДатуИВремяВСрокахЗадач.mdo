@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ac74bb3-a4df-47db-ad87-6cb95b85c51f">
+  <name>ИспользоватьДатуИВремяВСрокахЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дату и время в сроках задач</value>
+  </synonym>
+  <comment>Если Ложь, то только дату, без времени.</comment>
+  <location>Constant.ИспользоватьДатуИВремяВСрокахЗадач</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

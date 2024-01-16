@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bf0472f-fbd7-49e2-b9dc-0c8b729638bf">
+  <name>_ДемоИспользоватьПодчиненныеБизнесПроцессыБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать подчиненные бизнес процессы БСП</value>
+  </synonym>
+  <comment>Для управления видимостью прикладных объектов конфигурации.</comment>
+  <location>Constant.ИспользоватьПодчиненныеБизнесПроцессы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>BusinessProcess._ДемоЗаданиеСРолевойАдресацией.Attribute.ГлавнаяЗадача</content>
+</mdclass:FunctionalOption>

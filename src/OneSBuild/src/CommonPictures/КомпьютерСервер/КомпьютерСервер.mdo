@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf05548c-babf-402b-b698-9a62e7c69add">
+  <name>КомпьютерСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компьютер сервер</value>
+  </synonym>
+</mdclass:CommonPicture>

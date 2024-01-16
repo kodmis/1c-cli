@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4396f5c2-a354-41dc-b8cd-4634cd4d053e">
+  <producedTypes>
+    <managerType typeId="911588f5-267b-46b0-9677-46ed40bd6279" valueTypeId="ef916057-ef2b-4b2b-a347-b3d17116e1de"/>
+    <valueManagerType typeId="47062f2f-ce10-4bff-88e4-0f13d3d91522" valueTypeId="b29dbcfc-4a43-4bc1-b481-f1a9bc747781"/>
+    <valueKeyType typeId="f1be624a-6a32-5cd8-8679-a61e6ea15126" valueTypeId="2129fa19-42f8-543a-8675-09896c9c67e6"/>
+  </producedTypes>
+  <name>_ДемоОграничиватьДоступПоФизическимЛицам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Ограничивать доступ по физическим лицам</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

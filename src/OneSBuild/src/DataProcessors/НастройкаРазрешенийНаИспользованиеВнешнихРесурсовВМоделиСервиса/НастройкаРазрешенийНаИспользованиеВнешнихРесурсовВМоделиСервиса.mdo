@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc2f0a8b-e8c4-4394-a648-976a9c5f18bd">
+  <producedTypes>
+    <objectType typeId="d4a397e4-b8cf-4096-898f-c5c451658264" valueTypeId="6560ef99-00ed-4136-9d12-879a7a76b22e"/>
+    <managerType typeId="a03772ed-82f7-47ea-8731-b53dc82a64eb" valueTypeId="d20aab51-f310-4622-b2a1-d245c9c2742b"/>
+  </producedTypes>
+  <name>НастройкаРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка разрешений на использование внешних ресурсов в модели сервиса</value>
+  </synonym>
+  <defaultForm>DataProcessor.НастройкаРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса.Form.Форма</defaultForm>
+  <forms uuid="47775ed0-4df1-48ed-b465-a5e6c50ff94e">
+    <name>ЗапросРазрешенийУАдминистратораАбонента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос разрешений у администратора абонента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bbad30db-479e-4fd3-b83f-e74c45fa828d">
+    <name>ЗапросРазрешенийУАдминистратораСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос разрешений у администратора сервиса</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9940e2dc-7af9-4b31-aa61-3ad0b9c4519e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

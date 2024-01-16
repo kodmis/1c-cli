@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8238a0af-1ec9-43f6-a353-d293eaefb99c">
+  <name>_ДемоБанки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog._ДемоБанковскиеСчета</content>
+  <content>Document._ДемоСчетНаОплатуПокупателю</content>
+  <content>Catalog.КлассификаторБанков</content>
+  <content>DataProcessor.ЗагрузкаКлассификатораБанков</content>
+  <parentSubsystem>Subsystem._ДемоНормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

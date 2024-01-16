@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dc0429d-146a-4c4f-b122-5d5c053bd4ed">
+  <name>ЗагрузитьКомплектПравил</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить комплект правил</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Загрузить комплект правил синхронизации данных</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.LoadReportSettings</picture>
+  </picture>
+</mdclass:CommonCommand>

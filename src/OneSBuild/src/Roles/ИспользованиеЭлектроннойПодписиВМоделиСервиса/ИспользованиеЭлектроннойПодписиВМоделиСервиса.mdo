@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41656980-612c-4b79-a51c-a8acc8c4d0c7">
+  <name>ИспользованиеЭлектроннойПодписиВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование электронной подписи в модели сервиса</value>
+  </synonym>
+</mdclass:Role>

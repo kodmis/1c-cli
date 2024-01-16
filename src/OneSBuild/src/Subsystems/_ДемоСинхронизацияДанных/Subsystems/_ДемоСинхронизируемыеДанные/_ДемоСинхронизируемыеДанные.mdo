@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0730782-13a7-42c4-b62b-e6266c59c302">
+  <name>_ДемоСинхронизируемыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизируемые данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document._ДемоКорректировкаОстатковТоваровВМестахХранения</content>
+  <subsystems>_ДемоПоПравиламКонвертации</subsystems>
+  <subsystems>_ДемоРаспределеннаяИнформационнаяБаза</subsystems>
+  <parentSubsystem>Subsystem._ДемоСинхронизацияДанных</parentSubsystem>
+</mdclass:Subsystem>

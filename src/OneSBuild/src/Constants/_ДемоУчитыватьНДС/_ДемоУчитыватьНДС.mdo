@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e378609-9d55-4037-a7c3-729efa64c3ba">
+  <producedTypes>
+    <managerType typeId="aa5888a9-3eb8-4664-804d-6c68f063ae74" valueTypeId="46ccd375-d39f-4d20-af0b-a3d5e40e11b7"/>
+    <valueManagerType typeId="89125067-bc32-42aa-8430-51b6cc1e8770" valueTypeId="ee5334c6-61bb-4386-8440-b9f0795acf75"/>
+    <valueKeyType typeId="cb263745-b56d-5d27-8ff2-a68743025a9d" valueTypeId="b5408b81-768c-5192-a179-be859949cbc3"/>
+  </producedTypes>
+  <name>_ДемоУчитыватьНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Учитывать НДС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

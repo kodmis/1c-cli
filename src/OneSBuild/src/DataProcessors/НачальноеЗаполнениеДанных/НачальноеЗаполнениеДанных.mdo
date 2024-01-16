@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c999de3-5f92-4f51-8ead-f8e01d54041d">
+  <producedTypes>
+    <objectType typeId="eb8f6907-371b-4602-ac62-be102cef2ecb" valueTypeId="df064f26-c4ea-4b13-ba70-5a178b9824f0"/>
+    <managerType typeId="5dbbc2aa-67ef-4cfc-923d-7a7565a64f15" valueTypeId="470f6e82-9e4e-4b8a-9468-7e95876e32bd"/>
+  </producedTypes>
+  <name>НачальноеЗаполнениеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начальное заполнение данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НачальноеЗаполнениеДанных.Form.Форма</defaultForm>
+  <attributes uuid="bea9b24b-aa67-4d66-bb0b-c415d68fc395">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="5232354f-1880-4696-b092-7897f2f0868c">
+    <name>РежимМультиязычности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим мультиязычности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3cc90f0b-506e-4d5a-bf56-56d9c2ca4f18">
+    <name>КоличествоДополнительныхЯзыков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дополнительных языков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="79274943-b916-4a7b-9198-9a1030ad34d3">
+    <producedTypes>
+      <objectType typeId="3a3f1506-dc09-411c-af4e-03b3a0ab57cb" valueTypeId="05548cf7-368b-49de-bdaf-f00642661bd9"/>
+      <rowType typeId="1df752ba-09ca-40f2-83db-62cad6eb20b2" valueTypeId="da6a699d-1279-42c2-88b9-10e30d65758d"/>
+    </producedTypes>
+    <name>Языки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Языки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bc31bffb-ae2a-48a7-903b-33628abe901a">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="3e91ae47-4b4b-4b91-ada5-65488205e866">
+      <name>КодЯзыка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код языка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="3840edf7-d10c-4823-8e27-67c0fe0b707d">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="e2816219-1908-4170-9446-5149287391b6">
+      <name>ОсновнойЯзык</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основной язык</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7d166ac3-e95b-4291-9d4e-3c61d9e866d8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="41c3ad9d-1088-4033-bf52-740f180cae65">
+    <name>ФормаРедактированияОписанияТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования описания типов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b00c31d6-4fc6-4189-9f72-f91742ec705f">
+  <producedTypes>
+    <managerType typeId="d9acd353-13e7-43c0-8d0e-1d21086fef48" valueTypeId="bcb46a77-11ad-425c-a3ab-82e88b91f46c"/>
+    <valueManagerType typeId="a9e061af-382c-4bf5-afe8-6a00dc3e6f88" valueTypeId="c045ebcb-174e-4886-b7a6-f07df9aa78f2"/>
+    <valueKeyType typeId="c57c2503-af55-5787-96e1-3b31f9d00b8d" valueTypeId="9d492381-c4c8-56c6-8263-852f57317b4f"/>
+  </producedTypes>
+  <name>НастройкаПодчиненногоУзлаРИБЗавершена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка подчиненного узла РИБ Завершена</value>
+  </synonym>
+  <comment>Отражает факт того, что в подчиненном узле РИБ настройка обмена была успешно завершена с использованием помощника настройки.</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

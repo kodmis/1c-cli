@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ed32cb3-e1c6-4d7c-9376-969d065fdd1e">
+  <name>ОписаниеИзмененийСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание изменений системы</value>
+  </synonym>
+  <comment>Не поставляется, но должен иметь название без префикса _Демо</comment>
+</mdclass:CommonTemplate>

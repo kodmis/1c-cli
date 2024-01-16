@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93fcaa62-2a19-468b-9128-c7930583fbfd">
+  <producedTypes>
+    <objectType typeId="d6670eff-ae9d-4bd8-a64d-87a9671561d9" valueTypeId="2ae12f5e-69f8-4ed0-9d15-5c98f665cd55"/>
+    <managerType typeId="c973be3c-6e8a-4b0f-9450-062c390957a0" valueTypeId="54a4a8db-bebc-40ce-a45d-91664c91b298"/>
+  </producedTypes>
+  <name>КартаМаршрутаБизнесПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карта маршрута бизнес-процесса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КартаМаршрутаБизнесПроцесса.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2d885109-4c96-41c0-a996-785bfd793c2d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="396ef757-d7f6-411f-8c4c-1acb1106a009">
+  <name>ОбновлениеКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление конфигурации</value>
+  </synonym>
+  <comment>АПК:566 работа в веб-клиенте не предусмотрена</comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonModule.ОбновлениеКонфигурации</content>
+  <content>CommonModule.ОбновлениеКонфигурацииКлиент</content>
+  <content>Constant.СтатусОбновленияКонфигурации</content>
+  <content>DataProcessor.УстановкаОбновлений</content>
+  <content>CommonModule.ОбновлениеКонфигурацииВызовСервера</content>
+  <content>XDTOPackage.Patch</content>
+  <content>CommonForm.УстановленныеИсправления</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80fd89d7-160d-4528-9aa0-05b8dac64b4c">
+  <name>СнятьПризнакРассмотреноУВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Снять признак рассмотрено у взаимодействия</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adbb653b-752d-45cf-8b2d-6f6030c33b43">
+  <name>АдминистрированиеСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование сервиса</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.АдминистрированиеСервиса</picture>
+  </picture>
+  <content>CommonForm.ВходВОбластьДанных</content>
+  <content>InformationRegister.НеразделенныеПользователи</content>
+  <content>CommonForm.МониторСинхронизацииДанныхВМоделиСервиса</content>
+  <content>InformationRegister.НастройкиТранспортаОбменаОбластейДанных</content>
+  <content>InformationRegister.НастройкиОтправителя</content>
+  <subsystems>ОбластиДанных</subsystems>
+  <subsystems>ОчередьЗаданий</subsystems>
+  <subsystems>ПоставляемыеДанные</subsystems>
+  <subsystems>Сообщения</subsystems>
+  <subsystems>Тарификация</subsystems>
+  <subsystems>РазмерПриложений</subsystems>
+</mdclass:Subsystem>

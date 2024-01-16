@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b322b047-16eb-4500-826a-6dfebb7d997a">
+  <name>Сертификат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификат</value>
+  </synonym>
+  <comment>Данные сертификата ключа</comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

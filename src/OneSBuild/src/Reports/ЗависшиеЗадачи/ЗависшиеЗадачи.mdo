@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58c3936c-4db0-45c8-a22e-b5dd49a61497">
+  <producedTypes>
+    <objectType typeId="31856e0f-1a59-47a4-9b14-54b5c8f2d9ac" valueTypeId="0417f69b-48cd-424a-bf91-3dbce65cd564"/>
+    <managerType typeId="2f3d48ca-6180-4962-87e3-c7f7482e2f3d" valueTypeId="4510730f-9884-4516-b894-c141f6562100"/>
+  </producedTypes>
+  <name>ЗависшиеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зависшие задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗависшиеЗадачи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="9aa607bc-5870-436a-bbe1-296560393e3b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02018fd4-429d-4869-912d-116cc42f7dd7">
+  <name>ОбменСообщениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен сообщениями</value>
+  </synonym>
+  <content>Catalog.СообщенияСистемы</content>
+  <content>ScheduledJob.ОтправкаИПолучениеСообщенийСистемы</content>
+  <content>CommonModule.ОбменСообщениями</content>
+  <content>CommonModule.ОбменСообщениямиПереопределяемый</content>
+  <content>InformationRegister.ПодпискиПолучателей</content>
+  <content>ExchangePlan.ОбменСообщениями</content>
+  <content>InformationRegister.НастройкиОтправителя</content>
+  <content>CommonCommand.НастройкаОбменаСообщениями</content>
+  <content>CommonCommand.ОбменСообщениями</content>
+  <content>CommonModule.ОбменСообщениямиВнутренний</content>
+  <content>Constant.БлокировкаОтправкиБыстрыхСообщений</content>
+  <content>Role.УдаленныйДоступОбменСообщениями</content>
+  <content>CommonModule.СообщенияВМоделиСервиса</content>
+  <content>CommonModule.ИнтерфейсыСообщенийВМоделиСервиса</content>
+  <content>CommonModule.ИнтерфейсыСообщенийВМоделиСервисаПереопределяемый</content>
+  <content>CommonModule.ТрансляцияXDTO</content>
+  <content>CommonModule.ТрансляцияXDTOПереопределяемый</content>
+  <content>CommonModule.СообщенияВМоделиСервисаПереопределяемый</content>
+  <content>InformationRegister.НастройкиТранспортаОбменаСообщениями</content>
+  <content>Catalog.СообщенияОбластейДанных</content>
+  <content>CommonModule.СообщенияВМоделиСервисаПовтИсп</content>
+  <content>CommonModule.СообщенияОбработкаВМонопольномРежиме</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

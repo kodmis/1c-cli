@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbc8664b-7b63-433b-aef1-0caedb32bba8">
+  <name>ЛокализуемыеОбъектыБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локализуемые объекты БСП</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

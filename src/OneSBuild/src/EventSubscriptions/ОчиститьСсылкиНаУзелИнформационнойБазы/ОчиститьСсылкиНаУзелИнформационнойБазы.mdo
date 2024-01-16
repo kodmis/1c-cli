@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8c36d5a-7966-4978-9225-67502b9c60a4">
+  <name>ОчиститьСсылкиНаУзелИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистить ссылки на узел информационной базы</value>
+  </synonym>
+  <source>
+    <types>ExchangePlanObject</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиСобытия.ОчиститьСсылкиНаУзелИнформационнойБазы</handler>
+</mdclass:EventSubscription>

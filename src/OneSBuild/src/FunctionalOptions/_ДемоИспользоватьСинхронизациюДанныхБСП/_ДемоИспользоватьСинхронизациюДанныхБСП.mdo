@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d704ae4-6ff0-4f02-964a-8bcb6cd9ad07">
+  <name>_ДемоИспользоватьСинхронизациюДанныхБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать синхронизацию данных БСП</value>
+  </synonym>
+  <comment>Для управления видимостью прикладных объектов конфигурации.</comment>
+  <location>Constant.ИспользоватьСинхронизациюДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem._ДемоСинхронизацияДанных</content>
+</mdclass:FunctionalOption>

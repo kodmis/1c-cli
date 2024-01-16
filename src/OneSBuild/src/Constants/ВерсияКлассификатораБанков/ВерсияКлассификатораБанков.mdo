@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="230722e6-942f-4594-be89-eff59c6572bf">
+  <producedTypes>
+    <managerType typeId="c2bafc31-4b27-4ef7-ab98-9489610e62a5" valueTypeId="eb715d0b-d031-471b-a4e8-15f7113a4573"/>
+    <valueManagerType typeId="8e400290-b091-4a5d-9153-0ac1e98fb893" valueTypeId="04fce7f6-69e2-4c01-91fc-4b4758427a4e"/>
+    <valueKeyType typeId="9a097712-9e33-5b4c-b8fc-ed695951aca0" valueTypeId="62169172-1d4e-55f1-a6bc-842fb1ecb1ec"/>
+  </producedTypes>
+  <name>ВерсияКлассификатораБанков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия классификатора банков</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

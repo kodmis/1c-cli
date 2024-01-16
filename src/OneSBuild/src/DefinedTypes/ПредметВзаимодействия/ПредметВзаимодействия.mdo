@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0233b335-7e26-4661-9850-8ab09d3178e3">
+  <producedTypes>
+    <containerType typeId="c2950316-c373-4ca4-b00c-a80325319ad2" valueTypeId="83e7bf7a-1673-4a99-b96f-0c60b5600cb2"/>
+  </producedTypes>
+  <name>ПредметВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет взаимодействия</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЭлектронноеПисьмоИсходящее</types>
+    <types>DocumentRef.ЗапланированноеВзаимодействие</types>
+    <types>DocumentRef.ЭлектронноеПисьмоВходящее</types>
+    <types>DocumentRef.ТелефонныйЗвонок</types>
+    <types>DocumentRef._ДемоЗаказПокупателя</types>
+    <types>DocumentRef.Встреча</types>
+    <types>DocumentRef.СообщениеSMS</types>
+  </type>
+</mdclass:DefinedType>

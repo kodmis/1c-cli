@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7406da96-2e16-42a0-9522-d76547708eca">
+  <name>ПодключениеDSS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение DSS</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+</mdclass:SessionParameter>

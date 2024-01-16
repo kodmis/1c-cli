@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="475f76ea-f494-41f1-9b65-f39907e5a427">
+  <producedTypes>
+    <refType typeId="32b97299-dd8f-4786-bab1-9e270c7cbbb6" valueTypeId="1481c97b-771d-44c8-9d20-f0d28a7fd47c"/>
+    <listType typeId="b8496e1f-8cca-4897-9326-c91b28cd311c" valueTypeId="c751e9e4-e849-422e-9579-4da886a384de"/>
+    <managerType typeId="8ed80301-0e32-4cee-9595-4be760f5f0bc" valueTypeId="8c187a7c-3279-44af-833a-fc1dc5e52919"/>
+  </producedTypes>
+  <name>ТипыВопросовШаблонаАнкеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы вопросов шаблона анкеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="986280d1-41bb-4b15-a5ae-516d6a04c1f4">
+    <name>Простой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43bfd29a-d254-4c33-8639-200b483578c1">
+    <name>ВопросСУсловием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос с условием</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a274167-7f80-4613-9890-259ffd8ccfc4">
+    <name>Табличный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00696255-ea14-4fee-8633-0962f3c441d1">
+    <name>Комплексный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплексный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

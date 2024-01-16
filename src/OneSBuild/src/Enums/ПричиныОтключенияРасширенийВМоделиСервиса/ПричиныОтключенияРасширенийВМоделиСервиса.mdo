@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dec64bbb-f464-4b6a-a02b-2f885853d0a5">
+  <producedTypes>
+    <refType typeId="2d459ff6-64c0-42f7-b414-7f2df3255054" valueTypeId="f6623f10-9dd2-4d80-b0e0-f9b13293217a"/>
+    <listType typeId="4f3788f9-085b-42f3-a122-dc98d9e7598f" valueTypeId="d31497a4-3d60-46e9-bec1-93b9a34bc2a3"/>
+    <managerType typeId="4abc3334-bb56-4bc7-b110-0014743f667f" valueTypeId="8d125f52-9427-4979-a772-9c5d3eee1706"/>
+  </producedTypes>
+  <name>ПричиныОтключенияРасширенийВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отключения расширений в модели сервиса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="70f8cc22-7752-405c-b392-b0869c799497">
+    <name>БлокировкаАдминистраторомСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка администратором сервиса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ee2bc90-c768-4ba3-a73c-004a1a67df54">
+    <name>БлокировкаВладельцем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка владельцем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cd21ba3-fc8d-4959-bd6d-56f6d42ddc69">
+    <name>ОбновлениеВерсииКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление версии конфигурации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d95fcb37-fc65-466d-93e2-489f41683276">
+  <name>ИспользоватьВерсионированиеОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать версионирование объекта</value>
+  </synonym>
+  <comment>Управляет доступностью версионирования для каждого отдельного объекта</comment>
+  <location>InformationRegister.НастройкиВерсионированияОбъектов.Resource.Использовать</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ИсторияИзменений</content>
+</mdclass:FunctionalOption>

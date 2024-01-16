@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f81ad38f-ec95-458a-b28a-bff466bea565">
+  <producedTypes>
+    <managerType typeId="091db3dd-710e-46b4-a757-6a10858890a2" valueTypeId="8ed364a7-d3b1-44c2-95d5-506294585db8"/>
+    <valueManagerType typeId="4d151fd6-1155-4b49-8a42-80d564dd2ac0" valueTypeId="2a456fdf-e4ae-42f1-80f0-1bdb264d3a7f"/>
+    <valueKeyType typeId="97eaf53b-9b50-5702-ae34-783487084795" valueTypeId="274b80f5-2714-5093-acbc-1bcfd9e1a30d"/>
+  </producedTypes>
+  <name>ТипыИнцидентовЦККАктуальны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы инцидентов ЦКК актуальны</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Типы инцидентов переданы в ЦКК</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

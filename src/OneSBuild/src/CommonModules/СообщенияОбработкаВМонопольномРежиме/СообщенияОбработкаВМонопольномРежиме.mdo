@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a23aa0f-3fc6-48c6-9aae-c1f209452df3">
+  <name>СообщенияОбработкаВМонопольномРежиме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения обработка в монопольном режиме</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

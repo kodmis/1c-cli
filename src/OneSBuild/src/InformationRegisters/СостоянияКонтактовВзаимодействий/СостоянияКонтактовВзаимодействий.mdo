@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4770398f-8013-4d43-93ce-ec1165e40c4e">
+  <producedTypes>
+    <selectionType typeId="a4de9855-5bda-4b0c-a444-207fea867e07" valueTypeId="4e507a0a-c0dc-41d6-bff1-4094a513a947"/>
+    <listType typeId="3416a4db-a133-4bd2-96f5-d3c20270e377" valueTypeId="77c12932-84c5-4c6f-b50a-5d07b9145106"/>
+    <managerType typeId="f9a4d930-539a-493d-9958-d5d44d0a1f7e" valueTypeId="dba9341e-c556-4b49-bb8b-5d3d7ee5f90a"/>
+    <recordSetType typeId="a1dbb672-a84d-4e3a-ad03-94e26e808cb6" valueTypeId="a4ed50c4-4af6-4e2e-9486-e422593a6727"/>
+    <recordKeyType typeId="e0d073c0-8c13-4cf6-bba6-6f08939ad5d3" valueTypeId="aab4c39f-e5af-4d77-b6d3-3bced58b7b95"/>
+    <recordType typeId="20ff99ad-6ece-4c1a-9da4-3700c0479755" valueTypeId="bf1946ad-5619-4a70-86b4-3b68b3229426"/>
+    <recordManagerType typeId="1b2decb6-dfc9-42ef-99e0-b4da7cac4a78" valueTypeId="86f86f90-0152-468a-abfb-cd87fd1c88a9"/>
+  </producedTypes>
+  <name>СостоянияКонтактовВзаимодействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния контактов взаимодействий</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9a706997-90cb-430d-972c-d2bad87c4a79">
+    <name>КоличествоНеРассмотрено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество не рассмотрено</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество нерассмотренных взаимодействий по контакту.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="6f661660-b9c4-41d4-99a8-e08006cfe9c8">
+    <name>ДатаПоследнегоВзаимодействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего взаимодействия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последнего взаимодействия с контактом.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="199e79fa-54d6-4748-aaaa-9c55283582a3">
+    <name>Контакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакт</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КонтактВзаимодействия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контакт взаимодействия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

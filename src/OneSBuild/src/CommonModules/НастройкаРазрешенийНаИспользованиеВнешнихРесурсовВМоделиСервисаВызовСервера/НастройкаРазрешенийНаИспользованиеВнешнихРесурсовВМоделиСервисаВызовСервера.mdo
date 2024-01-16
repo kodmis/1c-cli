@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2bf462b-21b8-49e5-94ac-eea8aff61cf1">
+  <name>НастройкаРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервисаВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка разрешений на использование внешних ресурсов в модели сервиса вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

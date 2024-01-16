@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df9db8d5-c5c2-4a9d-88fe-77247b2c417e">
+  <producedTypes>
+    <managerType typeId="bfff7146-64cb-47c7-be8a-5cb72e070752" valueTypeId="234583fa-d5d8-45ee-85c9-dbbc4b3bf9c0"/>
+    <valueManagerType typeId="eba48257-3cd9-4c03-972a-71cdeb4b63e9" valueTypeId="f19cebce-5693-4bed-9d5e-adf7e4cb96ea"/>
+    <valueKeyType typeId="da430648-edd0-586a-bebb-ccf9729948c7" valueTypeId="92437b50-0469-5021-b69e-f563da057e10"/>
+  </producedTypes>
+  <name>КоличествоЭлементовВТранзакцииЗагрузкиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество элементов в транзакции загрузки данных</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

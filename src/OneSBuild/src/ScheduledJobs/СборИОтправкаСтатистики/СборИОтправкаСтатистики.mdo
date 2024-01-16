@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b76c3bd6-924a-4378-acbe-6f17232b201b">
+  <name>СборИОтправкаСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор и отправка статистики</value>
+  </synonym>
+  <methodName>CommonModule.ЦентрМониторингаСлужебный.ЦентрМониторингаРегламентноеЗадание</methodName>
+  <description>Сбор и отправка статистики</description>
+  <key>9f003c2c-0c76-4329-9244-4ab3c7b845b0</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

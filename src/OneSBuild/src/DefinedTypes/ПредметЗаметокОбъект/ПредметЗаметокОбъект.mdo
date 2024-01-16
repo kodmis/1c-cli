@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b17ac35-78cb-4d01-bb08-659c0a93e8ce">
+  <producedTypes>
+    <containerType typeId="13bfd97b-85f5-44b1-afe4-edc7eaf12445" valueTypeId="2107e9de-a1bb-4175-8ae1-ef9cd975f15b"/>
+  </producedTypes>
+  <name>ПредметЗаметокОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет заметок объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject._ДемоКонтрагенты</types>
+    <types>CatalogObject.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

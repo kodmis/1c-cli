@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08baf3ee-b8ca-4f29-89fc-c15344064ad3">
+  <producedTypes>
+    <managerType typeId="39506efd-3f62-4db9-b52b-f1cde64e7e58" valueTypeId="b390d39e-f3f7-4232-8d09-0adeeaf1bbe7"/>
+    <valueManagerType typeId="ada0f93b-46fb-4267-8a59-40b2014ece24" valueTypeId="a1c05cfc-c8ef-425f-835b-b644dc5b72dd"/>
+    <valueKeyType typeId="f7919e8e-90d3-592b-864c-6fee335d07bf" valueTypeId="22d67a37-4e6c-59d3-9052-e8bb4dc195e6"/>
+  </producedTypes>
+  <name>КопироватьОбластиДанныхИзЭталонной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Копировать области данных из эталонной</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f9b6c01-0919-41ba-91dc-49497d0fecf7">
+  <name>ЭтапыПодтверждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы подтверждения</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1e7d3c3-9fc1-4364-a8c3-b076080c7472">
+  <name>ИспользоватьАвтономнуюРаботуВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать автономную работу в модели сервиса</value>
+  </synonym>
+  <location>Constant.ИспользоватьАвтономнуюРаботуВМоделиСервиса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.АвтономнаяРаботаВМоделиСервиса</content>
+  <content>CommonForm.АвтономнаяРаботаВМоделиСервиса</content>
+</mdclass:FunctionalOption>

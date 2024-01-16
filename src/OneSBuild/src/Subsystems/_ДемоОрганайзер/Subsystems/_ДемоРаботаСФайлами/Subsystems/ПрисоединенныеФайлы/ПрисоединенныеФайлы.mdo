@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7aba5d70-7952-44bd-af5f-cf6c8eb9bb8b">
+  <name>ПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенные файлы</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog._ДемоПартнеры</content>
+  <content>Document._ДемоЗаказПокупателя</content>
+  <content>BusinessProcess._ДемоЗаданиеСРолевойАдресацией</content>
+  <content>Role._ДемоДобавлениеИзменениеПроектов</content>
+  <content>Role._ДемоЧтениеПроектов</content>
+  <content>EventSubscription._ДемоОпределитьФормуПрисоединенногоФайла</content>
+  <content>EventSubscription._ДемоУстановитьПометкуУдаленияПрисоединенныхФайловДокументов</content>
+  <content>Catalog._ДемоНоменклатура</content>
+  <content>Catalog._ДемоНоменклатураПрисоединенныеФайлы</content>
+  <content>Catalog._ДемоПроекты</content>
+  <content>Catalog._ДемоПроектыПрисоединенныеФайлы</content>
+  <content>Catalog._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы</content>
+  <content>Document._ДемоСчетНаОплатуПокупателю</content>
+  <content>Enum._ДемоСовместимостьНоменклатуры</content>
+  <content>Catalog._ДемоОрганизацииПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem._ДемоОрганайзер.Subsystem._ДемоРаботаСФайлами</parentSubsystem>
+</mdclass:Subsystem>

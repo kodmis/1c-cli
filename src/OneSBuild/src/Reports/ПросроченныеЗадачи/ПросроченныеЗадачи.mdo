@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02c5f3b2-d691-4eaf-84fd-763770e4b1cb">
+  <producedTypes>
+    <objectType typeId="d6c5661d-3cd4-488e-a50c-8d5e489a8bb2" valueTypeId="9572a869-a190-4a84-bddc-e959ff40dc9b"/>
+    <managerType typeId="0759790c-ef3d-4df6-925b-51225e9b9fcf" valueTypeId="703398cc-0211-4307-83d8-f93d026194a9"/>
+  </producedTypes>
+  <name>ПросроченныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просроченные задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПросроченныеЗадачи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="845262f8-8208-4c90-98ec-c85dd5734cf0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

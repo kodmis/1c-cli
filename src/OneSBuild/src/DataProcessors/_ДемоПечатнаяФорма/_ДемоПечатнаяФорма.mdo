@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="815367a3-8c71-46a7-9b65-17b68d96a9ac">
+  <producedTypes>
+    <objectType typeId="891e85af-0f03-4c46-9708-830278011905" valueTypeId="2333a738-aac4-406c-a00e-da88f34290cf"/>
+    <managerType typeId="101a15ff-07f3-495c-aa44-2b8c92965098" valueTypeId="1ee13ea7-c8b3-4c81-9be5-b8c6a4680c4f"/>
+  </producedTypes>
+  <name>_ДемоПечатнаяФорма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Печатная форма</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоПечатнаяФорма.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="fd26e2db-95b5-4bde-8288-dbc685e6c690">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="acacd417-82a7-4a25-98c1-91b4b07acf78">
+    <name>ПФ_DOC_СписаниеТоваров_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание товаров (документ Office Open XML)</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="7b3a14bc-78e8-460e-9940-3a19821b894d">
+    <name>СписаниеТоваровOpenOfficeXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать: Списание товаров (с помощью обработки _ДемоПечатнаяФорма)</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef._ДемоСписаниеТоваров</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

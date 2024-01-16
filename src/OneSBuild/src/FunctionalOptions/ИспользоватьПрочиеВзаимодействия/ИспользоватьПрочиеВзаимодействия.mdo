@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fc19eca-1a15-4758-af4b-79637e51edfb">
+  <name>ИспользоватьПрочиеВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать прочие взаимодействия</value>
+  </synonym>
+  <location>Constant.ИспользоватьПрочиеВзаимодействия</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВстречаПрисоединенныеФайлы</content>
+  <content>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</content>
+  <content>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы</content>
+  <content>Document.Встреча</content>
+  <content>Document.ЗапланированноеВзаимодействие</content>
+  <content>Document.ТелефонныйЗвонок</content>
+  <content>DocumentJournal.Взаимодействия.Command.ЗапланироватьВстречуПоКонтакту</content>
+  <content>DocumentJournal.Взаимодействия.Command.ЗапланироватьВзаимодействиеПоКонтакту</content>
+  <content>DocumentJournal.Взаимодействия.Command.ПозвонитьПоКонтакту</content>
+  <content>Catalog.СообщениеSMSПрисоединенныеФайлы</content>
+  <content>Document.СообщениеSMS</content>
+  <content>DocumentJournal.Взаимодействия.Command.НаписатьSMSПоКонтакту</content>
+  <content>DocumentJournal.Взаимодействия.Command.ЗапланироватьВзаимодействиеПоПредмету</content>
+  <content>DocumentJournal.Взаимодействия.Command.ЗапланироватьВстречуПоПредмету</content>
+  <content>DocumentJournal.Взаимодействия.Command.НаписатьSMSПоПредмету</content>
+  <content>DocumentJournal.Взаимодействия.Command.ПозвонитьПоПредмету</content>
+</mdclass:FunctionalOption>

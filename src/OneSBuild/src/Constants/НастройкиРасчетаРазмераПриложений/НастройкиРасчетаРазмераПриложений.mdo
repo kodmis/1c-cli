@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa7841ab-1314-44a1-a64c-f0e4cc2601da">
+  <producedTypes>
+    <managerType typeId="d97960c4-3d39-4c56-b781-04472beebce2" valueTypeId="6921997e-bf2b-4fcc-a397-ad5d6ee820e4"/>
+    <valueManagerType typeId="8e1f8f20-58c5-41fa-8963-583bd31a7ad8" valueTypeId="f2c8e030-7e72-4481-bf66-376f102a7df4"/>
+    <valueKeyType typeId="8ba3959c-ba0d-4ea7-b01c-8be73e10ddd0" valueTypeId="5e9f7ee2-9dd5-438b-be82-767c3ab9e151"/>
+  </producedTypes>
+  <name>НастройкиРасчетаРазмераПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки расчета размера приложений</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

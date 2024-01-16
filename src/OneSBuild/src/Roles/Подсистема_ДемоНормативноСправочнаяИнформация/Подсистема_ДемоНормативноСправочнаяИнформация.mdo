@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce531fd6-ed60-435a-a05c-0da5f36a34a2">
+  <name>Подсистема_ДемоНормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел &quot;Справочники&quot;</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8659e53-8c6b-4b0c-9736-fe93a91e4d69">
+  <name>ВерсионированиеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионирование объектов</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonPicture.ИсторияВерсий</content>
+  <content>CommonModule.ВерсионированиеОбъектовСобытия</content>
+  <content>Constant.ИспользоватьВерсионированиеОбъектов</content>
+  <content>Enum.ВариантыВерсионированияОбъектов</content>
+  <content>InformationRegister.ВерсииОбъектов</content>
+  <content>CommonCommand.ИсторияИзменений</content>
+  <content>CommonModule.ВерсионированиеОбъектов</content>
+  <content>CommonModule.ВерсионированиеОбъектовКлиент</content>
+  <content>FunctionalOption.ВариантыВерсионированияОбъектов</content>
+  <content>FunctionalOption.ИспользоватьВерсионированиеОбъекта</content>
+  <content>FunctionalOption.ИспользоватьВерсионированиеОбъектов</content>
+  <content>Role.ЧтениеВерсийОбъектов</content>
+  <content>FunctionalOptionsParameter.ТипВерсионируемогоОбъекта</content>
+  <content>StyleItem.ЗаголовокУдаленногоРеквизитаФон</content>
+  <content>Enum.ТипыВерсийОбъекта</content>
+  <content>Role.ЧтениеИнформацииОВерсияхОбъектов</content>
+  <content>EventSubscription.ОчиститьИнформациюОбАвтореВерсии</content>
+  <content>Report.АнализВерсийОбъектов</content>
+  <content>Enum.СрокиХраненияВерсий</content>
+  <content>ScheduledJob.ОчисткаУстаревшихВерсийОбъектов</content>
+  <content>InformationRegister.НастройкиВерсионированияОбъектов</content>
+  <content>DefinedType.ВерсионируемыеДанные</content>
+  <content>DefinedType.ВерсионируемыеДанныеОбъект</content>
+  <content>EventSubscription.ЗаписатьВерсиюОбъекта</content>
+  <content>CommonModule.ВерсионированиеОбъектовПереопределяемый</content>
+  <content>SessionParameter.ВыполняетсяЗаписьОбъекта</content>
+  <content>CommonModule.ВерсионированиеОбъектовСлужебныйВызовСервера</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

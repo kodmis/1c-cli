@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47907538-9357-4885-8b50-17f2e16c260f">
+  <producedTypes>
+    <objectType typeId="dc550861-9ca5-4529-bb31-31b5bc0b815a" valueTypeId="97587fb3-cec3-4aec-8bac-7d9eadb48f8c"/>
+    <managerType typeId="6b1e61a6-828b-4b0a-8f88-b9026bf2fc38" valueTypeId="270eaf1b-e1e0-4710-ae8a-f5e0356fb2ea"/>
+  </producedTypes>
+  <name>ИнтерактивноеИзменениеВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерактивное изменение выгрузки</value>
+  </synonym>
+  <defaultForm>DataProcessor.ИнтерактивноеИзменениеВыгрузки.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="17e1840f-fef3-4f17-8476-273e6af24cb4">
+    <name>ВариантВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант выгрузки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a64566fa-b706-49bc-8277-4531145c400e">
+    <name>ПериодОтбораВсехДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отбора всех документов</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a8f32b13-249c-4ce6-a521-f06a87f2e670">
+    <name>АдресКомпоновщикаВсехДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес компоновщика всех документов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="815775e4-cfb7-495b-87c4-d134b90d93d4">
+    <name>ПериодОтбораСценарияУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отбора сценария узла</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e867f2f1-0550-4d15-9e40-ba36c9aabfbd">
+    <name>ДополнительнаяРегистрацияСценарияУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная регистрация сценария узла</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8bdbb9ef-3a91-4374-b3c5-9447005bb1b7">
+    <name>ПредставлениеОтбораСценарияУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление отбора сценария узла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7a27b378-89ac-4cad-8c69-a0cd14812d7e">
+    <name>ПараметрыСценарияДополнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры сценария дополнения</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d2433a11-8e1d-4e4c-966d-37cde6283f72">
+    <name>ПредставлениеТекущейНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление текущей настройки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59eb5919-3c33-48bf-b322-ec78018e4142">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="63f308a5-b955-48a5-8052-50c5bede65d0">
+    <name>КомпоновщикОтбораВсехДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компоновщик отбора всех документов</value>
+    </synonym>
+    <type>
+      <types>DataCompositionSettingsComposer</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b614b97-5c1d-497a-9574-40114059f836">
+    <name>ДополнительнаяРегистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная регистрация</value>
+    </synonym>
+    <comment>Таблица дополнительной регистрации</comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="477dfea4-e401-4cf0-b0a8-2df7c3836c58">
+    <name>АдресХранилищаФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес хранилища формы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="294c000f-6979-4ed1-bbc7-7402facd9185">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="db607fbc-f785-47d5-9550-577424aa3fe9">
+    <name>РедактированиеПериодаИОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование периода и отбора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b7111ddf-a623-4bae-90aa-636148492ca2">
+    <name>ОбщиеПараметрыСинхронизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие параметры синхронизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="905d9dcd-5793-4362-8fe8-2edce8c35e32">
+    <name>ВыборВидаОбъектаСоставаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор вида объекта состава узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a96cb6fd-54e0-4514-9210-7f4636acd336">
+    <name>РедактированиеСоставаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование состава настроек</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3580e7a7-95d1-4a8e-bc12-a1449fe03757">
+    <name>СоставВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав выгрузки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="13759790-6c70-4323-9321-a68b90c51663">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

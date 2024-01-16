@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a947b2d-3e6b-42c8-a9fd-4c5a71d600a9">
+  <producedTypes>
+    <selectionType typeId="6973d534-9070-460c-bad3-0be8d605b826" valueTypeId="95665db0-e82f-40df-b49e-26e927293461"/>
+    <listType typeId="52aed7f2-7002-4dff-9ac4-5c112eebf434" valueTypeId="fb9b1bbb-cfdb-47c9-9c84-19362554d901"/>
+    <managerType typeId="82aafc6f-2c62-4a85-b31f-dccd069ed17f" valueTypeId="48defe78-6409-4520-9b17-96092377807e"/>
+    <recordSetType typeId="b46bd092-42f6-429a-a46b-e1408fc630e7" valueTypeId="75cf4399-c50e-4bdb-b5c5-4a233220b267"/>
+    <recordKeyType typeId="1052c7bf-93c4-4c67-8b97-9ae8b17d82c7" valueTypeId="d8d2356c-5bcd-47b5-b62b-ce5925d86edd"/>
+    <recordType typeId="72315aa5-9b73-443c-b70e-0ed497ed9da2" valueTypeId="95b46cc1-a77f-4024-bbf0-55d1b6690c27"/>
+    <recordManagerType typeId="f4e615a6-0dda-4fd4-9eee-74d2b1a33a60" valueTypeId="d14c4533-4a98-4cc3-903e-590a808aee0f"/>
+  </producedTypes>
+  <name>ОчередьИзвлеченияТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь извлечения текста</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="ae641a80-4ada-4592-ace9-29a82e6700e4">
+    <name>ИсточникТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник текста</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПрисоединенныйФайл</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект, из которого нужно извлечь текст.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

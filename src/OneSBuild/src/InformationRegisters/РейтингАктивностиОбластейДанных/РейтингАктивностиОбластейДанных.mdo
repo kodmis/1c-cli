@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d942a50-b239-4b8c-812a-5a634f5dcaef">
+  <producedTypes>
+    <selectionType typeId="54f74bd2-7c22-44f5-b756-c269438f79eb" valueTypeId="e0f8cc71-bbb4-41a6-af62-5317520237e9"/>
+    <listType typeId="33833bc6-5f7f-4983-a320-d709fd90172b" valueTypeId="23dd2a8d-ff1b-4bd3-bd43-15b5882c8edf"/>
+    <managerType typeId="72c18386-9311-4c15-8667-c9755a9cb19d" valueTypeId="647b3262-6493-49c5-965a-13856c731fff"/>
+    <recordSetType typeId="606e85af-a792-44fa-97c4-fceb445832cf" valueTypeId="fb56a2e0-2ec4-4b39-b9e6-c29334bfc2b3"/>
+    <recordKeyType typeId="c0892009-e11b-4cfb-bbbd-41b0b610387e" valueTypeId="6e545924-fd15-4365-999d-840b54091323"/>
+    <recordType typeId="5002dad2-f754-49e7-b661-937525c4c805" valueTypeId="29c512a3-526f-45a2-837a-ea4484d27d29"/>
+    <recordManagerType typeId="e326141b-798e-4c8c-982b-3a96f78fb4c4" valueTypeId="ebdd601b-3209-4258-aeb9-417c956c8d5c"/>
+  </producedTypes>
+  <name>РейтингАктивностиОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейтинг активности областей данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8ab0c61d-85b4-47e3-aca1-1890e4c6ec8d">
+    <name>Рейтинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Рейтинг активности области данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

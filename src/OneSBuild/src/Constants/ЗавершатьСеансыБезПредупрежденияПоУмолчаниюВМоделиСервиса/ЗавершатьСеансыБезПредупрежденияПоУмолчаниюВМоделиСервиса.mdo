@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abb630dd-f417-47e2-9803-923a084b3361">
+  <producedTypes>
+    <managerType typeId="029a7b12-3233-4680-86b5-af46c1f412c6" valueTypeId="e961eb48-a33a-42c7-8d90-48305f1547b8"/>
+    <valueManagerType typeId="9a072125-9588-4fc9-9cf5-65b1074aee75" valueTypeId="1f987ace-ac63-4697-b581-e8d4cb2db922"/>
+    <valueKeyType typeId="53e9a920-e157-4a62-aece-2083d5bad2c4" valueTypeId="f00e1fb0-1b5a-4aeb-ae3c-d586831ab220"/>
+  </producedTypes>
+  <name>ЗавершатьСеансыБезПредупрежденияПоУмолчаниюВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Завершать сеансы без предупреждения по умолчанию </value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

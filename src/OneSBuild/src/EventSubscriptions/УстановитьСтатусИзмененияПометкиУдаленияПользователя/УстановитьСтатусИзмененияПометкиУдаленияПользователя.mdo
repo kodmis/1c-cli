@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e4bd2ac-d555-490e-87ab-1b0cdd6f72e9">
+  <name>УстановитьСтатусИзмененияПометкиУдаленияПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить статус изменения пометки удаления пользователя</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Пользователи</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ЗаметкиПользователя.УстановитьСтатусИзмененияПометкиУдаленияОбъекта</handler>
+</mdclass:EventSubscription>

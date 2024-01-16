@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b564d97-f277-449a-b34e-0384ff404b0b">
+  <name>_ДемоНастройкаСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила отправки данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand._ДемоРаспределеннаяИнформационнаяБаза</content>
+  <content>CommandGroup._ДемоНастроитьСинхронизациюДанных</content>
+  <content>Catalog.СценарииОбменовДанными</content>
+  <content>Catalog._ДемоОрганизации</content>
+  <content>InformationRegister._ДемоОтветственныеЛица</content>
+  <content>Catalog._ДемоМестаХранения</content>
+  <content>Catalog._ДемоПодразделения</content>
+  <content>CommonForm._ДемоФормаВыбораДополнительныхУсловий</content>
+  <parentSubsystem>Subsystem._ДемоСинхронизацияДанных</parentSubsystem>
+</mdclass:Subsystem>

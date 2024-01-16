@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="658aeea2-012f-4e01-b73f-c3b198b2a170">
+  <name>ИнтеграцияССистемойВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с системой взаимодействия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.ИспользоватьИнтеграциюССистемойВзаимодействия</content>
+  <content>DataProcessor.УправлениеСистемойВзаимодействия</content>
+  <content>CommonModule.ИнтеграцияССистемойВзаимодействия</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10858a39-fe20-4889-a236-6d2ac672bdab">
+  <name>Настройка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Настройка профилей и групп доступа.
+Настройка значений доступа и групп значений доступа для использования в ограничении прав доступа по видам доступа.</value>
+  </explanation>
+  <content>Catalog._ДемоГруппыДоступаПартнеров</content>
+  <content>Catalog._ДемоМестаХранения</content>
+  <content>Catalog._ДемоПартнеры</content>
+  <content>Catalog._ДемоОрганизации</content>
+  <content>Catalog._ДемоГруппыДоступаНоменклатуры</content>
+  <content>Catalog._ДемоНоменклатура</content>
+  <content>Catalog.ПапкиФайлов</content>
+  <content>Catalog._ДемоФизическиеЛица</content>
+  <content>Constant._ДемоОграничиватьДоступПоФизическимЛицам</content>
+  <content>Constant._ДемоОграничиватьДоступПоНоменклатуре</content>
+  <content>FunctionalOption._ДемоОграничиватьДоступПоНоменклатуре</content>
+  <content>FunctionalOption._ДемоОграничиватьДоступПоПартнерам</content>
+  <content>Constant._ДемоОграничиватьДоступПоПартнерам</content>
+  <content>Catalog._ДемоКассыККМ</content>
+  <content>Catalog._ДемоКассы</content>
+  <content>Enum._ДемоХозяйственныеОперации</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</content>
+  <content>Catalog._ДемоВидыНоменклатуры</content>
+  <content>Catalog.ВнешниеПользователи</content>
+  <content>Catalog.ГруппыВнешнихПользователей</content>
+  <content>Catalog.ГруппыПользователей</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ГруппыИсполнителейЗадач</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Report.АнализПравДоступа</content>
+  <content>Report.ПраваРолей</content>
+  <parentSubsystem>Subsystem._ДемоУправлениеДоступом.Subsystem._ДемоУправлениеДоступом</parentSubsystem>
+</mdclass:Subsystem>

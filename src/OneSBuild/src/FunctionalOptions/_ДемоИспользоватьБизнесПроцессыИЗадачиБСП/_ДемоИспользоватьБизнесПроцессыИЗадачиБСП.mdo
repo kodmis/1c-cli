@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c476d5b-0015-40c6-9541-016f93f68623">
+  <name>_ДемоИспользоватьБизнесПроцессыИЗадачиБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать бизнес-процессы и задачи БСП</value>
+  </synonym>
+  <comment>Для управления видимостью прикладных объектов конфигурации.</comment>
+  <location>Constant.ИспользоватьБизнесПроцессыИЗадачи</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem._ДемоБизнесПроцессыИЗадачи</content>
+  <content>Subsystem._ДемоБизнесПроцессыИЗадачи.Subsystem.НастройкаРолевойАдресации</content>
+  <content>Subsystem._ДемоБизнесПроцессыИЗадачи.Subsystem.ВыдачаЗаданий</content>
+  <content>Subsystem._ДемоБизнесПроцессыИЗадачи.Subsystem.КонтрольИсполнения</content>
+  <content>Subsystem._ДемоБизнесПроцессыИЗадачи.Subsystem.ИсполнениеЗадач</content>
+  <content>CommonCommand._ДемоСоздатьЗадачуБезБизнесПроцесса</content>
+  <content>BusinessProcess._ДемоЗаданиеСРолевойАдресацией</content>
+  <content>DataProcessor._ДемоОперацииСБизнесПроцессамиИЗадачами</content>
+  <content>CommonCommand._ДемоПанельОтчетовБизнесПроцессыИЗадачи</content>
+</mdclass:FunctionalOption>

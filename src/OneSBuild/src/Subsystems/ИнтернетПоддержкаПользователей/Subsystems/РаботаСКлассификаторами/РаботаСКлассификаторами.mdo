@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="700b309b-cb10-44a0-9ca0-b924f2d6b96d">
+  <name>РаботаСКлассификаторами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с классификаторами</value>
+  </synonym>
+  <content>CommonModule.РаботаСКлассификаторамиПереопределяемый</content>
+  <content>CommonModule.РаботаСКлассификаторами</content>
+  <content>InformationRegister.ВерсииКлассификаторов</content>
+  <content>InformationRegister.УдалитьВерсииКлассификаторовОбластейДанных</content>
+  <content>ScheduledJob.ОбновлениеКлассификаторов</content>
+  <content>Role.ПолучениеОбновленийКлассификаторов</content>
+  <content>DataProcessor.ОбновлениеКлассификаторов</content>
+  <content>CommonModule.РаботаСКлассификаторамиКлиент</content>
+  <content>InformationRegister.ВерсииКлассификаторовОбластейДанных</content>
+  <content>InformationRegister.КэшДанныхКлассификаторов</content>
+  <content>Constant.ВариантОбновленияКлассификаторов</content>
+  <content>Constant.ФайлКлассификаторов</content>
+  <content>479f885a-245f-4866-8772-58fe1b69efe8</content>
+  <content>CommonModule.РаботаСКлассификаторамиВызовСервера</content>
+  <content>StyleItem.ЦветОбновлениеКлассификатораНеТребуется</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей</parentSubsystem>
+</mdclass:Subsystem>

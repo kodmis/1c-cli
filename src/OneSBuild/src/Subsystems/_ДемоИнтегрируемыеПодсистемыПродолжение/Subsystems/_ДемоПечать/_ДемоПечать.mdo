@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc28711e-b023-45ff-abc5-93fb8cb579f5">
+  <name>_ДемоПечать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Print</picture>
+  </picture>
+  <content>DataProcessor._ДемоПечатнаяФорма</content>
+  <content>CommonTemplate._ДемоПФ_ODT_СчетНаОплату_ru</content>
+  <content>CommonPicture._ДемоQRКод</content>
+  <content>InformationRegister.ПользовательскиеМакетыПечати</content>
+  <subsystems>Использование</subsystems>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение</parentSubsystem>
+</mdclass:Subsystem>

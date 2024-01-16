@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="630845af-a7dc-4d1e-8c1a-44fa65aab036">
+  <producedTypes>
+    <managerType typeId="bc5c85e8-5042-46ea-8687-612064a8de0b" valueTypeId="31b01f1e-69fb-4289-8d93-20ca039c5647"/>
+    <valueManagerType typeId="d6e6c284-fd85-4ef3-a358-8ab4437aa9b1" valueTypeId="2eea8c42-db55-459a-b156-e30075c19184"/>
+    <valueKeyType typeId="db74a9e9-d840-492b-8738-72af3608590d" valueTypeId="c8faebe8-2b3d-4aaf-896a-067c7204e753"/>
+  </producedTypes>
+  <name>РазрешенныеНеаккредитованныеУЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешенные неаккредитованные УЦ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.РазрешенныеНеаккредитованныеУЦ</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Список ОГРН (через запятую) удостоверяющих центров, потерявших аккредитацию, подписание сертификатами которых разрешено, подписи считаются верными</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

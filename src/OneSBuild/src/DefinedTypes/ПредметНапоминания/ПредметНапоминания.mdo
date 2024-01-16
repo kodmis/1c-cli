@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20c2053c-8ebd-4c07-8d95-956b424d047c">
+  <producedTypes>
+    <containerType typeId="bebb9cce-eeba-4e1c-aaee-dd0bc529ced8" valueTypeId="bce4284b-97ff-4481-ba9f-9168630406ca"/>
+  </producedTypes>
+  <name>ПредметНапоминания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет напоминания</value>
+  </synonym>
+  <type>
+    <types>CatalogRef._ДемоФизическиеЛица</types>
+    <types>DocumentRef._ДемоСчетНаОплатуПокупателю</types>
+    <types>CatalogRef.Заметки</types>
+    <types>TaskRef.ЗадачаИсполнителя</types>
+    <types>CatalogRef.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
+    <types>CatalogRef._ДемоКонтрагенты</types>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

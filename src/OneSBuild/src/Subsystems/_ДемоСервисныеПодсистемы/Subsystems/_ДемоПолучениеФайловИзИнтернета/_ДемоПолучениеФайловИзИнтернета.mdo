@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab308427-787b-44d0-ba38-72cf2f429a52">
+  <name>_ДемоПолучениеФайловИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение файлов из Интернета</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor._ДемоПолучениеФайловИзИнтернета</content>
+  <content>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоПолучениеФайловИзИнтернета</content>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

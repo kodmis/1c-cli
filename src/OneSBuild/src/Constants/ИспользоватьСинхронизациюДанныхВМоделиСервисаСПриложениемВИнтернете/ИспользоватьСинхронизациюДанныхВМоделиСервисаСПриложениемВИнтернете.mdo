@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fdddb51-0605-4f64-8d2e-aa7dbcd37262">
+  <producedTypes>
+    <managerType typeId="6d3fd56e-45b5-431d-8ec6-d4a6b328b7ba" valueTypeId="4ed85991-48e6-45a9-a600-900c9255a1b9"/>
+    <valueManagerType typeId="6bf5dedf-e1f4-495f-9e27-48cc9f3bab94" valueTypeId="09775273-5e72-4669-96ab-cd8c6a50ee79"/>
+    <valueKeyType typeId="f481ff2c-0e1b-54c3-809e-06e34e3177dc" valueTypeId="29634ac2-70a6-589d-bc3d-02081bbeec3f"/>
+  </producedTypes>
+  <name>ИспользоватьСинхронизациюДанныхВМоделиСервисаСПриложениемВИнтернете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать синхронизацию данных в модели сервиса с приложением в Интернете</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

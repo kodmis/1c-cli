@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4753515-a483-453e-a48b-b12d8ef48fd9">
+  <producedTypes>
+    <refType typeId="36588993-1c7c-41eb-9b45-713a8c040897" valueTypeId="c1da85f2-5867-4da6-b2e0-f280a35d31c6"/>
+    <listType typeId="22280f35-d754-4a3a-9785-34d1fa5c63ac" valueTypeId="22b3df7a-7e7b-4b19-97e8-3df291717a83"/>
+    <managerType typeId="4a2b638c-bead-454e-a652-9b23edbcff3a" valueTypeId="2f9fb296-a734-453c-91e4-2db29cc530e0"/>
+  </producedTypes>
+  <name>ТипыПроблемОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы проблем обмена данными</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9b0e9fec-8261-4e20-9556-754a46d11c12">
+    <name>АдминистративнаяОшибкаПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Административная ошибка приложения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d9048eb-abdf-4980-96ed-788fbb0f4ea7">
+    <name>НепроведенныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Непроведенный документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98c3bc52-2351-460c-8b8e-0d3f45ca3131">
+    <name>НезаполненныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Незаполненные реквизиты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1ade16c-bd56-46e5-874f-3117c5653192">
+    <name>ОшибкаВыполненияКодаОбработчиковПриОтправкеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка выполнения кода обработчиков при отправке данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="339398c0-6407-483c-82f7-266ef08b8657">
+    <name>ОшибкаВыполненияКодаОбработчиковПриПолученииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка выполнения кода обработчиков при получении данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f0a8f8c-68cb-4afe-b487-64e7ceeef9ab">
+    <name>ОшибкаПроверкиСконвертированногоОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка проверки сконвертированного объекта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a687748a-0b2a-4277-b935-07616d28430d">
+  <producedTypes>
+    <managerType typeId="cb8e4e5b-e508-4438-8748-1df828bdf816" valueTypeId="c6227d75-5bc2-42c3-9ce4-cb96b2209cf3"/>
+    <valueManagerType typeId="f466dee8-baa3-485c-823e-033bfdddfac4" valueTypeId="7f08794d-83a4-492e-bf3b-9315b6c6fe77"/>
+    <valueKeyType typeId="30a9699f-4f18-5f49-b5f9-dca7000b14d3" valueTypeId="047ce185-9abe-5753-8460-2706426acb5e"/>
+  </producedTypes>
+  <name>ЗарегистрированыИзмененияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрированы изменения данных</value>
+  </synonym>
+  <comment>Кумулятивный признак изменения данных для обмена в модели сервиса </comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

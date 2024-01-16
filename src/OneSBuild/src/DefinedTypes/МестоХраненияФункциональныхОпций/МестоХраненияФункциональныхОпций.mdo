@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd03e170-4186-495b-ae1c-fc66385d7ccf">
+  <producedTypes>
+    <containerType typeId="86a9ae88-d9a9-4ac3-83aa-cae91a412c6f" valueTypeId="affe60c7-5bbe-4049-82d5-a51db3cad829"/>
+  </producedTypes>
+  <name>МестоХраненияФункциональныхОпций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Место хранения функциональных опций</value>
+  </synonym>
+  <type>
+    <types>ConstantValueManager.НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса</types>
+    <types>ConstantValueManager.СоздаватьЭлектронныеПодписиНаСервере</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВМоделиСервиса</types>
+    <types>ConstantValueManager.НеИспользоватьРазделениеПоОбластямДанных</types>
+    <types>ConstantValueManager.ИспользоватьЗаметки</types>
+    <types>ConstantValueManager.ИспользоватьНапоминанияПользователя</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанных</types>
+    <types>ConstantValueManager.ИспользоватьГруппыВнешнихПользователей</types>
+    <types>ConstantValueManager.ИспользоватьДатуНачалаЗадач</types>
+    <types>ConstantValueManager.ИзменятьЗаданияЗаднимЧислом</types>
+    <types>ConstantValueManager.ИспользоватьПолнотекстовыйПоиск</types>
+    <types>ConstantValueManager.ИспользоватьПочтовыйКлиент</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВЛокальномРежиме</types>
+    <types>ConstantValueManager.ОграничиватьДоступНаУровнеЗаписей</types>
+    <types>ConstantValueManager.ПроверятьЭлектронныеПодписиНаСервере</types>
+    <types>ConstantValueManager._ДемоОграничиватьДоступПоНоменклатуре</types>
+    <types>ConstantValueManager.ИспользоватьАнкетирование</types>
+    <types>ConstantValueManager.ИсточникДанныхАдресногоКлассификатора</types>
+    <types>ConstantValueManager.ИспользоватьПодчиненныеБизнесПроцессы</types>
+    <types>ConstantValueManager.ХранитьФайлыВТомахНаДиске</types>
+    <types>ConstantValueManager.ИспользоватьШифрование</types>
+    <types>ConstantValueManager._ДемоИспользоватьНесколькоОрганизаций</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВМоделиСервисаСПриложениемВИнтернете</types>
+    <types>ConstantValueManager.ИспользоватьЭлектронныеПодписи</types>
+    <types>ConstantValueManager.ИспользоватьДатуИВремяВСрокахЗадач</types>
+    <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
+    <types>ConstantValueManager.ИспользоватьАвтономнуюРаботуВМоделиСервиса</types>
+    <types>ConstantValueManager.ИспользуютсяПрофилиБезопасности</types>
+    <types>ConstantValueManager.ЭтоАвтономноеРабочееМесто</types>
+    <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>
+    <types>ConstantValueManager._ДемоУчитыватьНДС</types>
+    <types>ConstantValueManager.ИспользоватьДополнительныеРеквизитыИСведения</types>
+    <types>ConstantValueManager.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</types>
+    <types>ConstantValueManager.ПоддержкаРезервногоКопирования</types>
+    <types>ConstantValueManager.ИспользоватьОнлайнПоддержку</types>
+    <types>ConstantValueManager.ИспользоватьРазделениеПоОбластямДанных</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВМоделиСервисаСЛокальнойПрограммой</types>
+    <types>ConstantValueManager.ИспользоватьГруппыПользователей</types>
+    <types>ConstantValueManager._ДемоНеИспользоватьНесколькоОрганизаций</types>
+    <types>ConstantValueManager.ИспользоватьПрочиеВзаимодействия</types>
+    <types>ConstantValueManager.ИспользоватьПризнакРассмотрено</types>
+    <types>ConstantValueManager._ДемоИспользоватьХарактеристики</types>
+    <types>ConstantValueManager._ДемоОграничиватьДоступПоПартнерам</types>
+    <types>ConstantValueManager.ПрефиксУзлаРаспределеннойИнформационнойБазы</types>
+    <types>ConstantValueManager.ЗарегистрированыИзмененияДанных</types>
+    <types>ConstantValueManager.ИспользоватьБизнесПроцессыИЗадачи</types>
+    <types>ConstantValueManager.ИспользоватьНесколькоПроизводственныхКалендарей</types>
+    <types>ConstantValueManager.ИспользоватьВерсионированиеОбъектов</types>
+    <types>ConstantValueManager.ОтправлятьПисьмаВФорматеHTML</types>
+    <types>ConstantValueManager.ИспользоватьСкрытиеПерсональныхДанныхСубъектов</types>
+  </type>
+</mdclass:DefinedType>

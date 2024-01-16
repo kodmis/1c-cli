@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e36184e-d818-4f38-9257-6d91d9cc85ae">
+  <name>АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автономная работа проверить возможность записи общих данных</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject</types>
+    <types>ChartOfCalculationTypesObject</types>
+    <types>ChartOfAccountsObject</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>CatalogObject</types>
+    <types>TaskObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиВМоделиСервиса.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанных</handler>
+</mdclass:EventSubscription>

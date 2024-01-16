@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8b4cb2d-1180-4101-954a-4cb5464f198c">
+  <name>ПроверкаЛегальностиПолученияОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка легальности получения обновления</value>
+  </synonym>
+  <content>DataProcessor.ЛегальностьПолученияОбновлений</content>
+  <content>CommonModule.ПроверкаЛегальностиПолученияОбновленияКлиент</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

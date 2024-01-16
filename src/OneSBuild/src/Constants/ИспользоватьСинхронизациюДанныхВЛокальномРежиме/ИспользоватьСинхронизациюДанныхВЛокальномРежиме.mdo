@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20fbed2b-4393-4de0-a71d-017a336bdac0">
+  <producedTypes>
+    <managerType typeId="baef6418-87cf-4b4d-be27-27084e46c087" valueTypeId="0a7c9546-ff3e-4259-8bc2-f4a7440c551b"/>
+    <valueManagerType typeId="349b3184-132b-4736-8a42-4b55f0ab829d" valueTypeId="f974a550-f8c1-4d4b-b782-f7e81963f60b"/>
+    <valueKeyType typeId="eff50f44-5db0-50ff-b861-a1648094e265" valueTypeId="186c4fdf-ab1d-573e-a31e-981e5cfdfb1c"/>
+  </producedTypes>
+  <name>ИспользоватьСинхронизациюДанныхВЛокальномРежиме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать синхронизацию данных в локальном режиме</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

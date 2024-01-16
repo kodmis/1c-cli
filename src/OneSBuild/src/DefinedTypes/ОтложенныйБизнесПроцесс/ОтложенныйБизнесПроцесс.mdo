@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71d03545-df45-4c70-aa0d-3b916f2a9041">
+  <producedTypes>
+    <containerType typeId="dc16fd02-90be-4b84-bb76-2d59f0c92be6" valueTypeId="f17a7dc5-22b8-4bd4-bdfc-2ec4e2212ae4"/>
+  </producedTypes>
+  <name>ОтложенныйБизнесПроцесс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенный бизнес процесс</value>
+  </synonym>
+  <type>
+    <types>BusinessProcessRef.Задание</types>
+  </type>
+</mdclass:DefinedType>

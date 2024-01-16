@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39b9a9a2-592c-4f6a-8255-d3d9b54f02b8">
+  <name>АвтоматизацияПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматизация процессов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>РаспределенноеВыполнениеКоманд</subsystems>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

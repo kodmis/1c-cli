@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccba98e2-cb33-4994-b061-37477c73b687">
+  <name>_ДемоУстановитьПрефиксИнформационнойБазыНомеруБизнесПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо:Установить префикс информационной базы номеру бизнес-процесса</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject._ДемоЗаданиеСРолевойАдресацией</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.УстановитьПрефиксИнформационнойБазы</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc96a131-9e79-4ea2-9294-84b3bd1cc85f">
+  <producedTypes>
+    <managerType typeId="8eb80b43-d8f9-4300-a43d-c2c8ad2337bd" valueTypeId="115a2cb1-de7d-441b-8f21-0de460e30a35"/>
+    <valueManagerType typeId="a7cfa4eb-26cb-4441-9ecf-dd7deefe1a33" valueTypeId="20bff7ad-d5d7-434e-aaf0-f769ed3ae69d"/>
+    <valueKeyType typeId="6a400ab7-51a0-550e-9b7a-576128e9ad81" valueTypeId="c5cc226b-5d8e-5aa0-b207-80b4b98eef05"/>
+  </producedTypes>
+  <name>АдресУправленияКонференцией</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес управления конференцией</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

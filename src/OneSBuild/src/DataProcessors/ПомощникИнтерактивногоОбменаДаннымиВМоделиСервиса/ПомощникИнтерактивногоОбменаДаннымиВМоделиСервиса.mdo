@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6bd5459-6f95-4f9c-8d84-c67bdc716acf">
+  <producedTypes>
+    <objectType typeId="ab7d31f5-2da9-487e-b66f-0daad443f109" valueTypeId="4a598f44-84cf-43f6-853e-237a8cc7298e"/>
+    <managerType typeId="94389758-3eb2-4e5b-9854-d41d47870533" valueTypeId="f4fbfa5d-60f8-48e2-a390-83be94242837"/>
+  </producedTypes>
+  <name>ПомощникИнтерактивногоОбменаДаннымиВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник интерактивного обмена данными в модели сервиса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="4a2d2790-debf-4dc2-8216-878d8808d161">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

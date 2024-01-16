@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b60d90d-1368-453f-97f1-e36d0cd6b283">
+  <name>_ДемоГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Календари</content>
+  <parentSubsystem>Subsystem._ДемоНормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8440a2ce-78b6-4025-95fe-21035f963c60">
+  <name>_ДемоЗаполнитьКонтактнуюИнформациюДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Заполнить контактную информацию документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject._ДемоЗаказПокупателя</types>
+  </source>
+  <event>Filling</event>
+  <handler>CommonModule.УправлениеКонтактнойИнформацией.ОбработкаЗаполненияКонтактнойИнформацииДокумента</handler>
+</mdclass:EventSubscription>

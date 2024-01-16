@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5f11cae-a28f-43f0-9f20-931a3fb0110f">
+  <producedTypes>
+    <managerType typeId="f18fa7c9-a127-49d2-8c83-d9b1dcbbacb8" valueTypeId="3ea70a86-0057-4e10-b035-4ce9eb9569ae"/>
+    <valueManagerType typeId="30b56454-8446-4730-bd1e-7ecd73e7d34e" valueTypeId="11ad64bd-fff9-49b9-9887-6873d90370ec"/>
+    <valueKeyType typeId="6a6ed91a-8ad2-5290-be85-55d10ac79898" valueTypeId="9b91bab9-90b6-51e0-a565-0fa6b0f78dda"/>
+  </producedTypes>
+  <name>ВнешнийАдресУправляющегоПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешний адрес управляющего приложения</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

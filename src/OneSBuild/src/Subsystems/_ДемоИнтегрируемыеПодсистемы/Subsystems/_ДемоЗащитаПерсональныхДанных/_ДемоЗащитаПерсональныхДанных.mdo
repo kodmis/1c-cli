@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="262ca2ac-9486-4a84-a19b-80a220f037b4">
+  <name>_ДемоЗащитаПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Защита персональных данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ЗащитаПерсональныхДанных</content>
+  <content>Role._ДемоЧтениеСогласийНаОбработкуПерсональныхДанных</content>
+  <content>Role._ДемоДобавлениеИзменениеСогласийНаОбработкуПерсональныхДанных</content>
+  <content>Report.СогласияНаОбработкуПерсональныхДанныхДействующие</content>
+  <content>Report.СогласияНаОбработкуПерсональныхДанныхИстекающие</content>
+  <subsystems>ПерсональныеДанные</subsystems>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

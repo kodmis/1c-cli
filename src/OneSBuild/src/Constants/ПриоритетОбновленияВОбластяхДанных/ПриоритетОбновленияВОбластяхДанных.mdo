@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73c7750f-8291-4e19-8551-635cd6b94215">
+  <producedTypes>
+    <managerType typeId="3d605ca1-b389-46af-8584-f9d67a6de6bc" valueTypeId="03cb1f85-2af0-4270-b588-903c8c9aac69"/>
+    <valueManagerType typeId="d4ebb427-e47c-4045-bdd9-7993b5cbb892" valueTypeId="619ad15b-d56b-4407-a572-c07bc84d3589"/>
+    <valueKeyType typeId="b905ed0f-9353-5b4f-8a75-90764b6d2c79" valueTypeId="364d6fa8-e3aa-5cad-be84-52544628840f"/>
+  </producedTypes>
+  <name>ПриоритетОбновленияВОбластяхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритет обновления в областях данных</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>32</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ПриоритетОбновленияВОбластяхДанных</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

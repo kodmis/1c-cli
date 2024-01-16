@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea4b9956-f1b6-4d63-8037-e33d36f12244">
+  <name>_ДемоВерсионирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионирование объектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>FunctionalOption._ДемоИспользоватьВерсионированиеОбъектовБСП</content>
+  <content>InformationRegister.ВерсииОбъектов</content>
+  <content>EventSubscription._ДемоЗаписатьВерсиюДокумента</content>
+  <content>InformationRegister.НастройкиВерсионированияОбъектов</content>
+  <subsystems>Использование</subsystems>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

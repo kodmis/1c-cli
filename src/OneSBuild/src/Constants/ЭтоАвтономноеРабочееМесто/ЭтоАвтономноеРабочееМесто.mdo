@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8621f68-106e-4058-963f-56010491ae2e">
+  <producedTypes>
+    <managerType typeId="a3388c5c-c3f1-4e89-811d-f0023b8cc7d6" valueTypeId="dd728fc4-a933-4d92-bff6-ebe136414066"/>
+    <valueManagerType typeId="7d9140c9-fca4-445b-94a0-6c795c5442a2" valueTypeId="fbbf2218-89a0-4be9-90bf-8f98a8feaf71"/>
+    <valueKeyType typeId="b640f8d6-00b1-596e-89c1-a183a7df8267" valueTypeId="f033ff31-1f74-5db8-bfee-b0e97cbf9ca8"/>
+  </producedTypes>
+  <name>ЭтоАвтономноеРабочееМесто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Это автономное рабочее место</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

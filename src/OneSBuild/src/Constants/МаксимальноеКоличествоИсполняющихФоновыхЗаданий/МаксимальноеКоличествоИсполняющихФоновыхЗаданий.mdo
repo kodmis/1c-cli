@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82e12316-cc64-4d2f-83fa-054b5a738f02">
+  <producedTypes>
+    <managerType typeId="2e1a0d89-a0c9-484b-a4f4-e58919e5f63d" valueTypeId="3f296173-4b1a-4256-95a0-334dacd832e6"/>
+    <valueManagerType typeId="f0f3f28a-fe06-452d-ba57-087c145f3c53" valueTypeId="39b853b5-af28-496f-b772-6da519a202bc"/>
+    <valueKeyType typeId="b34c225a-41f3-5c14-bc5e-f2fecc54d6c6" valueTypeId="69398979-e117-51da-bb92-9debd0aef9ce"/>
+  </producedTypes>
+  <name>МаксимальноеКоличествоИсполняющихФоновыхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальное количество исполняющих фоновых заданий</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

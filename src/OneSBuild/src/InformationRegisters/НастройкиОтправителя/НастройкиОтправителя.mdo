@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e22429f-9ec0-4943-bf80-1becc4b8e5cb">
+  <producedTypes>
+    <selectionType typeId="e1dcb2a0-f436-476e-814d-9068b0ea2eeb" valueTypeId="599dbc20-f313-4d3b-ac44-6889ecd7afae"/>
+    <listType typeId="69a681f9-d97e-4a7e-bc85-83879b61028d" valueTypeId="40257b32-3709-46d1-b286-6d1d6bf997cd"/>
+    <managerType typeId="87fca2f9-6bfa-42fd-a8ec-9e4965b587b4" valueTypeId="cfad5feb-8989-4388-b563-2a12155849b6"/>
+    <recordSetType typeId="8e49083a-e317-442b-88ba-84df72cf896e" valueTypeId="71408564-2d51-4233-9da7-0eebdb496c51"/>
+    <recordKeyType typeId="6d53b152-8155-444d-8992-ee6d03ad5685" valueTypeId="a5412983-6a72-4c48-ae7a-a7d2daaae42c"/>
+    <recordType typeId="e491faca-ed32-4a12-afda-7dd9e7e896e9" valueTypeId="a93fd05c-9a34-498f-87a8-d8fe2883f6ff"/>
+    <recordManagerType typeId="680f25ba-e6b7-4d60-8526-7ddc7d29785d" valueTypeId="bbc48518-0c8d-4011-9cc3-16afb6ed617a"/>
+  </producedTypes>
+  <name>НастройкиОтправителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки отправителя</value>
+  </synonym>
+  <comment>Используется для  хранения связей каналов с получателями этих каналов. Регистр задает рассылку по получателям со стороны отправителя.</comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="0153e60e-daca-48ac-b1c6-adecc89f579e">
+    <name>КаналСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал сообщений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя канала сообщений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="1ed4cf25-19f0-49f5-96a0-0ffe13adfe35">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ОбменСообщениями</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конечная точка (получатель сообщений из канала)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+  <commands uuid="0a9c462d-2b4b-4fe8-ad57-5c05f1154a60">
+    <name>НастройкиОтправителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки отправителя</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>ExchangePlanRef.ОбменСообщениями</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

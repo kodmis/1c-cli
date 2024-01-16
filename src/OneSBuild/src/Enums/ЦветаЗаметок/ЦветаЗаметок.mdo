@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3734619b-7059-4547-8b97-0b3393389d4d">
+  <producedTypes>
+    <refType typeId="68cc4699-06b6-4804-8023-da9c593ea9ee" valueTypeId="86f59d16-97ef-4032-947d-48dea8220616"/>
+    <listType typeId="3da05f17-fa64-4d64-a6fe-805469d54896" valueTypeId="70ee0351-7611-4dcb-8048-6cdc781e9c2c"/>
+    <managerType typeId="d0ffcb47-6c9c-426a-9acf-b4c1ed25e09d" valueTypeId="160740cf-91a2-43da-8d59-80c6661be9ba"/>
+  </producedTypes>
+  <name>ЦветаЗаметок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета заметок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a30bf95f-aabd-4da0-8287-61e08f9362fb">
+    <name>Красный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Красный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5a7df18-2ddb-4053-9aeb-57fc37ae557e">
+    <name>Оранжевый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оранжевый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4078867c-2972-47f9-bebd-935a6f1cc667">
+    <name>Желтый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Желтый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8502fe39-c241-4be5-a313-fd887bbbdfa1">
+    <name>Зеленый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зеленый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67a71201-13e5-42a3-902f-fb3a59710dfb">
+    <name>Голубой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Голубой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a79a951-a997-4596-ab62-ba376d67725d">
+    <name>Синий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd4fe688-c113-4ac5-8114-b89cf1b0eb55">
+    <name>Фиолетовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиолетовый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

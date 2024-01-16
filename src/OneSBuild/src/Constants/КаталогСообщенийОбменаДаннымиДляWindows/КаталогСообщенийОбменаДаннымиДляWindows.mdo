@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98153b59-8cc6-4dc7-b945-99c1146d07da">
+  <producedTypes>
+    <managerType typeId="15c0fd7d-3d01-4424-9773-b81024d9eb27" valueTypeId="b328f7ba-e72c-4822-b259-8ec8d687a1c6"/>
+    <valueManagerType typeId="32ede9f6-707f-4151-831f-151d9e811cb2" valueTypeId="5d7a72d4-647d-4a31-a2f0-90b02dc0df90"/>
+    <valueKeyType typeId="e33339ce-521b-5923-add3-2d6012de18fa" valueTypeId="398ae1b6-014e-550e-ad29-25f13e0eb76d"/>
+  </producedTypes>
+  <name>КаталогСообщенийОбменаДаннымиДляWindows</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог сообщений синхронизации для Windows</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

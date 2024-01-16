@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff8ae395-c740-4a30-a048-0d57eef6267f">
+  <name>БазоваяФункциональность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность</value>
+  </synonym>
+  <content>CommonModule.МультиязычностьКлиент</content>
+  <content>CommonModule.МультиязычностьКлиентСервер</content>
+  <content>CommonModule.МультиязычностьПереопределяемый</content>
+  <content>CommonModule.МультиязычностьПовтИсп</content>
+  <content>CommonModule.МультиязычностьСервер</content>
+  <content>CommonAttribute.КомментарийЯзык1</content>
+  <content>CommonAttribute.КомментарийЯзык2</content>
+  <content>CommonAttribute.НаименованиеЯзык1</content>
+  <content>CommonAttribute.НаименованиеЯзык2</content>
+  <content>FunctionalOption.ИспользоватьДополнительныйЯзык1</content>
+  <content>FunctionalOption.ИспользоватьДополнительныйЯзык2</content>
+  <content>StyleItem.ЦветИзмененногоПоля</content>
+  <content>CommonForm.ВводНаРазныхЯзыках</content>
+  <content>Constant.ДополнительныйЯзык1</content>
+  <content>Constant.ДополнительныйЯзык2</content>
+  <content>Constant.ИспользоватьДополнительныйЯзык1</content>
+  <content>Constant.ИспользоватьДополнительныйЯзык2</content>
+  <content>CommonForm.РегиональныеНастройки</content>
+  <content>Constant.ДанныеДляИзмененияМультиязычныхРеквизитов</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.Мультиязычность</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efefebea-2032-4006-b9ca-50a23b7da1ef">
+  <producedTypes>
+    <refType typeId="6e70f791-a5ba-4125-824f-b788750311d7" valueTypeId="aa5d5734-919d-45e5-9ab2-652ab0609436"/>
+    <listType typeId="ed5ff0f0-b6dd-4dc2-a9bd-b501c075d23b" valueTypeId="193932f9-ade7-4dff-a8a3-c2bfd847df9e"/>
+    <managerType typeId="e6d0f3a8-246c-4644-9c81-e4359d094e89" valueTypeId="e79541f4-0913-4644-953e-f095eb6217d8"/>
+  </producedTypes>
+  <name>РежимыВыгрузкиОбъектовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы выгрузки объектов обмена</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4c794d37-3352-4acb-a939-5e90fb682db8">
+    <name>ВыгружатьВсегда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать всегда</value>
+    </synonym>
+    <comment>Выгрузка без использования фильтров</comment>
+  </enumValues>
+  <enumValues uuid="5f3fea83-6ca8-481b-9e2b-789a6fd01e2e">
+    <name>ВыгружатьПоУсловию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать по условию</value>
+    </synonym>
+    <comment>Выгрузка с использованием фильтров</comment>
+  </enumValues>
+  <enumValues uuid="008f5068-da9c-4dac-9c0a-a50366d27cbb">
+    <name>ВыгружатьПриНеобходимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать при необходимости</value>
+    </synonym>
+    <comment>Выгрузка без использования фильтров, но с контролем ссылочной целостности выгружаемых данных</comment>
+  </enumValues>
+  <enumValues uuid="950b3ee3-070f-4946-8b9b-0aa2058de986">
+    <name>ВыгружатьВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать вручную</value>
+    </synonym>
+    <comment>В этом режиме изменения объектов не регистрируются автоматически (через подписки на события); объекты регистрируются к выгрузке вручную пользователем и выгружаются только, если соответствуют фильтру, установленному на узле, для которого выполняется выгруз</comment>
+  </enumValues>
+  <enumValues uuid="bd04a870-0943-4bdb-9e30-50a69daa8a13">
+    <name>НеВыгружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать</value>
+    </synonym>
+    <comment>В этом режиме изменения объектов не регистрируются автоматически (через подписки на события) и не выгружаются, даже если изменения объектов были зарегистрированы вручную пользователем.</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0943dd00-1653-4760-a9fe-ebc083ffa660">
+  <name>ПаролиСинхронизацииДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароли синхронизации данных</value>
+  </synonym>
+  <type>
+    <types>FixedMap</types>
+  </type>
+</mdclass:SessionParameter>

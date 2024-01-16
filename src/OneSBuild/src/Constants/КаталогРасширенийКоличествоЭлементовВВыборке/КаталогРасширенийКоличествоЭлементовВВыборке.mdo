@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d89ecb87-1743-4bab-aea4-e9de7aa388f8">
+  <producedTypes>
+    <managerType typeId="e1e46d3a-50af-44cf-8b11-82726aa1ca30" valueTypeId="e59ade27-99df-43f4-98d9-f4c5d07b89c7"/>
+    <valueManagerType typeId="8d571435-9447-4b63-b08e-90f87ca30a04" valueTypeId="9c66319a-7a6e-4e6d-b5b0-0ff5fffbce7b"/>
+    <valueKeyType typeId="f246dfad-7c99-53c8-83e6-b60546e3c6cd" valueTypeId="8a70325a-df6c-5f3d-9a37-3bc877d916a0"/>
+  </producedTypes>
+  <name>КаталогРасширенийКоличествоЭлементовВВыборке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальное количество элементов на странице каталога расширений</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

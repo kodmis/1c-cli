@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08552af7-3c44-42c6-94c5-63a2316127fc">
+  <producedTypes>
+    <managerType typeId="8343e88e-d1d8-4743-bef3-789408d5426a" valueTypeId="216b341a-e62d-4a0a-b4cf-9b200b5b9e65"/>
+    <valueManagerType typeId="ece9006d-59db-41b4-85d8-efbc09543ef0" valueTypeId="b2278a78-8c98-4a38-a708-50d55e0a984c"/>
+    <valueKeyType typeId="291c23ae-183a-5b2f-aec6-9d6259302b1e" valueTypeId="c75d0709-7459-536c-a02f-374e0c659b3e"/>
+  </producedTypes>
+  <name>ИспользоватьШаблоныСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать шаблоны сообщений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

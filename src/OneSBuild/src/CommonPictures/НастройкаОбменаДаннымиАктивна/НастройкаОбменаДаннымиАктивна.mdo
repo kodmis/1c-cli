@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9221471-3f76-45d2-b467-a1afb8e690f2">
+  <name>НастройкаОбменаДаннымиАктивна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка обмена данными активна</value>
+  </synonym>
+</mdclass:CommonPicture>

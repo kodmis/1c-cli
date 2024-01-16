@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6c42b5d-57fd-42ce-a968-653620e797f6">
+  <name>ОтложитьРассмотрениеВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложить рассмотрение взаимодействия</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e7e5030-9e58-48f2-8d7e-5337e8bcaf01">
+  <producedTypes>
+    <objectType typeId="e17e13ee-56a5-48ec-8856-c934731ec9b7" valueTypeId="b96c6750-ddc0-43ed-aaba-cdf9c526e195"/>
+    <managerType typeId="2a993138-9f4b-49e2-ab44-d73694313693" valueTypeId="42b3eb3b-9394-4c38-bfc3-7d51167635fd"/>
+  </producedTypes>
+  <name>ОбновлениеНаИсправительнуюВерсиюБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление на исправительную версию БСП</value>
+  </synonym>
+  <comment>АПК:566 работа в веб-клиенте не предусмотрена</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеНаИсправительнуюВерсиюБСП.Form.Форма</defaultForm>
+  <forms uuid="d1cec0da-a80b-40a3-8fe1-e2f836868c01">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1c855838-b3bc-41a4-bde8-bfc87f6bca10">
+    <name>ШаблонНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон настроек</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

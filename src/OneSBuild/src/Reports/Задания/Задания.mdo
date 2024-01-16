@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1635be16-4861-4a7d-babc-4caff448a7f7">
+  <producedTypes>
+    <objectType typeId="06c57b70-09f5-4452-bd9e-e092ed545fa1" valueTypeId="71233959-3e55-4d0d-8a5e-d31609ff38a3"/>
+    <managerType typeId="b6fc38b1-0d36-46c4-9963-9628528cb390" valueTypeId="76339f45-0be5-4ee4-9fbc-d35ee8fc1adb"/>
+  </producedTypes>
+  <name>Задания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Задания.Template.Макет</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Отчет по заданиям</value>
+  </extendedPresentation>
+  <templates uuid="9e399087-c957-4a7a-ab9d-2b689736caab">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6ee93c0-c119-4866-86d2-88f1eb0e62c1">
+  <producedTypes>
+    <objectType typeId="13c4827c-acdf-4086-aca2-6389299e3258" valueTypeId="39e28701-7006-49d9-8b7f-22f8c2a70624"/>
+    <managerType typeId="d6c8be33-fc05-4104-af85-99cc0c057a96" valueTypeId="5eb20cc5-b1ff-4512-b7d1-c0fd0af0df63"/>
+  </producedTypes>
+  <name>ПереносЗамеровВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос замеров времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереносЗамеровВремени.Form.Форма</defaultForm>
+  <attributes uuid="8e4c9264-8b15-4b83-a91c-0f65a3ffd5ca">
+    <name>ДатаНачалаОбнаружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала обнаружено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала периода, в котором обнаружены замеры в устаревшем формате</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cf268388-3c70-4255-8826-23746a3643c9">
+    <name>ДатаОкончанияОбнаружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания обнаружено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания периода, в котором обнаружены замеры в устаревшем формате</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1fffd91d-894f-40c2-8ab6-c8611a4fea82">
+    <name>КоличествоОбнаружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество обнаружено</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество замеров в устаревшем формате</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a516b537-9339-41f7-9dae-65c11f364ba7">
+    <name>ДатаНачалаПеренос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала перенос</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала периода конвертации замеров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9dfa5a82-ef09-49b3-a6bd-01fef282d7e7">
+    <name>ДатаОкончанияПеренос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания перенос</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания периода конвертации замеров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e2ab9eaf-405d-4bac-bef4-23bc530784e3">
+    <name>КоличествоОсталосьПеренести</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество осталось перенести</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество записей для конвертации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d7f65a2d-1abb-424f-966e-d0a89c4fb280">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="030010a3-a259-473c-87eb-4f3f9f6ef4ac">
+    <name>ОценкаПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка производительности (2.3.3)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

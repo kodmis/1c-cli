@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f0bb2e0-0620-4176-87f3-49b550c3ac44">
+  <producedTypes>
+    <objectType typeId="6a30aea0-b5f5-40e6-8f11-bce1166a4a53" valueTypeId="1dea0dea-a607-411a-9964-291323a14c0e"/>
+    <managerType typeId="f5f5658a-d4bd-40e1-9bee-c2686263e79f" valueTypeId="82d13ec9-5939-4318-9597-4c87d848a2b0"/>
+  </producedTypes>
+  <name>_ДемоВыборОбъектовМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Выбор объектов метаданных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоВыборОбъектовМетаданных.Form.Форма</defaultForm>
+  <attributes uuid="1669f593-668c-4dd0-8921-489d5ba45231">
+    <name>ОбъектыМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты метаданных</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранные объекты метаданных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="067f7bd7-7e3d-4564-be2d-1d71a7c697bf">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

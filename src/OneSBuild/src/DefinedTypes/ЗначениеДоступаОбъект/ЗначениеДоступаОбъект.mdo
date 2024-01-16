@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5001bea4-c8f9-4950-9eda-d33125e3bb46">
+  <producedTypes>
+    <containerType typeId="48a4b31b-a4f3-4873-8a7f-9ab499e64731" valueTypeId="0f76dfd6-d28e-4d1a-920e-6c6a9d0b0a9d"/>
+  </producedTypes>
+  <name>ЗначениеДоступаОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение доступа объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject._ДемоНоменклатура</types>
+    <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
+    <types>CatalogObject._ДемоФизическиеЛица</types>
+    <types>CatalogObject._ДемоОрганизации</types>
+    <types>CatalogObject._ДемоПартнеры</types>
+    <types>CatalogObject._ДемоПодразделения</types>
+    <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
+    <types>CatalogObject.ДополнительныеОтчетыИОбработки</types>
+    <types>CatalogObject._ДемоКассыККМ</types>
+    <types>CatalogObject._ДемоКассы</types>
+    <types>CatalogObject._ДемоМестаХранения</types>
+    <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogObject._ДемоВидыНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

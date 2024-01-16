@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb2dda30-4284-454c-9ee5-4fe30a25cbc4">
+  <name>МиграцияПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция приложений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.МиграцияПриложений</content>
+  <content>InformationRegister.МиграцияПриложенийОчередьЗагрузки</content>
+  <content>InformationRegister.МиграцияПриложенийСостояниеЗагрузки</content>
+  <content>InformationRegister.МиграцияПриложенийСостояниеВыгрузки</content>
+  <content>ScheduledJob.МиграцияПриложенийВыгрузка</content>
+  <content>ScheduledJob.МиграцияПриложенийЗагрузка</content>
+  <content>CommonModule.МиграцияПриложенийПовтИсп</content>
+  <content>CommonModule.МиграцияПриложенийПереопределяемый</content>
+  <content>CommonModule.МиграцияПриложенийКлиент</content>
+  <content>CommonModule.МиграцияПриложенийКлиентСервер</content>
+  <content>Enum.СостоянияМиграцииПриложения</content>
+  <content>ExchangePlan.МиграцияПриложений</content>
+  <content>EventSubscription.МиграцияПриложенийПередЗаписьюДокумента</content>
+  <content>EventSubscription.МиграцияПриложенийПередЗаписьюНабора</content>
+  <content>EventSubscription.МиграцияПриложенийПередЗаписьюНабораРасчета</content>
+  <content>EventSubscription.МиграцияПриложенийПередЗаписьюОбъекта</content>
+  <content>EventSubscription.МиграцияПриложенийПередУдалениемОбъекта</content>
+  <content>Constant.ИспользуетсяМиграцияПриложений</content>
+  <content>FunctionalOption.ИспользуетсяМиграцияПриложений</content>
+  <content>CommonModule.МиграцияПриложенийГлобальный</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

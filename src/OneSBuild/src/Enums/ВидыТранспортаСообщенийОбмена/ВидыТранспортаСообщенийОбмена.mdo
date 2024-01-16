@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df76a1b7-312a-4e77-bac1-79befadb4495">
+  <producedTypes>
+    <refType typeId="687b4b5c-4b2c-4ab8-8c82-f7b24c521564" valueTypeId="35c7b099-42b1-4702-a966-806bbc70a9c3"/>
+    <listType typeId="789d6b4b-d8b5-4e31-9ab4-ac6098044e87" valueTypeId="f1297a25-5748-47f7-a921-4e4581f45525"/>
+    <managerType typeId="2c580b07-09a5-411d-9d72-328153853a9d" valueTypeId="8ca528cd-8c9e-49c6-b4a5-5fd7d69e7f5b"/>
+  </producedTypes>
+  <name>ВидыТранспортаСообщенийОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды транспорта сообщений обмена</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ab39fad8-1039-491e-982a-c49637770ec0">
+    <name>EMAIL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почтовые сообщения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d93a6ba-3ca7-45ab-a540-743c79587535">
+    <name>FILE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальный или сетевой каталог</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76b58810-0527-4dfc-8858-bac68e7e65f3">
+    <name>FTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>FTP-ресурс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aba97fd9-f05e-45cd-8404-ed702070e17a">
+    <name>WS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5c415cd-429b-469f-9332-c43ab5d1c8d6">
+    <name>COM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямое подключение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6de34ed8-5d6c-4bb6-af94-328e692b862e">
+    <name>WSПассивныйРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет (пассивный режим)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e705bde3-45c3-4ffd-a767-0320c6cc8b91">
+    <name>ВнешняяСистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя система</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

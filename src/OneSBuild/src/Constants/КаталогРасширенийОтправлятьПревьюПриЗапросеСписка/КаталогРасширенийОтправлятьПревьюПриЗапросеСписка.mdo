@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa237e30-dbc2-4c9a-a2be-5dddc954864c">
+  <producedTypes>
+    <managerType typeId="aa2af1bf-fd46-4479-9da3-2f230e1d0bb0" valueTypeId="64887da8-f42a-48dd-8bee-e0fa6c74e4d4"/>
+    <valueManagerType typeId="41d1e59f-5c78-4025-a851-41b651d66e21" valueTypeId="39dca820-8a8b-4335-97f4-39a34e3bd8b8"/>
+    <valueKeyType typeId="b8073438-9cda-5098-b941-a0437a19c018" valueTypeId="5f185e1a-dc93-562b-a1f5-d25b3ea0788b"/>
+  </producedTypes>
+  <name>КаталогРасширенийОтправлятьПревьюПриЗапросеСписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать изображения в каталоге расширений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="479f668d-dd41-4313-9dae-36b2ebdaaa49">
+  <name>_ДемоЧтениеЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Чтение зарплаты</value>
+  </synonym>
+  <comment>Роль-функция - обеспечивает часть прав читателя документов зарплаты</comment>
+</mdclass:Role>

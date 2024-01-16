@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="198ea989-5001-47ac-86b8-aa2585a5f7d7">
+  <producedTypes>
+    <refType typeId="cd96efdb-178d-4f7d-bed4-c17ed4d1f9bb" valueTypeId="3dc5c7d1-7de2-4801-8e35-21950f17a860"/>
+    <listType typeId="8f668546-ffc2-486d-91db-2cafc75cfba4" valueTypeId="0b734fa3-44ad-4d73-adc0-9ac0c448f816"/>
+    <managerType typeId="2144df40-139a-4c94-8484-22b05f19694f" valueTypeId="2e098b45-4e40-429d-beec-8b5e681e467b"/>
+  </producedTypes>
+  <name>ВидыПереключателяВАнкетах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды переключателя в анкетах</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4abe448b-a225-4ac2-8cc9-c3c6c0e9b1ac">
+    <name>Переключатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переключатель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb84c5f7-11da-4b17-979e-41e27a74e789">
+    <name>Тумблер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тумблер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

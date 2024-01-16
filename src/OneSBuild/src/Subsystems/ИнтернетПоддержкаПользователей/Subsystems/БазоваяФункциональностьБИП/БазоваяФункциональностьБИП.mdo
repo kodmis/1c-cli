@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cfa65ec-4676-4f8f-88d6-d9aefc9547ff">
+  <name>БазоваяФункциональностьБИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность Интернет-поддержки</value>
+  </synonym>
+  <content>CommonPicture.ИнтернетПоддержкаПользователей</content>
+  <content>InformationRegister.УдалитьПараметрыИнтернетПоддержкиПользователей</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователей</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейВызовСервера</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейКлиент</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейКлиентПереопределяемый</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейКлиентСервер</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейПереопределяемый</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейСлужебныйПовтИсп</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБИП</content>
+  <content>Role.БазовыеПраваИПП</content>
+  <content>Role.ПодключениеИнтернетПоддержки</content>
+  <content>CommonForm.ПодключениеИнтернетПоддержки</content>
+  <content>CommonModule.КлиентЛицензированияГлобальный</content>
+  <content>CommonModule.КлиентЛицензированияКлиент</content>
+  <content>CommonModule.КлиентЛицензирования</content>
+  <content>CommonModule.КлиентЛицензированияВызовСервера</content>
+  <content>SessionParameter.ПараметрыКлиентаНаСервереБИП</content>
+  <content>DefinedType.КонтрагентБИП</content>
+  <content>DefinedType.КонтрагентБИПОбъект</content>
+  <content>CommonPicture.ИнтернетПоддержкаВнимание</content>
+  <content>CommonModule.ИнтеграцияПодсистемБИП</content>
+  <content>CommonModule.ИнтеграцияПодсистемБИПКлиент</content>
+  <content>CommonModule.ИнтеграцияПодсистемБИПКлиентПовтИсп</content>
+  <content>CommonModule.ИнтеграцияПодсистемБИППовтИсп</content>
+  <content>StyleItem.ШрифтВажнойНадписиБИП</content>
+  <content>StyleItem.ЦветВажнойНадписиБИП</content>
+  <content>CommonPicture.ИнтернетПоддержкаПользователейВыполнено</content>
+  <content>StyleItem.ЦветФонаПоясненияОшибкиБИП</content>
+  <content>StyleItem.ЦветИнформацияОшибочна</content>
+  <content>StyleItem.ЦветМикротекста</content>
+  <content>StyleItem.ЦветНедоступногоТекста</content>
+  <content>StyleItem.ЦветПодписи</content>
+  <content>StyleItem.ШрифтМикротекста</content>
+  <content>StyleItem.ШрифтВажногоЗаголовкаБИП</content>
+  <content>StyleItem.ЦветФонаНекорректногоЗначенияБИП</content>
+  <content>StyleItem.ЦветФонаКорректногоЗначенияБИП</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3749f843-9db1-45d8-98c5-3274a7742a6f">
+  <name>ЭлектроннаяПодписьВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронная подпись в модели сервиса</value>
+  </synonym>
+  <content>InformationRegister.ХранилищеСертификатов</content>
+  <content>Enum.ТипХранилищаСертификатов</content>
+  <content>Constant.ИспользоватьЭлектроннуюПодписьВМоделиСервиса</content>
+  <content>Constant.АдресСервисаПодключенияЭлектроннойПодписиВМоделиСервиса</content>
+  <content>Constant.АдресКриптосервиса</content>
+  <content>CommonPicture.ЗагрузитьФайлСертификата</content>
+  <content>CommonPicture.ВыгрузитьФайлСертификата</content>
+  <content>CommonForm.ВводВременногоПароля</content>
+  <content>FunctionalOption.ИспользоватьЭлектроннуюПодписьВМоделиСервиса</content>
+  <content>SessionParameter.МаркерыБезопасности</content>
+  <content>CommonModule.ЭлектроннаяПодписьВМоделиСервисаКлиентСервер</content>
+  <content>CommonModule.ЭлектроннаяПодписьВМоделиСервиса</content>
+  <content>CommonModule.ХранилищеСертификатовСлужебныйКлиент</content>
+  <content>CommonModule.ХранилищеСертификатовКлиент</content>
+  <content>CommonModule.ХранилищеСертификатовСлужебныйВызовСервера</content>
+  <content>CommonModule.ХранилищеСертификатов</content>
+  <content>CommonModule.СервисКриптографииСлужебныйКлиент</content>
+  <content>CommonModule.СервисКриптографииСлужебныйВызовСервера</content>
+  <content>CommonModule.СервисКриптографииСлужебный</content>
+  <content>CommonModule.СервисКриптографииКлиент</content>
+  <content>CommonModule.СервисКриптографии</content>
+  <content>Role.ИспользованиеЭлектроннойПодписиВМоделиСервиса</content>
+  <content>CommonForm.НастройкиПолученияВременныхПаролей</content>
+  <content>CommonForm.ИзменениеНомераТелефона</content>
+  <content>CommonModule.ЭлектроннаяПодписьВМоделиСервисаКлиент</content>
+  <content>CommonModule.МенеджерСервисаКриптографии</content>
+  <content>CommonModule.ЭлектроннаяПодписьВМоделиСервисаПереопределяемый</content>
+  <content>CommonForm.ВводВременногоПароляМобильноеПриложение</content>
+  <content>CommonForm.ОтключениеПодтвержденияКриптоопераций</content>
+  <content>CommonForm.НастройкаПодтвержденияКриптоопераций</content>
+  <content>Enum.СпособыПодтвержденияКриптоопераций</content>
+  <content>CommonModule.МенеджерСервисаКриптографииСлужебныйКлиент</content>
+  <content>CommonModule.МенеджерСервисаКриптографииСлужебныйВызовСервера</content>
+  <content>CommonModule.МенеджерСервисаКриптографииКлиент</content>
+  <content>CommonModule.ЭлектроннаяПодписьВМоделиСервисаСлужебный</content>
+  <content>CommonForm.ПодтверждениеСменыТелефона</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

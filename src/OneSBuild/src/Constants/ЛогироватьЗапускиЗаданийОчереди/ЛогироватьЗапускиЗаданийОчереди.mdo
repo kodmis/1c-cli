@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00f62020-81be-41cc-ab11-8e42f3560e55">
+  <producedTypes>
+    <managerType typeId="8318075e-19a9-46d3-a036-46b3005d2f3c" valueTypeId="5f5daf0f-dd4b-4296-aa34-4f6d0df2aa6a"/>
+    <valueManagerType typeId="1be7af56-cb2a-423f-b95f-536c79bfbc1f" valueTypeId="e867607b-05a5-4036-810e-d8ecdb7098a7"/>
+    <valueKeyType typeId="9419e61d-c1cf-4dda-b243-819dc92d6670" valueTypeId="15cd326d-3cf7-4776-8f86-55c748d1016e"/>
+  </producedTypes>
+  <name>ЛогироватьЗапускиЗаданийОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логировать запуски заданий очереди</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

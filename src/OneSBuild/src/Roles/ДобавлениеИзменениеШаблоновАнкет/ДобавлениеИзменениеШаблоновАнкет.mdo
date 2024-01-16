@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a95b564a-c895-40f2-b947-ea08462bb2a0">
+  <name>ДобавлениеИзменениеШаблоновАнкет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение шаблонов анкет</value>
+  </synonym>
+</mdclass:Role>

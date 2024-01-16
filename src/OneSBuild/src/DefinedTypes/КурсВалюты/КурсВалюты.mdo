@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2388e3f4-b23b-488f-9ea5-d9434efca195">
+  <producedTypes>
+    <containerType typeId="d74ccadb-6663-40a3-91c0-63ec52084716" valueTypeId="3e870f9c-e17b-459c-b29e-fcf1be495b4a"/>
+  </producedTypes>
+  <name>КурсВалюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курс валюты</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>4</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

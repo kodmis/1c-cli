@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83e30f0b-67b2-411b-9624-ac4c4bd7f94a">
+  <producedTypes>
+    <managerType typeId="d4a4ac89-30e3-4fa1-8e2b-ff5ec06d329d" valueTypeId="44f4df85-39bd-45ea-9a4e-b57f85bd4e9b"/>
+    <valueManagerType typeId="fa14f7cc-3b29-4689-95c4-3ab693fbad43" valueTypeId="2710df5d-99b7-4f65-89b8-55ccb0516b7e"/>
+    <valueKeyType typeId="66bd4da4-0b8f-47d1-8b9b-544e1969f186" valueTypeId="8174ef72-f857-40a8-b4e7-7b771ee4c2d2"/>
+  </producedTypes>
+  <name>ИспользоватьСервисDSS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис DSS</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

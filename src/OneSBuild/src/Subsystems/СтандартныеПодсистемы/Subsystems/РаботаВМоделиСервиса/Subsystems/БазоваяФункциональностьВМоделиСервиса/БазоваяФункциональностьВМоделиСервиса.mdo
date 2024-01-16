@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fd1287d-d96d-4480-baf7-8815ae5ffbfb">
+  <name>БазоваяФункциональностьВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность в модели сервиса</value>
+  </synonym>
+  <content>SessionParameter.ОбластьДанныхЗначение</content>
+  <content>SessionParameter.ОбластьДанныхИспользование</content>
+  <content>CommonAttribute.ОбластьДанныхОсновныеДанные</content>
+  <content>CommonAttribute.ОбластьДанныхВспомогательныеДанные</content>
+  <content>XDTOPackage.Сообщения</content>
+  <content>XDTOPackage.DataDump_1_0_2_1</content>
+  <content>EventSubscription.КонтрольНеразделенныхНаборовЗаписейПриЗаписи</content>
+  <content>EventSubscription.КонтрольНеразделенныхОбъектовПриЗаписи</content>
+  <content>CommonModule.РаботаВМоделиСервисаБСП</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

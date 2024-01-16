@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="798b0b56-99cf-4235-a2cc-865ec3298fb4">
+  <name>_ДемоОграничиватьДоступПоПартнерам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Ограничивать доступ по партнерам</value>
+  </synonym>
+  <location>Constant._ДемоОграничиватьДоступПоПартнерам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog._ДемоПартнеры.Attribute.ГруппаДоступа</content>
+</mdclass:FunctionalOption>

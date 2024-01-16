@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="627c7134-1272-4c35-8c10-71aab57a84fe">
+  <name>ПодключениеТестовыхПериодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение тестовых периодов</value>
+  </synonym>
+  <methodName>CommonModule.ПодключениеСервисовСопровождения.ПодключениеТестовыхПериодов</methodName>
+  <description>Подключение тестовых периодов</description>
+  <key>ПодключениеТестовыхПериодов</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

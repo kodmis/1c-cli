@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48539b31-ba38-428f-9bbe-a4a90464c8ae">
+  <name>ЦентрКонтроляКачества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр контроля качества</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнцидентыЦККПереопределяемый</content>
+  <content>CommonModule.ИнцидентыЦККСервер</content>
+  <content>ScheduledJob.МониторингЦКК</content>
+  <content>Constant.АдресЦКК</content>
+  <content>InformationRegister.ИнцидентыОткрытые</content>
+  <content>InformationRegister.ИнцидентыОтложенныеПроверки</content>
+  <content>InformationRegister.ОграничениеСкоростиОтсылкиИнцидентов</content>
+  <content>Constant.ТипыИнцидентовЦККАктуальны</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

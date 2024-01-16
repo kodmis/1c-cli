@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="617de19c-bf01-4900-832a-c169e9faeb79">
+  <producedTypes>
+    <selectionType typeId="471824a7-db0f-45d1-93b9-5e4b1760a5d4" valueTypeId="79d266da-f96c-49fd-afb1-cf02acffc619"/>
+    <listType typeId="7b856d70-5946-4155-b554-a9f095d0e11a" valueTypeId="7f7dd8e0-a09e-4891-9dc5-bc1c55e4fd6d"/>
+    <managerType typeId="da533639-b8c2-4e08-86e4-4454c9240488" valueTypeId="8cfb2c78-18f3-4632-bf43-0c6b21cab10b"/>
+    <recordSetType typeId="81907b99-85de-46b9-8e67-66b95895422a" valueTypeId="83ec1e0d-5818-463f-b3c2-ff5d84389692"/>
+    <recordKeyType typeId="7b4d577a-2178-4963-abe1-67fcd685912b" valueTypeId="0ea22e90-fee3-4adf-a043-f893c2a1a8f2"/>
+    <recordType typeId="2a556801-0f0f-47f1-b280-f7790b26c102" valueTypeId="866ef0c7-4e52-42ea-87a7-0fe263a1482b"/>
+    <recordManagerType typeId="515eca70-f2bd-4d79-b476-0ce72e58659d" valueTypeId="a07d8d1f-aa12-4fce-a17a-92bee35b63df"/>
+  </producedTypes>
+  <name>ПредметыПапкиВзаимодействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предметы папки взаимодействий</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="70b73fd0-f5dc-411e-9bbb-10a538e8281b">
+    <name>Предмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметВзаимодействия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Предмет, которому посвящено взаимодействие</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="758f44ad-54da-4f72-accf-0afecc4f4827">
+    <name>ПапкаЭлектронногоПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка электронного письма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПапкиЭлектронныхПисем</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Папка, к которой принадлежит электронное письмо</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="05ee4a7c-63e6-4587-8be7-e206345e3471">
+    <name>Рассмотрено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассмотрено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того что взаимодействие рассмотрено</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="98d5e98b-0382-4b28-a5d9-24392925664a">
+    <name>РассмотретьПосле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассмотреть после</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Плановые дата и время работы по взаимодействию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="7c424a77-2a83-4a85-8b7d-e8bb6d013c77">
+    <name>Взаимодействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимодействие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЭлектронноеПисьмоИсходящее</types>
+      <types>DocumentRef.ЗапланированноеВзаимодействие</types>
+      <types>DocumentRef.ЭлектронноеПисьмоВходящее</types>
+      <types>DocumentRef.ТелефонныйЗвонок</types>
+      <types>DocumentRef.Встреча</types>
+      <types>DocumentRef.СообщениеSMS</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Взаимодействие, для которого хранится информация о папке и предмете.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

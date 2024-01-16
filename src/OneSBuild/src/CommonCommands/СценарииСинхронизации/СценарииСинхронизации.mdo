@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29f2094a-d0d1-425c-8161-45a9ba186e19">
+  <name>СценарииСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии синхронизации</value>
+  </synonym>
+  <group>FormNavigationPanelImportant</group>
+  <commandParameterType>
+    <types>ExchangePlanRef._ДемоОбменВРаспределеннойИнформационнойБазе</types>
+    <types>ExchangePlanRef._ДемоАвтономнаяРабота</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Сценарии синхронизации данных</value>
+  </toolTip>
+</mdclass:CommonCommand>

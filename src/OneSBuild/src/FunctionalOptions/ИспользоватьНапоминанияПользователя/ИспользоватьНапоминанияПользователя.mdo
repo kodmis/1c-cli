@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68f19104-5fa3-4f28-a84b-bf68c3bed49b">
+  <name>ИспользоватьНапоминанияПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать напоминания пользователя</value>
+  </synonym>
+  <location>Constant.ИспользоватьНапоминанияПользователя</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.СтандартныеПодсистемы.Subsystem.НапоминанияПользователя</content>
+  <content>InformationRegister.НапоминанияПользователя</content>
+  <content>Enum.СпособыУстановкиВремениНапоминания</content>
+  <content>CommonCommand.Напомнить</content>
+</mdclass:FunctionalOption>

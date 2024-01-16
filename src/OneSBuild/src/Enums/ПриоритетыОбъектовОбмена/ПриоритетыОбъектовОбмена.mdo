@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6aa819d3-c56d-4561-a2e4-a1188ab1295a">
+  <producedTypes>
+    <refType typeId="796d725c-25cf-4132-a608-1b75c8ec909b" valueTypeId="ec66db06-e4d2-4fd0-8cf8-a723de4a3017"/>
+    <listType typeId="b37415ba-abe7-4b01-978a-c63ea8b02949" valueTypeId="19119ba5-22de-49fe-98be-0b94e4b8eab2"/>
+    <managerType typeId="6a432da8-899f-4343-aa5b-5606dedd6b30" valueTypeId="464be6e9-2a5b-4158-a831-2906b7f03de6"/>
+  </producedTypes>
+  <name>ПриоритетыОбъектовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты объектов обмена</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2ddf344d-7065-40d5-9306-23870d8fc04a">
+    <name>ПриоритетОбъектаОбменаНиже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет объекта обмена ниже</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c630ab2d-0a20-4136-88b6-220b2cad6a71">
+    <name>ПриоритетОбъектаОбменаСовпадает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет объекта обмена совпадает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00cd1dea-bc54-475c-956d-dc5221104932">
+    <name>ПриоритетОбъектаОбменаВыше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет объекта обмена выше</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

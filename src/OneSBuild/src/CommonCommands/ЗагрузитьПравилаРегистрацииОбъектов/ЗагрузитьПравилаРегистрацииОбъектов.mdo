@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee0798f5-47a8-4118-a25c-cfd3473007c1">
+  <name>ЗагрузитьПравилаРегистрацииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить правила регистрации объектов</value>
+  </synonym>
+  <group>CommandGroup.ПараметрыСинхронизацииДанных</group>
+  <commandParameterType>
+    <types>ExchangePlanRef._ДемоОбменВРаспределеннойИнформационнойБазе</types>
+    <types>ExchangePlanRef._ДемоАвтономнаяРабота</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

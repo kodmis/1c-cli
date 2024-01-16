@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebab97cf-5335-4648-9845-8ca41f79fb49">
+  <producedTypes>
+    <listType typeId="debff256-505d-4474-af53-14b09dd55a86" valueTypeId="a40bc042-a120-4829-8ce2-acb050a0c838"/>
+    <managerType typeId="271f75ce-8b38-4136-bff1-19d89f7c8f61" valueTypeId="220a5bd5-e3f6-491f-ae3e-c34cf8948275"/>
+  </producedTypes>
+  <name>ФайлыВТоме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы в томе</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ТомаХраненияФайлов</types>
+  </type>
+  <content>Catalog.ВерсииФайлов.Attribute.Том</content>
+  <defaultForm>FilterCriterion.ФайлыВТоме.Form.ФормаСписка</defaultForm>
+  <forms uuid="bb29fa44-6772-4426-a0b8-422115e14288">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

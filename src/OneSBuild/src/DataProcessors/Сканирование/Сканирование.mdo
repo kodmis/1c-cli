@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6789e57b-1293-442c-97d0-b8007367602e">
+  <producedTypes>
+    <objectType typeId="835478cc-434a-480c-ad61-99801cd685ed" valueTypeId="92b15a50-2234-40c9-af13-3d746d4b870f"/>
+    <managerType typeId="86df3c66-2c45-49c1-9e7d-5d1892acb646" valueTypeId="6ae2f4ed-a57a-49ed-a854-8795bf1e1519"/>
+  </producedTypes>
+  <name>Сканирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="0f193c89-b664-448e-bed3-2147430367f7">
+    <name>НастройкаСканирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка сканирования</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c9b2506-75a8-47d3-a5d5-d946088ba14a">
+    <name>НастройкаСканированияНаСеанс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка сканирования на сеанс</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="36eacaa1-2efd-49c0-82de-2f8972535bf2">
+    <name>РезультатСканирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат сканирования</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c35a643d-fe3a-4293-93c0-074fa68a31e3">
+    <name>ВыборУстройстваСканирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор устройства сканирования</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

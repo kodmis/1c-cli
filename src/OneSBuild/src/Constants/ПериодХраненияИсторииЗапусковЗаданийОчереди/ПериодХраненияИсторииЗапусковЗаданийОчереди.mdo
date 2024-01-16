@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e275403e-5183-4278-a4eb-b0daf597fa76">
+  <producedTypes>
+    <managerType typeId="abc86dbc-5909-425e-bfb7-99c55f08958d" valueTypeId="485324a1-0ef5-456f-83d0-f6fc9a9a5e85"/>
+    <valueManagerType typeId="5d9ed88a-bacc-43c2-a498-a5d7bc6543a4" valueTypeId="442c5242-6d51-4033-8360-faa00018fcd9"/>
+    <valueKeyType typeId="10dd465c-6329-4645-89a0-6c8b8f4f4f36" valueTypeId="fad44f7a-8838-4605-98cb-eef1b7791ecd"/>
+  </producedTypes>
+  <name>ПериодХраненияИсторииЗапусковЗаданийОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период хранения истории запусков заданий очереди (часов)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

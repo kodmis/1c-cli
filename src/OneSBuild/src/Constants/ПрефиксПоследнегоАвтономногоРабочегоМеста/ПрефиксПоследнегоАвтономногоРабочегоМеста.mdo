@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7d0cc1f-f3ee-486e-b1f3-db8e6a6162cc">
+  <producedTypes>
+    <managerType typeId="ac553f54-1aca-45a8-b3d8-fba7edcca545" valueTypeId="1a0e5c04-2dc2-432b-92fb-4cde84b5eaa7"/>
+    <valueManagerType typeId="c1e0ddec-4fe0-4336-b2a6-0edd83cd86de" valueTypeId="0f6778a0-fd53-499e-9df9-7b9d16f6b9bd"/>
+    <valueKeyType typeId="a3c9d742-c59a-5ea3-8876-03b17d688ee3" valueTypeId="b3211ff2-c45e-5c7e-ae13-106aec0b1d3e"/>
+  </producedTypes>
+  <name>ПрефиксПоследнегоАвтономногоРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префикс последнего автономного рабочего места</value>
+  </synonym>
+  <comment>Хранит значение префикса для последнего автономного рабочего места, созданного в системе</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>2</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

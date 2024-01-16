@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cafbea88-86f0-4a44-98f4-70d1837da452">
+  <name>ПереслатьПисьмоКакВложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переслать письмо как вложение</value>
+  </synonym>
+</mdclass:CommonPicture>

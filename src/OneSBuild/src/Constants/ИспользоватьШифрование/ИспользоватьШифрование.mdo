@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41f6f6d1-b7cf-4477-907b-ce69fc08c799">
+  <producedTypes>
+    <managerType typeId="8cabb342-278a-4da8-a879-bf3a09cf6abd" valueTypeId="5e1f68e6-85fa-4cac-abbd-d4996d6928c8"/>
+    <valueManagerType typeId="667d6c20-4b60-4c6e-bfad-be485fdc51e8" valueTypeId="eb43f202-52c4-4e3e-a338-ac6085daebf3"/>
+    <valueKeyType typeId="590c5062-f803-523d-820c-cd232efd15d1" valueTypeId="67d655b4-5a0a-5ea2-97bf-1d8d1fdbf25c"/>
+  </producedTypes>
+  <name>ИспользоватьШифрование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать шифрование</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

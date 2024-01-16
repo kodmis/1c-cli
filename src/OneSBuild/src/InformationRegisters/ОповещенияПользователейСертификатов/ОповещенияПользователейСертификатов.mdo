@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ffc2b03-28c0-45da-ab3e-e4c5d449a898">
+  <producedTypes>
+    <selectionType typeId="1db2cdd2-3f86-487b-87ec-bdbfb1beef26" valueTypeId="a57d4187-d72a-4e94-9426-d3c531600ea7"/>
+    <listType typeId="126c3cfb-bed5-45fa-83d4-2d48bc3e0909" valueTypeId="9e5daea5-5e49-401d-a311-c15b33a3a39b"/>
+    <managerType typeId="71805658-ff12-49a0-9805-c79aaf851562" valueTypeId="805a1cda-cb72-408b-92ba-dd2a3a724467"/>
+    <recordSetType typeId="c09208e9-1d6e-40a1-8d39-83c3d7cd7af2" valueTypeId="b74aa5ca-0ca8-4e0d-83c1-98a2e759a266"/>
+    <recordKeyType typeId="6419ef37-f8d9-43fd-be58-3db700bfca7e" valueTypeId="4a014315-1d48-42e4-9fb4-f5987c55afdd"/>
+    <recordType typeId="1898ce48-4476-4cce-8370-62044305e71c" valueTypeId="8eded187-9a90-456c-b9b2-fe489b6dedfe"/>
+    <recordManagerType typeId="833e20e2-1528-4457-862f-49a60b9a128d" valueTypeId="065641a9-4738-4a97-a1e5-2436e6539d47"/>
+  </producedTypes>
+  <name>ОповещенияПользователейСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещения пользователей сертификатов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Оповещение пользователя сертификата</value>
+  </recordPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Заполняется при отправке заявлений и из формы сертификата, находящегося в личном хранилище при используемой подсистеме &quot;Напоминания пользователя&quot;.  Автоматически заполняется при использовании сертификата менее, чем за 30 дней до истечения срока действия</value>
+  </explanation>
+  <resources uuid="5c1a1206-0521-44db-8cdd-3e132f2e5a34">
+    <name>Оповещен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ложь - пользователь будет получать напоминания, Истина - пользователь убрал пометку о напоминании </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a630b2d5-2a8e-471e-a7ca-2498e15ace47">
+    <name>Сертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ba0855a3-8384-4681-a6f0-6373f23cf52d">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, получающий оповещения.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

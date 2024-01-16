@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="442f9d7b-ae8f-4074-8ece-d5aa1c66e35c">
+  <producedTypes>
+    <refType typeId="827cb89f-183b-4a43-8885-edb627d20870" valueTypeId="05834174-ef1f-4083-8121-7c95253c2c8e"/>
+    <listType typeId="9863d9a6-7e9d-4206-a412-b9a4047b1daf" valueTypeId="3b1a8d90-8c1c-4724-a974-32da16aa7ae9"/>
+    <managerType typeId="1f59bff2-f7b8-4bbb-927d-1c568ab5dd1b" valueTypeId="9f526d6a-348b-416d-80fe-2b6915089e5b"/>
+  </producedTypes>
+  <name>ВариантыВерсионированияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты версионирования объектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bc708da8-7fc6-4da1-8129-9ef6a86667af">
+    <name>ВерсионироватьПриЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>При записи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="061842fe-4077-4d6e-aefe-de79409da730">
+    <name>ВерсионироватьПриПроведении</name>
+    <synonym>
+      <key>ru</key>
+      <value>При проведении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86249619-8981-4fc4-85fc-ce30e4b9d542">
+    <name>ВерсионироватьПриСтарте</name>
+    <synonym>
+      <key>ru</key>
+      <value>При старте</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da6e4bff-9835-4b92-b62b-291a5d6c86fe">
+    <name>НеВерсионировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Никогда</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

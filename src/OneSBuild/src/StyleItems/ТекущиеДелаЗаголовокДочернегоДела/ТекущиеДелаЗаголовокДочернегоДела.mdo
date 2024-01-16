@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6dd250e-75fd-47fc-abcb-79ea19ebd747">
+  <name>ТекущиеДелаЗаголовокДочернегоДела</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие дела заголовок дочернего дела</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontRef">
+      <font>Style.TextFont</font>
+    </value>
+  </value>
+</mdclass:StyleItem>

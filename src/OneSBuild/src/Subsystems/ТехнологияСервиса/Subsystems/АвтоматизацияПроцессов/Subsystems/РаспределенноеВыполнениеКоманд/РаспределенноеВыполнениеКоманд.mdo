@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e1bda50-b950-496d-9b05-c18fe87bb585">
+  <name>РаспределенноеВыполнениеКоманд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределенное выполнение команд</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РаспределенноеВыполнениеКоманд</content>
+  <content>CommonModule.СообщенияРаспределенноеВыполнениеКомандИнтерфейс</content>
+  <content>CommonModule.РаспределенноеВыполнениеКомандПереопределяемый</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса.Subsystem.АвтоматизацияПроцессов</parentSubsystem>
+</mdclass:Subsystem>

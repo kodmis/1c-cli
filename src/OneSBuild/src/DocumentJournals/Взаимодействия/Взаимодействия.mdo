@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7da57c89-af2c-445a-96f7-39250f70306f">
+  <producedTypes>
+    <selectionType typeId="29e689f7-03af-49a8-a510-3dd42cdef072" valueTypeId="a45ce3e6-618a-4dc6-9d44-60d5683a5178"/>
+    <listType typeId="48c68b2d-9396-49a2-ae4d-2f6668b7835e" valueTypeId="17f32078-8827-405b-af43-f3bb5b1cef41"/>
+    <managerType typeId="bf9e5423-5b02-45c5-b7f3-be06621dfde9" valueTypeId="41e2db16-bf58-4d26-92bf-07502e3801e4"/>
+  </producedTypes>
+  <name>Взаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействия</value>
+  </synonym>
+  <defaultForm>DocumentJournal.Взаимодействия.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Встреча</registeredDocuments>
+  <registeredDocuments>Document.ТелефонныйЗвонок</registeredDocuments>
+  <registeredDocuments>Document.ЭлектронноеПисьмоВходящее</registeredDocuments>
+  <registeredDocuments>Document.ЭлектронноеПисьмоИсходящее</registeredDocuments>
+  <registeredDocuments>Document.ЗапланированноеВзаимодействие</registeredDocuments>
+  <registeredDocuments>Document.СообщениеSMS</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на документ, включенный в журнал</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="b5b94d94-25f7-4cfa-b1e9-6009fb848763">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.Встреча.Attribute.Автор</references>
+    <references>Document.ТелефонныйЗвонок.Attribute.Автор</references>
+    <references>Document.ЗапланированноеВзаимодействие.Attribute.Автор</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.Автор</references>
+    <references>Document.СообщениеSMS.Attribute.Автор</references>
+  </columns>
+  <columns uuid="a2accf54-5966-42e8-ab2e-e56e415963ee">
+    <name>Входящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий</value>
+    </synonym>
+    <references>Document.ТелефонныйЗвонок.Attribute.Входящий</references>
+  </columns>
+  <columns uuid="d8eb5329-5900-4b5d-b45e-458513dddfef">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.ТелефонныйЗвонок.Attribute.Ответственный</references>
+    <references>Document.Встреча.Attribute.Ответственный</references>
+    <references>Document.ЭлектронноеПисьмоВходящее.Attribute.Ответственный</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.Ответственный</references>
+    <references>Document.ЗапланированноеВзаимодействие.Attribute.Ответственный</references>
+    <references>Document.СообщениеSMS.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="6d521e58-24a3-4f19-b4b0-dff84f7ca86b">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <references>Document.ЭлектронноеПисьмоВходящее.Attribute.Тема</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.Тема</references>
+    <references>Document.Встреча.Attribute.Тема</references>
+    <references>Document.ЗапланированноеВзаимодействие.Attribute.Тема</references>
+    <references>Document.ТелефонныйЗвонок.Attribute.Тема</references>
+    <references>Document.СообщениеSMS.Attribute.Тема</references>
+  </columns>
+  <columns uuid="8c413fa5-9e24-4b81-aa55-0e78c5e3e20f">
+    <name>Участники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участники</value>
+    </synonym>
+    <references>Document.Встреча.Attribute.СписокУчастников</references>
+    <references>Document.ТелефонныйЗвонок.Attribute.АбонентПредставление</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.СписокПолучателейПисьма</references>
+    <references>Document.ЭлектронноеПисьмоВходящее.Attribute.ОтправительПредставление</references>
+    <references>Document.ЗапланированноеВзаимодействие.Attribute.СписокУчастников</references>
+    <references>Document.СообщениеSMS.Attribute.СписокУчастников</references>
+  </columns>
+  <columns uuid="a4322f22-7de0-4018-8e06-9f1aa7cf0c07">
+    <name>СтатусИсходящегоПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус исходящего письма</value>
+    </synonym>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.СтатусПисьма</references>
+    <references>Document.СообщениеSMS.Attribute.Состояние</references>
+  </columns>
+  <columns uuid="eaaed107-69d4-4963-be83-74519e331715">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.ЭлектронноеПисьмоВходящее.Attribute.УчетнаяЗапись</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.УчетнаяЗапись</references>
+  </columns>
+  <columns uuid="38cddf96-8703-4396-8c73-47fb22828a48">
+    <name>ЕстьВложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть вложения</value>
+    </synonym>
+    <references>Document.ЭлектронноеПисьмоВходящее.Attribute.ЕстьВложения</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.ЕстьВложения</references>
+  </columns>
+  <columns uuid="2c2cb793-0177-4983-91ca-9c292c5b10f1">
+    <name>ВзаимодействиеОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимодействие основание</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.Встреча.Attribute.ВзаимодействиеОснование</references>
+    <references>Document.ЗапланированноеВзаимодействие.Attribute.ВзаимодействиеОснование</references>
+    <references>Document.ТелефонныйЗвонок.Attribute.ВзаимодействиеОснование</references>
+    <references>Document.ЭлектронноеПисьмоВходящее.Attribute.ВзаимодействиеОснование</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.ВзаимодействиеОснование</references>
+    <references>Document.СообщениеSMS.Attribute.ВзаимодействиеОснование</references>
+  </columns>
+  <columns uuid="2a2e7f51-a4e5-48ec-b969-b1fca18ba9b5">
+    <name>ПолученоОтправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получено отправлено</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.ЭлектронноеПисьмоВходящее.Attribute.ДатаПолучения</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.ДатаОтправления</references>
+  </columns>
+  <columns uuid="221fa473-3327-44e6-a033-6fdfd2be713c">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <references>Document.ЭлектронноеПисьмоВходящее.Attribute.Размер</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.Размер</references>
+  </columns>
+  <columns uuid="7a5973f0-7e29-44af-8e7b-70af71f704a4">
+    <name>Важность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важность</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.Встреча.Attribute.Важность</references>
+    <references>Document.ЗапланированноеВзаимодействие.Attribute.Важность</references>
+    <references>Document.ТелефонныйЗвонок.Attribute.Важность</references>
+    <references>Document.ЭлектронноеПисьмоВходящее.Attribute.Важность</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.Важность</references>
+    <references>Document.СообщениеSMS.Attribute.Важность</references>
+  </columns>
+  <columns uuid="2b2bf0f7-0946-4492-bba0-27f007a70e64">
+    <name>ДатаКогдаОтправить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата когда отправить</value>
+    </synonym>
+    <references>Document.СообщениеSMS.Attribute.ДатаКогдаОтправить</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.ДатаКогдаОтправить</references>
+  </columns>
+  <columns uuid="22c9a703-5ed3-4156-8fa6-476b1c1452f1">
+    <name>ДатаАктуальностиОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата актуальности отправки</value>
+    </synonym>
+    <references>Document.СообщениеSMS.Attribute.ДатаАктуальностиОтправки</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.ДатаАктуальностиОтправки</references>
+  </columns>
+  <columns uuid="8be10d88-8c37-4444-9c89-6cbbe9913bda">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ЭлектронноеПисьмоВходящее.Attribute.ИдентификаторСообщения</references>
+    <references>Document.ЭлектронноеПисьмоИсходящее.Attribute.ИдентификаторСообщения</references>
+  </columns>
+  <forms uuid="27089e8e-2c75-431c-b808-5d4dcba3cdca">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9ab3980e-a480-4f90-a8cc-bde99d5ace35">
+    <name>ФормаСпискаПараметрическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка параметрическая</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ec928563-6e35-4b84-b477-90d2481cec1c">
+    <name>ПечатьЭлектронногоПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать электронного письма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5d3e9678-20fe-4128-867a-3f7addaa7831">
+    <name>ПараметрыЭлектронногоПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры электронного письма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb878f73-8a0f-459a-9076-ce57fe7957dc">
+    <name>НастройкиРаботыСПочтой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки работы с почтой</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb1d4a41-20a9-4d76-8798-d47d8858bff1">
+    <name>ВыборТипаПредмета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор типа предмета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a2b4110b-4d9c-40fd-ab46-bfa08d2eb993">
+    <name>СхемаОтборВзаимодействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема отбор взаимодействия</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="4f262b7f-927e-45f2-ad90-9d5e1b3155d1">
+    <name>ИерархияВзаимодействийПредмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иерархия взаимодействий предмет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="9f4b8e36-83ff-4694-8540-b5f47b18395f">
+    <name>ИерархияВзаимодействийКонтакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иерархия взаимодействий контакт</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b4c026eb-4271-4366-b529-1cdfe2874563">
+    <name>СхемаОтборВзаимодействияКонтакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема отбор взаимодействия контакт</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="314b0da2-24d3-48cc-8532-d36c45eb3bf8">
+    <name>ВзаимодействияПоКонтакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимодействия</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DefinedType.КонтактВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Перейти к просмотру списка взаимодействий</value>
+    </toolTip>
+  </commands>
+  <commands uuid="2e3ac3fb-9f0e-463f-95c2-9f661ce2e015">
+    <name>ВзаимодействияПоПредмету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимодействия</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DefinedType.ПредметВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Перейти к просмотру списка взаимодействий</value>
+    </toolTip>
+  </commands>
+  <commands uuid="4077e700-ec20-4afa-8155-bf7e516a70cb">
+    <name>ЗапланироватьВзаимодействиеПоКонтакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировать взаимодействие</value>
+    </synonym>
+    <group>CommandGroup.Взаимодействия</group>
+    <commandParameterType>
+      <types>DefinedType.КонтактВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ЗапланированноеВзаимодействие</picture>
+    </picture>
+  </commands>
+  <commands uuid="5198c6db-2100-4902-82c8-85c8ea555e78">
+    <name>ЗапланироватьВзаимодействиеПоПредмету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировать взаимодействие</value>
+    </synonym>
+    <group>CommandGroup.Взаимодействия</group>
+    <commandParameterType>
+      <types>DefinedType.ПредметВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ЗапланированноеВзаимодействие</picture>
+    </picture>
+  </commands>
+  <commands uuid="b99f2a63-54e8-490b-a0a4-1941fbc38b3f">
+    <name>ЗапланироватьВстречуПоКонтакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировать встречу</value>
+    </synonym>
+    <group>CommandGroup.Взаимодействия</group>
+    <commandParameterType>
+      <types>DefinedType.КонтактВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Встреча</picture>
+    </picture>
+  </commands>
+  <commands uuid="f0b1e9f4-2e07-44e6-88d2-c11457135781">
+    <name>ЗапланироватьВстречуПоПредмету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировать встречу</value>
+    </synonym>
+    <group>CommandGroup.Взаимодействия</group>
+    <commandParameterType>
+      <types>DefinedType.ПредметВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Встреча</picture>
+    </picture>
+  </commands>
+  <commands uuid="e010c0f9-f770-4fdc-8607-50838c0262ef">
+    <name>НаписатьSMSПоКонтакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Написать SMS</value>
+    </synonym>
+    <group>CommandGroup.Взаимодействия</group>
+    <commandParameterType>
+      <types>DefinedType.КонтактВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.НаписатьSMS</picture>
+    </picture>
+  </commands>
+  <commands uuid="f935399f-3554-4c08-b0a6-eba13074e1b7">
+    <name>НаписатьSMSПоПредмету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Написать SMS</value>
+    </synonym>
+    <group>CommandGroup.Взаимодействия</group>
+    <commandParameterType>
+      <types>DefinedType.ПредметВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.НаписатьSMS</picture>
+    </picture>
+  </commands>
+  <commands uuid="10008125-3aeb-4912-8ad6-d92d283ea09a">
+    <name>НаписатьЭлектронноеПисьмоПоКонтакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Написать электронное письмо</value>
+    </synonym>
+    <group>CommandGroup.Взаимодействия</group>
+    <commandParameterType>
+      <types>DefinedType.КонтактВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ЭлектронноеПисьмоИсходящее</picture>
+    </picture>
+  </commands>
+  <commands uuid="765f9584-fefa-4695-b130-dd54c3b0d79d">
+    <name>НаписатьЭлектронноеПисьмоПоПредмету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Написать электронное письмо</value>
+    </synonym>
+    <group>CommandGroup.Взаимодействия</group>
+    <commandParameterType>
+      <types>DefinedType.ПредметВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ЭлектронноеПисьмоИсходящее</picture>
+    </picture>
+  </commands>
+  <commands uuid="dd050ca0-8335-4654-ab5c-7babcb4824ef">
+    <name>НастройкиРаботыСПочтой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки работы с почтой</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="706cbf55-626d-4cab-b589-a2464368f6c1">
+    <name>ПечатьЭлектронногоПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЭлектронноеПисьмоИсходящее</types>
+      <types>DocumentRef.ЭлектронноеПисьмоВходящее</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="d22a0a50-220d-459e-a23a-39730a1e67c4">
+    <name>ПозвонитьПоКонтакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позвонить</value>
+    </synonym>
+    <group>CommandGroup.Взаимодействия</group>
+    <commandParameterType>
+      <types>DefinedType.КонтактВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ТелефонныйЗвонок</picture>
+    </picture>
+  </commands>
+  <commands uuid="2c1c9284-ba8b-4282-a89c-429f02ea41f6">
+    <name>ПозвонитьПоПредмету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позвонить</value>
+    </synonym>
+    <group>CommandGroup.Взаимодействия</group>
+    <commandParameterType>
+      <types>DefinedType.ПредметВзаимодействия</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ТелефонныйЗвонок</picture>
+    </picture>
+  </commands>
+  <commands uuid="8c241467-76f7-4161-a8a1-5da4a6576b75">
+    <name>СохранитьПисьмоНаДиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить письмо на диск</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЭлектронноеПисьмоИсходящее</types>
+      <types>DocumentRef.ЭлектронноеПисьмоВходящее</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Сохранить письмо на диск в формате eml</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.СохранитьФайлКак</picture>
+    </picture>
+    <shortcut>Ctrl+Shift+S</shortcut>
+  </commands>
+</mdclass:DocumentJournal>

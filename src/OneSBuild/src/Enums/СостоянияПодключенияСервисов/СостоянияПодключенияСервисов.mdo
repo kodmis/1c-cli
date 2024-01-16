@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d471e7d0-c429-4b7f-acf6-043343dfd323">
+  <producedTypes>
+    <refType typeId="180e22cb-b1cd-4866-8205-2a8161777b3a" valueTypeId="a39e65fd-ff09-4f7a-a9cf-fd6f32aca445"/>
+    <listType typeId="cb426c69-e438-4bd7-a81d-168d74f2cc61" valueTypeId="296dc875-1d0a-4613-9ea7-8b1ebd16ce10"/>
+    <managerType typeId="e37e2e7e-d4e6-48ef-820b-008a687c2834" valueTypeId="86b0da1a-542b-47b1-a43b-442bad74a5dd"/>
+  </producedTypes>
+  <name>СостоянияПодключенияСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния подключения сервисов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8d02cc61-926c-4665-9022-3eb2e1c416a6">
+    <name>НеПодключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подключен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6994773-e206-458b-abae-eaa485061738">
+    <name>ОшибкаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка подключения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21031b56-8e8e-44b0-a2f0-a32b77959965">
+    <name>Подключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ec6a0a3-5f8d-41b7-8588-e72c67a54876">
+    <name>Подключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="911a828c-2922-4938-9b07-853facd047de">
+    <name>ПодключениеНедоступно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключение недоступно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

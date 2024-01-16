@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec797c75-02c5-4cf5-9dd4-26cd46c99519">
+  <name>ИнформацияПриЗапуске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация при запуске</value>
+  </synonym>
+  <content>DataProcessor.ИнформацияПриЗапуске</content>
+  <content>CommonModule.ИнформацияПриЗапуске</content>
+  <content>CommonModule.ИнформацияПриЗапускеКлиент</content>
+  <content>CommonModule.ИнформацияПриЗапускеПереопределяемый</content>
+  <content>InformationRegister.ПакетыИнформацииПриЗапуске</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

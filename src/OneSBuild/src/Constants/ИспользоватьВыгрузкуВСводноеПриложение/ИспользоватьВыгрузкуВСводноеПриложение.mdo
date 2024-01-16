@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baa92d92-cdc9-4900-8c1b-d79e1fb8426b">
+  <producedTypes>
+    <managerType typeId="d96d31ac-d3fb-47fa-baf1-c33321d0b080" valueTypeId="b5997ccb-d815-4f72-84a9-4e5a526de542"/>
+    <valueManagerType typeId="580df48a-0e7a-4ce7-8203-2e6b51403726" valueTypeId="b4c5d73f-bce5-4d5e-960a-8c4e5905ffaf"/>
+    <valueKeyType typeId="28bd8984-1a29-4baa-8894-396df6f4c5cb" valueTypeId="8cf48076-79be-425d-b086-5e8d45a2631c"/>
+  </producedTypes>
+  <name>ИспользоватьВыгрузкуВСводноеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать выгрузку в сводное приложение</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

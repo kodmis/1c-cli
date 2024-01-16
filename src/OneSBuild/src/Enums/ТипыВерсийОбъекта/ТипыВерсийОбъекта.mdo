@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f93741c9-ab94-464b-b0d4-4af99c9f92d5">
+  <producedTypes>
+    <refType typeId="8cf3dbac-7ba1-48ab-8c2d-3a61e0560800" valueTypeId="bb9cafe9-92f5-4bea-ab79-3a17fafde2ea"/>
+    <listType typeId="ede24a42-b8b9-4718-a80e-425c54b18da3" valueTypeId="23c3cc97-7388-4d11-b8ba-eb08618cea5e"/>
+    <managerType typeId="218c9350-8aac-419b-b56b-2176e5c237af" valueTypeId="d7ac3cb8-ceb3-4bc1-a2f9-deb05aa0d642"/>
+  </producedTypes>
+  <name>ТипыВерсийОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы версий объекта</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0fddbd8d-12dd-4af1-9e34-feebf4bc38b1">
+    <name>ИзмененоПользователем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменено пользователем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e9548a6-1fd8-4430-8864-91bde0d2a7a1">
+    <name>ПринятыеДанныеПоКоллизии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принятые данные по коллизии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c59fd3f8-c734-49d3-90ba-e608a22ac981">
+    <name>НепринятыеДанныеПоКоллизии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Непринятые данные по коллизии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b26235ed-374c-44ab-8b3c-01d7c4d82d4c">
+    <name>НепринятыйПоДатеЗапретаОбъектСуществуетВБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Непринятый по дате запрета объект существует в базе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5056db9f-9ebe-4cca-98f0-5f4817a1cba4">
+    <name>НепринятыйПоДатеЗапретаОбъектНеСуществуетВБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Непринятый по дате запрета объект не существует в базе</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

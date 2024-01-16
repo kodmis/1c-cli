@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3b82874-7092-43cc-8d3c-cab0ac1e100a">
+  <name>_ДемоИнструментыРазработчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструменты разработчика</value>
+  </synonym>
+  <comment>АПК:277; АПК:278 Для инструментов разработчика допускается вызов служебных процедур и функций.</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделИнструментыРазработчика</picture>
+  </picture>
+  <content>DataProcessor.ПроверкаБСППередСборкой</content>
+  <content>CommonPicture._ДемоРазделИнструментыРазработчика48</content>
+  <content>CommonCommand._ДемоПанельОтчетовИнструментыРазработчика</content>
+  <content>CommonPicture._ДемоРазделИнструментыРазработчика</content>
+  <content>Role.Подсистема_ДемоИнструментыРазработчика</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>DataProcessor.ЗамерСкоростиОткрытияФорм</content>
+  <content>Report.ПроверкаВнедренияБСП</content>
+  <content>DataProcessor.ПервоеВнедрениеБСП</content>
+  <content>DataProcessor.ОбновлениеНаИсправительнуюВерсиюБСП</content>
+  <content>CommonTemplate.ЛокализуемыеОбъектыБСП</content>
+  <content>DataProcessor.ГенерацияОписанияПрограммногоИнтерфейса</content>
+  <content>DataProcessor._ДемоСозданиеПомеченныхНаУдаление</content>
+  <content>DataProcessor.СкрытиеКонфиденциальнойИнформации</content>
+  <content>DataProcessor.НачальноеЗаполнениеДанных</content>
+  <content>CommonTemplate.ЛокализуемыеОбъектыДемоБСП</content>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>ВариантыОтчетов</subsystems>
+  <subsystems>ГенерацияШтрихкода</subsystems>
+  <subsystems>КалендарныеГрафики</subsystems>
+  <subsystems>ОбменДанными</subsystems>
+  <subsystems>ОбновлениеВерсииИБ</subsystems>
+  <subsystems>ОбновлениеКонфигурации</subsystems>
+  <subsystems>ПереходНаНовыеВерсии</subsystems>
+  <subsystems>РаботаСФайлами</subsystems>
+  <subsystems>РезервноеКопированиеИБ</subsystems>
+  <subsystems>УправлениеДоступом</subsystems>
+  <subsystems>УправлениеИтогамиИАгрегатами</subsystems>
+</mdclass:Subsystem>

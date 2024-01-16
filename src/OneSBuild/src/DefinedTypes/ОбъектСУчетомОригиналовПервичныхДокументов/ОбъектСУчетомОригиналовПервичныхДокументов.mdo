@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf5faaef-3a03-40bc-8d3a-644c0874b9ce">
+  <producedTypes>
+    <containerType typeId="2a8a292a-4804-4105-8b7b-288470b5b0f1" valueTypeId="89dc1c85-d51b-40b5-afa1-0015f41af67e"/>
+  </producedTypes>
+  <name>ОбъектСУчетомОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект с учетом оригиналов первичных документов</value>
+  </synonym>
+  <type>
+    <types>DocumentRef._ДемоПеремещениеТоваров</types>
+    <types>DocumentRef._ДемоОтпускаСотрудников</types>
+    <types>DocumentRef._ДемоРеализацияТоваров</types>
+  </type>
+</mdclass:DefinedType>

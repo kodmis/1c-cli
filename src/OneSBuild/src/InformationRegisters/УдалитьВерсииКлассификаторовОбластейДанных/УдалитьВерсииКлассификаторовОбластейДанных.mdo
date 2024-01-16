@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6126363e-90f1-4cf5-8a28-6eb3e043d54f">
+  <producedTypes>
+    <selectionType typeId="ad51432a-a3d8-4676-a1c8-09bce1f37e69" valueTypeId="0279313a-dbe1-47ac-80fd-71f64042c0cf"/>
+    <listType typeId="19da8d2c-4010-404b-b40b-7bac3bc60e29" valueTypeId="aa4e70a2-8b34-48a4-ad70-ef1f7e58b3cb"/>
+    <managerType typeId="25a7b7b8-2bd8-4c21-88cf-e976b5883e02" valueTypeId="c3aae55d-f604-44a7-9d1c-d2e8189ce368"/>
+    <recordSetType typeId="77564854-f219-4090-9b3c-1c6d4e2f0eeb" valueTypeId="2c3dc87f-7ab7-4afa-a098-6b9ac072cff7"/>
+    <recordKeyType typeId="e7cb9773-1f60-4e34-a61d-31034734ab75" valueTypeId="35921ddd-64ba-487a-9ae9-7fd80c27b3c5"/>
+    <recordType typeId="3198f357-f7bc-4b6a-8a98-ee4690e3eb2f" valueTypeId="8683dacc-8519-4829-a944-aefaba12e0a9"/>
+    <recordManagerType typeId="8bbc5b9a-b9d7-4ff2-bc8d-f042154cd3bc" valueTypeId="732d799e-ca78-4fb1-948c-7d32a48c96ea"/>
+  </producedTypes>
+  <name>УдалитьВерсииКлассификаторовОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Версии классификаторов областей данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0495568c-8917-4fc5-8d1b-9d03b124aa6c">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment>Номер версии загруженного классификатора</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5108a65b-b9aa-4354-b445-9659442ed63b">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment>Идентификатор классификатора на Портале 1С:ИТС</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

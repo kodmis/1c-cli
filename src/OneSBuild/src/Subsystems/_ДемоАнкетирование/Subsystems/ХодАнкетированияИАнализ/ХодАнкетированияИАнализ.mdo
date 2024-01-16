@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46fdf63c-2ada-42b1-a4ca-e1d402259115">
+  <name>ХодАнкетированияИАнализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ход анкетирования и анализ</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.АнализОпроса</content>
+  <content>Document.Анкета</content>
+  <content>Report.АналитическийОтчетПоАнкетированию</content>
+  <parentSubsystem>Subsystem._ДемоАнкетирование</parentSubsystem>
+</mdclass:Subsystem>

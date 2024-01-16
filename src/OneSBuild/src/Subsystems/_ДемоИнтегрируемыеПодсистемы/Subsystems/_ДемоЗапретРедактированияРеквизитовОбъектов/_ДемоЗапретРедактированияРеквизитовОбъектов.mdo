@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e83e4df-f949-4d6c-8ac5-a11ff3451305">
+  <name>_ДемоЗапретРедактированияРеквизитовОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет редактирования реквизитов объектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document._ДемоЗаказПокупателя</content>
+  <content>Enum._ДемоЮридическоеФизическоеЛицо</content>
+  <content>Catalog._ДемоКассыККМ</content>
+  <content>Catalog._ДемоНоменклатура</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</content>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

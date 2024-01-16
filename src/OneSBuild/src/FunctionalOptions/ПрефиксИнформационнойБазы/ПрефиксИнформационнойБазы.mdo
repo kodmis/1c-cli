@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5588c0d-3e94-485b-a7e9-45f5cf74df9e">
+  <name>ПрефиксИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префикс информационной базы</value>
+  </synonym>
+  <comment>Содержит префикс ИБ</comment>
+  <location>Constant.ПрефиксУзлаРаспределеннойИнформационнойБазы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

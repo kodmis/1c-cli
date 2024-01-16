@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4427cab9-4eea-4415-98ef-6021a447c60c">
+  <producedTypes>
+    <refType typeId="9d6bec56-df43-4491-a35f-9835b09652b3" valueTypeId="9a111783-3023-469e-afa6-2ccf661be50d"/>
+    <listType typeId="6e9ba4b6-1a4f-4a6d-80ce-8f4f187fe0c8" valueTypeId="4931db9e-5967-4dd9-a3e7-d2118d54e1f9"/>
+    <managerType typeId="07cee30b-fd21-4738-8aba-fdb0c55a9e74" valueTypeId="a047fb57-ad33-41a1-b02e-ab4d7ea9ef3d"/>
+  </producedTypes>
+  <name>ПорядокОтветовНаЗапросыУведомленийОПрочтении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок ответов на запросы уведомлений о прочтении</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fe46b4da-d865-468f-badd-83644bf88faa">
+    <name>ВсегдаОтправлятьУведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всегда отправлять уведомление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2851c9d4-4366-4488-926d-a7fcd3b1548c">
+    <name>НикогдаНеОтправлятьУведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Никогда не отправлять уведомление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31116aa2-cfbc-48e8-886b-45c1c17508fd">
+    <name>ЗапрашиватьПередТемКакОтправитьУведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрашивать перед тем как отправить уведомление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

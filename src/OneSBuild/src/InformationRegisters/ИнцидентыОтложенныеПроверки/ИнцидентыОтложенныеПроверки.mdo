@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2629509-8683-4cba-ac94-fb225b3378f8">
+  <producedTypes>
+    <selectionType typeId="16a7da59-5f2e-4766-9082-b133291d3097" valueTypeId="4b017e61-1d33-46e3-9c7d-d56319add815"/>
+    <listType typeId="010ce83a-af0b-4bc2-95ec-9262caec1967" valueTypeId="237946ba-8300-4e70-a9c7-38fd01cce1b6"/>
+    <managerType typeId="5b573058-fe3a-4ed8-accd-93c5a41117c1" valueTypeId="15ffef4d-f916-4b8a-b2c9-6034bfa74c14"/>
+    <recordSetType typeId="c9a6b6f6-9018-4dd8-ae55-4ee581c77f42" valueTypeId="9ae9cedb-51c4-4b49-8822-cd7aff89d3f2"/>
+    <recordKeyType typeId="8e19bd0f-06bc-4cd5-907a-e0a4f7e54ca2" valueTypeId="faecffeb-f987-4633-8872-c62f58e57b26"/>
+    <recordType typeId="b8520ced-f818-4a52-bb7e-dcf92c40b976" valueTypeId="2ebb7b92-af43-48a6-8bb7-30c2b5dcf414"/>
+    <recordManagerType typeId="64daff75-d23e-4ad4-a148-e5b28d3e76be" valueTypeId="12ddb0ff-1070-469a-9fba-0f4e368c81ff"/>
+  </producedTypes>
+  <name>ИнцидентыОтложенныеПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инциденты отложенные проверки</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2790b1ea-24ea-4e5c-9611-0638177aca61">
+    <name>ВремяСледующегоСтарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время следующего старта</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f7b71252-0686-49f1-9918-4f5bc59eaed7">
+    <name>ТипИнцидента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип инцидента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8482b31d-0ffa-4a94-9be1-09db8399b70d">
+  <name>Patch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Patch</value>
+  </synonym>
+  <namespace>http://www.v8.1c.ru/ssl/patch</namespace>
+</mdclass:XDTOPackage>

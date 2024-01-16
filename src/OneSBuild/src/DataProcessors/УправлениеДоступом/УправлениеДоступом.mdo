@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1be9664-24ff-4cd2-8df1-5938758e6114">
+  <producedTypes>
+    <objectType typeId="9919356f-4c38-4fc7-8f25-ff6b4ce2242d" valueTypeId="f153647e-b3ab-415a-80c4-3fdfc49e2973"/>
+    <managerType typeId="474e74f1-e42f-4475-b298-89bfa4170308" valueTypeId="c35332e4-259b-4dad-bd1d-79e383a071b1"/>
+  </producedTypes>
+  <name>УправлениеДоступом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление доступом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеДоступом.Form.Форма</defaultForm>
+  <attributes uuid="a2aa91a2-99b5-44ca-b00d-6dd21b1ca0ac">
+    <name>ПапкаВыгрузкиКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка выгрузки конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a63f50d-2a5b-4a70-97cd-3c87d1d3cffb">
+    <name>ПапкаЭталонногоОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка эталонного описания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5062037a-6cb9-45f0-afe8-b39953adc1f0">
+    <name>ПапкаНовогоОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка нового описания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b5cbf382-3857-4366-9d50-2b032ad2ff25">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6b8d0117-5820-431f-8013-6c8072f01d11">
+    <name>ИнструментыРазработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструменты разработчика</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

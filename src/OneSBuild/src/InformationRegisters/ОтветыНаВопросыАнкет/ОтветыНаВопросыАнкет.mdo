@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b09cf2f-1759-4362-b997-29e09ac00445">
+  <producedTypes>
+    <selectionType typeId="a78f269f-c291-4149-90d1-8915450607ed" valueTypeId="aac4e862-4187-4e4b-b6ab-512e1ede82bf"/>
+    <listType typeId="ecc8bff2-ca3f-4daf-99f7-24441f1c4c26" valueTypeId="3d05dff9-78fb-4d4e-a60a-1fb8736eade3"/>
+    <managerType typeId="ef445cec-7283-49c0-aa6c-a95cdd4219ae" valueTypeId="76cd5d99-cecf-482d-9959-45d6972e7554"/>
+    <recordSetType typeId="dc3a7f0d-57c0-4b59-9acb-63396092edb7" valueTypeId="778e2f4f-74e2-452d-9b1c-1b87553ddeb1"/>
+    <recordKeyType typeId="6405cb4e-aad4-44d9-9ada-6c9bacb47ed6" valueTypeId="9e0850e4-c796-4e57-8c18-83c21b4c16be"/>
+    <recordType typeId="d7241d97-cb9d-4cc7-a5b1-9113f251bed3" valueTypeId="c6cea931-32fb-44e0-985e-b2baf60cabc3"/>
+    <recordManagerType typeId="9bc6b5ba-4792-4b55-8f33-4fe52209fa96" valueTypeId="45315aa3-c02d-430c-81d4-7fdb64ad0e13"/>
+  </producedTypes>
+  <name>ОтветыНаВопросыАнкет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответы на вопросы анкет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f6a9eb9c-a1c2-4114-b155-3ce94c7b7f20">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВопросыДляАнкетирования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответ на вопрос анкеты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="828ddf5d-ca09-4baf-897f-77d569e02a6b">
+    <name>ОткрытыйОтвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытый ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>комментарий на вопрос ответа анкеты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="8856015c-a695-4b1a-99ef-770263f9dc4a">
+    <name>Анкета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анкета</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Анкета</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Анкета, на вопросы которой дан ответ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="183ec2b5-e173-4885-9e26-1098ffa15020">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВопросыШаблонаАнкеты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вопрос шаблона анкеты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="74702fdf-bfc5-4658-ba58-e39bcfbaa647">
+    <name>ЭлементарныйВопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элементарный вопрос</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВопросыДляАнкетирования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Элементарный вопрос на который дан ответ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2f436ec3-6a04-4d2c-998a-c60ea875ca86">
+    <name>НомерЯчейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ячейки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер строки или ячейки табличного вопроса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00e48a23-eb5b-4a29-b36c-218ab9760f23">
+  <name>ИспользоватьОнлайнПоддержку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать онлайн-поддержку</value>
+  </synonym>
+  <location>Constant.ИспользоватьОнлайнПоддержку</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.НастройкаОнлайнПоддержки</content>
+  <content>CommonForm.НастройкаОнлайнПоддержки</content>
+  <content>CommonForm.ПоискИсполняемогоФайлаОнлайнПоддержки</content>
+  <content>CommonCommand.СвязатьсяСоСпециалистомОнлайнПоддержки</content>
+</mdclass:FunctionalOption>

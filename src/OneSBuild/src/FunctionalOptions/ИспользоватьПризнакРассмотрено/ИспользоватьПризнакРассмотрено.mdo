@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aba7605f-6baf-42a8-b5ad-8f71c780b81f">
+  <name>ИспользоватьПризнакРассмотрено</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать признак рассмотрено</value>
+  </synonym>
+  <location>Constant.ИспользоватьПризнакРассмотрено</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.СостоянияПредметовВзаимодействий.Resource.КоличествоНеРассмотрено</content>
+  <content>InformationRegister.СостоянияПапокПисем.Resource.КоличествоНеРассмотрено</content>
+  <content>InformationRegister.СостоянияКонтактовВзаимодействий.Resource.КоличествоНеРассмотрено</content>
+</mdclass:FunctionalOption>

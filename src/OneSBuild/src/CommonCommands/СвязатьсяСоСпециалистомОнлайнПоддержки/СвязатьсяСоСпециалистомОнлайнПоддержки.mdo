@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b9c03bc-8517-498f-8052-e53854fb0753">
+  <name>СвязатьсяСоСпециалистомОнлайнПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связаться со специалистом онлайн-поддержки</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <toolTip>
+    <key>ru</key>
+    <value>Мгновенное соединение со специалистом онлайн-поддержки</value>
+  </toolTip>
+</mdclass:CommonCommand>

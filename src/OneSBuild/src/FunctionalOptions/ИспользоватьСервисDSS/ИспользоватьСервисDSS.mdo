@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0e0a273-2613-4d5e-9901-df7893af4c74">
+  <name>ИспользоватьСервисDSS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис DSS</value>
+  </synonym>
+  <location>Constant.ИспользоватьСервисDSS</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ЭкземплярыСервераDSS</content>
+  <content>Catalog.УчетныеЗаписиDSS</content>
+  <content>Report.СостояниеУчетнойЗаписиDSS</content>
+  <content>DataProcessor.УправлениеПодключениемDSS</content>
+  <content>DataProcessor.УправлениеПодключениемDSS.Command.СписокСертификатов</content>
+  <content>DataProcessor.УправлениеПодключениемDSS.Command.СерверыDSS</content>
+  <content>DataProcessor.УправлениеПодключениемDSS.Command.УчетныеЗаписиDSS</content>
+  <content>Enum.СпособыАвторизацииDSS</content>
+  <content>InformationRegister.СертификатыПользователяDSS</content>
+</mdclass:FunctionalOption>

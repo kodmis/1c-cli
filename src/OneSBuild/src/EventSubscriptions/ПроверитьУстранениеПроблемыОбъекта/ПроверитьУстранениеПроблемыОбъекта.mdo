@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e5487a3-b5e5-40ca-88f3-5b0ea0c4d481">
+  <name>ПроверитьУстранениеПроблемыОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить устранение проблемы объекта</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject</types>
+    <types>ChartOfCalculationTypesObject</types>
+    <types>ChartOfAccountsObject</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>CatalogObject</types>
+    <types>TaskObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытия.ПроверитьУстранениеПроблемыОбъектаПриЗаписи</handler>
+</mdclass:EventSubscription>

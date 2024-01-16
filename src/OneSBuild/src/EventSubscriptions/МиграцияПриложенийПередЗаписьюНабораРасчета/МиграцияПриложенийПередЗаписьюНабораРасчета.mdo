@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb5dca1c-7319-4425-9647-af1b32465c88">
+  <name>МиграцияПриложенийПередЗаписьюНабораРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция приложений перед записью набора расчета</value>
+  </synonym>
+  <source>
+    <types>CalculationRegisterRecordSet</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.МиграцияПриложений.ПередЗаписьюНабораРасчета</handler>
+</mdclass:EventSubscription>

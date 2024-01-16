@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8c58e53-b7b9-4426-bdfa-d0816adf8cc1">
+  <name>ВнешниеКомпонентыВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние компоненты в модели сервиса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ОбщиеВнешниеКомпоненты</content>
+  <content>CommonModule.ВнешниеКомпонентыВМоделиСервисаСлужебный</content>
+  <content>CommonModule.ВнешниеКомпонентыВМоделиСервисаСлужебныйКлиент</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c53f94e-d7e8-457c-b337-59d3b3c5bf24">
+  <name>ВидыНавигацииПоВзаимодействиямОтПредметовВзаимодействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды навигации по взаимодействиям от предметов взаимодействий</value>
+  </synonym>
+</mdclass:CommonPicture>

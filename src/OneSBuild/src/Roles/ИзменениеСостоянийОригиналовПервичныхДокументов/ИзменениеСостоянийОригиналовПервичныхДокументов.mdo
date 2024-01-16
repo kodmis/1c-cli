@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69530795-5a90-47b0-ae8d-a44b420b51f6">
+  <name>ИзменениеСостоянийОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение состояний оригиналов первичных документов</value>
+  </synonym>
+</mdclass:Role>

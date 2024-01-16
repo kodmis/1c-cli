@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister._ДемоГрафикиРаботы.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document._ДемоСписаниеТоваров.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:b346f90e-cee2-49ae-895f-9fa1adf64fab</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor._ДемоВыборОбъектовМетаданных.StandardCommand.Open</commands>
+      <commands>DataProcessor._ДемоВыводСообщенийПользователю.StandardCommand.Open</commands>
+      <commands>DataProcessor._ДемоШаблонПомощника.StandardCommand.Open</commands>
+      <commands>0:b346f90e-cee2-49ae-895f-9fa1adf64fab</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

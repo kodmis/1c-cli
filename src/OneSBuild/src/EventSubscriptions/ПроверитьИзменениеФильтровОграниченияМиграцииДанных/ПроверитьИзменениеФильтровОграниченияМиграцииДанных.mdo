@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0841ebfc-12e6-4b3e-a60f-861b15e1b63c">
+  <name>ПроверитьИзменениеФильтровОграниченияМиграцииДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить изменение фильтров ограничения миграции данных</value>
+  </synonym>
+  <source>
+    <types>ExchangePlanObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытия.ПроверитьИзменениеФильтровОграниченияМиграцииДанныхПриЗаписи</handler>
+</mdclass:EventSubscription>

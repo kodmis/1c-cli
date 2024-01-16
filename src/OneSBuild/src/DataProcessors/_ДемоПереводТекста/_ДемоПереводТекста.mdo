@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4625045a-5295-424d-9ff4-cb16ac48d43a">
+  <producedTypes>
+    <objectType typeId="131495fd-a7e4-4028-b318-2f2f3eaae915" valueTypeId="bf94f8dd-b120-4f5b-983a-9337ec4c4972"/>
+    <managerType typeId="5eaa70d2-c06c-4d15-8d64-368f0632df1f" valueTypeId="ca094ebe-ff03-4be4-9f7c-4bba778a5a33"/>
+  </producedTypes>
+  <name>_ДемоПереводТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Перевод текста</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоПереводТекста.Form.Форма</defaultForm>
+  <forms uuid="00153d46-0bd0-4c55-bcba-c101b6f15a6d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9b10621d-30b5-4964-b6c6-53a9fa7a601a">
+    <name>ПереводТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Перевод текста</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98b67b5a-3550-4a64-9e07-07fcc9154c73">
+  <name>ШаблоныСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны сообщений</value>
+  </synonym>
+  <content>FunctionalOption.ИспользоватьШаблоныСообщений</content>
+  <content>Catalog.ШаблоныСообщений</content>
+  <content>DefinedType.ПредметШаблонаСообщения</content>
+  <content>CommonCommand.ОтправитьSMS</content>
+  <content>CommonCommand.ОтправитьПисьмо</content>
+  <content>CommonModule.ШаблоныСообщенийПереопределяемый</content>
+  <content>CommonModule.ШаблоныСообщений</content>
+  <content>CommonModule.ШаблоныСообщенийСлужебный</content>
+  <content>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</content>
+  <content>Constant.ИспользоватьОтправкуSMSВШаблонахСообщений</content>
+  <content>Constant.ИспользоватьЭлектроннуюПочтуВШаблонахСообщений</content>
+  <content>FunctionalOption.ИспользоватьОтправкуSMSВШаблонахСообщений</content>
+  <content>FunctionalOption.ИспользоватьЭлектроннуюПочтуВШаблонахСообщений</content>
+  <content>Constant.ИспользоватьШаблоныСообщений</content>
+  <content>CommonPicture.КоллекцияПиктограммПараметрыШаблонаСообщения</content>
+  <content>Role.ДобавлениеИзменениеШаблоновСообщений</content>
+  <content>CommonModule.ШаблоныСообщенийКлиент</content>
+  <content>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</content>
+  <content>CommonModule.ШаблоныСообщенийКлиентСервер</content>
+  <content>CommonModule.ШаблоныСообщенийСервер</content>
+  <content>DefinedType.ВладелецШаблонаСообщения</content>
+  <content>Role.ЧтениеШаблоновСообщений</content>
+  <content>Role.ДобавлениеИзменениеЛичныхШаблоновСообщений</content>
+  <content>EventSubscription.ОпределитьФормуПрисоединенногоФайлаШаблоныСообщений</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

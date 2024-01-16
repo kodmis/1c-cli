@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b742da4-1696-4c06-9dfa-dd85c9286c74">
+  <name>СоздатьПредопределенныеПапкиЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать предопределенные папки электронных писем</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ВзаимодействияСобытия.ПриЗаписиУчетнойЗаписиЭлектроннойПочты</handler>
+</mdclass:EventSubscription>

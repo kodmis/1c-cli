@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65c12682-631e-4654-abf6-66bacc828229">
+  <name>_ДемоБизнесПроцессыИЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-процессы и задачи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Работа с задачами</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделБизнесПроцессыИЗадачи</picture>
+  </picture>
+  <content>DataProcessor._ДемоОперацииСБизнесПроцессамиИЗадачами</content>
+  <content>Role._ДемоДобавлениеИзменениеИсполнителейРолейПоОбъектамАдресации</content>
+  <content>Role._ДемоДобавлениеИзменениеЗаданийСРолевойАдресацией</content>
+  <content>Role._ДемоЧтениеЗаданийСРолевойАдресацией</content>
+  <content>FunctionalOption._ДемоИспользоватьБизнесПроцессыИЗадачиБСП</content>
+  <content>FunctionalOption._ДемоИспользоватьПодчиненныеБизнесПроцессыБСП</content>
+  <content>CommonPicture._ДемоРазделБизнесПроцессыИЗадачи48</content>
+  <content>CommonCommand._ДемоПанельОтчетовБизнесПроцессыИЗадачи</content>
+  <content>CommonPicture._ДемоРазделБизнесПроцессыИЗадачи</content>
+  <content>Role.Подсистема_ДемоБизнесПроцессыИЗадачи</content>
+  <subsystems>НастройкаРолевойАдресации</subsystems>
+  <subsystems>ВыдачаЗаданий</subsystems>
+  <subsystems>КонтрольИсполнения</subsystems>
+  <subsystems>ИсполнениеЗадач</subsystems>
+</mdclass:Subsystem>

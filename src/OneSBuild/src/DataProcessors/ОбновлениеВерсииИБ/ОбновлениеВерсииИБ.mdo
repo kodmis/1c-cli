@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d28e8486-cce6-4fe8-9fff-d13469a7a06d">
+  <producedTypes>
+    <objectType typeId="c29da167-3cd6-4f32-8c91-282c7df7559e" valueTypeId="4cbfc32e-8704-45d1-912f-d2e6f765d079"/>
+    <managerType typeId="096d0b84-0e50-4aed-bc7f-fcc35a6d45c3" valueTypeId="87bb64b5-b882-409e-a60c-949c949e6b1c"/>
+  </producedTypes>
+  <name>ОбновлениеВерсииИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление версии ИБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеВерсииИБ.Form.ФормаВерсииИБ</defaultForm>
+  <forms uuid="30c55f12-6fa4-411e-a401-c15332430c9c">
+    <name>ФормаВерсииИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма версии ИБ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="17b5edfb-4772-4d21-8af8-e403e3b4a611">
+    <name>ВерсииПодсистемИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии подсистем информационной базы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

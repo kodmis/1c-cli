@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b68d479-7880-44de-84e3-7f578b43f0dc">
+  <name>ВнешниеКомпоненты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние компоненты</value>
+  </synonym>
+  <content>Catalog.ВнешниеКомпоненты</content>
+  <content>CommonModule.ВнешниеКомпонентыКлиент</content>
+  <content>CommonModule.ВнешниеКомпонентыСлужебныйВызовСервера</content>
+  <content>CommonModule.ВнешниеКомпонентыСлужебныйКлиент</content>
+  <content>CommonModule.ВнешниеКомпонентыСлужебный</content>
+  <content>Enum.ВариантыИспользованияВнешнихКомпонент</content>
+  <content>CommonForm.УстановкаВнешнейКомпонентыНевозможна</content>
+  <content>CommonModule.ВнешниеКомпонентыВызовСервера</content>
+  <content>CommonPicture.ОбновлениеВнешнихКомпонентССайта</content>
+  <content>CommonModule.ВнешниеКомпонентыСервер</content>
+  <content>CommonPicture.ВнешняяКомпонентаДоступна</content>
+  <content>CommonForm.ПоддерживаемыеКлиентскиеПриложения</content>
+  <content>CommonPicture.ВнешняяКомпонентаНеДоступна</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

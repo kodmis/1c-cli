@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05507f2b-eed8-4da4-8efc-77d9d8e2daca">
+  <producedTypes>
+    <refType typeId="53095fc4-56f0-4acf-a111-65c8a4f6b532" valueTypeId="3f9c9729-1484-484d-a218-e7d7efc8363c"/>
+    <listType typeId="23421ff4-440b-4a23-a9e1-9141e1fce180" valueTypeId="3596baae-8d4d-416f-ad4b-f14a3f0c2719"/>
+    <managerType typeId="aa765a96-6bc9-4c17-aec9-94ed3a4378e6" valueTypeId="5624689c-3d64-4e87-91d8-2e9592f8c893"/>
+  </producedTypes>
+  <name>СервисыПереводаТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисы перевода текста</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0440ed06-3f42-48a8-9431-fd608920b577">
+    <name>ЯндексПереводчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Яндекс.Переводчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37be75c9-bf1a-437a-ab05-f9e3aac6f440">
+    <name>GoogleПереводчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Google Переводчик</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

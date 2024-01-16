@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89b5a5cb-b55a-4637-81ce-f54c8a4d27be">
+  <name>_ДемоПроверитьНомерБизнесПроцессаПоДате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Проверить номер бизнес процесса по дате</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject._ДемоЗаданиеСРолевойАдресацией</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.ПроверитьНомерБизнесПроцессаПоДате</handler>
+</mdclass:EventSubscription>

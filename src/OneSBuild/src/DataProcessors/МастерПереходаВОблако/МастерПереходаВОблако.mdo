@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14657230-cb0b-4a75-9762-e540c84ee9fa">
+  <producedTypes>
+    <objectType typeId="a358342b-9931-4fa8-acb4-33827b4a53a7" valueTypeId="8e681b2d-8f82-4cd1-bf38-23d12b26e1cc"/>
+    <managerType typeId="e339d11a-4bdc-4403-9c19-3cdf06bf4ade" valueTypeId="c822649d-87e1-419d-849e-e0158847a0c9"/>
+  </producedTypes>
+  <name>МастерПереходаВОблако</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер перехода в облако</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МастерПереходаВОблако.Form.МастерПереходаВОблако</defaultForm>
+  <forms uuid="7601e02b-29d7-4da7-a904-af172f89865b">
+    <name>МастерПереходаВОблако</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер перехода в облако</value>
+    </synonym>
+    <comment>Переход в облачный сервис</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8b1c427e-3396-4b32-8633-e3344ff9b2b3">
+    <name>ВыборОбслуживающейОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор обслуживающей организации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d52c1d13-9d77-4c0e-8daa-726042b6da07">
+    <name>ДобавлениеПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление пользователя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="12a10265-fb5a-4553-a32c-89ce7163c2d2">
+    <name>МиграцияПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Миграция приложения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8cbfcf16-391a-4c7d-a430-4bb8bb1e2617">
+    <name>ПерейтиВОблачныйСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перейти в облачный сервис</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

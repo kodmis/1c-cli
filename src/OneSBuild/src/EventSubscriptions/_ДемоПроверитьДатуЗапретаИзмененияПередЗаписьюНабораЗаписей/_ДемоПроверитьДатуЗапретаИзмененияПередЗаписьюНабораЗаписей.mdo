@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb80a496-d257-4271-b771-f6e943c32386">
+  <name>_ДемоПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Проверить дату запрета изменения перед записью набора записей</value>
+  </synonym>
+  <comment>Подписка создана при внедрении подсистемы ДатыЗапретаИзменения для проверки регистров</comment>
+  <source>
+    <types>AccumulationRegisterRecordSet._ДемоОстаткиТоваровВМестахХранения</types>
+    <types>InformationRegisterRecordSet.КурсыВалют</types>
+    <types>InformationRegisterRecordSet._ДемоЗаведующиеМестамиХранения</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ДатыЗапретаИзменения.ПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписей</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b3088c9-7fb9-4979-acce-16d7ae7ba6b7">
+  <producedTypes>
+    <managerType typeId="fbcd349f-6f93-4ab1-bc50-573f39fbe803" valueTypeId="c4dd0be2-1f8d-4417-8426-67cc1d797fdd"/>
+    <valueManagerType typeId="7ee8d616-e304-453a-aa55-a778d0e9b045" valueTypeId="e90ee49c-bfcb-41ec-af5b-5e2234ba0836"/>
+    <valueKeyType typeId="cc9ed10a-9166-5794-86e0-592531dc5121" valueTypeId="ecac612a-b35f-5e36-8686-77b296afe77b"/>
+  </producedTypes>
+  <name>ДатаУведомленияОНовыхЗадачах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата уведомления о новых задачах</value>
+  </synonym>
+  <comment>Служебная, не редактируется пользователем</comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

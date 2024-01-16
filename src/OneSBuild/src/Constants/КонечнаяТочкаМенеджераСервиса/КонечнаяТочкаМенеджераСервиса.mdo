@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="719d879f-ee9e-4ccd-ad73-bd31b7fb98c7">
+  <producedTypes>
+    <managerType typeId="7b515857-58a7-4638-a55e-350fad19162c" valueTypeId="9eeadf61-ecf9-4435-a886-a7e81bb161c5"/>
+    <valueManagerType typeId="15aea9c4-79cb-4868-91cd-8d3f8021b63e" valueTypeId="b32b296d-dfde-4796-860a-0dd77e2a3aa5"/>
+    <valueKeyType typeId="5032996b-2f6b-550c-a7db-6aa8d6ca7aba" valueTypeId="fd7f77c6-f36a-528a-8a8b-08e8e715c0f2"/>
+  </producedTypes>
+  <name>КонечнаяТочкаМенеджераСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конечная точка менеджера сервиса</value>
+  </synonym>
+  <type>
+    <types>ExchangePlanRef.ОбменСообщениями</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

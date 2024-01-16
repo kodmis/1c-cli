@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bd80198-4739-4e8f-9af1-40addc91a05b">
+  <name>CurrencyRates</name>
+  <synonym>
+    <key>ru</key>
+    <value>Currency rates</value>
+  </synonym>
+  <namespace>http://www.1c.ru/SaaS/SuppliedData/CurrencyRates</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e7684f0-1b3b-4a32-8602-dd0672c5a800">
+  <producedTypes>
+    <objectType typeId="eb1f85a6-a16e-4fef-ab9a-d872041f1c14" valueTypeId="af105d27-977d-4e7a-8a0b-3be67840e65b"/>
+    <managerType typeId="56c2b0e1-0a9f-40a8-a5a6-68638bd8b66b" valueTypeId="c1e9ed22-aacf-4862-a653-c685fa47b0bf"/>
+  </producedTypes>
+  <name>ТранспортСообщенийОбменаEMAIL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорт сообщения обмена через E-mail</value>
+  </synonym>
+  <defaultForm>DataProcessor.ТранспортСообщенийОбменаEMAIL.Form.Форма</defaultForm>
+  <attributes uuid="ab178a93-8570-43b6-ae42-f34a7cc4f359">
+    <name>EMAILМаксимальныйДопустимыйРазмерСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный размер сообщения обмена, КБайт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальный размер отправляемого файла сообщения обмена (КБайт)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4c82f31d-7a98-47dd-89dc-1846cb15bf3b">
+    <name>EMAILСжиматьФайлИсходящегоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сжимать файл исходящего сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="168e3189-2676-4cdb-bc9d-78d85df51faf">
+    <name>EMAILУчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись электронной почты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учетная запись для обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ecf1a87f-4ca4-4efb-a84c-b2db1b0e8829">
+    <name>ПарольАрхиваСообщенияОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль архива сообщения обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="470bbff8-20d0-475c-a61a-1a09ac14c2db">
+    <name>ШаблонИмениФайлаСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон имени файла сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ea25680-c4db-4717-9498-62420ca16970">
+    <name>ИспользоватьВременныйКаталогДляОтправкиИПриемаСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать временный каталог для отправки и приема сообщений</value>
+    </synonym>
+    <comment>Истина - Отправка и получение сообщений обмена будет выполняться через временный каталог; Ложь – отправка и получение будет выполняться напрямую через каталог обмена</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="14e20d48-635e-4c52-9099-e743323fc190">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

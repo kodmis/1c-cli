@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="251ca8fe-09eb-45ca-be8b-0d8faf927009">
+  <producedTypes>
+    <managerType typeId="6ca65b05-0bd1-49ea-a53c-2529094a3592" valueTypeId="50484fe0-2dd3-487a-987c-a262058e7322"/>
+    <valueManagerType typeId="726acf20-f24c-483c-889a-057085aabbf6" valueTypeId="18080a77-73d4-4085-81e9-bb59b8747006"/>
+    <valueKeyType typeId="b3f5a35b-8c66-5205-87b6-c4c45e6d5c53" valueTypeId="25ca8ece-355c-5884-8081-448cc0fd00ba"/>
+  </producedTypes>
+  <name>ДнейДоСкрытияПерсональныхДанныхСубъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дней до скрытия персональных данных субъектов</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

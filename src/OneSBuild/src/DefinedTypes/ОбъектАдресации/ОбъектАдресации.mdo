@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81fbb02e-76b2-4bca-bb3b-871e4e969a3c">
+  <producedTypes>
+    <containerType typeId="60bd8870-5b63-40f2-b24d-00d1de721b15" valueTypeId="f327104d-9f6c-440b-8d89-d9040cef5759"/>
+  </producedTypes>
+  <name>ОбъектАдресации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект адресации</value>
+  </synonym>
+  <type>
+    <types>CatalogRef._ДемоПодразделения</types>
+    <types>CatalogRef._ДемоОрганизации</types>
+    <types>CatalogRef._ДемоПроекты</types>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b39e52f9-d774-42b6-ac56-8886e860599a">
+  <producedTypes>
+    <refType typeId="c49ecfa4-105a-4949-a684-6e583753f9e7" valueTypeId="f3ac7cb1-f10b-4cea-be4b-1e23478b8fc1"/>
+    <listType typeId="362554be-8243-4a7d-b768-e3ebd7d2bdad" valueTypeId="70d4d188-1bed-475c-aa9f-edf48d17283f"/>
+    <managerType typeId="c31b882b-9414-4033-bb36-d362e89cb7bf" valueTypeId="85fef6b6-8bb1-45db-b631-0b4862e36f3d"/>
+  </producedTypes>
+  <name>СостоянияРасширений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния расширений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b84da84b-b82b-4086-a3e0-e3990cbd8d7c">
+    <name>Устанавливается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устанавливается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf3d1eda-8964-4e9f-8b83-d05e045e3cc3">
+    <name>Установлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43892771-0f6c-4be2-838a-8ab23e450e03">
+    <name>Удаляется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаляется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f85da511-2af3-45f7-a69d-e3dcb39f90f5">
+    <name>Удалено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bf383b5-4379-4f12-9dc5-57f80962c09e">
+    <name>ОшибкаУстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка установки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ea1f6e0-98b4-41be-904c-9de1db8469db">
+    <name>ОшибкаУдаления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка удаления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b200f0fd-f00c-430d-8849-69a12fde6c98">
+    <name>Отключено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff7a2c43-f05e-4709-9e8a-b6129a55ac3f">
+    <name>УстановленаКаркаснаяВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установлена каркасная версия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f0f5555-d79e-467b-88c2-a7d9de63d0c0">
+    <name>НеУстановлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не установлено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4590d306-edad-474a-ad94-f1044c97f32d">
+  <name>_ДемоРассылкиОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылки отчетов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.РассылкиОтчетов</content>
+  <content>Report._ДемоОборотноСальдоваяВедомость</content>
+  <content>Report._ДемоСтатусыЗаказовПокупателей</content>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

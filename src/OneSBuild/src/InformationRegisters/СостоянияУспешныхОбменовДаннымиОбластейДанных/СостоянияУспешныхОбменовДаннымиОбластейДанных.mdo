@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aec7df6a-21a1-495d-b0a9-3769e1069888">
+  <producedTypes>
+    <selectionType typeId="0dbb226c-4906-44e1-b2c0-c012adeefcc0" valueTypeId="25378e3a-b8ef-4b2a-9b62-72d6567c777e"/>
+    <listType typeId="ed9961f0-d454-4e7d-a9ee-dc87b54faa0f" valueTypeId="f472eaef-d3f7-40fc-9855-5b9760a3f497"/>
+    <managerType typeId="fd673465-88ed-4864-840a-b169aefa87eb" valueTypeId="d0f2a550-6c44-42c6-b6cf-6d42a187e898"/>
+    <recordSetType typeId="e693ac3a-a416-415e-adf2-a4bb642c8ffd" valueTypeId="44b505e9-4586-4d4f-aee2-d794dc17c87a"/>
+    <recordKeyType typeId="f66b1b6b-b3ca-42c8-9452-3b84b6860741" valueTypeId="83d87453-d34f-44e6-941f-ae91a3530397"/>
+    <recordType typeId="64c0eef1-930e-49df-ae30-3c3af49e0277" valueTypeId="24e7e8ef-5f77-4594-bac5-aafde1ddd34e"/>
+    <recordManagerType typeId="74d8e9da-55ff-42fe-90ac-9a055db0f075" valueTypeId="5bdfd819-4ad5-467e-a71e-6cdd863ec126"/>
+  </producedTypes>
+  <name>СостоянияУспешныхОбменовДаннымиОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния успешных обменов данными областей данных</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Используется для хранения информации состояния последней успешной итерации обмена данными.</value>
+  </explanation>
+  <resources uuid="463b98bf-b4d4-4edb-995d-0a75ff29b60d">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания выполнения успешного действия обмена данными.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="317f88a7-12a4-4d21-b637-3050525406f4">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Узел плана обмена, для которого используется информация состояния обмена.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2d9d2319-68fb-436d-b431-98858b88a75a">
+    <name>ДействиеПриОбмене</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие при обмене</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДействияПриОбмене</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Действие, для которого используется информация состояния обмена (выгрузка/загрузка данных).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

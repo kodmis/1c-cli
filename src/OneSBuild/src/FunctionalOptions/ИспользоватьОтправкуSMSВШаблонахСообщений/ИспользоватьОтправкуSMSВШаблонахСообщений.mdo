@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="331db120-ba88-4eb3-a8ec-10691be82e2d">
+  <name>ИспользоватьОтправкуSMSВШаблонахСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать отправку SMS в шаблонах сообщений</value>
+  </synonym>
+  <location>Constant.ИспользоватьОтправкуSMSВШаблонахСообщений</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ОтправитьSMS</content>
+</mdclass:FunctionalOption>

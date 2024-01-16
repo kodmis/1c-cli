@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15cd04c9-c12a-44ea-a397-d2adbac99c5b">
+  <producedTypes>
+    <selectionType typeId="6b598e45-b9e2-48bf-974a-e9392b433d51" valueTypeId="eb31b74d-aea2-46b8-8fb6-34c2dd5b8e7f"/>
+    <listType typeId="56ef20c2-2080-488d-8365-21ad1de34f9b" valueTypeId="72ba9020-ea21-4680-9197-a1fe50bf7d52"/>
+    <managerType typeId="d61a76dd-4412-467a-b226-e3deee7b824b" valueTypeId="aed4ef77-a22e-47a0-ade9-bc1a34cd9784"/>
+    <recordSetType typeId="ffb44e83-97a3-444d-9a61-dc9dbfa22588" valueTypeId="23758966-2623-4cb9-b7a1-aa92b792f6a4"/>
+    <recordKeyType typeId="69927903-f9c8-4673-9cb2-f43d57d07976" valueTypeId="5e4df5fb-56ce-49c9-9426-efa08a7b1c07"/>
+    <recordType typeId="71db8c1d-3708-45e1-b496-24226f0e9cfd" valueTypeId="d60bff2e-aa78-4fc8-b77a-3bf141787310"/>
+    <recordManagerType typeId="ebd3c767-ceac-4c9a-9a25-d9a6ae008d40" valueTypeId="cd917e9d-6cd0-49f9-9411-390ebabc8bd0"/>
+  </producedTypes>
+  <name>ЗаявленияНаВыпускСертификата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявления на выпуск сертификата</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЗаявленияНаВыпускСертификата.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЗаявленияНаВыпускСертификата.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Заявление на выпуск сертификата</value>
+  </recordPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Данные заявлений на выпуск сертфиката, заполняются обработкой &quot;ЗаявлениеНаВыпускНовогоКвалифицированногоСертификата&quot;</value>
+  </explanation>
+  <resources uuid="182f92f5-0a8e-4f6a-9f9e-7878fafd0a2a">
+    <name>СостояниеЗаявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние заявления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияЗаявленияНаВыпускСертификата</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="45ca26ef-2a9f-4f24-a81b-2fe10c02ed9f">
+    <name>ОформленоВЭлектронномВиде</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформлено в электронном виде</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="56aa4b2f-5b7e-457d-a59d-837405f17fde">
+    <name>ДляФизическогоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для физического лица</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="819e2442-cb5a-4826-8a66-b34a3270e8e0">
+    <name>ДатаОбновленияСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления состояния</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="49987536-3ab9-4a68-83a2-5dc3cd5d58fb">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8e4eec45-6ad3-4ac8-940a-b3130f504685">
+    <name>ИдентификаторАбонента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор абонента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="ccdfef4b-a022-4bde-9c6c-84129b2bad65">
+    <name>ИдентификаторДокументооборота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор документооборота</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="95adcac2-bc88-46bc-aae5-d13cfb9a170c">
+    <name>СодержаниеЗаявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание заявления</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d845ca4c-3af2-4322-8565-64f3aee61e3a">
+    <name>СостояниеОбработкиЗаявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние обработки заявления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительные сообщения при обновлении состояния заявления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="430cf66c-5cfc-4fd4-bbf3-d9df6070e115">
+    <name>СертификатОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат основание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сертификат, данные которого использовались при заполнении данных заявления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6321fc1e-c1d7-4b49-b730-258857b2d936">
+    <name>Сертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на сертификат, для которого оформлялось заявление на выпуск сертификата</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f48abfe8-e400-4544-a80a-d1cb0b7d3ea8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ce40016b-7ca7-4803-81fa-5df0b92dbc54">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

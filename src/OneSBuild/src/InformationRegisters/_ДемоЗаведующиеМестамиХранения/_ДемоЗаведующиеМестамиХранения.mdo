@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9706f479-a13c-4fed-b046-9fa602b3a01e">
+  <producedTypes>
+    <selectionType typeId="2b38b7ff-6fc3-412c-b038-0a20d245874f" valueTypeId="c3df5672-e054-435f-bf16-a5dcbe472c4f"/>
+    <listType typeId="75c57e8b-eebd-451e-8887-a906a9c14fcf" valueTypeId="4baeda8e-6bd4-4473-80bd-86657f1c4f5f"/>
+    <managerType typeId="00ac550a-ebd2-4a32-a190-4eaa82cf681f" valueTypeId="f2847fbf-3850-45c8-8828-0b3c875cf36e"/>
+    <recordSetType typeId="bfbfafd7-613e-45f8-8a74-546da0eb62a1" valueTypeId="37e75e7d-7cb3-486c-8f14-c51cd1b512a2"/>
+    <recordKeyType typeId="2678fbd9-0e08-4b84-b255-683b33923e2d" valueTypeId="35f6b28e-602f-4c5e-940f-f169d6819b24"/>
+    <recordType typeId="ed703207-bc4b-4469-926d-c0c7cda21d72" valueTypeId="3ef4c245-6d7a-4758-a530-3c0caa5d1be3"/>
+    <recordManagerType typeId="36277795-f0a4-4327-a20a-80c5995ee651" valueTypeId="36bcb6c7-6e05-425b-bf3f-394c90049575"/>
+  </producedTypes>
+  <name>_ДемоЗаведующиеМестамиХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Заведующие местами хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister._ДемоЗаведующиеМестамиХранения.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister._ДемоЗаведующиеМестамиХранения.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала заведования</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Заведующий местом хранения</value>
+  </recordPresentation>
+  <resources uuid="0390317c-e3dd-4317-b8da-9ae251b9be0a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Заведующий местом хранения.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="fbc2566b-45aa-4196-b590-bd74a4f1371f">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="6c6329bb-ea2c-41ac-bb43-b17a74a8ff68">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоМестаХранения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Место хранения (склад, подразделение, физ. лицо)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b276df23-ed0c-4c61-b695-3bf4108321b5">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="748d6485-d29f-4c0f-8a0f-4a41e818bba1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="01704674-658f-4371-a332-4ac8ab73a87d">
+    <name>_ДемоЗаведующиеМестамиХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Заведующие</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef._ДемоМестаХранения</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

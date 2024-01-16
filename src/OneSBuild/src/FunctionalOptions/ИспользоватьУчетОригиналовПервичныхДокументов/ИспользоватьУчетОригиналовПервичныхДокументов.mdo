@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94928ba3-6bbf-4bd3-94cf-9c51b50e005f">
+  <name>ИспользоватьУчетОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет оригиналов первичных документов</value>
+  </synonym>
+  <location>Constant.ИспользоватьУчетОригиналовПервичныхДокументов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СостоянияОригиналовПервичныхДокументов</content>
+  <content>DataProcessor._ДемоЖурналУчетаОригиналовПервичныхДокументов</content>
+  <content>InformationRegister.СостоянияОригиналовПервичныхДокументов</content>
+  <content>Subsystem.СтандартныеПодсистемы.Subsystem.УчетОригиналовПервичныхДокументов</content>
+  <content>CommonCommand.ЖурналУчетаОригиналовПервичныхДокументов</content>
+</mdclass:FunctionalOption>

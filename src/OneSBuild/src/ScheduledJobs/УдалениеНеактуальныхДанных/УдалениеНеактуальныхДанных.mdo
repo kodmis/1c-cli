@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79d99d59-111b-4c42-bff0-120a501d28bb">
+  <name>УдалениеНеактуальныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление неактуальных данных</value>
+  </synonym>
+  <methodName>CommonModule.РаботаВМоделиСервиса.УдалениеНеактуальныхДанных</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>60</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

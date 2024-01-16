@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e1e6275-f9f3-4616-9866-3f703a2f4b29">
+  <name>ИнтеграцияОбъектовОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция объектов областей данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияОбъектовОбластейДанных</content>
+  <content>InformationRegister.ОбъектыКОтправке</content>
+  <content>CommonModule.ИнтеграцияОбъектовОбластейДанныхСловарь</content>
+  <content>DefinedType.УчетныеСистемыИнтеграцииОбластейДанных</content>
+  <content>Enum.СпособыАутентификации</content>
+  <content>InformationRegister.НастройкиУчетныхСистем</content>
+  <content>Enum.СостоянияИнтеграцииОбъектов</content>
+  <content>InformationRegister.СостоянияИнтеграцииОбъектов</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

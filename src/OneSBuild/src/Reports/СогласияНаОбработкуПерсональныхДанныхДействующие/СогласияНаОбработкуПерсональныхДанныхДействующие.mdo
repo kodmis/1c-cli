@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39598414-9c1d-46ec-a534-8bd43e622e45">
+  <producedTypes>
+    <objectType typeId="e34fad8a-1cf9-4ea5-9814-15837dce7f32" valueTypeId="8271769c-98a6-41bb-a13c-f8df0fe7da3f"/>
+    <managerType typeId="fa1fdae1-a6ba-4173-8c0d-d5be0ee72bc7" valueTypeId="2ab9989e-e53a-47b1-b470-ae5ff322a62b"/>
+  </producedTypes>
+  <name>СогласияНаОбработкуПерсональныхДанныхДействующие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласия на обработку персональных данных действующие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СогласияНаОбработкуПерсональныхДанныхДействующие.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Действующие на выбранную дату согласия на обработку персональных данных</value>
+  </explanation>
+  <templates uuid="b552c510-4fd4-4c16-9022-dc5babcafc52">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

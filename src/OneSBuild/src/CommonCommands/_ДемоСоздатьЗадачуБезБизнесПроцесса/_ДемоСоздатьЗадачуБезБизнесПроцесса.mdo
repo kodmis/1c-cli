@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b85d62d4-1707-47b0-a8c2-1f486690a149">
+  <name>_ДемоСоздатьЗадачуБезБизнесПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Создать задачу</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Создать задачу без бизнес-процесса</value>
+  </toolTip>
+</mdclass:CommonCommand>

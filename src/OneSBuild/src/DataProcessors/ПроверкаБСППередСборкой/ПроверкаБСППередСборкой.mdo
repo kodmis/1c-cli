@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02495a2f-a4c7-4cb4-b7f8-b0d737cc6e59">
+  <producedTypes>
+    <objectType typeId="949aa763-8794-42bc-bb22-3f6d769072ce" valueTypeId="31d8e3f9-82b0-41a0-b70d-26cfe95b6bb6"/>
+    <managerType typeId="9245a3c9-0b4b-4440-847b-cdd7e26f66b8" valueTypeId="148e10aa-3e5b-4530-b75f-6d68c1fddd72"/>
+  </producedTypes>
+  <name>ПроверкаБСППередСборкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка БСП перед сборкой</value>
+  </synonym>
+  <comment>АПК:566 работа в веб-клиенте не предусмотрена</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроверкаБСППередСборкой.Form.Форма</defaultForm>
+  <tabularSections uuid="f1f166a5-c25f-4fc9-a647-af86ecd7d064">
+    <producedTypes>
+      <objectType typeId="d1f8b13b-1358-49cd-8a1e-f0ed4d97335d" valueTypeId="a305005a-e27c-409a-baae-6aa57c595b35"/>
+      <rowType typeId="ce126c2f-0a43-480f-bd37-3b56cfbcff93" valueTypeId="1e05590c-c700-44f9-83fd-cca5d708221b"/>
+    </producedTypes>
+    <name>Проверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4a7a9e68-c353-441a-9c1d-9b298f98a942">
+      <name>ПроводитьПроверку</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проводить проверку</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Выполнять проверку</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bc49ce83-b58e-4582-adcf-3b82b452dadb">
+      <name>НаименованиеПроверки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование проверки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Описание выполняемой проверки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="e1cbbe0e-ebf2-4d26-8bca-ea23107d4dcc">
+      <name>НаименованиеПроцедурыПроверки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование процедуры проверки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Название процедуры, выполняющей проверку</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="f83f9bf3-cf86-4696-bf1b-caa0bd224c9b">
+      <name>ДополнительноеУсловие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дополнительное условие</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value> Дополнительное условие выполнения проверки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6ee18bf2-c874-438d-a52f-bf5a84a11de6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c96b360b-4260-4d1a-8cf1-3d17e4fd7206">
+    <name>МакетОтчетаСОшибками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчета с ошибками</value>
+    </synonym>
+  </templates>
+  <templates uuid="00e5e91a-7c80-4356-8f0d-a72e781a3d72">
+    <name>ИсключенияПлатформеннойПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключения платформенной проверки</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="561dadb1-8bba-4e5c-b6c1-cd1feb7258cf">
+    <name>ПроверкаБСППередСборкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка БСП перед сборкой</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

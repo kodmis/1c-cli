@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceb453ca-e516-435d-b23b-39e4ce2e1ffa">
+  <name>РаботаВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа в модели сервиса</value>
+  </synonym>
+  <subsystems>БазоваяФункциональностьБИП</subsystems>
+  <subsystems>ПолучениеВнешнихКомпонент</subsystems>
+  <subsystems>ПолучениеОбновленийПрограммы</subsystems>
+  <subsystems>РаботаСКлассификаторами</subsystems>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей</parentSubsystem>
+</mdclass:Subsystem>

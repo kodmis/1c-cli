@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.ГруппыПользователей.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog._ДемоПодразделения.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog._ДемоФизическиеЛица.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
+      <commands>Catalog.ГруппыПользователей.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВнешниеПользователи.StandardCommand.OpenList</commands>
+      <commands>Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоКонтактныеЛицаПартнеров.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоПартнеры.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоПодразделения.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоФизическиеЛица.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a313dae-a2e9-4f69-8500-3116e4ecc0f6">
+  <producedTypes>
+    <objectType typeId="d207af9b-5dd8-4c05-a41b-e840d07ad38d" valueTypeId="65435d1c-6720-46c9-acce-fb0736f1eca8"/>
+    <managerType typeId="fb27f2ac-6ba1-43b8-bd3b-16547cde9333" valueTypeId="8ab06482-bea5-4899-90d3-8aeaa8f2d22b"/>
+  </producedTypes>
+  <name>_ДемоПечатьСписанийТоваровOpenOfficeXML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Печать списаний товаров с использованием макета Open Office XML</value>
+  </synonym>
+  <comment>Для обновления следует поднять номер версии в функции СведенияОВнешнейОбработке и запустить обновление ИБ.</comment>
+  <defaultForm>DataProcessor._ДемоПечатьСписанийТоваровOpenOfficeXML.Form.ОсновнаяФорма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2a27169f-e551-46ab-b075-2924a3542f00">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

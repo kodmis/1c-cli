@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50d6872b-d755-4de0-bb3e-3b900bb6add3">
+  <name>_ДемоИспользоватьДополнительныеРеквизитыИСведенияБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать дополнительные реквизиты и сведения БСП</value>
+  </synonym>
+  <comment>Для управления видимостью прикладных объектов конфигурации.</comment>
+  <location>Constant.ИспользоватьДополнительныеРеквизитыИСведения</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение.Subsystem._ДемоСвойства</content>
+  <content>Catalog._ДемоВидыНоменклатуры.Attribute.НаборСвойств</content>
+</mdclass:FunctionalOption>

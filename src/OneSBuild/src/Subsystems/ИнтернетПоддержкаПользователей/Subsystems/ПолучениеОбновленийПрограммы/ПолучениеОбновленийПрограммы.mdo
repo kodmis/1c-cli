@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59a3c290-b497-4926-95a4-c1f81ebf8ae9">
+  <name>ПолучениеОбновленийПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение обновлений программы</value>
+  </synonym>
+  <content>CommonModule.ПолучениеОбновленийПрограммы</content>
+  <content>DataProcessor.ОбновлениеПрограммы</content>
+  <content>CommonModule.ПолучениеОбновленийПрограммыКлиент</content>
+  <content>CommonModule.ПолучениеОбновленийПрограммыКлиентСервер</content>
+  <content>CommonModule.ПолучениеОбновленийПрограммыГлобальный</content>
+  <content>CommonModule.ПолучениеОбновленийПрограммыВызовСервера</content>
+  <content>Role.ПросмотрИнформацииОДоступныхОбновленияхПрограммы</content>
+  <content>CommonModule.ПолучениеОбновленийПрограммыПереопределяемый</content>
+  <content>CommonForm.СообщениеНеобходимоОбновитьВерсиюПлатформы</content>
+  <content>CommonModule.ПолучениеОбновленийПрограммыКлиентПереопределяемый</content>
+  <content>Constant.ЗагружатьИУстанавливатьИсправленияАвтоматически</content>
+  <content>ScheduledJob.ПолучениеИУстановкаИсправленийКонфигурации</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей</parentSubsystem>
+</mdclass:Subsystem>

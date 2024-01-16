@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="879844f0-30b4-47f5-8d2e-5fea29910368">
+  <name>ПерестроениеАгрегатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перестроение агрегатов</value>
+  </synonym>
+  <methodName>CommonModule.УправлениеИтогамиИАгрегатамиСлужебный.ПерестроениеАгрегатовОбработчикЗадания</methodName>
+  <key>ПерестроениеАгрегатов</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

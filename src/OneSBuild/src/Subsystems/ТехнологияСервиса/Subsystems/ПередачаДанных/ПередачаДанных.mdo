@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee1d3738-4224-4f59-96bc-bd9871146ea1">
+  <name>ПередачаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача данных</value>
+  </synonym>
+  <content>CommonModule.ПередачаДанныхСервер</content>
+  <content>CommonModule.ПередачаДанныхПереопределяемый</content>
+  <content>HTTPService.ПередачаДанных</content>
+  <content>InformationRegister.ВременныеИдентификаторыЗапросов</content>
+  <content>Role.ПередачаДанныхАнонимныйДоступ</content>
+  <content>CommonModule.ПередачаДанныхПовтИсп</content>
+  <content>CommonModule.ПередачаДанныхСлужебный</content>
+  <content>CommonModule.ПередачаДанныхВстраивание</content>
+  <content>Role.УдаленныйДоступПередачаДанных</content>
+  <content>CommonModule.ПередачаДанныхКлиентСервер</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

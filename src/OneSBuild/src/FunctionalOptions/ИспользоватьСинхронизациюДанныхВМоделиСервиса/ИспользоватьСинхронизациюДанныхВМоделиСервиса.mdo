@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caea53be-d2f7-4109-8017-d2bfdfde8c6f">
+  <name>ИспользоватьСинхронизациюДанныхВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать синхронизацию данных в модели сервиса</value>
+  </synonym>
+  <location>Constant.ИспользоватьСинхронизациюДанныхВМоделиСервиса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonForm.МониторСинхронизацииДанныхВМоделиСервиса</content>
+</mdclass:FunctionalOption>

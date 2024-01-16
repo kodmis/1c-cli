@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="508a40c5-0b63-4e89-a942-bcd561920443">
+  <name>ИсполнениеЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнение задач</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>Report.ЗадачиИстекающиеНаДату</content>
+  <parentSubsystem>Subsystem._ДемоБизнесПроцессыИЗадачи</parentSubsystem>
+</mdclass:Subsystem>

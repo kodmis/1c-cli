@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30999f91-68eb-41c0-8251-b4158a78ad34">
+  <producedTypes>
+    <objectType typeId="6e0f8cf6-9c44-4a03-8a24-a98948ee5e37" valueTypeId="cdae9790-e21e-4efd-9c38-b132ceb54624"/>
+    <managerType typeId="83672269-3dab-4934-a4e2-31c8f7a665b6" valueTypeId="7f32c4b7-d7f9-4906-974d-5ddd8eee6f45"/>
+  </producedTypes>
+  <name>ПереносВариантовОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос вариантов отчетов</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПереносВариантовОтчетов.Form.Форма</defaultForm>
+  <forms uuid="c663a127-e5df-4ed9-bbd6-5d28da62bb91">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="40d47842-4915-40c4-b88e-3d0b04350646">
+    <name>ПереносВариантовОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенос вариантов отчетов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

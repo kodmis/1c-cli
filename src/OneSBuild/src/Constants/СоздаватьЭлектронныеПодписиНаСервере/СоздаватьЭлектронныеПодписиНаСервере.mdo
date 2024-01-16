@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79ff04ac-4625-469b-916e-938f04de4dd2">
+  <producedTypes>
+    <managerType typeId="95bd8cba-ced6-4b0c-b5c9-5e9066f03bd4" valueTypeId="edf92a38-a982-45ed-ba65-a48cf7d1890b"/>
+    <valueManagerType typeId="0299cf34-08f5-42e3-875b-9850669c2eaf" valueTypeId="c4dd2098-fca6-404c-b952-bbb865e7e297"/>
+    <valueKeyType typeId="99173ffc-4167-5fb4-a618-47de76e429db" valueTypeId="33de7777-69f3-5253-9514-b74524921732"/>
+  </producedTypes>
+  <name>СоздаватьЭлектронныеПодписиНаСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создавать электронные подписи на сервере</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

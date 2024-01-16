@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee6e5e56-5848-46b6-89bf-b9345a57d94c">
+  <producedTypes>
+    <selectionType typeId="4bf9e945-fba6-4e24-b0c6-4f5fbcac9dbf" valueTypeId="8f712709-95b9-4cc8-9002-d65623ea6193"/>
+    <listType typeId="6b07baa8-d095-4599-86a3-0e13ae0013b4" valueTypeId="47cc9419-3cf5-4c3e-9936-04e9cafed5c7"/>
+    <managerType typeId="d3df775b-6693-4435-9daa-9bdada1e754a" valueTypeId="d719caab-ee8f-4ae5-976f-85d4380abfbb"/>
+    <recordSetType typeId="3be35bd6-d144-4869-bd79-84bde72d7d16" valueTypeId="b3e8b8cb-d076-4440-9f6f-250573bac148"/>
+    <recordKeyType typeId="b3d75d48-1956-4bbc-b9c9-e592d16fe9e9" valueTypeId="a889d22a-dee0-4ac9-ac66-bc1355053dda"/>
+    <recordType typeId="6903f6ae-720f-4d64-84f7-8eb00701d3ed" valueTypeId="f44d33a2-4742-48d7-9e2a-6bbba142899d"/>
+    <recordManagerType typeId="4017f211-9b7f-40aa-80fb-306fb1d744c7" valueTypeId="e38d3429-c8ee-4783-9654-f6d8bb16b961"/>
+  </producedTypes>
+  <name>КонтактыВзаимодействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контакты взаимодействий</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="8817c872-bdee-4577-bcc3-4046edc72803">
+    <name>Взаимодействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимодействие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЭлектронноеПисьмоИсходящее</types>
+      <types>DocumentRef.ЗапланированноеВзаимодействие</types>
+      <types>DocumentRef.ЭлектронноеПисьмоВходящее</types>
+      <types>DocumentRef.ТелефонныйЗвонок</types>
+      <types>DocumentRef.Встреча</types>
+      <types>DocumentRef.СообщениеSMS</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Взаимодействие, для которого хранятся контакты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5b88c214-4e4e-45c2-b8c5-14eb852e9900">
+    <name>Контакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакт</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КонтактВзаимодействия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контакт взаимодействия.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

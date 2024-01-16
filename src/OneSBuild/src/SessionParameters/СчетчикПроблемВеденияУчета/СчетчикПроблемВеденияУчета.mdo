@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0744e8be-747c-47bb-85f3-58b6f6f9b786">
+  <name>СчетчикПроблемВеденияУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счетчик проблем ведения учета</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+</mdclass:SessionParameter>

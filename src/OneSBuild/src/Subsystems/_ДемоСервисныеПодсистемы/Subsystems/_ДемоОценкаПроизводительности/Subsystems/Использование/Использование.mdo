@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="495be3a2-1f6d-4350-b90e-1782c00f269f">
+  <name>Использование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand._ДемоОценкаПроизводительности</content>
+  <content>Catalog._ДемоНоменклатура</content>
+  <content>Document._ДемоЗаказПокупателя</content>
+  <content>Enum._ДемоСовместимостьНоменклатуры</content>
+  <content>CommonCommand._ДемоЗамерДлительнойОперации</content>
+  <content>DataProcessor._ДемоЗамерДлительнойОперации</content>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоОценкаПроизводительности</parentSubsystem>
+</mdclass:Subsystem>

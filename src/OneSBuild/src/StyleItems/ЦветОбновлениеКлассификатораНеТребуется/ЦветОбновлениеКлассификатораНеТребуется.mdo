@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a2cf0b3-46ab-4e14-beff-ab6b97c1e5b2">
+  <name>ЦветОбновлениеКлассификатораНеТребуется</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет обновление классификатора не требуется</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>128</red>
+      <green>128</green>
+      <blue>128</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

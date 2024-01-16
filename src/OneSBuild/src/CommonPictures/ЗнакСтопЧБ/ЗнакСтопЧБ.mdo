@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0d21be2-91dc-4a04-9078-49420ddddcd5">
+  <name>ЗнакСтопЧБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Знак стоп ЧБ</value>
+  </synonym>
+</mdclass:CommonPicture>

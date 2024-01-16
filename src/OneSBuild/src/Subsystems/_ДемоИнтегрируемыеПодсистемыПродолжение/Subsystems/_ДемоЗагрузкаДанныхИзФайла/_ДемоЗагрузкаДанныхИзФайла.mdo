@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79a55ffa-41ad-446b-b372-e6e1ee775c08">
+  <name>_ДемоЗагрузкаДанныхИзФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных из файла</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
+  <content>CommonModule.ЗагрузкаДанныхИзФайлаКлиент</content>
+  <content>CommonModule.ЗагрузкаДанныхИзФайлаПереопределяемый</content>
+  <content>Constant._ДемоИспользоватьХарактеристики</content>
+  <content>FunctionalOption._ДемоИспользоватьХарактеристики</content>
+  <content>Catalog._ДемоХарактеристики</content>
+  <content>Document._ДемоСчетНаОплатуПокупателю</content>
+  <content>Catalog._ДемоНоменклатура</content>
+  <content>Enum._ДемоСовместимостьНоменклатуры</content>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение</parentSubsystem>
+</mdclass:Subsystem>

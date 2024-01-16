@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9a5bd40-7c56-4ced-bddb-a66c1fc31b81">
+  <name>ОтправкаSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка SMS</value>
+  </synonym>
+</mdclass:Role>

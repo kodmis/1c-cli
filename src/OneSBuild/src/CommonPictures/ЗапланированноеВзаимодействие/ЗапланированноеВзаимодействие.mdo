@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc0dcb68-bfb8-49f4-8eb4-2ca953d852bd">
+  <name>ЗапланированноеВзаимодействие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запланированное взаимодействие</value>
+  </synonym>
+</mdclass:CommonPicture>

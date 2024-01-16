@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9059defa-047f-4dac-9749-3d0a6a77308a">
+  <producedTypes>
+    <managerType typeId="2d8e6bfc-4f27-427b-9826-d031a76ac4fc" valueTypeId="f99a5478-32ac-4fa8-9976-ee68fa68a2c9"/>
+    <valueManagerType typeId="11dc8b11-7b88-41d7-a7ca-3981467b6df0" valueTypeId="5ecdc621-2136-49bf-a57d-36005b2a6f7c"/>
+    <valueKeyType typeId="a52eeb6a-a7ef-52e1-bdd1-451eacbba98e" valueTypeId="91d28c93-17e1-5a08-84e4-b2c59c3ec82e"/>
+  </producedTypes>
+  <name>ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование каталога дополнительных отчетов и обработок в модели сервиса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

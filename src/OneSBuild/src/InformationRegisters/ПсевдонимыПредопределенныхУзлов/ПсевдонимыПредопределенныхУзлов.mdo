@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae124745-edfb-11e6-4681-a8667f21fde4">
+  <producedTypes>
+    <selectionType typeId="ae124733-edfb-11e6-4681-a8667f21fde4" valueTypeId="ae124734-edfb-11e6-4681-a8667f21fde4"/>
+    <listType typeId="ae124735-edfb-11e6-4681-a8667f21fde4" valueTypeId="ae12473a-edfb-11e6-4681-a8667f21fde4"/>
+    <managerType typeId="ae124731-edfb-11e6-4681-a8667f21fde4" valueTypeId="ae124732-edfb-11e6-4681-a8667f21fde4"/>
+    <recordSetType typeId="ae12473b-edfb-11e6-4681-a8667f21fde4" valueTypeId="ae12473c-edfb-11e6-4681-a8667f21fde4"/>
+    <recordKeyType typeId="ae12473d-edfb-11e6-4681-a8667f21fde4" valueTypeId="ae12473e-edfb-11e6-4681-a8667f21fde4"/>
+    <recordType typeId="ae124726-edfb-11e6-4681-a8667f21fde4" valueTypeId="ae124730-edfb-11e6-4681-a8667f21fde4"/>
+    <recordManagerType typeId="ae12473f-edfb-11e6-4681-a8667f21fde4" valueTypeId="ae124744-edfb-11e6-4681-a8667f21fde4"/>
+  </producedTypes>
+  <name>ПсевдонимыПредопределенныхУзлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Псевдонимы предопределенных узлов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f6fcf9c2-edfb-11e6-4681-a8667f21fde4">
+    <name>КодУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код узла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="ec70cf10-edfb-11e6-4681-a8667f21fde4">
+    <name>Корреспондент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корреспондент</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

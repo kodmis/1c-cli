@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="730aa669-865c-43d1-a27c-360d31980dd8">
+  <name>_ДемоQRКод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: QR-код</value>
+  </synonym>
+</mdclass:CommonPicture>

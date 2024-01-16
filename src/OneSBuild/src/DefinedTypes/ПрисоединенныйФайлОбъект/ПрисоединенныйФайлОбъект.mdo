@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b67bfd5-ef23-4205-b7ba-9466517e9999">
+  <producedTypes>
+    <containerType typeId="315ef181-e743-44aa-91b7-263684edae4a" valueTypeId="55aaba3d-0c41-406e-8a7d-6aeccc730f39"/>
+  </producedTypes>
+  <name>ПрисоединенныйФайлОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенный файл объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.СообщениеSMSПрисоединенныеФайлы</types>
+    <types>CatalogObject.ВерсииФайлов</types>
+    <types>CatalogObject.ИсторияПроверкиИКорректировкиДанныхПрисоединенныеФайлы</types>
+    <types>CatalogObject.ВстречаПрисоединенныеФайлы</types>
+    <types>CatalogObject.ТелефонныйЗвонокПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоПроектыПрисоединенныеФайлы</types>
+    <types>CatalogObject.ШаблоныСообщенийПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоОрганизацииПрисоединенныеФайлы</types>
+    <types>CatalogObject.Файлы</types>
+    <types>CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
+    <types>CatalogObject.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
+    <types>CatalogObject.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоНоменклатураПрисоединенныеФайлы</types>
+  </type>
+</mdclass:DefinedType>

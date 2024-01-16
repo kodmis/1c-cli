@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f95adb50-fa0b-434c-93dd-b7fd211220b7">
+  <name>ИсточникДанныхАдресногоКлассификатора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источник данных адресного классификатора</value>
+  </synonym>
+  <location>Constant.ИсточникДанныхАдресногоКлассификатора</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

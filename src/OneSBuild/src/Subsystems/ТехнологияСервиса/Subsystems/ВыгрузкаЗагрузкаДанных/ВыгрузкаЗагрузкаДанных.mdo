@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bd401b9-7e40-4847-85df-ab45fba08d40">
+  <name>ВыгрузкаЗагрузкаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка загрузка данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанныхХранилищЗначений</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанных</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанныхСлужебный</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхМенеджерКонтейнера</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанныхСлужебныйСобытия</content>
+  <content>XDTOPackage.DataArtefacts_ValueStorages_1_0_0_1</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанныхГраницПоследовательностей</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаСовместноРазделенныхДанных</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаНеразделенныхДанных</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаПредопределенныхДанных</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаПользователейИнформационнойБазы</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанныхПереопределяемый</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхПотокЧтенияДанныхИнформационнойБазы</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхПотокЗаписиДанныхИнформационнойБазы</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхПотокЗаменыСсылок</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхГрафЗависимостейСловарейСопоставленияСсылок</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанныхХранилищЗначенийПовтИсп</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаНеразделенныхДанныхПовтИсп</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаПредопределенныхДанныхПовтИсп</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаСовместноРазделенныхДанныхПовтИсп</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхМенеджерВыгрузкиДанныхИнформационнойБазы</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхПотокЗаписиПересоздаваемыхСсылок</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхПотокЗаписиСопоставляемыхСсылок</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхМенеджерЗагрузкиДанныхИнформационнойБазы</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхМенеджерПересозданияСсылок</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхМенеджерСопоставленияСсылок</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаНеразделенныхПредопределенныхДанных</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхМенеджерОбработчиковВыгрузкиДанных</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхМенеджерОбработчиковЗагрузкиДанных</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанныхУправлениеИтогами</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхМенеджерВыгрузкиНастроекПользователей</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхМенеджерЗагрузкиНастроекПользователей</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаИзбранногоРаботыПользователей</content>
+  <content>XDTOPackage.DataArtefacts_UserWorkFavorites_1_0_0_1</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаУзловПлановОбменов</content>
+  <content>CommonModule.ZipАрхивы</content>
+  <content>CommonModule.СхемаКонфигурации</content>
+  <content>DataProcessor.МастерПереходаВОблако</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанныхКлиентСервер</content>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанныхКлиент</content>
+  <content>Constant.ИнформацияОПроцедуреЗагрузки</content>
+  <content>Constant.ПараметрыЗапускаИнтерактивнойПроцедурыЗагрузки</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

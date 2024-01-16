@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f7b9fd8-4bdd-4492-abf7-09b3f7f23e16">
+  <producedTypes>
+    <objectType typeId="afc15a1d-4947-4f53-8cb0-05888f6289e4" valueTypeId="08442e05-5345-4e06-8439-2a974032ec19"/>
+    <managerType typeId="a9c9b73d-17aa-4a7c-bac3-a1fca9a54641" valueTypeId="3064a2c1-4d78-47ea-b7b2-2084ee655c04"/>
+  </producedTypes>
+  <name>СкрытиеКонфиденциальнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скрытие конфиденциальной информации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СкрытиеКонфиденциальнойИнформации.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="72ee9a03-a320-4e60-be04-0ee813ea567f">
+    <name>ПравилоСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f6f52cc8-23a3-4402-b1eb-0e41584c802a">
+    <name>ПравилоЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило число</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8398e065-8b4b-4901-b057-2a048776bafe">
+    <name>ПравилоБулево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило булево</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="073c56ca-bf45-422d-957a-f9c57aeee4d0">
+    <name>ПравилоДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило дата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d73e084f-9201-40c8-8ad4-f61b6cbb47c9">
+    <name>ПравилоХранилищеЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило хранилище значений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="52f065fe-556a-47cd-82b1-c56d7894df30">
+    <name>ОчищатьПерсональныеНастройкиПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очищать персональные настройки пользователей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="186efec4-1343-4234-a9b6-c8d8096faf76">
+    <name>УдалятьФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять файлы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="68598d98-0c59-4cda-b0b2-6901d3aff88b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="219c1375-f26e-4698-aa82-4b9d735df783">
+    <name>ВыборПравилОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор правил обработки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ff5121c1-7f11-48cd-a9df-3588cf9f6d21">
+    <name>НастройкиБСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки БСП</value>
+    </synonym>
+    <comment>АПК:497 - содержание макета не зависит от языка конфигурации</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="e74e3b5c-f91c-48f6-a0ed-c9139651d172">
+    <name>_ДемоНастройкиБСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Настройки БСП</value>
+    </synonym>
+    <comment>АПК:497 - содержание макета не зависит от языка конфигурации</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

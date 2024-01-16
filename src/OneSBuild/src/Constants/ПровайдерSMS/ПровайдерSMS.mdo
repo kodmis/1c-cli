@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a9c82c1-d0cd-48ff-b91c-38b950591e4c">
+  <producedTypes>
+    <managerType typeId="a61860d3-646e-431f-93c6-bf95038ae32e" valueTypeId="d8c7c44b-9339-47aa-809e-c16890738a39"/>
+    <valueManagerType typeId="1a196042-b583-4e53-be1c-139bb94cee04" valueTypeId="8934a657-4da0-4dbb-bdee-44a7ab4d7aaf"/>
+    <valueKeyType typeId="4de2dd13-9632-5c5b-ae45-695aa83f5870" valueTypeId="6c022df6-6aa3-5509-b6e0-e37be267c91b"/>
+  </producedTypes>
+  <name>ПровайдерSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Провайдер SMS</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ПровайдерыSMS</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

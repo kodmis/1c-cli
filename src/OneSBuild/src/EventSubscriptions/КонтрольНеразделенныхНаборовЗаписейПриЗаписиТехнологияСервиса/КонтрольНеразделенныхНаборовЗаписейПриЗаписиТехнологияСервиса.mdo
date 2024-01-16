@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="249812c1-7ac0-4459-a796-53da854c206a">
+  <name>КонтрольНеразделенныхНаборовЗаписейПриЗаписиТехнологияСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль неразделенных наборов записей при записи технология сервиса</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ПодпискиПолучателей</types>
+    <types>InformationRegisterRecordSet.РазрешенияНаИспользованиеВнешнихРесурсовВМоделиСервиса</types>
+    <types>InformationRegisterRecordSet.ЗапущенныеОбработчикиОчередиЗаданий</types>
+    <types>InformationRegisterRecordSet.НеразделенныеПользователи</types>
+    <types>InformationRegisterRecordSet.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</types>
+    <types>InformationRegisterRecordSet.НастройкиОтправителя</types>
+    <types>InformationRegisterRecordSet.НастройкиТранспортаОбменаОбластейДанных</types>
+    <types>InformationRegisterRecordSet.РежимыПодключенияВнешнихМодулейВМоделиСервиса</types>
+    <types>InformationRegisterRecordSet.НастройкиТранспортаОбменаСообщениями</types>
+    <types>InformationRegisterRecordSet.ПрименениеРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</types>
+    <types>InformationRegisterRecordSet.ПоставляемыеДанныеТребующиеОбработки</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РаботаВМоделиСервиса.КонтрольНеразделенныхНаборовЗаписейПриЗаписи</handler>
+</mdclass:EventSubscription>

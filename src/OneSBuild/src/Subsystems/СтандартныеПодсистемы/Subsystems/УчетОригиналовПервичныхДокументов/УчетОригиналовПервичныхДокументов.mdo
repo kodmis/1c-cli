@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc89af7a-1971-4245-8d88-1a5a50c50a8b">
+  <name>УчетОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет оригиналов первичных документов</value>
+  </synonym>
+  <content>InformationRegister.СостоянияОригиналовПервичныхДокументов</content>
+  <content>Catalog.СостоянияОригиналовПервичныхДокументов</content>
+  <content>FunctionalOption.ИспользоватьУчетОригиналовПервичныхДокументов</content>
+  <content>Constant.ИспользоватьУчетОригиналовПервичныхДокументов</content>
+  <content>CommonModule.УчетОригиналовПервичныхДокументовВызовСервера</content>
+  <content>CommonModule.УчетОригиналовПервичныхДокументовКлиентПереопределяемый</content>
+  <content>CommonModule.УчетОригиналовПервичныхДокументов</content>
+  <content>CommonModule.УчетОригиналовПервичныхДокументовКлиент</content>
+  <content>Role.ИзменениеСостоянийОригиналовПервичныхДокументов</content>
+  <content>Role.ДобавлениеИзменениеСостоянийОригиналовПервичныхДокументов</content>
+  <content>CommonCommand.ЖурналУчетаОригиналовПервичныхДокументов</content>
+  <content>CommonPicture.УстановитьСостояниеОригиналаПервичногоДокумента</content>
+  <content>CommonPicture.УточнитьСостояниеОригиналаПервичногоДокументаПоПечатнымФормам</content>
+  <content>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналПолучен</content>
+  <content>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналНеПолучен</content>
+  <content>CommonPicture.НастроитьСостоянияОригиналаПервичногоДокумента</content>
+  <content>CommonPicture.КоллекцияПиктограммПечатныеФормыОригиналаПервичногоДокумента</content>
+  <content>CommonPicture.КоллекцияПиктограммНаличиеОригиналаПервичногоДокумента</content>
+  <content>CommonPicture.ПиктограммыЭлементовСправочникаСостоянияОригиналовПервичныхДокументов</content>
+  <content>DefinedType.ОбъектСУчетомОригиналовПервичныхДокументов</content>
+  <content>Role.ЧтениеСостоянийОригиналовПервичныхДокументов</content>
+  <content>CommonModule.УчетОригиналовПервичныхДокументовПереопределяемый</content>
+  <content>DefinedType.Сотрудник</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

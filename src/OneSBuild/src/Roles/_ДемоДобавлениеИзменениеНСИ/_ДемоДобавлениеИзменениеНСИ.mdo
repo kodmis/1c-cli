@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1b180c8-daf3-403e-84a7-270077f9888c">
+  <name>_ДемоДобавлениеИзменениеНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Добавление и изменение нормативно-справочной информации</value>
+  </synonym>
+</mdclass:Role>

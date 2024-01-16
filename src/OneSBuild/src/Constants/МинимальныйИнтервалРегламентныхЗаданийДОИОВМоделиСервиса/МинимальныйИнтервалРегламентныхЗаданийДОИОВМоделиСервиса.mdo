@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9039f720-5728-4918-87d5-8b2d07cabcfd">
+  <producedTypes>
+    <managerType typeId="175a01b8-54f5-4969-b979-08b4404de16a" valueTypeId="8add504f-84b5-4357-bfcd-8342f02c4e20"/>
+    <valueManagerType typeId="a85e3776-ba93-4726-a428-38b891443f9c" valueTypeId="9c982179-c66f-4c86-8d8c-a0a3725c16c3"/>
+    <valueKeyType typeId="e74d128e-55e3-5eb2-8977-cfd5d4dcba62" valueTypeId="aa6b9ab8-4f64-5fbf-bc5f-86d0c7ab0a1c"/>
+  </producedTypes>
+  <name>МинимальныйИнтервалРегламентныхЗаданийДОИОВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальный интервал регламентных заданий дополнительных отчетов и обработок в модели сервиса</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

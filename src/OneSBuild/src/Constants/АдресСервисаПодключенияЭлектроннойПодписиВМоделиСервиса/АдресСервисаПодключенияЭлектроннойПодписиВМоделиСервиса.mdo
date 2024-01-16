@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="debf3b17-b4a9-4974-ac60-b52c585b5830">
+  <producedTypes>
+    <managerType typeId="c98e74f0-6327-4db5-b2b3-21fce63ea86c" valueTypeId="3a203dbc-5482-4164-beee-27c3d8aed5ac"/>
+    <valueManagerType typeId="a09614f9-25f4-4e89-891d-b12c607c1599" valueTypeId="78eb95e2-3133-454b-a786-ccf7cc76c06c"/>
+    <valueKeyType typeId="b90ad24e-6e89-5054-96fa-60c060c306e9" valueTypeId="dab2e84e-c88b-5bbc-a09c-2c50d5bf68c6"/>
+  </producedTypes>
+  <name>АдресСервисаПодключенияЭлектроннойПодписиВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес сервиса подключения электронной подписи в модели сервиса</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d85a9612-93c2-4cd8-b996-8ee0700d0619">
+  <producedTypes>
+    <objectType typeId="c62665e4-45b3-47e8-941f-dab1d7dd60cc" valueTypeId="8c1eb1b1-44d7-4e52-9e35-7e78cacb6df6"/>
+    <managerType typeId="f129de0b-db96-404f-a477-2273944f2d40" valueTypeId="08586221-86a0-42a6-b5a4-d2f19be651c5"/>
+  </producedTypes>
+  <name>СтатистикаВыполненияОбработчиковОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика выполнения обработчиков обновления</value>
+  </synonym>
+  <defaultForm>Report.СтатистикаВыполненияОбработчиковОбновления.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СтатистикаВыполненияОбработчиковОбновления.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="84b6d039-e18c-4bea-b78e-a622b48e3712">
+    <name>АдресДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес временного хранилища с данными журнала регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e95c0f39-430f-4c7e-a1f5-e015f0ac9d04">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="44570d34-e31e-48bc-89f0-d840dcda164d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c5548493-8b62-4d54-85e5-626e95514fda">
+    <name>СхемаЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема журнала</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

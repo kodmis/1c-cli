@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3abaf8e-0230-43db-aaf0-716fc02047eb">
+  <name>СборИОтправкаОтчетовОбОшибках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор и отправка отчетов об ошибках</value>
+  </synonym>
+  <methodName>CommonModule.ЦентрМониторингаСлужебный.СобратьИОтправитьДампы</methodName>
+  <description>Сбор и отправка отчетов об ошибках</description>
+  <key>584cfc82-81d9-4696-8afa-1189f883fcd0</key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

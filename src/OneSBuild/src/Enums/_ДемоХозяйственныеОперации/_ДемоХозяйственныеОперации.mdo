@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eb24382-84b3-459a-a133-ce1de48cc9c8">
+  <producedTypes>
+    <refType typeId="44150ca3-83d9-49be-b680-06f1fae62e1a" valueTypeId="3a686106-c713-411d-9ae4-87920744eed8"/>
+    <listType typeId="9a616315-2e12-44da-8313-ce277e966336" valueTypeId="0b8ceb6c-95df-47ed-9d92-545f59fc6058"/>
+    <managerType typeId="9f0b7880-2048-47d0-83fc-54ea43e3b2b0" valueTypeId="f68ff0b9-15ab-479d-a156-824acc551064"/>
+  </producedTypes>
+  <name>_ДемоХозяйственныеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Хозяйственные операции</value>
+  </synonym>
+  <comment>Пример использования подсистемы &quot;Управление доступом&quot;, когда доступ ограничивается по внутреннему типу документа (объекта)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bd4ff31d-c23b-4f98-af8d-2f5186f25fde">
+    <name>ВозвратДенежныхСредствОтПодотчетника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат денежных средств от подотчетника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b68ce78-2faf-4ba8-ba86-f8aa8cdcf49f">
+    <name>ВыдачаДенежныхСредствПодотчетнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача денежных средств подотчетнику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40ad7dac-887a-42fe-a376-b4608b09fe05">
+    <name>ВыдачаЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача зарплаты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

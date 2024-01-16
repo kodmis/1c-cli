@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ded515b-a3b6-4292-8d6b-66c439e2bb88">
+  <name>_ДемоБазоваяФункциональность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor._ДемоВыводСообщенийПользователю</content>
+  <content>CommonModule._ДемоСтандартныеПодсистемы</content>
+  <content>Document._ДемоСписаниеТоваров</content>
+  <content>CalculationRegister._ДемоОсновныеНачисления</content>
+  <content>InformationRegister._ДемоГрафикиРаботы</content>
+  <content>AccountingRegister._ДемоЖурналПроводокБухгалтерскогоУчета</content>
+  <content>DataProcessor._ДемоВыборОбъектовМетаданных</content>
+  <content>DataProcessor._ДемоШаблонПомощника</content>
+  <content>CommonModule._ДемоСтандартныеПодсистемыСобытия</content>
+  <content>EventSubscription._ДемоЗаполнитьДатуДокументаПоРабочейДате</content>
+  <content>EventSubscription._ДемоЗаполнитьДатуДокументаПоРабочейДатеПриКопировании</content>
+  <content>CommonModule._ДемоСтандартныеПодсистемыКлиент</content>
+  <content>DataProcessor._ДемоДлительнаяОперация</content>
+  <content>SessionParameter._ДемоТекущийПроект</content>
+  <content>CommonModule._ДемоСтандартныеПодсистемыВызовСервера</content>
+  <content>Role.Подсистема_ДемоАдминистрирование</content>
+  <content>AccountingRegister._ДемоЖурналПроводокБухгалтерскогоУчетаБезКорреспонденции</content>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f76f80b-6662-4779-a37d-0fc0f31dadec">
+  <name>InformationReferences</name>
+  <synonym>
+    <key>ru</key>
+    <value>Information references</value>
+  </synonym>
+  <namespace>http://www.1c.ru/SaaS/1.0/XMLSchema/ManageInfoCenter/InformationReferences</namespace>
+</mdclass:XDTOPackage>

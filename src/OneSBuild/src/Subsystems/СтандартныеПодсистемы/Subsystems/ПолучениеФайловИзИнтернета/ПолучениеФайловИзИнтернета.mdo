@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6b12775-3255-42b8-88b2-62684f873e7d">
+  <name>ПолучениеФайловИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение файлов из Интернета</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonModule.ПолучениеФайловИзИнтернетаКлиентСервер</content>
+  <content>CommonModule.ПолучениеФайловИзИнтернета</content>
+  <content>Constant.НастройкаПроксиСервера</content>
+  <content>CommonForm.ПараметрыПроксиСервера</content>
+  <content>CommonModule.ПолучениеФайловИзИнтернетаКлиент</content>
+  <content>CommonCommand.ПерсональнаяНастройкаПроксиСервера</content>
+  <content>CommonForm.ДополнительныеПараметрыПроксиСервера</content>
+  <content>CommonModule.ПолучениеФайловИзИнтернетаСлужебный</content>
+  <content>CommonModule.ПолучениеФайловИзИнтернетаСлужебныйВызовСервера</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

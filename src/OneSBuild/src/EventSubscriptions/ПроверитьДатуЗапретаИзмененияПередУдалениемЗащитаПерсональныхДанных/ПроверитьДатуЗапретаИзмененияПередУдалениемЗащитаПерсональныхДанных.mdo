@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27246fd8-a8a3-4244-b49a-c0372a812167">
+  <name>ПроверитьДатуЗапретаИзмененияПередУдалениемЗащитаПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить дату запрета изменения перед удалением защита персональных данных</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОтзывСогласияНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.СогласиеНаОбработкуПерсональныхДанных</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ЗащитаПерсональныхДанных.ПроверитьДатуЗапретаИзмененияПередУдалением</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c54f31ce-114b-46d3-b4c6-12c8f07727ca">
+  <producedTypes>
+    <managerType typeId="0a60e9a2-08da-4ae0-88cd-c1faf452a5d0" valueTypeId="e2a16070-8cd2-4042-8b66-fe51f72f563e"/>
+    <valueManagerType typeId="ea43db40-0681-4f46-b5fb-30b16b0f6ddc" valueTypeId="c6a2f964-e8b9-4cd6-90a6-a724d3ae9210"/>
+    <valueKeyType typeId="eba52ab1-f876-571e-a968-a3e5fe163eed" valueTypeId="e54d000e-998d-5832-9e67-39a7d8a3223e"/>
+  </producedTypes>
+  <name>ПрефиксУзлаРаспределеннойИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префикс информационной базы</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>2</length>
+    </stringQualifiers>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Добавляется автоматически к кодам элементов справочников и номерам документов для того, чтобы различать программы, в которых они были введены, и избежать дублирования данных.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

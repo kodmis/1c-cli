@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67d39bce-be9f-48af-bab3-b84e65c8336f">
+  <name>ИнтеграцияПодсистемБТСКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технология сервиса интеграция с БСП клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

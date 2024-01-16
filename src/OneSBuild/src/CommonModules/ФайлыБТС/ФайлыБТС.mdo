@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe0bd3e8-ef72-4fc6-a1d0-cf3e186a45cd">
+  <name>ФайлыБТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы БТС</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

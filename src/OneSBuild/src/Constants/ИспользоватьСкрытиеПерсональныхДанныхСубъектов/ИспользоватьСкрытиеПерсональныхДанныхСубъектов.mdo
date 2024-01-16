@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f3f1b41-57a9-4a82-bdfa-89a6653479ab">
+  <producedTypes>
+    <managerType typeId="f6b36ddf-3a9c-4dd4-abfa-1638f9664221" valueTypeId="7fbb6710-e2d0-49be-895a-ce48e88cbc05"/>
+    <valueManagerType typeId="ff9fc631-190e-4c78-9054-135251ef6d18" valueTypeId="472f0b59-7e5b-40a4-a4d5-b277017b4666"/>
+    <valueKeyType typeId="e745c653-9c39-5ba4-8890-d9ad342cd222" valueTypeId="10d909f4-5cd0-5315-88b5-4724f6c775fe"/>
+  </producedTypes>
+  <name>ИспользоватьСкрытиеПерсональныхДанныхСубъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать скрытие персональных данных субъектов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4718392b-477c-496b-9d28-ddbdaa7a04f2">
+  <name>ОчисткаУстаревшихВерсийОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка устаревших версий объектов</value>
+  </synonym>
+  <methodName>CommonModule.ВерсионированиеОбъектов.ОчиститьУстаревшиеВерсииОбъектов</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

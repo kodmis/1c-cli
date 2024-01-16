@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7f05731-d5f1-491b-844f-3db9c3a3575e">
+  <name>ЧтениеНовостейСлужбыПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение новостей службы поддержки</value>
+  </synonym>
+  <methodName>CommonModule.ИнформационныйЦентрСервер.ЧтениеНовостейСлужбыПоддержки</methodName>
+  <key>ЧтениеНовостейСлужбыПоддержки</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

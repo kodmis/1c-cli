@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14fa9a97-07db-471c-aa80-36cc1a099a23">
+  <name>_ДемоИспользоватьЗаметкиБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать заметки БСП</value>
+  </synonym>
+  <comment>Для управления видимостью прикладных объектов конфигурации.</comment>
+  <location>Constant.ИспользоватьЗаметки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem._ДемоОрганайзер.Subsystem._ДемоЗаметкиПользователя</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02e8d915-a3d6-461c-94a1-aee96d5677b4">
+  <name>_ДемоПроверитьДатуЗапретаИзмененияПередУдалением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Проверить дату запрета изменения перед удалением</value>
+  </synonym>
+  <comment>Подписка создана при внедрении подсистемы ДатыЗапретаИзменения для проверки документов</comment>
+  <source>
+    <types>DocumentObject._ДемоНачислениеЗарплаты</types>
+    <types>DocumentObject._ДемоСписаниеБезналичныхДенежныхСредств</types>
+    <types>DocumentObject._ДемоРеализацияТоваров</types>
+    <types>DocumentObject._ДемоПоступлениеТоваров</types>
+    <types>DocumentObject._ДемоКорректировкаОстатковТоваровВМестахХранения</types>
+    <types>DocumentObject._ДемоПеремещениеТоваров</types>
+    <types>DocumentObject._ДемоСписаниеТоваров</types>
+    <types>DocumentObject._ДемоОприходованиеТоваров</types>
+    <types>DocumentObject._ДемоЗаказПокупателя</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ДатыЗапретаИзменения.ПроверитьДатуЗапретаИзмененияПередУдалением</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e38d539e-cd4a-4f06-bff7-b946810d6481">
+  <producedTypes>
+    <selectionType typeId="068518c2-e32a-4194-9710-ff3e8bf75f87" valueTypeId="32dac14d-fde0-4ca5-906e-a16caa1f05f5"/>
+    <listType typeId="5cdd3b5a-615e-49ca-8b34-89d74f5213c1" valueTypeId="9a416a5d-6d3f-44a1-94d7-2586576ddc8c"/>
+    <managerType typeId="3e51f871-9945-4a71-9673-46688f037244" valueTypeId="7bff317d-fd79-4970-ad60-dc357561bc38"/>
+    <recordSetType typeId="8e1a0c27-084e-4a18-b335-a3e46de4fceb" valueTypeId="41acde74-4ed0-4e7f-ad60-3630530fe76f"/>
+    <recordKeyType typeId="ba82302e-9e7d-46aa-8223-9617e981b659" valueTypeId="f196b18c-8afa-4e14-845a-bed0261f270c"/>
+    <recordType typeId="533bf2fc-f77d-4f3b-9f60-b466cd2d547d" valueTypeId="3f993ddd-64a7-4a35-8b16-746aeeafbcd3"/>
+    <recordManagerType typeId="1f7d64a3-26f2-4d31-82e8-3a94773899bd" valueTypeId="b7d118c0-b04f-419c-a974-0e6e77db7fcf"/>
+  </producedTypes>
+  <name>ОчередьРасширенийДляОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь расширений для оповещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9307a389-2d27-455b-9310-f2ce8deed3a5">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияРасширений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3b53af26-1395-4be2-93e3-2444bdc5ab0b">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="347ce232-90c0-4852-95d0-ab5ab64ddace">
+    <name>ИдентификаторРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор расширения</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

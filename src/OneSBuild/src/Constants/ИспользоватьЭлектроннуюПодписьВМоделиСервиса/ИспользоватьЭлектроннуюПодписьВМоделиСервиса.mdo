@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0672e017-eec5-43ce-9fd8-12d7c726589a">
+  <producedTypes>
+    <managerType typeId="2f5460da-cb2b-4ef1-a804-b50241912237" valueTypeId="3bb23bd3-cfdc-4a4f-bd5a-b73a40b2c355"/>
+    <valueManagerType typeId="744d5473-eb8d-4d7c-80a3-38550161d377" valueTypeId="9a80c28b-df71-40a6-bbce-401e6b71aa56"/>
+    <valueKeyType typeId="d4041e92-1919-5d27-98c8-9322515b7141" valueTypeId="383ae222-9c39-52ac-a196-7f5f22acfd90"/>
+  </producedTypes>
+  <name>ИспользоватьЭлектроннуюПодписьВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать электронную подпись в модели сервиса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

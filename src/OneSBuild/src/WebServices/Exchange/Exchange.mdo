@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4e56049-4de9-40a3-8197-a5c84a11f516">
+  <name>Exchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exchange</value>
+  </synonym>
+  <namespace>http://www.1c.ru/SSL/Exchange</namespace>
+  <descriptorFileName>exchange.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="339c9220-fd5b-45d3-b300-cdcc8788f87e">
+    <name>Upload</name>
+    <synonym>
+      <key>ru</key>
+      <value>Upload</value>
+    </synonym>
+    <comment>Выполняет выгрузку данных</comment>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ВыполнитьВыгрузку</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="02d7d401-3c0c-4fd0-b096-1f73b6ec14c3">
+      <name>ExchangePlanName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange plan name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="9042a6de-5048-432d-a448-7e21f2d1d24a">
+      <name>NodeCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="350d46bf-114e-48e7-90c6-6708d949f20d">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="d047caa8-7bcf-41ac-a18e-97877d6e0a2a">
+    <name>Download</name>
+    <synonym>
+      <key>ru</key>
+      <value>Download</value>
+    </synonym>
+    <comment>Выполняет загрузку данных</comment>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ВыполнитьЗагрузку</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="aac20ff3-5873-432e-b763-14411e623d41">
+      <name>ExchangePlanName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange plan name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="fbc4df3e-c235-4197-8c1f-a5e39ac63a8c">
+      <name>NodeCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="6df44466-8750-481a-9baf-c924f0d45353">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="110121eb-a0eb-4662-8911-3dcc3d341a73">
+    <name>UploadData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Upload data</value>
+    </synonym>
+    <comment>Выполняет выгрузку данных</comment>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ВыполнитьВыгрузкуДанных</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="f8980c18-6b9c-4e45-919a-22e976d2a846">
+      <name>ExchangePlanName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange plan name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="c946efb7-c67e-49c1-bf56-d3c2d7220acd">
+      <name>NodeCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="7ed6bd83-b61d-4db4-8549-acacbdda6ca2">
+      <name>FileID</name>
+      <synonym>
+        <key>ru</key>
+        <value>File ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+    <parameters uuid="6b7c9f74-f2b6-463e-acb9-9f82901986cf">
+      <name>ContinuousOperation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Continuous operation</value>
+      </synonym>
+      <xdtoValueType>
+        <name>boolean</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+    <parameters uuid="fc4c1d64-132b-4687-a37d-05000fdb4ba5">
+      <name>Operation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Operation</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+    <parameters uuid="528777cd-090b-4b70-82f5-56def98c5893">
+      <name>ContinuousOperationAllowed</name>
+      <synonym>
+        <key>ru</key>
+        <value>Continuous operation allowed</value>
+      </synonym>
+      <xdtoValueType>
+        <name>boolean</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="49dbe467-8832-4ede-9a05-494248619aeb">
+    <name>DownloadData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Download data</value>
+    </synonym>
+    <comment>Выполняет загрузку данных</comment>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ВыполнитьЗагрузкуДанных</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="460ed9ca-10c2-491c-a641-b92ffc2a8e7c">
+      <name>ExchangePlanName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange plan name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="bd5fadd3-9264-4c3b-9bd5-51e91847a6fb">
+      <name>NodeCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="09c73108-8528-4970-9b7f-fff9eda7816a">
+      <name>FileID</name>
+      <synonym>
+        <key>ru</key>
+        <value>File ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="40aa936e-cb1c-4ae9-85f1-6d930a5815cc">
+      <name>ContinuousOperation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Continuous operation</value>
+      </synonym>
+      <xdtoValueType>
+        <name>boolean</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+    <parameters uuid="f568245a-d158-45dc-af92-2d411f12db7b">
+      <name>Operation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Operation</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+    <parameters uuid="0f17cdac-aa17-45e6-b3d0-220b13345390">
+      <name>ContinuousOperationAllowed</name>
+      <synonym>
+        <key>ru</key>
+        <value>Continuous operation allowed</value>
+      </synonym>
+      <xdtoValueType>
+        <name>boolean</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="c675db75-d0c3-4026-b97c-6b23ecbb336a">
+    <name>GetIBParameters</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get IBParameters</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПолучитьПараметрыИнформационнойБазы</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="469f67fa-98b0-44b0-abd4-cae136c02834">
+      <name>ExchangePlanName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange plan name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="16a18458-999c-420e-80df-8fc10855746c">
+      <name>NodeCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="b794f222-0fde-439f-97a3-0da74075b415">
+      <name>ResultMessage</name>
+      <synonym>
+        <key>ru</key>
+        <value>Result message</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="3a716aad-9b2c-48a7-b802-80732066391b">
+    <name>GetIBData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get IBData</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПолучитьДанныеИнформационнойБазы</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="480d959f-aac8-4241-875f-78e1c1f32621">
+      <name>TableName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Table name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="496e5de8-d75c-4536-9993-75374f070b40">
+    <name>GetCommonNodsData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get common nods data</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПолучитьОбщиеДанныеУзлов</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="b4e610ba-c9c8-4b25-903b-e567dcbc2556">
+      <name>ExchangePlanName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange plan name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="48febdbd-a085-4113-8511-ed7ff6be7d3c">
+    <name>CreateExchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create exchange</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>СоздатьОбменДанными</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="49413232-c0c3-4983-9d10-291a0399281b">
+      <name>ExchangePlanName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange plan name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="032bb782-96a7-4c1b-8b8f-eb4e18b555b7">
+      <name>Parameters</name>
+      <synonym>
+        <key>ru</key>
+        <value>Parameters</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="b9b076bb-38ab-4a94-8226-41a4d4d7432c">
+      <name>FilterSettings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Filter settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="e12da8db-4037-473e-ba2b-d0ceb4534dcb">
+      <name>AdditionalSettings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Additional settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="789514e5-8ea3-4a5e-88c5-ed89c4135866">
+    <name>UpdateExchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update exchange</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ОбновитьНастройкиОбменаДанными</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="a16768ff-6137-43d8-8784-4805ed83632a">
+      <name>ExchangePlanName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange plan name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="61971286-9f94-4a27-aa34-e10848adb70a">
+      <name>NodeCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="1e75d143-3452-496e-a137-6d7f4c4ed019">
+      <name>AdditionalSettings</name>
+      <synonym>
+        <key>ru</key>
+        <value>Additional settings</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="e0619d14-c658-4eb5-841a-3a029de28be4">
+    <name>RegisterOnlyCatalogData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Register only catalog data</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ЗарегистрироватьИзмененияТолькоСправочников</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="99a3b660-7875-47f7-9c6c-c552e5673deb">
+      <name>ExchangePlanName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange plan name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="2bdcf3a5-c8e1-492c-afee-f9db68e2fbb6">
+      <name>NodeCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="41cbf934-ea54-41df-abf0-09f319d2e67a">
+      <name>ContinuousOperation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Continuous operation</value>
+      </synonym>
+      <xdtoValueType>
+        <name>boolean</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+    <parameters uuid="47246084-a5f8-4d0f-b4e2-204c1b97483a">
+      <name>Operation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Operation</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="e58233ec-6cfc-4a8b-9929-689fa69cdb07">
+    <name>RegisterAllDataExceptCatalogs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Register all data except catalogs</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ЗарегистрироватьИзмененияВсехДанныхКромеСправочников</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="3291a891-a47c-43ca-b088-aecd3867d38c">
+      <name>ExchangePlanName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange plan name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="56cde2b4-00f2-49ba-b407-16e241c17fd2">
+      <name>NodeCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="bd84fb2b-4c52-4e2f-a8c5-f289b8336145">
+      <name>ContinuousOperation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Continuous operation</value>
+      </synonym>
+      <xdtoValueType>
+        <name>boolean</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+    <parameters uuid="219ed110-f2a0-41c1-ac5a-02301b248c54">
+      <name>Operation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Operation</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="1c722dfd-2b07-4985-9188-17353de24771">
+    <name>GetContinuousOperationStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get continuous operation status</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПолучитьСостояниеДлительнойОперации</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1a630496-2cdd-4c89-a1aa-ed20545ad133">
+      <name>Operation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Operation</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="b0dd02ee-ea6a-43f2-baa2-abac0a1ab4bb">
+      <name>ResultMessage</name>
+      <synonym>
+        <key>ru</key>
+        <value>Result message</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="b19cea0e-e57a-4969-8daf-f48d3d16705f">
+    <name>GetFunctionalOption</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get functional option</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПолучитьЗначениеФункциональнойОпции</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d4059340-3361-4baa-ae48-ecbfb9800a2e">
+      <name>Name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="f78f6c43-dd90-4117-acf7-ed5b951cb964">
+    <name>PrepareGetFile</name>
+    <synonym>
+      <key>ru</key>
+      <value>Prepare get file</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>PrepareGetFile</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="8eebd519-4989-4784-82b8-39d77eebfb17">
+      <name>FileId</name>
+      <synonym>
+        <key>ru</key>
+        <value>File id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="0a2cb6e3-d9fa-4881-b136-7b6db9efca07">
+      <name>BlockSize</name>
+      <synonym>
+        <key>ru</key>
+        <value>Block size</value>
+      </synonym>
+      <comment>В КБ, 0 не разделять</comment>
+      <xdtoValueType>
+        <name>decimal</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="c1561ed9-2fbf-4c12-a484-07f8adbe8fa3">
+      <name>TransferId</name>
+      <synonym>
+        <key>ru</key>
+        <value>Transfer id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+    <parameters uuid="4527877b-5723-4aa5-8705-98174ac9c337">
+      <name>PartQuantity</name>
+      <synonym>
+        <key>ru</key>
+        <value>Part quantity</value>
+      </synonym>
+      <xdtoValueType>
+        <name>int</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="d6b21e7b-df57-4280-8c95-c269b5316018">
+    <name>GetFilePart</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get file part</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>GetFilePart</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="808c468b-6322-428d-ac6a-ccf2228b05b6">
+      <name>TransferId</name>
+      <synonym>
+        <key>ru</key>
+        <value>Transfer id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="13664bb2-738f-4d18-b382-a7bcf8105a5a">
+      <name>PartNumber</name>
+      <synonym>
+        <key>ru</key>
+        <value>Part number</value>
+      </synonym>
+      <xdtoValueType>
+        <name>int</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="f3f56abe-9248-4555-bf99-29560eb4f9ee">
+      <name>PartData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Part data</value>
+      </synonym>
+      <xdtoValueType>
+        <name>base64Binary</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="0dbd5d55-a85f-4c7e-ac31-7ba4ab7cc371">
+    <name>ReleaseFile</name>
+    <synonym>
+      <key>ru</key>
+      <value>Release file</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ReleaseFile</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="dd9d09ef-3b4b-4bb5-9408-9c4080049bb3">
+      <name>TransferId</name>
+      <synonym>
+        <key>ru</key>
+        <value>Transfer id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="3eb43a06-b32d-4904-8489-6264d0207623">
+    <name>PutFilePart</name>
+    <synonym>
+      <key>ru</key>
+      <value>Put file part</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>PutFilePart</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="a18098cf-5a61-46b5-bd55-cc61d15aa6bc">
+      <name>TransferId</name>
+      <synonym>
+        <key>ru</key>
+        <value>Transfer id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="18615fe1-cfee-4888-9c09-88d1c5db39eb">
+      <name>PartNumber</name>
+      <synonym>
+        <key>ru</key>
+        <value>Part number</value>
+      </synonym>
+      <xdtoValueType>
+        <name>int</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="63e363fa-8b0c-4d48-ab1b-9c953c5ed4c0">
+      <name>PartData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Part data</value>
+      </synonym>
+      <xdtoValueType>
+        <name>base64Binary</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="087c83c0-75e7-476b-b7c6-5be55498a190">
+    <name>SaveFileFromParts</name>
+    <synonym>
+      <key>ru</key>
+      <value>Save file from parts</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>SaveFileFromParts</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ec5e5413-9e77-4929-83b8-6fee70688b28">
+      <name>TransferId</name>
+      <synonym>
+        <key>ru</key>
+        <value>Transfer id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="59cd8e3f-ecf3-4e1d-bd98-41551d5d6f68">
+      <name>PartQuantity</name>
+      <synonym>
+        <key>ru</key>
+        <value>Part quantity</value>
+      </synonym>
+      <xdtoValueType>
+        <name>int</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="8390c864-2b84-4c45-8583-cb4a4ab49168">
+      <name>FileId</name>
+      <synonym>
+        <key>ru</key>
+        <value>File id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="1b2fefca-fef5-4319-90cc-325444cb63a6">
+    <name>PutFileIntoStorage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Put file into storage</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>PutFileIntoStorage</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="34a128be-8fbb-4dd8-ac23-9f35041feb63">
+      <name>FileName</name>
+      <synonym>
+        <key>ru</key>
+        <value>File name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="baa31006-e0d6-496e-a60e-27b3dfd19397">
+      <name>FileId</name>
+      <synonym>
+        <key>ru</key>
+        <value>File id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="3007d8ff-3942-45ed-bac5-8a6c40ca060c">
+    <name>GetFileFromStorage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get file from storage</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetFileFromStorage</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="8bfe1474-fd12-4744-a9ab-3383bfe766b3">
+      <name>FileId</name>
+      <synonym>
+        <key>ru</key>
+        <value>File id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="3af97375-f776-4129-9521-b8d65d795db6">
+    <name>FileExists</name>
+    <synonym>
+      <key>ru</key>
+      <value>File exists</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>FileExists</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="0e98801b-a45b-44cb-a341-7e43d723f6ed">
+      <name>FileName</name>
+      <synonym>
+        <key>ru</key>
+        <value>File name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c434141-0f44-4673-b795-2584285664a4">
+  <name>_ДемоИспользоватьВерсионированиеОбъектовБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать версионирование объектов БСП</value>
+  </synonym>
+  <comment>Для управления видимостью прикладных объектов конфигурации.</comment>
+  <location>Constant.ИспользоватьВерсионированиеОбъектов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem._ДемоИнтегрируемыеПодсистемы.Subsystem._ДемоВерсионирование</content>
+  <content>Subsystem._ДемоИнтегрируемыеПодсистемы.Subsystem._ДемоВерсионирование.Subsystem.Использование</content>
+</mdclass:FunctionalOption>

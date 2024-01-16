@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe407e73-3485-44a9-8e73-b64444ced9b2">
+  <producedTypes>
+    <objectType typeId="3cff5d3c-b56f-4936-9a76-9bc458074ee4" valueTypeId="acff58e6-02ef-4236-aebd-21747e719379"/>
+    <managerType typeId="ffb65bee-2be8-4243-b4ba-417a29502640" valueTypeId="e69a987a-36c0-49df-ad89-5a4cc35b1a07"/>
+  </producedTypes>
+  <name>_ДемоПечатьСчетовНаОплатуПокупателю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Печать счетов на оплату покупателю</value>
+  </synonym>
+  <comment>Для обновления следует поднять номер версии в функции СведенияОВнешнейОбработке и запустить обновление ИБ.</comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:DataProcessor>

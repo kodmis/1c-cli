@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b12ee79d-07f3-47d2-9f89-a1a83bee3d4d">
+  <producedTypes>
+    <managerType typeId="e1b6f0da-7048-4eb0-8b77-eecdd77f8a65" valueTypeId="266bd809-c3c4-43f1-b9f4-78cc4b64110f"/>
+    <valueManagerType typeId="367d5586-730d-44b3-a524-678d79f4b9d4" valueTypeId="fd701c9e-b165-4c68-94d6-c7ab84141558"/>
+    <valueKeyType typeId="b3d3f32f-9dce-4eca-a1f0-703266531221" valueTypeId="4dad1c54-3a26-4145-b384-2c03a9063458"/>
+  </producedTypes>
+  <name>ФайлКлассификаторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файл классификаторов</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

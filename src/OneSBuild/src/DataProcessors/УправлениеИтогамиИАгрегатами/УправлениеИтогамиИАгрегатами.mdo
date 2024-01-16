@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ec0b1a0-5f0d-4a14-9a84-49098befa0af">
+  <producedTypes>
+    <objectType typeId="4c363c27-168e-4b1a-93d3-2408b608e898" valueTypeId="bf925ce9-3b73-4f00-a0e8-7ed48bb0988c"/>
+    <managerType typeId="d8b82c5f-90aa-41f8-b44c-92713e6dfb8e" valueTypeId="d7665e2e-e0ef-459f-805d-0bbcd02d17a2"/>
+  </producedTypes>
+  <name>УправлениеИтогамиИАгрегатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление итогами и агрегатами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеИтогамиИАгрегатами.Form.ОсновнаяФорма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="c644ab9b-7bcb-4bfa-b8ba-4c5f7689c91c">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dabb3395-6100-4f53-913d-e0230e81b494">
+    <name>ФормаВыбораПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора периода</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e0a3fae1-1582-4c7a-acd8-870b558acec4">
+    <name>ФормаПараметровПерестроения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма параметров перестроения</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

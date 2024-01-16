@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor._ДемоПроверкаВходящихСообщений.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>0:e693eac3-f55d-4102-ac6d-b14ef33fb2e7</commands>
+      <commands>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</commands>
+      <commands>DataProcessor._ДемоПроверкаВходящихСообщений.Command.ПроверкаВходящихСообщений</commands>
+      <commands>DataProcessor._ДемоПроверкаВходящихСообщений.Command.ОтправитьСообщение</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04ab13b1-ffc2-47f5-aa0d-5850dcbd4a62">
+  <name>НеСтартованныйБизнесПроцесс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не стартованный бизнес-процесс</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.FireBrick</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

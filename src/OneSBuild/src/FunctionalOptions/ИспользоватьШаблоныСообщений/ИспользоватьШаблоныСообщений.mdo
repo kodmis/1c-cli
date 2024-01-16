@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3924c17c-6ee3-4406-8023-0a79a242e389">
+  <name>ИспользоватьШаблоныСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать шаблоны сообщений</value>
+  </synonym>
+  <location>Constant.ИспользоватьШаблоныСообщений</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ШаблоныСообщений</content>
+  <content>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение.Subsystem._ДемоШаблоныСообщений</content>
+  <content>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение.Subsystem._ДемоШаблоныСообщений.Subsystem.Использование</content>
+</mdclass:FunctionalOption>

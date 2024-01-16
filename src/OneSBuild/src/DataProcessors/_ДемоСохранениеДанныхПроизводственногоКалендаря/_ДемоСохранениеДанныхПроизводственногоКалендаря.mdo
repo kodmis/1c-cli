@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0aba89f9-c37e-49f9-b613-c1a50235fa4a">
+  <producedTypes>
+    <objectType typeId="cf85693b-eb7c-4801-a3e5-22a9eeeecc93" valueTypeId="e629f8a6-e847-4fa4-a41a-30655dd84e98"/>
+    <managerType typeId="2aacc972-64db-4a76-a585-2ad1f0f3dce1" valueTypeId="d4a642e3-7e6f-4d3c-90ef-834c64b1456d"/>
+  </producedTypes>
+  <name>_ДемоСохранениеДанныхПроизводственногоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Сохранение данных производственного календаря</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоСохранениеДанныхПроизводственногоКалендаря.Form.Форма</defaultForm>
+  <forms uuid="ddd0c7a5-3135-4631-9854-5ca459d8bc60">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

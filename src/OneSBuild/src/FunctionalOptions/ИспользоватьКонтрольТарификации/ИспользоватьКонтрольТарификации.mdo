@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a09b6f6f-deb2-4d86-8c24-72f5f89a0088">
+  <name>ИспользоватьКонтрольТарификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль тарификации</value>
+  </synonym>
+  <location>Constant.ИспользоватьКонтрольТарификации</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.УслугиСервиса</content>
+  <content>Catalog.ПоставщикиУслугСервиса</content>
+  <content>Enum.ТипыУслуг</content>
+  <content>InformationRegister.ДоступныеЛицензии</content>
+  <content>InformationRegister.ЗанятыеЛицензии</content>
+</mdclass:FunctionalOption>

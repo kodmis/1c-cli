@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5465466d-48be-493a-aadc-e97046b010cc">
+  <producedTypes>
+    <managerType typeId="330b3b16-96b9-4ea3-80ae-00e161522e43" valueTypeId="4f381ad4-aeb9-4213-82a2-35a44f9fd132"/>
+    <valueManagerType typeId="f1146e37-08a1-4aae-8ba2-4aa476a98e4c" valueTypeId="4549af93-c61e-4efa-9eb9-3a2681fe1b0b"/>
+    <valueKeyType typeId="05a16628-f5d3-41f0-b855-f720269291f6" valueTypeId="16da00cf-d075-435e-acd7-82fd80974c3f"/>
+  </producedTypes>
+  <name>УсовершенствоватьПодписиАвтоматически</name>
+  <synonym>
+    <key>ru</key>
+    <value>Усовершенствовать подписи автоматически</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>0 - не усовершенствовать подписи автоматически и не показывать команды для ручной обработки в интерфейсе; 1 - усовершенствовать регламентным заданием; 2 - усовершенствовать вручную (показывать команды в интерфейсе администратора и в текущих делах)</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

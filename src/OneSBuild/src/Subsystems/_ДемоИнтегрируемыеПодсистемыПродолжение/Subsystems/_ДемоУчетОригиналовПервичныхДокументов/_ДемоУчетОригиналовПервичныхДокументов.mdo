@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="435b4af5-6c87-4770-9dba-9a199b6dadcc">
+  <name>_ДемоУчетОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет оригиналов первичных документов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СостоянияОригиналовПервичныхДокументов</content>
+  <content>CommonCommand.ЖурналУчетаОригиналовПервичныхДокументов</content>
+  <content>InformationRegister._ДемоРеестрДокументов</content>
+  <content>Role._ДемоИспользованиеОбработкиЖурналУчетаОригиналовПервичныхДокументов</content>
+  <content>Role._ДемоДобавлениеИзменениеОтпусков</content>
+  <content>Role._ДемоЧтениеОтпусков</content>
+  <subsystems>Использование</subsystems>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение</parentSubsystem>
+</mdclass:Subsystem>

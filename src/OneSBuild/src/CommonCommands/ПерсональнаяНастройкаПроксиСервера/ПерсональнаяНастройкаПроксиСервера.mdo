@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e50cb13a-151b-45d2-a7b7-d23440ddfa24">
+  <name>ПерсональнаяНастройкаПроксиСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персональная настройка прокси сервера</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

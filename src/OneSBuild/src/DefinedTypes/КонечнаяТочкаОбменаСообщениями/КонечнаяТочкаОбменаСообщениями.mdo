@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc2dd611-b589-4519-b274-40db5c66b378">
+  <producedTypes>
+    <containerType typeId="57b68283-7447-40d3-8516-461b446fa6ef" valueTypeId="61ee77e5-2780-46d3-82d4-e9b37840c45a"/>
+  </producedTypes>
+  <name>КонечнаяТочкаОбменаСообщениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конечная точка обмена сообщениями</value>
+  </synonym>
+  <type>
+    <types>ExchangePlanRef.ОбменСообщениями</types>
+  </type>
+</mdclass:DefinedType>

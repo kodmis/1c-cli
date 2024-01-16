@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9474b4f1-b1bb-4fcf-acdb-a149a09b8490">
+  <producedTypes>
+    <containerType typeId="f5d7e163-bf45-40de-a129-d21402a8e47b" valueTypeId="37a82016-0de2-4b9f-9f63-e5ad08b8e443"/>
+  </producedTypes>
+  <name>СубъектПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Субъект персональных данных</value>
+  </synonym>
+  <type>
+    <types>CatalogRef._ДемоФизическиеЛица</types>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

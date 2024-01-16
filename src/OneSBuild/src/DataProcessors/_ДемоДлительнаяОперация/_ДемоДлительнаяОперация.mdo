@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36810e6e-590a-46da-af1e-92a4fba75e74">
+  <producedTypes>
+    <objectType typeId="7a910092-fdb4-4bf1-9508-62c890073a72" valueTypeId="4e1930b7-bd28-4a35-842c-2dbfa8495edc"/>
+    <managerType typeId="afeed9d4-d8b9-4f73-b944-f238104ffa2e" valueTypeId="9eb418a6-b710-4acf-bdd4-b1bd43a46dff"/>
+  </producedTypes>
+  <name>_ДемоДлительнаяОперация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Длительная операция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоДлительнаяОперация.Form.Форма</defaultForm>
+  <forms uuid="addf142a-7ab5-4420-8346-8b44e1bde69d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0e365a8b-da9d-4c17-9d7d-22435e7c0273">
+    <name>ДлительнаяОперацияСОтменойПриЗакрытии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительная операция с отменой при закрытии</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82877fd7-586b-4d8f-b1c7-10d21dad79d7">
+    <name>ДлительнаяОперацияСЗакрытиеФормыВладельцаПослеЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительная операция с закрытие формы владельца после запуска</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

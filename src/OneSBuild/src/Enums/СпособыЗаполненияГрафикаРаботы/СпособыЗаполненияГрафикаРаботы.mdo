@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c0bbfba-c1c4-4bb5-a813-10da4bef7911">
+  <producedTypes>
+    <refType typeId="5231077e-95de-4114-819f-d0f877116eef" valueTypeId="fe8a1e28-2384-48ad-8155-d6f2680c3530"/>
+    <listType typeId="7d8a58fa-6b23-4828-ada1-066851dfb440" valueTypeId="4c67a058-aee9-407d-8121-c23f7159f38d"/>
+    <managerType typeId="af88ae8e-2b6a-453a-949a-3f78a76cafee" valueTypeId="c7dbec34-c616-49e4-a38c-4e00391fa167"/>
+  </producedTypes>
+  <name>СпособыЗаполненияГрафикаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы заполнения графика работы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f9ada91a-e673-4821-9bce-cb0dd75ca28b">
+    <name>ПоНеделям</name>
+    <synonym>
+      <key>ru</key>
+      <value>По неделям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9fcf68bb-43e2-4cd1-89ec-8797ad9c0e8b">
+    <name>ПоЦикламПроизвольнойДлины</name>
+    <synonym>
+      <key>ru</key>
+      <value>По циклам произвольной длины</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

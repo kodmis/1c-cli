@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95655b97-54d7-4ca3-a1c5-3d2df5223703">
+  <producedTypes>
+    <objectType typeId="0dd5f79a-72d2-428e-bb30-18709c2ce2d0" valueTypeId="ab372f6b-5839-48e0-b3a4-39e4e4cea454"/>
+    <managerType typeId="4c238b08-64af-43dc-9016-35a026e25300" valueTypeId="8194ecec-7888-4b5f-a18c-6fa2ff068e3a"/>
+  </producedTypes>
+  <name>ИсторияРазмераПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>История размера приложения</value>
+  </synonym>
+  <defaultForm>Report.ИсторияРазмераПриложения.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ИсторияРазмераПриложения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.ИсторияРазмераПриложения.Form.ФормаНастроек</defaultSettingsForm>
+  <forms uuid="4b34144d-3663-4910-b0a7-9d9f5da10e48">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56a08777-24c5-49ba-b24a-a00e0290c67e">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e63bdbd5-dbc6-468a-97ca-9018e498f40f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="9dd4004f-eff6-4405-8aae-1e6416d6ad9d">
+    <name>ИсторияРазмераПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>История размера приложения</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

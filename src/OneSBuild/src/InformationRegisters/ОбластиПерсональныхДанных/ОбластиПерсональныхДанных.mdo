@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47714327-dd28-4e32-a1c9-20ee47d9afd0">
+  <producedTypes>
+    <selectionType typeId="0e87a45d-3fe6-4c50-be8c-69fb655ddea2" valueTypeId="67c6c188-4951-4679-8a09-6580dd710795"/>
+    <listType typeId="22c7b830-64c4-4a26-a5ab-45c2c36539ae" valueTypeId="aa19c198-e398-4082-b635-38cfc65d00c6"/>
+    <managerType typeId="630b2cd2-b077-4ea1-bfec-8a6a58845eb7" valueTypeId="1d2f9b7e-670b-4bfe-8f7a-59c98d5b54d2"/>
+    <recordSetType typeId="be7bb827-2ac3-4876-83ac-512a596846d4" valueTypeId="b3979ca2-a798-459d-ab33-ff044e663d8a"/>
+    <recordKeyType typeId="31f1c606-60f4-4c85-a2e2-9d08f1c16af7" valueTypeId="4dd39de0-72a4-427c-8986-e52accd92458"/>
+    <recordType typeId="25d992a2-f23e-4905-8af4-e43b25ad8bab" valueTypeId="7a71a681-eec8-4ce6-b579-c9aef3428e67"/>
+    <recordManagerType typeId="1588fd58-4c4a-482f-aa69-71871c1b8eca" valueTypeId="088a97d2-4e2a-42cb-aa8a-09256abfcb33"/>
+  </producedTypes>
+  <name>ОбластиПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Области персональных данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4d76ef7a-f1a6-4147-84f4-6e1717dfd77e">
+    <name>ИспользованиеСобытийЖурналаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование событий журнала регистрации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для контроля области данных используются события журнала регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d1eb0aa7-b485-4f3a-846d-be069ca807c0">
+    <name>ИмяОбласти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя области</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор области персональных данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

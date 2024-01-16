@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ac6d0dd-0007-46b8-bfcc-93c0f85b6b85">
+  <producedTypes>
+    <containerType typeId="cfec87d7-704e-49ba-8770-44b4b77e71c5" valueTypeId="443cec16-fe82-497f-8479-54f86281f99e"/>
+  </producedTypes>
+  <name>Интервьюер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервьюер</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4afd271-64de-4a6d-b0ef-f27db4d66d32">
+  <name>ИспользоватьАвтономнуюРаботуВЛокальномРежиме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать автономную работу в локальном режиме</value>
+  </synonym>
+  <location>Constant.ЭтоАвтономноеРабочееМесто</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.АвтономнаяРабота</content>
+  <content>CommonForm.АвтономнаяРабота</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baec0e60-c410-4b95-8126-f77fd06225b4">
+  <name>EnterpriseData_1_10_8</name>
+  <synonym>
+    <key>ru</key>
+    <value>EnterpriseData 1.10.8</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.10</namespace>
+</mdclass:XDTOPackage>

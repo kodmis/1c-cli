@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c6add2e-2481-4b25-aa17-6a4c1b38debf">
+  <name>_ДемоИспользоватьКонтактныеЛицаПартнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать контактные лица партнеров</value>
+  </synonym>
+  <location>Constant._ДемоИспользоватьКонтактныеЛицаПартнеров</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog._ДемоКонтактныеЛицаПартнеров</content>
+</mdclass:FunctionalOption>

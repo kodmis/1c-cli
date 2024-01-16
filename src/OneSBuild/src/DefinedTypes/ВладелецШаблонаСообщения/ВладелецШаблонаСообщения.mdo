@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b88b50d-6aa1-4364-82bd-1c0c0da93a58">
+  <producedTypes>
+    <containerType typeId="f1df8f3d-a217-4aa9-8b01-208a203d8b9d" valueTypeId="ccdbd523-702f-4ea9-81f9-7938560308bb"/>
+  </producedTypes>
+  <name>ВладелецШаблонаСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец шаблона сообщения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef._ДемоПодразделения</types>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

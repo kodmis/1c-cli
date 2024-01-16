@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8b52547-b2ed-44a1-bf9d-9c6b091d3d01">
+  <name>_ДемоВариантыОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отчетов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report._ДемоФайлы</content>
+  <content>Report._ДемоДинамикаИзмененийФайлов</content>
+  <content>InformationRegister._ДемоРеестрСкладскихДокументов</content>
+  <content>Document._ДемоСчетНаОплатуПокупателю</content>
+  <content>Catalog.ВариантыОтчетов</content>
+  <content>CommonCommand.НастройкаКолонтитулов</content>
+  <parentSubsystem>Subsystem._ДемоОрганайзер</parentSubsystem>
+</mdclass:Subsystem>

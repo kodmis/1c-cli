@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="190bc52e-0d51-4dfc-9f16-99ed71ebfa75">
+  <producedTypes>
+    <selectionType typeId="cf3c91bd-6c5b-4b7a-a462-4e4667e7ff88" valueTypeId="005423b3-ef12-4686-8e5a-87e229a0c0c7"/>
+    <listType typeId="52fed8f3-efc3-498e-b6b3-afff2125638f" valueTypeId="336abf5e-d364-4bab-b19b-dfc78edb0802"/>
+    <managerType typeId="b0824b42-00c8-4804-825c-22a1d98ad3a4" valueTypeId="9a920496-2a30-405a-a7e6-64ee1179fe93"/>
+    <recordSetType typeId="04af89bb-aafd-4809-b532-07a43c37e27f" valueTypeId="1988d101-a892-4420-9abf-5ec6c8e5f625"/>
+    <recordKeyType typeId="cd34e223-3ff4-4d2f-a890-f81aa572982f" valueTypeId="14119057-8444-4032-8db9-021a4f900818"/>
+    <recordType typeId="af19261d-bcce-49f7-88c8-a1be9b53cb48" valueTypeId="5dcf12db-3899-4127-a272-9fa609f2a2f2"/>
+    <recordManagerType typeId="6b517448-37aa-45ca-a0f8-95eafd32bb41" valueTypeId="b28fea82-9765-4248-8d28-7d9318789df4"/>
+  </producedTypes>
+  <name>ПодпискиПолучателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписки получателей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="0c24858a-7e64-426f-9b59-392449aecaf5">
+    <name>КаналСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал сообщений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя канала сообщений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="b1d61e28-f3dc-418b-b5df-f75622a4b980">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ОбменСообщениями</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конечная точка (получатель сообщений из канала)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

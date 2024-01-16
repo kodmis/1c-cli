@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:30f18fbf-4240-4708-a71a-189f8fc324f3</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.КлассификаторБанков.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоБанковскиеСчета.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоСчетНаОплатуПокупателю.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Catalog._ДемоБанковскиеСчета.StandardCommand.Create</commands>
+      <commands>Document._ДемоСчетНаОплатуПокупателю.StandardCommand.Create</commands>
+      <commands>Catalog.КлассификаторБанков.StandardCommand.Create</commands>
+      <commands>Catalog.КлассификаторБанков.StandardCommand.CreateFolder</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>0:30f18fbf-4240-4708-a71a-189f8fc324f3</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

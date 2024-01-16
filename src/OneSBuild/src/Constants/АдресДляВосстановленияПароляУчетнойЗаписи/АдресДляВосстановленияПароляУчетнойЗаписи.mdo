@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="387d3bbf-cddd-4506-b14f-89c1f37adbbc">
+  <producedTypes>
+    <managerType typeId="159af946-de12-4cd9-b0cc-5699b66d8809" valueTypeId="8b21a9dd-b56e-4ea0-97d4-d6ffe1a9bc05"/>
+    <valueManagerType typeId="6a41a4d6-0c76-4d48-8ae0-c7a7c1ca763e" valueTypeId="51905b3a-9d3b-4d35-9c6e-9501232ca796"/>
+    <valueKeyType typeId="dcb07ae1-632f-51e9-bafe-6eb2b4724db2" valueTypeId="8739cf0d-6854-5dc1-9dce-c92a4dc79a50"/>
+  </producedTypes>
+  <name>АдресДляВосстановленияПароляУчетнойЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес для восстановления пароля учетной записи</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a915d772-2ce5-4c93-b29d-425f0cdbbbb6">
+  <producedTypes>
+    <objectType typeId="1d45d976-15db-43cf-8583-27aa5bbad9ea" valueTypeId="86577760-ef97-40c6-b71f-afca46c62416"/>
+    <managerType typeId="d10ed825-cdbf-42bf-b77e-f156f89edb6c" valueTypeId="842afa11-7892-4216-81a2-0c22982f8b8e"/>
+  </producedTypes>
+  <name>_ДемоПолучениеФайловИзИнтернета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Получение файлов из Интернета</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоПолучениеФайловИзИнтернета.Form.ПолучениеФайловИзИнтернета</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Демонстрационная обработка для получения файлов из сети Интернет</value>
+  </explanation>
+  <forms uuid="8816249f-3b96-44be-bc64-7c63228c1dad">
+    <name>ПолучениеФайловИзИнтернета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение файлов из Интернета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="27d2b75d-75f3-42ad-a72d-5d63d789b65c">
+    <name>_ДемоПолучитьФайлИзИнтернета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Получить файл из Интернета</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Task.ЗадачаИсполнителя.Command.МоиЗадачи</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.ЗависшиеЗадачи.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.Задания.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.Задачи.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.ПросроченныеЗадачи.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Task.ЗадачаИсполнителя.Command.ВсеЗадачи</commands>
+      <commands>InformationRegister.ДанныеБизнесПроцессов.Command.МоиБизнесПроцессы</commands>
+      <commands>BusinessProcess.Задание.StandardCommand.OpenList</commands>
+      <commands>Task.ЗадачаИсполнителя.Command.МоиЗадачи</commands>
+      <commands>BusinessProcess._ДемоЗаданиеСРолевойАдресацией.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

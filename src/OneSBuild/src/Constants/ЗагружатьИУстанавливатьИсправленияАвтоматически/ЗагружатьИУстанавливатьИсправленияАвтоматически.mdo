@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53ae0731-7193-4040-8cf5-b83bbb579fee">
+  <producedTypes>
+    <managerType typeId="3d9f9e2e-7b14-4cfd-9ae3-349657ce2a75" valueTypeId="4bb74a68-ce31-4681-b48f-d5628e58de0b"/>
+    <valueManagerType typeId="1361da0d-1548-4988-a474-87956b2133aa" valueTypeId="0b41683a-c146-4bfc-abe0-d782d130cfa4"/>
+    <valueKeyType typeId="ad2a069f-0269-50b8-a0c6-566c784ff9f3" valueTypeId="3fae7a75-e258-5b5c-9462-701f70d8d831"/>
+  </producedTypes>
+  <name>ЗагружатьИУстанавливатьИсправленияАвтоматически</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загружать и устанавливать исправления (патчи) автоматически</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

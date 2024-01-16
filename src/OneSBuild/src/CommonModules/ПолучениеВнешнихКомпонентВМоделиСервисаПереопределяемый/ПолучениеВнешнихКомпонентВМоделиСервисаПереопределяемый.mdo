@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ded94f9e-0b00-4007-b4bd-5028e88ad16d">
+  <name>ПолучениеВнешнихКомпонентВМоделиСервисаПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение внешних компонент в модели сервиса переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

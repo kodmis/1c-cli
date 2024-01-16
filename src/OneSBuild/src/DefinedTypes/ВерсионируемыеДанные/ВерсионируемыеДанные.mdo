@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83db1b00-e9e3-41da-8a59-47589dcfd618">
+  <producedTypes>
+    <containerType typeId="5d1dba8c-a53b-4334-ad62-baec2d367d0d" valueTypeId="4929d63f-d79a-44fe-9cfb-11695928a97a"/>
+  </producedTypes>
+  <name>ВерсионируемыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионируемые данные</value>
+  </synonym>
+  <type>
+    <types>CatalogRef._ДемоФизическиеЛица</types>
+    <types>DocumentRef._ДемоСчетНаОплатуПокупателю</types>
+    <types>ChartOfCharacteristicTypesRef._ДемоВидыСубконто</types>
+    <types>CatalogRef._ДемоХарактеристики</types>
+    <types>ChartOfAccountsRef._ДемоОсновной</types>
+    <types>DocumentRef._ДемоПоступлениеТоваров</types>
+    <types>CatalogRef._ДемоКонтрагенты</types>
+    <types>ChartOfCalculationTypesRef._ДемоОсновныеНачисления</types>
+    <types>BusinessProcessRef._ДемоЗаданиеСРолевойАдресацией</types>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogRef.ВидыКонтактнойИнформации</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e6d38c5-2a09-4473-9e04-8f631fe88c61">
+  <name>ЭлектроннаяПодписьСлужебныйЛокализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронная подпись служебный локализация</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

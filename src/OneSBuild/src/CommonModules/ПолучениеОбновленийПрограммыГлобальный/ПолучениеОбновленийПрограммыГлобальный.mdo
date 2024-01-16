@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cf45574-dd33-46d0-ae0a-03b0c4687c21">
+  <name>ПолучениеОбновленийПрограммыГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение обновлений программы глобальный</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

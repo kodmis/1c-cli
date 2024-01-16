@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d1b4d82-ab4f-4fe2-bc04-c1913c27aecb">
+  <name>_ДемоМестаИспользованияЭлемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Места использования</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>CatalogRef._ДемоНоменклатура</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Места использования в других объектах программы</value>
+  </toolTip>
+</mdclass:CommonCommand>

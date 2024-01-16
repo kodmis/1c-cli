@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="244b6332-d8d8-40aa-8e3c-9c6e288889f8">
+  <producedTypes>
+    <objectType typeId="c86a0ac3-6336-409f-91e8-fe2538c8e4f8" valueTypeId="f0a8eacb-7df5-46a0-940b-8cf210ac92a1"/>
+    <managerType typeId="63824b04-eb5d-4381-8cc9-bccde747a6d4" valueTypeId="07de3a87-f5cb-478e-99fe-c2297cdad007"/>
+  </producedTypes>
+  <name>ВыгрузкаЗагрузкаДанныхПотокЗаписиСопоставляемыхСсылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка загрузка данных поток записи сопоставляемых ссылок</value>
+  </synonym>
+</mdclass:DataProcessor>

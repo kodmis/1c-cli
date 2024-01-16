@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3eff79aa-7504-4dd7-b3ce-6f2b1006151c">
+  <producedTypes>
+    <selectionType typeId="2ecbe9f2-bf40-4789-98de-0a42b64d1f86" valueTypeId="5e1d6f64-f522-4feb-9935-96fcb712d940"/>
+    <listType typeId="f238c155-928a-45be-b3ed-418169c70abf" valueTypeId="302dfb64-6d95-4dc0-af13-762f36f259f7"/>
+    <managerType typeId="a2d6993d-e845-4090-bf1a-112ee581076a" valueTypeId="616ca2b9-6208-445b-aa89-9927dabdfff4"/>
+    <recordSetType typeId="c19bef8d-2c4a-4dad-a669-2b3760d0c0ca" valueTypeId="425b00dd-e139-4998-8997-c9e49b73b25d"/>
+    <recordKeyType typeId="f1c25c2a-bd1c-49d5-b0c7-e01e35ab343a" valueTypeId="c4e6bb4f-8a01-4710-b210-9c9fcabe3346"/>
+    <recordType typeId="ab0f7202-1f46-4982-99d9-7c7dd0739129" valueTypeId="bd298980-e09b-4eee-98e5-319c70b0e552"/>
+    <recordManagerType typeId="bb9373a4-0800-4a53-ba56-7e9c6267d1f8" valueTypeId="326a498e-339d-434a-839d-612e0ea41f97"/>
+  </producedTypes>
+  <name>МиграцияПриложенийОчередьЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция приложений очередь загрузки</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="04c0ba1e-c069-423e-91c7-985b94440296">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="142afd2a-0a75-4ffe-8b85-283de94dec93">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

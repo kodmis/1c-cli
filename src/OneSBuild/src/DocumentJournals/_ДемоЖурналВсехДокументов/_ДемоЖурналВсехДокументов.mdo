@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="353b5b30-e2a1-48e3-af13-fe532642cfca">
+  <producedTypes>
+    <selectionType typeId="06181ce6-8386-418e-9c9c-527c5c03b483" valueTypeId="c92b44c6-424a-4baf-b750-538cb385d72c"/>
+    <listType typeId="87f507bc-9732-48c7-ac2c-020515d671b1" valueTypeId="29b4b65d-6f9a-4208-9f10-40d33f7118e8"/>
+    <managerType typeId="3459965b-b82a-49b3-bb29-a4d18c591c20" valueTypeId="a31fa2b6-2383-40cd-ac06-e6298a7c7b96"/>
+  </producedTypes>
+  <name>_ДемоЖурналВсехДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Журнал всех документов</value>
+  </synonym>
+  <defaultForm>DocumentJournal._ДемоЖурналВсехДокументов.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document._ДемоЗаказПокупателя</registeredDocuments>
+  <registeredDocuments>Document._ДемоКорректировкаОстатковТоваровВМестахХранения</registeredDocuments>
+  <registeredDocuments>Document._ДемоНачислениеЗарплаты</registeredDocuments>
+  <registeredDocuments>Document._ДемоОприходованиеТоваров</registeredDocuments>
+  <registeredDocuments>Document._ДемоПеремещениеТоваров</registeredDocuments>
+  <registeredDocuments>Document._ДемоПоступлениеТоваров</registeredDocuments>
+  <registeredDocuments>Document._ДемоРасходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document._ДемоРеализацияТоваров</registeredDocuments>
+  <registeredDocuments>Document._ДемоСписаниеБезналичныхДенежныхСредств</registeredDocuments>
+  <registeredDocuments>Document._ДемоСписаниеТоваров</registeredDocuments>
+  <registeredDocuments>Document._ДемоСчетНаОплатуПокупателю</registeredDocuments>
+  <registeredDocuments>Document._ДемоСчетФактураПолученный</registeredDocuments>
+  <registeredDocuments>Document.Анкета</registeredDocuments>
+  <registeredDocuments>Document.Встреча</registeredDocuments>
+  <registeredDocuments>Document.ЗапланированноеВзаимодействие</registeredDocuments>
+  <registeredDocuments>Document.НазначениеОпросов</registeredDocuments>
+  <registeredDocuments>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</registeredDocuments>
+  <registeredDocuments>Document.СогласиеНаОбработкуПерсональныхДанных</registeredDocuments>
+  <registeredDocuments>Document.СообщениеSMS</registeredDocuments>
+  <registeredDocuments>Document.ТелефонныйЗвонок</registeredDocuments>
+  <registeredDocuments>Document.ЭлектронноеПисьмоВходящее</registeredDocuments>
+  <registeredDocuments>Document.ЭлектронноеПисьмоИсходящее</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="88d5da3b-115f-4e85-beb2-8f564e148b3b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

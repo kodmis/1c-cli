@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b48e4395-6753-4751-b73c-12d7d3ef81e3">
+  <producedTypes>
+    <objectType typeId="3527e80d-5c9f-4871-a5c1-9eedc5bae7f9" valueTypeId="d60f688e-4f53-4948-ac22-70423d0f81dd"/>
+    <managerType typeId="09ae8e2b-5e31-46c7-b913-9aff3f3741f4" valueTypeId="25fac050-78a2-4e89-81d4-0af6c4a1266d"/>
+  </producedTypes>
+  <name>ОбновлениеПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеПрограммы.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="8e056daf-5f46-457e-8fdf-d793c1777c8e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="869f5284-1596-413e-920c-e06125cae889">
+    <name>ВыборИсправлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор исправлений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6be1c1dc-8a65-4037-9d8b-2de8a05b8b68">
+    <name>СозданиеРезервнойКопииИнформационнойБазы_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание резервной копии информационной базы</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

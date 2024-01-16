@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea2c4c8e-23cc-4884-812e-1e959da48afc">
+  <producedTypes>
+    <containerType typeId="f0d7bb9f-e04b-4261-bbbf-0fe067eb2095" valueTypeId="02e3c2e1-c755-4c41-9608-b937c9d45951"/>
+  </producedTypes>
+  <name>Респондент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Респондент</value>
+  </synonym>
+  <type>
+    <types>CatalogRef._ДемоФизическиеЛица</types>
+    <types>CatalogRef._ДемоКонтактныеЛицаПартнеров</types>
+    <types>CatalogRef._ДемоПартнеры</types>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

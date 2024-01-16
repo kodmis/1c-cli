@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56a20a2e-77f3-4a35-963c-a1c8696379a8">
+  <name>ЭлектроннаяПодписьВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронная подпись в модели сервиса</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

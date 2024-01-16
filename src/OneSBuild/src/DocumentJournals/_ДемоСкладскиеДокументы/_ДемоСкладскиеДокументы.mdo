@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07fafa71-238b-4db7-b3e2-888cac6c62b8">
+  <producedTypes>
+    <selectionType typeId="0d49536c-9610-4b5b-8b08-10fa97ef6b62" valueTypeId="26dcc25d-45c2-42d4-9e25-78a1257590d5"/>
+    <listType typeId="4f1d6cab-6e75-4a70-bf92-98dd3ee2e81e" valueTypeId="621c03a9-a6d4-4ab9-bb34-cfc0b0f33e27"/>
+    <managerType typeId="e3758edf-560e-4ee5-8869-37d49731dab1" valueTypeId="9269ebb2-2e4c-4240-a368-3f2ef033426e"/>
+  </producedTypes>
+  <name>_ДемоСкладскиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Складские документы</value>
+  </synonym>
+  <defaultForm>DocumentJournal._ДемоСкладскиеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document._ДемоСписаниеТоваров</registeredDocuments>
+  <registeredDocuments>Document._ДемоПеремещениеТоваров</registeredDocuments>
+  <registeredDocuments>Document._ДемоОприходованиеТоваров</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="c10e549b-0fd6-4097-b9f8-a8c90f52be88">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document._ДемоПеремещениеТоваров.Attribute.Организация</references>
+    <references>Document._ДемоСписаниеТоваров.Attribute.Организация</references>
+    <references>Document._ДемоОприходованиеТоваров.Attribute.Организация</references>
+  </columns>
+  <columns uuid="587c2901-4011-446d-8351-53738f91a8bb">
+    <name>МестоХраненияИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения источник</value>
+    </synonym>
+    <references>Document._ДемоПеремещениеТоваров.Attribute.МестоХраненияИсточник</references>
+    <references>Document._ДемоСписаниеТоваров.Attribute.МестоХранения</references>
+  </columns>
+  <columns uuid="b09142df-db28-44d2-be47-0c91b1f9325b">
+    <name>МестоХраненияПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения приемник</value>
+    </synonym>
+    <references>Document._ДемоПеремещениеТоваров.Attribute.МестоХраненияПриемник</references>
+    <references>Document._ДемоОприходованиеТоваров.Attribute.МестоХранения</references>
+  </columns>
+  <columns uuid="8586dfc3-8ed8-42c9-b6b8-1c23ff9496d5">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document._ДемоПеремещениеТоваров.Attribute.Ответственный</references>
+    <references>Document._ДемоСписаниеТоваров.Attribute.Ответственный</references>
+    <references>Document._ДемоОприходованиеТоваров.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="380baca0-55c6-4104-98bb-bd7bd62fdf99">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document._ДемоСписаниеТоваров.Attribute.Комментарий</references>
+    <references>Document._ДемоПеремещениеТоваров.Attribute.Комментарий</references>
+    <references>Document._ДемоОприходованиеТоваров.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="666330d9-b6d5-4f2c-912d-d260cf740375">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

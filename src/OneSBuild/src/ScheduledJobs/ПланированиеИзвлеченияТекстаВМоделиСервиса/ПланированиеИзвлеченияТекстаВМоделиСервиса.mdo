@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="303334ba-2785-47fe-a094-84f9dea33be2">
+  <name>ПланированиеИзвлеченияТекстаВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование извлечения текста в модели сервиса</value>
+  </synonym>
+  <methodName>CommonModule.РаботаСФайламиСлужебныйВМоделиСервиса.ОбработатьОчередьИзвлеченияТекста</methodName>
+  <key>1</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c67453e-038b-46f3-8c13-2786e8622ad8">
+  <producedTypes>
+    <selectionType typeId="021247ed-daf0-40c8-bf88-51864a86cb2b" valueTypeId="fb90b664-f39f-4765-8432-b212682b9d5c"/>
+    <listType typeId="7b773780-c6e5-493f-a92a-76bebc0c7a58" valueTypeId="4977c86c-f565-49d2-9de7-255b323e5143"/>
+    <managerType typeId="3300004e-7bbb-4302-a5f3-a6276119959b" valueTypeId="a06c1c35-125b-4260-a7e2-c2738751d483"/>
+    <recordSetType typeId="31cad772-a6ff-411c-9d00-b01c430f273f" valueTypeId="48324da0-b38b-4f15-8c06-7bb65a52077c"/>
+    <recordKeyType typeId="da3a06c6-37a0-4b0f-b7af-d532cdaef43f" valueTypeId="38ec1b60-d9e0-41a0-9fc1-8b3377b0427c"/>
+    <recordType typeId="b6e5ac3d-1bf7-4387-a7fd-7721036de6dc" valueTypeId="ccf0fb16-f45c-473f-bd2a-b67dab225622"/>
+    <recordManagerType typeId="9796a55e-68d5-42e6-b288-97b3b6f554d3" valueTypeId="b378607b-9e75-4a91-82e1-83ae8d09b7cb"/>
+  </producedTypes>
+  <name>КэшПереводов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кэш переводов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8ff1dc4d-b46c-4519-80fe-19448e620e74">
+    <name>Перевод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="7cd5ca8c-cc97-4664-964e-152fdcb5bdef">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="be0a5f9a-ffab-41d8-b55a-a61355f5d269">
+    <name>ЯзыкПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык перевода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9286105d-9aa9-44f9-ae63-bbbcec64eade">
+    <name>ИсходныйЯзык</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходный язык</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

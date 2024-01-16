@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbdc8d7e-b685-4c8d-9f47-d8bfb08300d4">
+  <name>АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхКонстанта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автономная работа проверить возможность записи общих данных константа</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиВМоделиСервиса.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхКонстанта</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c30d9ad-6a48-478f-be83-1cc1290e471d">
+  <name>_ДемоПроверитьКодСправочникаПоОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Проверить код справочника по организации</value>
+  </synonym>
+  <source>
+    <types>CatalogObject._ДемоПроекты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.ПроверитьКодСправочникаПоОрганизации</handler>
+</mdclass:EventSubscription>

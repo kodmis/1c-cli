@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04e43878-36c6-4faa-9a10-03a8ad44a3d6">
+  <name>_ДемоЭлектроннаяПодпись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронная подпись</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>FunctionalOption._ДемоИспользоватьШифрованиеБСП</content>
+  <content>FunctionalOption._ДемоИспользоватьЭлектронныеПодписиБСП</content>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение</parentSubsystem>
+</mdclass:Subsystem>

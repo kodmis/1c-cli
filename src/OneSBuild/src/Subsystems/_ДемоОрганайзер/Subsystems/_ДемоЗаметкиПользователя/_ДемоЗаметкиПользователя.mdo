@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fcfe1ee-bd1f-4f82-928c-c74a1ea683e3">
+  <name>_ДемоЗаметкиПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заметки пользователя</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>EventSubscription._ДемоПроверитьНаличиеЗаметокПоПредмету</content>
+  <content>CommonModule._ДемоЗаметки</content>
+  <content>FunctionalOption._ДемоИспользоватьЗаметкиБСП</content>
+  <content>EventSubscription.УстановитьСнятьПометкуУдаленияЗаметок</content>
+  <content>Catalog._ДемоКонтрагенты</content>
+  <content>Catalog.Заметки</content>
+  <content>InformationRegister._ДемоНаличиеЗаметокПоПредмету</content>
+  <content>EventSubscription._ДемоУстановитьСтатусИзмененияПометкиУдаленияОбъекта</content>
+  <parentSubsystem>Subsystem._ДемоОрганайзер</parentSubsystem>
+</mdclass:Subsystem>

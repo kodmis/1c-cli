@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eaf6045f-9ac0-43ef-b165-a45be75a4d44">
+  <producedTypes>
+    <managerType typeId="c7eba011-df15-4ed3-a3ef-dd27833e4b2b" valueTypeId="5d1a3c33-cf19-48c3-8bb5-b6d9876fcf22"/>
+    <valueManagerType typeId="c0251154-1d76-49fd-9e90-c40ca35239dd" valueTypeId="a860e3a8-28df-47cf-b70f-027caa9fd214"/>
+    <valueKeyType typeId="3d5d53bc-adcd-5e41-b567-8c340ba9f408" valueTypeId="465a5897-2c4e-5ea0-a9d6-06c616f6c1b1"/>
+  </producedTypes>
+  <name>ВыполнитьРезервноеКопированиеОбластиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить резервное копирование области данных</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

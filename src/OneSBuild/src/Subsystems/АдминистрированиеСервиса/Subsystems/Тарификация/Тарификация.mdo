@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69f8b7f9-a81b-4b6a-88f7-2f2dccc11717">
+  <name>Тарификация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарификация</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ПоставщикиУслугСервиса</content>
+  <content>Catalog.УслугиСервиса</content>
+  <content>Constant.ИспользоватьКонтрольТарификации</content>
+  <content>InformationRegister.ДоступныеЛицензии</content>
+  <content>InformationRegister.ЗанятыеЛицензии</content>
+  <parentSubsystem>Subsystem.АдминистрированиеСервиса</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d3b9eff-5d0b-437b-932f-0ec466e092b2">
+  <producedTypes>
+    <selectionType typeId="c7785f92-5775-43ab-bb3c-585c12ee3187" valueTypeId="d2bdbaf7-7a8f-49c1-bc88-0e94851be5c1"/>
+    <listType typeId="99a0a050-d637-405c-8a18-4a19f918ab32" valueTypeId="e088dd7c-b995-44ea-a475-ea393e2b0ef9"/>
+    <managerType typeId="c479626b-7723-40de-a398-6d7215463127" valueTypeId="77d7042e-096a-488d-9adb-500045174fdb"/>
+  </producedTypes>
+  <name>СогласияНаОбработкуПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласия на обработку персональных данных</value>
+  </synonym>
+  <defaultForm>DocumentJournal.СогласияНаОбработкуПерсональныхДанных.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</registeredDocuments>
+  <registeredDocuments>Document.СогласиеНаОбработкуПерсональныхДанных</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <listPresentation>
+    <key>ru</key>
+    <value>Согласия на обработку ПДн</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Согласия на обработку персональных данных</value>
+  </extendedListPresentation>
+  <columns uuid="fd7e5257-024c-46de-9ff3-edd302fadba5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Attribute.Организация</references>
+    <references>Document.СогласиеНаОбработкуПерсональныхДанных.Attribute.Организация</references>
+  </columns>
+  <columns uuid="a4168057-d99f-4b55-b762-214f95ae3a30">
+    <name>ОтветственныйЗаОбработкуПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за обработку ПДн</value>
+    </synonym>
+    <references>Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Attribute.ОтветственныйЗаОбработкуПерсональныхДанных</references>
+    <references>Document.СогласиеНаОбработкуПерсональныхДанных.Attribute.ОтветственныйЗаОбработкуПерсональныхДанных</references>
+  </columns>
+  <columns uuid="ab4fe549-1c07-42d9-b412-8b89ed115591">
+    <name>Субъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субъект</value>
+    </synonym>
+    <references>Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Attribute.Субъект</references>
+    <references>Document.СогласиеНаОбработкуПерсональныхДанных.Attribute.Субъект</references>
+  </columns>
+  <columns uuid="0335804e-efe5-4fb9-9ae9-2ddca73d77f3">
+    <name>ДатаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации</value>
+    </synonym>
+    <references>Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Attribute.ДатаОтзыва</references>
+    <references>Document.СогласиеНаОбработкуПерсональныхДанных.Attribute.ДатаПолучения</references>
+  </columns>
+  <columns uuid="b49c589d-b45d-4aff-8899-72cfe433e9a6">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия</value>
+    </synonym>
+    <references>Document.СогласиеНаОбработкуПерсональныхДанных.Attribute.СрокДействия</references>
+  </columns>
+  <columns uuid="f71a8d47-6a6c-4b7e-90b3-5b7a3be3ccd3">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Attribute.Ответственный</references>
+    <references>Document.СогласиеНаОбработкуПерсональныхДанных.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="273ad3f7-c645-434d-93b0-e832134f3043">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Attribute.Комментарий</references>
+    <references>Document.СогласиеНаОбработкуПерсональныхДанных.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="d320803b-1de4-4e66-b455-0afe39be5c41">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b82bcff8-49c9-44a9-8a9f-4428b0cc54a5">
+  <name>ОтключитьАвтоматическуюСинхронизациюДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить автоматическую синхронизацию данных</value>
+  </synonym>
+  <comment>Проверяет необходимость отключения автоматической синхронизации данных</comment>
+  <source>
+    <types>InformationRegisterRecordSet.УдалитьНастройкиТранспортаОбмена</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытия.ОтключитьАвтоматическуюСинхронизациюДанныхПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6b5be82-f835-499e-90ff-aada581b7e5c">
+  <producedTypes>
+    <objectType typeId="3b4faa7c-c6e8-48c4-94b4-f02f287666b1" valueTypeId="e857ede0-dadd-44f5-9649-8a3cbc1fc881"/>
+    <managerType typeId="e8692ef1-324c-43e5-bf12-3391beb3596d" valueTypeId="b0dce759-0060-416c-a730-6dfd60b6ab4e"/>
+  </producedTypes>
+  <name>_ДемоОтправкаПриглашенияДляАнкетирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Отправка приглашения для анкетирования</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоОтправкаПриглашенияДляАнкетирования.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="20d16a50-fb8e-4f3e-9d42-5790a530f1be">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="99a2d3fd-445d-43fb-b579-9fde4291b5f9">
+    <name>ПриглашениеДляАнкетирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приглашение для анкетирования</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DocumentRef.НазначениеОпросов</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

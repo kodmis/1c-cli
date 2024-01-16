@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="184290e5-8fdf-42c8-a7b2-6f2422c02bff">
+  <name>БлокировкаСеансаБТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка сеанса БТС</value>
+  </synonym>
+  <type>
+    <types>FixedStructure</types>
+  </type>
+</mdclass:SessionParameter>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="459bdb3b-8152-4996-b170-f3ace7663341">
+  <name>_ДемоЧтениеЗаданийСРолевойАдресацией</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Чтение заданий с ролевой адресацией</value>
+  </synonym>
+</mdclass:Role>

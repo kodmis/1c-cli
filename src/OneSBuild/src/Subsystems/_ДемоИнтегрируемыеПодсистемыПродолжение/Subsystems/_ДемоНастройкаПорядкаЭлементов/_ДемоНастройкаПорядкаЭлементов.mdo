@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82ada981-9205-4861-82be-df4e56738c7e">
+  <name>_ДемоНастройкаПорядкаЭлементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка порядка элементов</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog._ДемоПроекты</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</content>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b4be2af-eee0-47bc-aca0-a7108e7a97e5">
+  <name>КонтрольИсполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль исполнения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ДанныеБизнесПроцессов</content>
+  <content>BusinessProcess.Задание</content>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>BusinessProcess._ДемоЗаданиеСРолевойАдресацией</content>
+  <content>Report.Задания</content>
+  <content>Report.ПросроченныеЗадачи</content>
+  <content>Report.Задачи</content>
+  <content>Report.ЗависшиеЗадачи</content>
+  <parentSubsystem>Subsystem._ДемоБизнесПроцессыИЗадачи</parentSubsystem>
+</mdclass:Subsystem>

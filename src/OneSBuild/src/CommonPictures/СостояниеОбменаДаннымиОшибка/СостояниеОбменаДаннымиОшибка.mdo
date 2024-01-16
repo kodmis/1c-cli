@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da551cf6-4f86-4e37-8967-a84c80e1fb13">
+  <name>СостояниеОбменаДаннымиОшибка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние обмена данными ошибка</value>
+  </synonym>
+</mdclass:CommonPicture>

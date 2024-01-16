@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adf9304c-ccf8-492e-95b1-0754764586a2">
+  <producedTypes>
+    <refType typeId="5ae97ec2-899a-4cdc-a7bb-207be6e8bc96" valueTypeId="6c4463ef-159e-481d-b615-ea4c42ac3e78"/>
+    <listType typeId="dcb7229d-1fa1-4a6e-a189-6284c4b1c804" valueTypeId="99bc00ee-7a41-4b10-a4ae-0b0f519d45af"/>
+    <managerType typeId="37024326-f082-4d8e-ae06-bf228e2f36ba" valueTypeId="4a942839-64ca-423a-9d20-c6a8d4a3d11f"/>
+  </producedTypes>
+  <name>ВидыПравилДляОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды правил для обмена данными</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fd175112-ec8f-4088-9b21-d8135056f0c5">
+    <name>ПравилаКонвертацииОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации объектов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ddd82a66-1eda-409f-b6c0-e22c4bd2c1b7">
+    <name>ПравилаРегистрацииОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

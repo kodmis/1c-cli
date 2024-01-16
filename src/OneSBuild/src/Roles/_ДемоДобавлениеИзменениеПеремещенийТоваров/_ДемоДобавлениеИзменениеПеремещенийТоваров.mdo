@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cce5eb17-f028-4583-a63e-f0f556d12544">
+  <name>_ДемоДобавлениеИзменениеПеремещенийТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Добавление и изменение перемещений товаров</value>
+  </synonym>
+</mdclass:Role>

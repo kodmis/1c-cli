@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb977ed4-a54a-4517-9f57-ad9656d4d451">
+  <name>_ДемоКонтактнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СтраныМира</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <parentSubsystem>Subsystem._ДемоНормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

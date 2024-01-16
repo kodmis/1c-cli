@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03d08c14-f814-4e12-8f96-020c36cca2bf">
+  <name>RemoteControl</name>
+  <synonym>
+    <key>ru</key>
+    <value>Remote control</value>
+  </synonym>
+  <namespace>http://www.1c.ru/SSL/RemoteControl_1_0_0_1</namespace>
+  <descriptorFileName>RemoteControl.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="a1a7aab6-cf35-42ce-97bb-c112638a2748">
+    <name>GetCurrentState</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get current state</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetCurrentState</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+</mdclass:WebService>

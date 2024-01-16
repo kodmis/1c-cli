@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c67fab0a-704f-43ae-bd03-4b5b1a880b24">
+  <producedTypes>
+    <managerType typeId="03877553-c610-4768-9994-7df0a7ae7506" valueTypeId="03a314b7-5eba-442d-a188-c19b6e616e8c"/>
+    <valueManagerType typeId="0b617f97-4247-407e-83f3-be312accf968" valueTypeId="bd536d60-1fe2-444c-9620-4fd59fc9cce6"/>
+    <valueKeyType typeId="98ab4d8e-95cf-5e9e-984d-211a813add4e" valueTypeId="ec59a803-7a6d-5999-b824-66874535b25d"/>
+  </producedTypes>
+  <name>ИспользоватьЗаметки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заметки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

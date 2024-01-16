@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="740fd5bf-b059-42c6-85bf-a7106c26a546">
+  <name>РегистрацияУслугСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация услуг сервиса</value>
+  </synonym>
+  <comment>Регистрация услуг в Менеджере сервиса</comment>
+  <methodName>CommonModule.Тарификация.ЗарегистрироватьТарифицируемыеУслуги_РегламентноеЗадание</methodName>
+  <key>1</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

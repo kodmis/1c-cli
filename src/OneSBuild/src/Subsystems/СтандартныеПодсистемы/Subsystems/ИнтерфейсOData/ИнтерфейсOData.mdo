@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1983fe34-c984-4659-ba41-0e94504f8989">
+  <name>ИнтерфейсOData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс OData</value>
+  </synonym>
+  <content>Role.УдаленныйДоступOData</content>
+  <content>Constant.ПользовательСтандартногоИнтерфейсаOData</content>
+  <content>DataProcessor.НастройкаСтандартногоИнтерфейсаOData</content>
+  <content>CommonModule.ИнтерфейсODataСлужебныйПовтИсп</content>
+  <content>CommonModule.ИнтерфейсODataСлужебный</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

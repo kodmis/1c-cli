@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="093b8255-7ee5-4463-bd20-542b1d63e799">
+  <name>ApplicationExtensionsControl_1_0_1_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Application extensions control 1 0 1 1</value>
+  </synonym>
+  <namespace>http://www.1c.ru/1cFresh/ApplicationExtensions/Control/1.0.1.1</namespace>
+</mdclass:XDTOPackage>

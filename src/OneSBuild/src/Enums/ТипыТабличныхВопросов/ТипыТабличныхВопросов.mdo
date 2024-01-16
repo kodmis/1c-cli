@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1ff31b9-c9f2-4be4-ac9a-62faa1d1eb81">
+  <producedTypes>
+    <refType typeId="5fa91895-9fb8-43b4-9fbb-b1330fd4ef4c" valueTypeId="b296f340-03cc-46af-a08b-f045723786e3"/>
+    <listType typeId="43c965a1-5c4b-495b-9162-cc6f9430c17b" valueTypeId="5296fee4-354b-4223-8b75-bf7ffeef5caf"/>
+    <managerType typeId="1a4fae65-b09a-4614-91d2-7194b7eaad57" valueTypeId="155e9ed1-8cde-402f-8315-03ff402650f2"/>
+  </producedTypes>
+  <name>ТипыТабличныхВопросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы табличных вопросов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c14ea7a0-1fb6-4d54-82d6-7f12f11b0c0b">
+    <name>Составной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Составной</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29645810-44aa-402c-9561-7819d6f4a7ab">
+    <name>ПредопределенныеОтветыВСтроках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные ответы в строках</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46bf4911-5200-44ac-9b4d-eb0089c12e34">
+    <name>ПредопределенныеОтветыВКолонках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные ответы в колонках</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e1685bd-7269-401c-b36e-def6a36b41d5">
+    <name>ПредопределенныеОтветыВСтрокахИКолонках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные ответы в строках и колонках</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

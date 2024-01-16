@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a5f7521-270e-476e-88ec-a8cf79ea61a6">
+  <name>УдалениеНеактуальнойИнформацииСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление неактуальной информации синхронизации</value>
+  </synonym>
+  <comment>Выполняет удаление информации синхронизации, которая не была удалена из-за сбоев в работе программы. Удалению подлежат файлы с датой размещения более суток.</comment>
+  <methodName>CommonModule.ОбменДаннымиСервер.УдалитьНеактуальныеСообщенияОбмена</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

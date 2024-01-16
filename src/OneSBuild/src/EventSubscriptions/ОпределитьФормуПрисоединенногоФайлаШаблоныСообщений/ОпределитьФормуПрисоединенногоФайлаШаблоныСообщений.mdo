@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0722315c-9217-4ecf-80ff-d1ee89f84a53">
+  <name>ОпределитьФормуПрисоединенногоФайлаШаблоныСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определить форму присоединенного файла (Шаблоны сообщений)</value>
+  </synonym>
+  <comment>АПК:256 - обработчик в серверном модуле</comment>
+  <source>
+    <types>CatalogManager.ШаблоныСообщенийПрисоединенныеФайлы</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.ШаблоныСообщенийКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b40d32dd-ac4a-41b4-b009-86cb9cdb3370">
+  <producedTypes>
+    <objectType typeId="476ef112-4745-4619-a3b0-dbf02f7fed26" valueTypeId="b61fd142-40b0-474a-9c33-ec5bb925fb49"/>
+    <managerType typeId="5d154bc8-ae0a-4062-a321-208238929de3" valueTypeId="64b50ff4-2e2b-4446-a681-0a2c36828df2"/>
+  </producedTypes>
+  <name>_ДемоПереносСведенийОПользователяхВДругуюПрограмму</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Перенос сведений о пользователях в другую программу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоПереносСведенийОПользователяхВДругуюПрограмму.Form.Форма</defaultForm>
+  <forms uuid="fbaddd2a-7a58-4e13-afc0-53787e639a9f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="92756960-2b7e-4328-9edd-6fe475774f89">
+    <name>ПравилаПереносаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила переноса данных</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

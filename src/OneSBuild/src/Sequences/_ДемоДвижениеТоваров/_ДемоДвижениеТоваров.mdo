@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acc79c52-1873-4048-bf6d-e293639ddfe6">
+  <producedTypes>
+    <recordType typeId="887f766c-5c5d-455e-86c3-0ea53938d4d2" valueTypeId="223250a4-0592-4c67-afa9-1706f9e20e40"/>
+    <managerType typeId="b846a5a3-88fc-43d6-bea0-0dfa466ac6d9" valueTypeId="f073ab4f-d6a6-4649-b5a6-ac9334e6284b"/>
+    <recordSetType typeId="516d090c-f05f-4397-b028-1b0abb2b590d" valueTypeId="ccbfd3fc-cfc5-4f4e-918b-88dca3985940"/>
+  </producedTypes>
+  <name>_ДемоДвижениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Движение товаров</value>
+  </synonym>
+  <documents>Document._ДемоРеализацияТоваров</documents>
+  <documents>Document._ДемоПоступлениеТоваров</documents>
+  <registerRecords>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения</registerRecords>
+  <registerRecords>AccountingRegister._ДемоЖурналПроводокБухгалтерскогоУчета</registerRecords>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="cc4ca9d6-15cc-40fc-9ce2-8d4a93dc47f1">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоНоменклатура</types>
+    </type>
+    <documentMap>Document._ДемоПоступлениеТоваров.TabularSection.Товары.Attribute.Номенклатура</documentMap>
+    <documentMap>Document._ДемоРеализацияТоваров.TabularSection.Товары.Attribute.Номенклатура</documentMap>
+    <registerRecordsMap>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения.Dimension.Номенклатура</registerRecordsMap>
+  </dimensions>
+  <dimensions uuid="e9877be0-9c4d-4d12-ba97-307418be0b64">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоМестаХранения</types>
+    </type>
+    <documentMap>Document._ДемоПоступлениеТоваров.Attribute.МестоХранения</documentMap>
+    <documentMap>Document._ДемоРеализацияТоваров.Attribute.МестоХранения</documentMap>
+    <registerRecordsMap>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения.Dimension.МестоХранения</registerRecordsMap>
+  </dimensions>
+</mdclass:Sequence>

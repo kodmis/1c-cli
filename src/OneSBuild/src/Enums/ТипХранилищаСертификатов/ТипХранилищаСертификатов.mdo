@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dbd7e51-0ffe-4e2b-a0ef-bb33616f42a2">
+  <producedTypes>
+    <refType typeId="2f5f8131-8fdb-49ec-93e6-7d4d623bdf57" valueTypeId="6104491e-330c-42cd-adfe-c76638b1e9d6"/>
+    <listType typeId="6a72e499-fa71-4658-ba4a-9bf7afd85d4f" valueTypeId="1b2a7d88-f88c-4e60-9f6a-83a9bd366a26"/>
+    <managerType typeId="7ae0191e-8583-4f1d-a026-3e12ba321b74" valueTypeId="ee10a235-a7f9-4d80-9054-8b14544bac35"/>
+  </producedTypes>
+  <name>ТипХранилищаСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип хранилища сертификатов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="607c672e-e1d1-4bb5-bc75-918364cf29e5">
+    <name>ПерсональныеСертификаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персональные сертификаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="079f41e1-0762-4c87-bc02-8bb25ebc3190">
+    <name>СертификатыПолучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификаты получателей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="987c1c57-d4b2-43b8-a5d6-09644d7bd27d">
+    <name>СертификатыУдостоверяющихЦентров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификаты удостоверяющих центров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="125466c6-b427-4a84-80b3-6a06857fb215">
+    <name>КорневыеСертификаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корневые сертификаты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

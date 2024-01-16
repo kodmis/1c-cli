@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e77b886-41b8-44a7-bf9f-36014772a489">
+  <producedTypes>
+    <objectType typeId="50ecd453-fee2-47ed-9ca2-41d351385162" valueTypeId="5ac68ea4-d311-4e26-90bd-a4570ea288ea"/>
+    <managerType typeId="4e7b971b-28ad-4b48-b475-5bd0b3d090b1" valueTypeId="249f1da6-b72f-4251-b94c-aab4aaa97b15"/>
+  </producedTypes>
+  <name>ПроверкаВнедренияБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка внедрения БСП</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПроверкаВнедренияБСП.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <tabularSections uuid="f292c552-d08b-4b5a-953d-8b68ab36e5d9">
+    <producedTypes>
+      <objectType typeId="5d2b4c3c-c765-43c3-9132-97fd18af7d96" valueTypeId="ee2eaaca-d49a-43df-b294-901137f86b09"/>
+      <rowType typeId="04da2a59-a4bb-4052-baec-db6907a69180" valueTypeId="ceedb2bf-2f1b-450c-a51f-fc972e239e5c"/>
+    </producedTypes>
+    <name>ТаблицаПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица проверки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f1fae2a1-3c13-4003-9a82-16dcb9ab253e">
+      <name>ПодсистемаБСП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подсистема БСП</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подсистема, содержащая ошибку внедрения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="64613d63-73a0-4cda-8cff-6f6acfdb7ce0">
+      <name>ПодсистемаКонфигурации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подсистема конфигурации</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подсистема, к которой относится прикладной объект</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="f4ca03f8-67cd-4efc-a656-e9d43ad790d1">
+      <name>ОбъектМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект метаданных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Объект с ошибкой</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="47ab4fc0-7435-4a61-9ef0-a12b907285c4">
+      <name>КраткоеОписаниеОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Краткое описание ошибки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование выполняемой проверки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="78031966-6a5b-4ffa-b1ec-9395ef89c01c">
+      <name>ПодробноеОписаниеОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подробное описание ошибки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подробное описание ошибки проверки внедрения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="ca928b73-7ed4-4f3d-8a6d-25b7772fde17">
+      <name>ИмяПодсистемыКонфигурации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя подсистемы конфигурации</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя подсистемы, к которой относится прикладной объект</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <templates uuid="e35cfd9b-ce36-411d-9d98-90348d0eb088">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="dee9dff6-c2f9-4cfe-a094-cc3a76cb0d5b">
+    <name>ОбластьДанныхОсновныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область данных основные данные</value>
+    </synonym>
+    <comment>Здесь перечислены все неразделенные объекты</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="1af7ad0c-791f-451a-a024-ac698423c5b3">
+    <name>ОбластьДанныхВспомогательныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область данных вспомогательные данные</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f2f690ef-0e6f-483b-a800-b5ae81ad92b5">
+    <name>РаботаСФайламиСоставРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с файлами состав реквизитов</value>
+    </synonym>
+  </templates>
+  <templates uuid="54217cf0-0b41-4b12-9df5-7edc32db6ae3">
+    <name>РаботаСФайламиОписаниеВнедрения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с файлами описание внедрения</value>
+    </synonym>
+  </templates>
+  <templates uuid="020286fc-82ab-491c-a75c-194e1fdd585c">
+    <name>АдминистраторСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор системы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="400b5d20-ea29-4eef-bbfd-cc62e33d92a9">
+    <name>ПолныеПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полные права</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Report>

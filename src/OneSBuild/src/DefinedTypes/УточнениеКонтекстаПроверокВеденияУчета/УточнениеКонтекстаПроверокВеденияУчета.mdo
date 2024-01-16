@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63fd620c-59a5-493c-a39e-457fad6fe35f">
+  <producedTypes>
+    <containerType typeId="8086ffca-9644-4fba-96fe-1e2face8829d" valueTypeId="4233fce6-8456-46b2-9a91-e1510de2140e"/>
+  </producedTypes>
+  <name>УточнениеКонтекстаПроверокВеденияУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уточнение контекста проверок ведения учета</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>128</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

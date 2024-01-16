@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d090f768-9b51-4b1b-a288-cdb4bd9d6d97">
+  <producedTypes>
+    <managerType typeId="ceec2338-f951-4413-a36f-d566dcb1e927" valueTypeId="dd1b5ee1-7109-4c62-8171-a787a30137e0"/>
+    <valueManagerType typeId="900f908b-419d-429f-ba96-04095e56578a" valueTypeId="b66db4a7-d68b-4599-871a-39125c939e4b"/>
+    <valueKeyType typeId="4efe4ec3-c156-50d8-b1f8-2d4d4318b04e" valueTypeId="1bf485b0-ce82-5256-b4ec-83635b7fbe42"/>
+  </producedTypes>
+  <name>НезависимоеИспользованиеРасширенийВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Независимое использование расширений в модели сервиса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdb5b235-1978-4c2a-a03f-02341df00c3c">
+  <name>ЭлектроннаяПодписьКлиентПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронная подпись клиент переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

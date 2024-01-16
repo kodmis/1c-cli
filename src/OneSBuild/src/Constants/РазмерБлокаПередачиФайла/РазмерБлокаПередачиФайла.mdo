@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1508d67-ac6d-41e3-884d-b3bdd54659f8">
+  <producedTypes>
+    <managerType typeId="3cdb5d66-f3b5-4d07-86e1-cb417534ddbc" valueTypeId="90995ae8-8533-4450-8ea7-39d0eb557b93"/>
+    <valueManagerType typeId="22becef7-63b2-47df-8644-af4afaeae67e" valueTypeId="3e0a83e7-9d9e-458c-a49a-e1b1ab006337"/>
+    <valueKeyType typeId="0b87f918-4be0-5b26-92ed-1dd9a69ae4e7" valueTypeId="8aece671-567c-542d-bf2d-8ea2be4a2183"/>
+  </producedTypes>
+  <name>РазмерБлокаПередачиФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер блока передачи файла</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Мб</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

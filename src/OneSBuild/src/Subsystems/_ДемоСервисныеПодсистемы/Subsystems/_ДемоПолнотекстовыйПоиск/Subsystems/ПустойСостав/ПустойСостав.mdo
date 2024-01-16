@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89647fa4-b812-43fd-b34a-5e2ce06cac0b">
+  <name>ПустойСостав</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пустой состав</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема не должна быть отображена как подраздел при выборе области поиска полнотекстовым поиском.</value>
+  </explanation>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоПолнотекстовыйПоиск</parentSubsystem>
+</mdclass:Subsystem>

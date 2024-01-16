@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53a5804c-e0a1-4cee-9840-d2042aac856a">
+  <producedTypes>
+    <selectionType typeId="1b362485-ed03-4e3b-97e2-c79ec18dd802" valueTypeId="544186ce-560d-4d96-b6a3-5029bc6844c6"/>
+    <listType typeId="fee5d6ba-1c04-4187-b344-b35e302f75f8" valueTypeId="c1b96eca-fe59-4c74-8856-548aeb41d21b"/>
+    <managerType typeId="a35a8fb2-fdce-46f6-85ca-15804bb1e1b2" valueTypeId="dc203723-d053-4a07-9d33-f0839db58f99"/>
+    <recordSetType typeId="01aa044b-d9f6-4e83-9c19-24e691d2d61e" valueTypeId="bf2e232b-812e-460b-80d4-726d508bac04"/>
+    <recordKeyType typeId="a3da1dd2-9d1c-4e78-a94b-f741984815c7" valueTypeId="a443cbdc-65d5-48ec-bb4a-4e0396658feb"/>
+    <recordType typeId="0c80410c-7f37-4492-a00f-bc8b013b9c0e" valueTypeId="54d16b1f-8596-41f9-bf77-3ed94d15a2a7"/>
+    <recordManagerType typeId="c59017e2-84ca-4969-bb27-e45fe8fd49f4" valueTypeId="6b252f18-f08c-43ba-b62c-91194556ccfb"/>
+  </producedTypes>
+  <name>ПросмотренныеДанныеИнформационногоЦентра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотренные данные информационного центра</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="11653320-6fe9-4c1a-82d0-448a22aec167">
+    <name>Просмотрены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотрены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак просмотренности уведомлений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0a7bad82-68a3-42c3-91d6-d9eec1a03e69">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь приложения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2a304dc5-31a0-46a9-bb63-7ebdbfb810c0">
+    <name>ДанныеИнформационногоЦентра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные информационного центра</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбщиеДанныеИнформационногоЦентра</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уведомления пользователю</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

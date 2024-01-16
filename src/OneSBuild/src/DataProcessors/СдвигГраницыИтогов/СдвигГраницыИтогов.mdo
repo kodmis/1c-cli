@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b0ddefa-ee70-4b27-989f-e23c734ab943">
+  <producedTypes>
+    <objectType typeId="983ea2c4-5611-4115-a51a-28746509b42b" valueTypeId="ffe66891-528c-4688-bd53-49b8e8965c6d"/>
+    <managerType typeId="b17081c0-7414-4247-b707-e0af0e8c03f8" valueTypeId="335e682c-8bac-423d-8bfc-02474cba8efd"/>
+  </producedTypes>
+  <name>СдвигГраницыИтогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сдвиг границы итогов</value>
+  </synonym>
+  <defaultForm>DataProcessor.СдвигГраницыИтогов.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="ee873280-28ea-41fb-af52-c10c2018cbe4">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

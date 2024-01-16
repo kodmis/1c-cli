@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="475f8577-a141-496b-94e1-53215c0dd017">
+  <producedTypes>
+    <managerType typeId="3011e8b5-ae81-42ec-b3bb-5d667a8aeb05" valueTypeId="9c5f1d07-b2f9-476b-af1a-8c7ce32ee8f5"/>
+    <valueManagerType typeId="63bd2567-12ee-43db-b98e-38e7a862a3a8" valueTypeId="f351e607-0b36-406c-91c0-34f7588c9ed0"/>
+    <valueKeyType typeId="c6be9495-bc19-5bc3-b31b-2b17c2a248a4" valueTypeId="bc708831-29d1-55f5-b563-aeaebd748411"/>
+  </producedTypes>
+  <name>ИспользоватьПодчиненныеБизнесПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подчиненные бизнес-процессы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

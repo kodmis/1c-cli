@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1422999b-9977-4bed-9990-b46bd0ec7471">
+  <producedTypes>
+    <refType typeId="102412a6-a3fb-47f1-840c-c7c3b4ad1d4d" valueTypeId="b7b638a4-3ee5-4b66-80b9-0506c86c3b33"/>
+    <listType typeId="b53bd9ce-b91d-4ed8-b2ed-bb4e5e7050fe" valueTypeId="dda40a80-5ce5-439e-9a41-60db617549b3"/>
+    <managerType typeId="f528ab85-b2d8-4da2-8d75-5458bc1e9a25" valueTypeId="40f81edf-eb35-4823-879b-7610541d65cb"/>
+  </producedTypes>
+  <name>ТипыПодписиКриптографии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы подписи криптографии</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="4c48db2f-2b79-4c6f-b8ee-002810c6190c">
+    <name>ОбычнаяCMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычная (CMS)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0d90cbf-21fc-47cb-8e1c-549e67a1bf0c">
+    <name>БазоваяCAdESBES</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая (CAdES-BES)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf48ae02-ecb0-4db9-92da-585f89cddb70">
+    <name>СМеткойДоверенногоВремениCAdEST</name>
+    <synonym>
+      <key>ru</key>
+      <value>С меткой доверенного времени (CAdES-T)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5650c5c7-3f43-4ec9-8b64-003c5467d06a">
+    <name>СПолнымНаборомПроверочныхДанныхCAdESC</name>
+    <synonym>
+      <key>ru</key>
+      <value>С полным набором проверочных данных (CAdES-C)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5bac3798-1193-4d74-bbdd-40aba11d742c">
+    <name>CAdESXLong</name>
+    <synonym>
+      <key>ru</key>
+      <value>CAdES-X Long</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="514f3514-ba90-493e-b0dd-2d02c6ba4d1d">
+    <name>CAdESXType1</name>
+    <synonym>
+      <key>ru</key>
+      <value>CAdES-X Type 1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="032de836-80a8-46ce-9e40-b3b6ac5f9e1e">
+    <name>CAdESXType2</name>
+    <synonym>
+      <key>ru</key>
+      <value>CAdES-X Type 2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="962c2c55-6a16-46f6-9ce0-67d1984b530e">
+    <name>CAdESXLongType1</name>
+    <synonym>
+      <key>ru</key>
+      <value>CAdES-X Long Type 1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27e906c2-ea0e-489e-b869-547c48c29518">
+    <name>РасширеннаяДолгосрочнаяCAdESXLongType2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенная долгосрочная (CAdES-X Long Type 2)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="553ebd03-267b-4ced-805e-be7eca6db18f">
+    <name>CAdESAv2</name>
+    <synonym>
+      <key>ru</key>
+      <value>CAdES-A v2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bf95fa7-1067-45b3-82ea-286192f97e06">
+    <name>АрхивнаяCAdESAv3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивная (CAdES-A v3)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73996d67-4d70-4ce5-a58a-d70f44484f1e">
+    <name>НеОпределен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не определен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

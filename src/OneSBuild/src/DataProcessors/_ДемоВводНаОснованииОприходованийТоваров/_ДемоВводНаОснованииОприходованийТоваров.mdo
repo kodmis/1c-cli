@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db130ed1-672a-4d9c-969b-feda02adb073">
+  <producedTypes>
+    <objectType typeId="217645c5-364f-438f-914f-7bcef343661b" valueTypeId="f9a3d30c-1344-48f1-a524-b3304eb6afda"/>
+    <managerType typeId="41b18938-39de-44e5-a830-a7595d6023ff" valueTypeId="c80e76ea-6ff9-4374-82a0-eadfade29951"/>
+  </producedTypes>
+  <name>_ДемоВводНаОснованииОприходованийТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Ввод на основании оприходований товаров</value>
+  </synonym>
+  <comment>Для обновления следует поднять номер версии в функции СведенияОВнешнейОбработке и запустить обновление ИБ.</comment>
+  <defaultForm>DataProcessor._ДемоВводНаОснованииОприходованийТоваров.Form.ОсновнаяФорма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="45694473-9cc2-4dd8-b90a-003348fe3a6d">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

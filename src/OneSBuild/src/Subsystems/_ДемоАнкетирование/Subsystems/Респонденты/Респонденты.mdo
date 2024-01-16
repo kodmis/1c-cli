@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c069bc2-5ece-4619-b4ff-e3e779cd5340">
+  <name>Респонденты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Респонденты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog._ДемоПартнеры</content>
+  <content>Role._ДемоЧтениеДанныхОбъектовАвторизации</content>
+  <content>Catalog._ДемоКонтактныеЛицаПартнеров</content>
+  <parentSubsystem>Subsystem._ДемоАнкетирование</parentSubsystem>
+</mdclass:Subsystem>

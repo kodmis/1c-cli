@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d885e2f-8f19-41e9-a68a-01d6015d2a69">
+  <producedTypes>
+    <objectType typeId="d0e71eed-88c6-429d-903f-4ce1c3bb99b4" valueTypeId="33f7b4d5-de48-4fcb-b5b4-0b867b0d66a4"/>
+    <managerType typeId="8faa2350-638a-4d27-b455-d1b4afea255c" valueTypeId="853aa343-40d9-4bc7-ae01-be886243a456"/>
+  </producedTypes>
+  <name>_ДемоЗагрузкаНоменклатурыИзПрайсЛистаПрофилиБезопасности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Загрузка номенклатуры из прайс-листа (профили безопасности)</value>
+  </synonym>
+  <comment>Для обновления следует поднять номер версии в функции СведенияОВнешнейОбработке и запустить обновление ИБ.</comment>
+  <defaultForm>DataProcessor._ДемоЗагрузкаНоменклатурыИзПрайсЛистаПрофилиБезопасности.Form.ОсновнаяФорма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="9aa2467c-1e07-43c4-a651-5e217a7f9087">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

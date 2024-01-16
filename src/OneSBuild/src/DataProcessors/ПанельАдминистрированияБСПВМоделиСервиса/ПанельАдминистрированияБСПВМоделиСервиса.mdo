@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04013c34-8d59-4f87-b272-732d5a6dd675">
+  <producedTypes>
+    <objectType typeId="cecc43b5-8d48-4cff-aa02-e363945f8251" valueTypeId="dc2efa23-491a-4220-9278-d3fbb36741f1"/>
+    <managerType typeId="580e4ada-3824-42ac-8479-8375e91369e5" valueTypeId="a313fb32-3d98-4c7e-be99-5cd13058867a"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияБСПВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования БСП в модели сервиса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="f9df9b6b-5051-46ef-bb1f-1974f41054a7">
+    <name>СинхронизацияДанныхДляАдминистратораСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация данных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

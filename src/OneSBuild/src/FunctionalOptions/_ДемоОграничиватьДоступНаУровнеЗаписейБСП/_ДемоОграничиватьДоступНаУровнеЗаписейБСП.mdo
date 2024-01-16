@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ddf3ed8-1236-44f0-99f2-71a62d1413c1">
+  <name>_ДемоОграничиватьДоступНаУровнеЗаписейБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Ограничивать доступ на уровне записей БСП</value>
+  </synonym>
+  <comment>Для управления видимостью прикладных объектов конфигурации.</comment>
+  <location>Constant.ОграничиватьДоступНаУровнеЗаписей</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem._ДемоУправлениеДоступом.Subsystem._ДемоУправлениеДоступом.Subsystem.Настройка</content>
+  <content>Subsystem._ДемоУправлениеДоступом.Subsystem._ДемоУправлениеДоступом.Subsystem.Использование</content>
+</mdclass:FunctionalOption>

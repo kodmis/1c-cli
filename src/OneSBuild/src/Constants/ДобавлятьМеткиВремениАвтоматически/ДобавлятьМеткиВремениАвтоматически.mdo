@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a985b50-a4b1-4932-8af6-51eee8e78ac8">
+  <producedTypes>
+    <managerType typeId="0117c535-b038-4d76-8647-3eb24b5f970e" valueTypeId="a125dbe8-6514-46e4-928a-3061eba183d7"/>
+    <valueManagerType typeId="45675131-5ac2-4a0e-8e83-6cbcf52e59a1" valueTypeId="225d289d-ac14-47a0-b1cb-2f9a50b2ac7c"/>
+    <valueKeyType typeId="a5106b5f-d895-4565-905d-4e142fe9700e" valueTypeId="6c8fe40e-b7d6-4917-bb52-7c0ce6d9065a"/>
+  </producedTypes>
+  <name>ДобавлятьМеткиВремениАвтоматически</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавлять метки времени автоматически</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cf7589a-1edf-4165-a647-e992df4b822f">
+  <producedTypes>
+    <refType typeId="1457ce14-c8e6-486d-a2ff-58052b7601b1" valueTypeId="f3da0bac-ad1a-4222-b283-5d2a0b9ad6bc"/>
+    <listType typeId="4f9f400b-1b98-48d8-adbb-0746f536f179" valueTypeId="d11dbac0-4a3b-4172-96a6-71f52f0381d3"/>
+    <managerType typeId="17c9dca1-1c1b-4c9d-abae-fbfe2e9ffbeb" valueTypeId="c6b41939-1af9-4ec6-8837-4ce914dab1c1"/>
+  </producedTypes>
+  <name>ВидыОповещенийПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оповещений пользователей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="97e836c5-ea0b-445f-a6b4-70c65f22bdee">
+    <name>ЗапросНаПолучениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос на получение данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6720493-8f57-4fc7-9fdc-f433733e3298">
+    <name>ОповещениеОНедоступности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещение о недоступности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35316684-58b2-4ba5-91b7-94ced4b58d22">
+    <name>ПредупреждениеОБлокировкеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение о блокировке работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34defe62-efdf-46b1-953c-41bf8279807b">
+    <name>ПредупреждениеПриЗавершенииСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение при завершении сеанса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b80fd17-7dff-4a8d-a83f-91b568a82720">
+    <name>СообщениеПользователю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение пользователю</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

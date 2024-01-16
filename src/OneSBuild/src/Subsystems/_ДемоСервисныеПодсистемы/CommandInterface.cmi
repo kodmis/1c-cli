@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоБазоваяФункциональность</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоГрупповоеИзменениеОбъектов</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоКонтрольВеденияУчета</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоВызовОнлайнПоддержки</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоОбновлениеВерсииИБ</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоОтчетОДвиженияхДокумента</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоОценкаПроизводительности</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоПоискИУдалениеДублей</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоПолнотекстовыйПоиск</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоПолучениеФайловИзИнтернета</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоПроверкаЛегальностиПолученияОбновления</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоРассылкиОтчетов</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоУдалениеПомеченныхОбъектов</subsystems>
+    <subsystems>Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоУправлениеИтогамиИАгрегатами</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

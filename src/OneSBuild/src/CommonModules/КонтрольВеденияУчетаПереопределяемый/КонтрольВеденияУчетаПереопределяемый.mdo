@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e4cc0d6-6e5e-4d16-ba44-060912ec292f">
+  <name>КонтрольВеденияУчетаПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль ведения учета переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

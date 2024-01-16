@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05c27c89-2c26-4252-842d-9aa43ba0ea2f">
+  <producedTypes>
+    <selectionType typeId="a81a9e66-00d0-490f-aad9-470dfc9a2645" valueTypeId="f5476618-0bf3-439e-8f4c-0e9e30cf0bf9"/>
+    <listType typeId="8b28c4e9-346f-4938-8d7a-28eec79e8b46" valueTypeId="283af619-3988-42c2-a2f6-e128f31bd7a3"/>
+    <managerType typeId="aa3f5f00-a004-40e7-853e-bee497df681f" valueTypeId="25edf625-6dca-4a20-bd23-d7265473891d"/>
+    <recordSetType typeId="ee03258d-6514-4b2f-a2a2-7535c4c800ea" valueTypeId="568ac2aa-5101-4343-9055-65f71a93eab2"/>
+    <recordKeyType typeId="53de0a31-b70d-4c04-ba3e-efce3c82dbe3" valueTypeId="f3ccda31-b083-4713-8a65-c3171f2448b6"/>
+    <recordType typeId="ea2b66d6-c027-4530-8d40-675077acd303" valueTypeId="db0a12e0-8887-4cc5-9c42-58845b021345"/>
+    <recordManagerType typeId="00a282d3-6043-4f43-8fec-5028d7d52a2c" valueTypeId="a0fd63a0-0e5d-4df7-8e19-b7650ecb6fe4"/>
+  </producedTypes>
+  <name>ПроцессыДляЗапуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы для запуска</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7c1e16c2-201d-4a3f-b0f4-9d66f5f8a68b">
+    <name>ДатаОтложенногоСтарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отложенного старта</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f092729c-6b5d-4709-8b28-15e06129731d">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияПроцессовДляЗапуска</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c03be2f7-d681-417d-975a-5c8c7b716659">
+    <name>ПричинаОтменыСтарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина отмены старта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="fca7af5f-bdc0-4264-be68-5e5e38545368">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОтложенныйБизнесПроцесс</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отложенный бизнес-процесс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a3fc0bce-a87e-4c15-b57b-f285a694bcdf">
+    <name>НастройкаОтложенногоСтартаПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка отложенного старта процесса</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

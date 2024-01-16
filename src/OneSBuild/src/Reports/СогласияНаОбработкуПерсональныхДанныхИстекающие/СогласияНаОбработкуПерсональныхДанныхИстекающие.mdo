@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3892c06d-28f1-4238-a929-201316cac1ed">
+  <producedTypes>
+    <objectType typeId="1f10ee70-223a-4272-b686-1dfd9e64a0b9" valueTypeId="705588a1-0540-4209-bb7c-54fb83ef4dbe"/>
+    <managerType typeId="7203d5d4-fa41-46a9-9d20-6196804c5177" valueTypeId="68235bb4-cfbb-4e1a-a1c1-443217250b13"/>
+  </producedTypes>
+  <name>СогласияНаОбработкуПерсональныхДанныхИстекающие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласия на обработку персональных данных истекающие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СогласияНаОбработкуПерсональныхДанныхИстекающие.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Согласия на обработку персональных данных, срок действия которых истекает в выбранном периоде</value>
+  </explanation>
+  <templates uuid="c13dea2e-17fa-4a5f-a70f-96e623db8a6b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

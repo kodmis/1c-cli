@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de2e6c39-0f45-424c-bed6-b009e8bd88ce">
+  <name>_ДемоНастроитьСинхронизациюДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настроить</value>
+  </synonym>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Настроить синхронизацию данных</value>
+  </toolTip>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

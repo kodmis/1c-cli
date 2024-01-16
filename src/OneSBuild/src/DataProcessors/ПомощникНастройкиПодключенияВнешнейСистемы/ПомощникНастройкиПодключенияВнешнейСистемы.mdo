@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b08fcb3-5888-47cf-bc50-1a263d3d6cd2">
+  <producedTypes>
+    <objectType typeId="60c36247-818d-47aa-a346-85d45e6cb0a7" valueTypeId="c2627f3e-fa8a-40ec-8e1c-6c15fc6709ec"/>
+    <managerType typeId="a81df645-07e4-4a6c-a41e-a76c07988587" valueTypeId="9af96771-7484-4e27-a9f1-8898ef0f1979"/>
+  </producedTypes>
+  <name>ПомощникНастройкиПодключенияВнешнейСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник настройки подключения внешней системы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПомощникНастройкиПодключенияВнешнейСистемы.Form.Форма</defaultForm>
+  <forms uuid="83963e08-e33b-46af-8c0f-2e9fdba0df89">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2906a5a8-a80b-46da-85d4-e140d344e5e6">
+    <name>НастройкиТранспортаОбменаДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки транспорта обмена данными</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c43622a-1d66-4577-b564-d8bf8af4cd48">
+    <name>ПодтверждениеПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение подключения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="99b404be-084d-4920-838c-55f3cff4dcf8">
+    <name>НовоеПодключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новое подключение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

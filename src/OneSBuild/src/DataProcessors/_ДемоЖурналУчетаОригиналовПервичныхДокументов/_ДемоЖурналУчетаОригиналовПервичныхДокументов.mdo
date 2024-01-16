@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fef1b980-e14b-4648-87a1-80fbca6d8594">
+  <producedTypes>
+    <objectType typeId="954db2a7-aeda-4734-bcf1-59239ca520bf" valueTypeId="737c3a9e-8306-4db2-8fc7-6702bff02698"/>
+    <managerType typeId="1d44533c-8429-4821-a97e-65a16671bbee" valueTypeId="2bfcccae-8536-4491-ac4c-35c449248970"/>
+  </producedTypes>
+  <name>_ДемоЖурналУчетаОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Журнал учета оригиналов первичных документов</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоЖурналУчетаОригиналовПервичныхДокументов.Form.СписокДокументов</defaultForm>
+  <forms uuid="b76298b9-bbbd-4a71-a848-8342873d61d0">
+    <name>СписокДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список документов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="657030e5-9aa5-46b7-9398-696a2273e20e">
+    <name>ФормаУстановкиОтбораВидовДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма установки отбора видов документов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f1270c6a-6e18-4c36-b453-209439fb2543">
+    <name>_ДемоЖурналУчетаОригиналовПервичныхДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Журнал учета оригиналов первичных документов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

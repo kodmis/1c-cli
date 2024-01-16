@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a1541f2-18a7-4095-9dcb-435fdcc72453">
+  <name>РасширенияВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширения в модели сервиса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ИспользованиеПоставляемыхРасширенийВОбластяхДанных</content>
+  <content>Catalog.ПоставляемыеРасширения</content>
+  <content>InformationRegister.ОчередьИнсталляцииПоставляемыхРасширенийВОбластиДанных</content>
+  <content>Constant.ИспользованиеКаталогаРасширенийВМоделиСервиса</content>
+  <content>Constant.НезависимоеИспользованиеРасширенийВМоделиСервиса</content>
+  <content>Enum.ПричиныОтключенияРасширенийВМоделиСервиса</content>
+  <content>Constant.ИспользоватьПрофилиБезопасностиДляРасширений</content>
+  <content>FunctionalOption.ИспользованиеКаталогаРасширенийВМоделиСервиса</content>
+  <content>Constant.КаталогРасширенийКоличествоЭлементовВВыборке</content>
+  <content>Constant.КаталогРасширенийОтправлятьПревьюПриЗапросеСписка</content>
+  <content>InformationRegister.ОчередьРасширенийДляОповещений</content>
+  <content>Enum.СостоянияРасширений</content>
+  <content>Enum.ТипыУведомленийРасширений</content>
+  <content>InformationRegister.ОчередьОбновляемыхПоставляемыхРасширенийВОбластяхДанных</content>
+  <content>CommonModule.КаталогРасширений</content>
+  <content>CommonModule.КаталогРасширенийКлиент</content>
+  <content>CommonCommand.ОткрытьКаталогРасширений</content>
+  <content>CommonModule.РасширенияВМоделиСервиса</content>
+  <content>CommonPicture.КаталогРасширений</content>
+  <content>CommonPicture.Оценка_Активности</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

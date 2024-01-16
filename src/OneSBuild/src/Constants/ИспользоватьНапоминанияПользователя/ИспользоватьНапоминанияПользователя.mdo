@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1703a14-61a0-4461-8ad8-7173e2c431fe">
+  <producedTypes>
+    <managerType typeId="9217ca4c-bf8f-4ef4-bb90-0b74cb9eb570" valueTypeId="db54e70a-1b2c-4188-ad62-f54a4d32f1a1"/>
+    <valueManagerType typeId="14b12bf1-8032-4845-9fae-77f6b7a699cf" valueTypeId="9d20849e-179d-4d9a-8ee9-b53c80a5bbc4"/>
+    <valueKeyType typeId="1e075df4-946f-567b-90cd-1690b443cf17" valueTypeId="ba801daf-1e75-5c7a-8cd6-92c24f0a7bc4"/>
+  </producedTypes>
+  <name>ИспользоватьНапоминанияПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать напоминания</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

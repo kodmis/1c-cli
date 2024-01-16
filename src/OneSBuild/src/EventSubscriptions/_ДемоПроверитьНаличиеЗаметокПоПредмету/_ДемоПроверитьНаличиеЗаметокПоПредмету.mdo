@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e41c4c4-36e3-45ae-96e0-9246c521037e">
+  <name>_ДемоПроверитьНаличиеЗаметокПоПредмету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Проверить наличие заметок по предмету</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Заметки</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule._ДемоЗаметки.ПроверитьНаличиеЗаметокПоПредмету</handler>
+</mdclass:EventSubscription>

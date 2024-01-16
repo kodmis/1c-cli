@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2b98bcf-41da-4643-a6dc-39e5379b99e5">
+  <name>МультиязычностьПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мультиязычность переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

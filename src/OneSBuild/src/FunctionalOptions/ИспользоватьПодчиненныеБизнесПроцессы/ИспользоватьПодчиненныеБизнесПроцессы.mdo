@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="349378d1-abe3-44de-84a4-d525b08e0474">
+  <name>ИспользоватьПодчиненныеБизнесПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подчиненные бизнес процессы</value>
+  </synonym>
+  <location>Constant.ИспользоватьПодчиненныеБизнесПроцессы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>BusinessProcess.Задание.Attribute.ГлавнаяЗадача</content>
+</mdclass:FunctionalOption>

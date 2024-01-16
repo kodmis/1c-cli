@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d831a8ac-88a4-4191-ab0b-7538dfb3e7d7">
+  <name>ИспользоватьБизнесПроцессыИЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать бизнес процессы и задачи</value>
+  </synonym>
+  <location>Constant.ИспользоватьБизнесПроцессыИЗадачи</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Task.ЗадачаИсполнителя.Command.ВсеЗадачи</content>
+  <content>Task.ЗадачаИсполнителя.Command.Выполнено</content>
+  <content>Task.ЗадачаИсполнителя.Command.МоиЗадачи</content>
+  <content>Task.ЗадачаИсполнителя.Command.Перенаправить</content>
+  <content>InformationRegister.ДанныеБизнесПроцессов.Command.МоиБизнесПроцессы</content>
+  <content>DataProcessor.КартаМаршрутаБизнесПроцесса</content>
+  <content>Report.ЗависшиеЗадачи</content>
+  <content>Report.ЗадачиИстекающиеНаДату</content>
+  <content>Report.ПросроченныеЗадачи</content>
+  <content>Report.Задачи</content>
+  <content>CommonCommand.ЗадачиПоПредмету</content>
+  <content>CommonCommand.РолиИИсполнителиЗадач</content>
+  <content>Catalog.РолиИсполнителей</content>
+  <content>Enum.ВариантыВажностиЗадачи</content>
+  <content>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</content>
+  <content>InformationRegister.ИсполнителиЗадач</content>
+  <content>InformationRegister.ДанныеБизнесПроцессов</content>
+  <content>BusinessProcess.Задание</content>
+  <content>InformationRegister.ИсполнителиЗадач.Command.РолиИИсполнителиЗадач</content>
+  <content>CommonCommand.ЗадачиПоБизнесПроцессу</content>
+  <content>CommonCommand.КартаМаршрутаБизнесПроцесса</content>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>Enum.СостоянияПроцессовДляЗапуска</content>
+  <content>InformationRegister.ПроцессыДляЗапуска</content>
+  <content>Report.Задания</content>
+  <content>Report.БизнесПроцессы</content>
+  <content>Catalog.ГруппыИсполнителейЗадач</content>
+  <content>Enum.СостоянияБизнесПроцессов</content>
+</mdclass:FunctionalOption>

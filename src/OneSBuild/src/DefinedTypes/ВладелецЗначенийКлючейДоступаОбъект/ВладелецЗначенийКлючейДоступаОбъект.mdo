@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6811ee2-769e-488d-9ca0-70f1fe521ca9">
+  <producedTypes>
+    <containerType typeId="7ebd8eb1-2115-4715-bddb-80550c4d009e" valueTypeId="2fa562fd-b077-4440-aace-c28fd2d56a67"/>
+  </producedTypes>
+  <name>ВладелецЗначенийКлючейДоступаОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец значений ключей доступа объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject._ДемоНоменклатура</types>
+    <types>CatalogObject.СообщениеSMSПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоБанковскиеСчета</types>
+    <types>CatalogObject._ДемоКонтактныеЛицаПартнеров</types>
+    <types>CatalogObject.ВерсииФайлов</types>
+    <types>CatalogObject.ПапкиФайлов</types>
+    <types>CatalogObject._ДемоГруппыДоступаНоменклатуры</types>
+    <types>CatalogObject.ШаблоныСообщений</types>
+    <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
+    <types>CatalogObject.РассылкиОтчетов</types>
+    <types>CatalogObject.ПрофилиГруппДоступа</types>
+    <types>CatalogObject.ВстречаПрисоединенныеФайлы</types>
+    <types>BusinessProcessObject.Задание</types>
+    <types>CatalogObject.ТелефонныйЗвонокПрисоединенныеФайлы</types>
+    <types>CatalogObject.ПользовательскиеНастройкиОтчетов</types>
+    <types>CatalogObject._ДемоГруппыДоступаПартнеров</types>
+    <types>CatalogObject._ДемоФизическиеЛица</types>
+    <types>CatalogObject._ДемоПроектыПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоОрганизации</types>
+    <types>CatalogObject.Заметки</types>
+    <types>CatalogObject._ДемоПартнеры</types>
+    <types>CatalogObject.ПравилаОбработкиЭлектроннойПочты</types>
+    <types>CatalogObject.ШаблоныСообщенийПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоПодразделения</types>
+    <types>CatalogObject.ГруппыВнешнихПользователей</types>
+    <types>CatalogObject._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоКонтрагенты</types>
+    <types>CatalogObject._ДемоДоговорыКонтрагентов</types>
+    <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
+    <types>CatalogObject.ДополнительныеОтчетыИОбработки</types>
+    <types>BusinessProcessObject._ДемоЗаданиеСРолевойАдресацией</types>
+    <types>CatalogObject._ДемоКассыККМ</types>
+    <types>CatalogObject._ДемоПроекты</types>
+    <types>CatalogObject.ВнешниеПользователи</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектов</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектовИерархия</types>
+    <types>CatalogObject.ГруппыДоступа</types>
+    <types>CatalogObject._ДемоОрганизацииПрисоединенныеФайлы</types>
+    <types>CatalogObject.Файлы</types>
+    <types>CatalogObject._ДемоКассы</types>
+    <types>CatalogObject._ДемоМестаХранения</types>
+    <types>CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
+    <types>CatalogObject.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
+    <types>CatalogObject.УчетныеЗаписиDSS</types>
+    <types>CatalogObject.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
+    <types>CatalogObject.ВариантыОтчетов</types>
+    <types>CatalogObject._ДемоНоменклатураПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоВидыНоменклатуры</types>
+    <types>TaskObject.ЗадачаИсполнителя</types>
+    <types>CatalogObject.ПапкиЭлектронныхПисем</types>
+    <types>CatalogObject.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

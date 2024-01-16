@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="532dfa48-39b0-4d0f-9f8c-b51ca27e47a9">
+  <producedTypes>
+    <objectType typeId="85638aa4-d0ee-4555-bca7-930bb2751163" valueTypeId="151d86c4-e17c-4bc5-a48e-e2170c4a8551"/>
+    <managerType typeId="69512611-0a92-4d11-8278-bef9cf3f8abe" valueTypeId="bf355959-0053-41e2-a251-a3c6c9424bae"/>
+  </producedTypes>
+  <name>РезультатыПроверкиУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты проверки учета</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.РезультатыПроверкиУчета.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="17bc0f34-c35b-4beb-be5f-8e8d8f06c053">
+    <name>АвтоисправлениеПроблемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоисправление проблемы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f91813e6-b75c-43fb-8da3-a0d958dc6fa0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

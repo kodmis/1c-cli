@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a991c06-a367-4b6b-a3b2-1c84bd0927f6">
+  <name>ОбновлениеКлассификаторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление классификаторов</value>
+  </synonym>
+  <comment>Проверка наличия обновлений классификаторов, загрузка и обработка файлов классификаторов.</comment>
+  <methodName>CommonModule.РаботаСКлассификаторами.ОбновлениеКлассификаторов</methodName>
+  <description>Обновление классификаторов</description>
+  <key>ОбновлениеКлассификаторов</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

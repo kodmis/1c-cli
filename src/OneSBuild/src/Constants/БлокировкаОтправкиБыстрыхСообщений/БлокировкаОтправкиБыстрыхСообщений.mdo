@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4ec7d3d-2d01-436c-98ec-ec42733ee5c6">
+  <producedTypes>
+    <managerType typeId="ac5ee625-bbc5-4570-8763-292eec19ca29" valueTypeId="68ff1dca-bd27-4d01-b351-ae73efdc4bf5"/>
+    <valueManagerType typeId="8b6676e3-bd68-4a30-bb00-3a99d5d235ca" valueTypeId="4626bed8-49e9-4f1a-abab-03d5035cee21"/>
+    <valueKeyType typeId="0fbbdabb-8932-5559-8a5e-a60bcb4c86fa" valueTypeId="3970bb49-a1f1-5092-9f0a-98c6fb41f1f5"/>
+  </producedTypes>
+  <name>БлокировкаОтправкиБыстрыхСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка отправки быстрых сообщений</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

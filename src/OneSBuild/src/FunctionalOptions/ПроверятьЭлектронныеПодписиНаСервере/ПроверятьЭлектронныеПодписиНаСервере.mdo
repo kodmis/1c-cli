@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f415296e-fceb-4835-abe9-17bb17a5d5e5">
+  <name>ПроверятьЭлектронныеПодписиНаСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять электронные подписи на сервере</value>
+  </synonym>
+  <location>Constant.ПроверятьЭлектронныеПодписиНаСервере</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Command.ПутиКПрограммеНаСерверахLinux</content>
+</mdclass:FunctionalOption>

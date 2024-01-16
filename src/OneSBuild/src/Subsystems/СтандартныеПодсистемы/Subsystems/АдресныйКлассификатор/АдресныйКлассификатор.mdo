@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb47ced2-31f9-4870-8633-20b986e53ccc">
+  <name>АдресныйКлассификатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адресный классификатор</value>
+  </synonym>
+  <content>CommonModule.АдресныйКлассификаторКлиент</content>
+  <content>CommonModule.АдресныйКлассификатор</content>
+  <content>Constant.ИсточникДанныхАдресногоКлассификатора</content>
+  <content>CommonModule.АдресныйКлассификаторПовтИсп</content>
+  <content>XDTOPackage.АдресныйКлассификатор</content>
+  <content>FunctionalOption.ИсточникДанныхАдресногоКлассификатора</content>
+  <content>CommonModule.АдресныйКлассификаторСлужебный</content>
+  <content>Role.ДобавлениеИзменениеАдресныхСведений</content>
+  <content>Constant.ПараметрыАдресногоКлассификатора</content>
+  <content>InformationRegister.ЗагруженныеВерсииАдресныхСведений</content>
+  <content>InformationRegister.ИсторияАдресныхОбъектов</content>
+  <content>InformationRegister.АдресныеОбъекты</content>
+  <content>InformationRegister.ДополнительныеАдресныеСведения</content>
+  <content>InformationRegister.ДомаЗданияСтроения</content>
+  <content>InformationRegister.ОриентирыАдресныхОбъектов</content>
+  <content>InformationRegister.ПричиныИзмененияАдресныхСведений</content>
+  <content>InformationRegister.СлужебныеАдресныеСведения</content>
+  <content>InformationRegister.УровниСокращенийАдресныхСведений</content>
+  <content>InformationRegister.ЗемельныеУчастки</content>
+  <content>InformationRegister.СвязиАдресныхОбъектов</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

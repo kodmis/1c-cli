@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6010c27f-e857-4fc3-be13-1eea51f02ea7">
+  <producedTypes>
+    <managerType typeId="7f12f658-417a-4df0-aaec-ff940f555e7d" valueTypeId="79bef51f-5cd6-4a63-b60c-a9433a8e3117"/>
+    <valueManagerType typeId="77bdbc48-cbd9-4809-8ff4-3e3facf84c06" valueTypeId="3f0456e1-792b-4251-a298-36d4fdba236a"/>
+    <valueKeyType typeId="90d8e0c3-651f-5b31-b1fe-b7ad43684cd5" valueTypeId="12271b4d-39f2-5a0e-8f45-c42ec36ab5e7"/>
+  </producedTypes>
+  <name>ИспользоватьАвтономнуюРаботуВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать автономную работу в модели сервиса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

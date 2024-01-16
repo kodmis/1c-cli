@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d4fe5bd-c166-4191-ac7f-4ec3c9c0535a">
+  <name>АсинхронноеПолучениеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Асинхронное получение данных</value>
+  </synonym>
+  <content>CommonModule.АсинхронноеПолучениеДанных</content>
+  <content>CommonModule.АсинхронноеПолучениеДанныхПереопределяемый</content>
+  <content>CommonModule.АсинхронноеПолучениеДанныхСловарь</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d39c6df-8cd4-47ad-9125-252b37d94575">
+  <name>УправлениеИтогамиИАгрегатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление итогами и агрегатами</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>ScheduledJob.ОбновлениеАгрегатов</content>
+  <content>ScheduledJob.ПерестроениеАгрегатов</content>
+  <content>DataProcessor.УправлениеИтогамиИАгрегатами</content>
+  <content>ScheduledJob.УстановкаПериодаРассчитанныхИтогов</content>
+  <content>CommonModule.УправлениеИтогамиИАгрегатамиСлужебный</content>
+  <content>Constant.ПараметрыИтоговИАгрегатов</content>
+  <content>DataProcessor.СдвигГраницыИтогов</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

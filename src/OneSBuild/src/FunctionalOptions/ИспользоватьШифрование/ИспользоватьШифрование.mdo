@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84a159ed-bc5f-4497-94d1-94b187b0bffe">
+  <name>ИспользоватьШифрование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать шифрование</value>
+  </synonym>
+  <location>Constant.ИспользоватьШифрование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВстречаПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ВстречаПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</content>
+  <content>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</content>
+  <content>Catalog.СообщениеSMSПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.СообщениеSMSПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</content>
+  <content>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</content>
+  <content>Catalog.Файлы.Attribute.Зашифрован</content>
+  <content>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</content>
+  <content>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</content>
+  <content>Catalog.Файлы.TabularSection.УдалитьСертификатыШифрования</content>
+</mdclass:FunctionalOption>

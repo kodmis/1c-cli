@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a296847d-f5d9-4938-8ac6-22d584143cee">
+  <producedTypes>
+    <objectType typeId="7d51546b-bac5-4c12-83f0-dbfe4073c207" valueTypeId="43e5df47-3be5-4798-97f7-f7bb5682fba6"/>
+    <managerType typeId="a5184b16-a632-4ec0-9de9-334e6203c495" valueTypeId="2f6daa13-a382-4922-a17c-38653b18e5b2"/>
+  </producedTypes>
+  <name>ЗамерСкоростиОткрытияФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замер скорости открытия форм</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗамерСкоростиОткрытияФорм.Form.Форма</defaultForm>
+  <forms uuid="a77a635a-23fe-4067-bf61-194a3dfb9924">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="86d453b3-4e3b-44d1-83ff-56393f9fc08a">
+    <name>ЗамерСкоростиОткрытияФорм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замер скорости открытия форм</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

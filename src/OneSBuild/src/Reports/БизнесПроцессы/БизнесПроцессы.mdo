@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5f91669-13d8-4f0a-a054-2701078da38a">
+  <producedTypes>
+    <objectType typeId="1d3afecc-d10d-4795-a819-cadc3d5ecd95" valueTypeId="c9aecb51-b259-4c77-a90f-effd5e5e2754"/>
+    <managerType typeId="5a14c1b5-a349-4c68-aee7-d7b6b35e78a4" valueTypeId="bf26e9a0-77f6-4d06-ad3a-5455baab69fa"/>
+  </producedTypes>
+  <name>БизнесПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-процессы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.БизнесПроцессы.Template.Макет</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Отчет по бизнес-процессам</value>
+  </extendedPresentation>
+  <templates uuid="34f9872b-e02e-4093-ba06-3cb5b8995850">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

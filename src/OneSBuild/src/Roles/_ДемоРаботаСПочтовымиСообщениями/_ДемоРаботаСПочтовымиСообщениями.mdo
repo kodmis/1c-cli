@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e05f4ec2-e6f5-4c9e-8813-5d004d63d354">
+  <name>_ДемоРаботаСПочтовымиСообщениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Работа с почтовыми сообщениями</value>
+  </synonym>
+</mdclass:Role>

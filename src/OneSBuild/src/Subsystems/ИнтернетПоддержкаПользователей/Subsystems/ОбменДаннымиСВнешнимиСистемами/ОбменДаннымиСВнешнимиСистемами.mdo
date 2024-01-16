@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc29d841-c199-4cfd-80b1-327e81e3da34">
+  <name>ОбменДаннымиСВнешнимиСистемами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными с внешними системами</value>
+  </synonym>
+  <content>CommonModule.ОбменДаннымиСВнешнимиСистемами</content>
+  <content>CommonModule.ОбменДаннымиСВнешнимиСистемамиКлиент</content>
+  <content>CommonForm.НастроенныеОбменыДаннымиСВнешнимиСистемами</content>
+  <content>7c6608bc-381f-4638-b8da-94294fc0668c</content>
+  <content>CommonModule.ОбменДаннымиСВнешнимиСистемамиПереопределяемый</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаВнешняяСистема</content>
+  <content>DataProcessor.ПомощникНастройкиПодключенияВнешнейСистемы</content>
+  <content>CommonPicture.НастройкаОбменаДаннымиАктивна</content>
+  <content>CommonModule.СервисОбменаСообщениями</content>
+  <content>CommonModule.СервисОбменаСообщениямиПереопределяемый</content>
+  <content>CommonPicture.НастройкаОбменаДаннымиОтключена</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей</parentSubsystem>
+</mdclass:Subsystem>

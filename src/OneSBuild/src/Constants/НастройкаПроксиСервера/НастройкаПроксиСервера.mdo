@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1333101b-82e8-41a9-a793-5af5dcd6f68a">
+  <producedTypes>
+    <managerType typeId="a0033bd4-1929-4e7f-bdf3-18c90662c6ae" valueTypeId="e58d08c3-8334-4a97-bc2b-ffb901ab925f"/>
+    <valueManagerType typeId="f598a648-dffe-4ea9-af99-dcc554c6f566" valueTypeId="c192b2b6-3ab8-4fb7-b107-8c3fee0e374d"/>
+    <valueKeyType typeId="47cf1e2d-ad20-5f20-ab76-f411e2f3bf61" valueTypeId="21778201-ae1f-58e8-8c62-ae4e1007e95b"/>
+  </producedTypes>
+  <name>НастройкаПроксиСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка прокси сервера</value>
+  </synonym>
+  <comment>Настройки прокси сервера для доступа к сети Интернет на стороне сервера 1С:Предприятие</comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

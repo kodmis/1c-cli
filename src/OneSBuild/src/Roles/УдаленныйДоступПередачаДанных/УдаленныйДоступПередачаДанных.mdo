@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e94e30e0-cf8b-4a80-a467-63cc2167908c">
+  <name>УдаленныйДоступПередачаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаленный доступ (Передача данных)</value>
+  </synonym>
+</mdclass:Role>

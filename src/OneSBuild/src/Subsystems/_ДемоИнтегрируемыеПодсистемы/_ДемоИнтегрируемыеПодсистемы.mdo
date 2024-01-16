@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d630e003-b719-48fa-9c85-0b05c14e1cbb">
+  <name>_ДемоИнтегрируемыеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интегрируемые подсистемы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистемы, предназначенные для внедрения в объекты конфигурации (&quot;тесная&quot; интеграция)</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделИнтегрируемыеПодсистемы</picture>
+  </picture>
+  <content>CommonCommand._ДемоДополнительныеОбработкиИнтегрируемыеПодсистемы</content>
+  <content>CommonCommand._ДемоДополнительныеОтчетыИнтегрируемыеПодсистемы</content>
+  <content>CommonPicture._ДемоРазделИнтегрируемыеПодсистемы48</content>
+  <content>CommonPicture._ДемоРазделИнтегрируемыеПодсистемы</content>
+  <content>Role.Подсистема_ДемоИнтегрируемыеПодсистемы</content>
+  <content>CommonCommand._ДемоПанельОтчетовИнтегрируемыеПодсистемы</content>
+  <subsystems>_ДемоВерсионирование</subsystems>
+  <subsystems>_ДемоДатыЗапретаИзменения</subsystems>
+  <subsystems>_ДемоДополнительныеОтчетыИОбработки</subsystems>
+  <subsystems>_ДемоЗапретРедактированияРеквизитовОбъектов</subsystems>
+  <subsystems>_ДемоЗащитаПерсональныхДанных</subsystems>
+</mdclass:Subsystem>

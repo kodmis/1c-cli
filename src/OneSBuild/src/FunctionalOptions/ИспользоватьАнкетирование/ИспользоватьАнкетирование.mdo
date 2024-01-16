@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="697d5715-dd04-40be-9b28-539734725158">
+  <name>ИспользоватьАнкетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать анкетирование</value>
+  </synonym>
+  <location>Constant.ИспользоватьАнкетирование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</content>
+  <content>Catalog.ВариантыОтветовАнкет</content>
+  <content>Document.НазначениеОпросов</content>
+  <content>Document.Анкета</content>
+  <content>InformationRegister.ОтветыНаВопросыАнкет</content>
+  <content>Report.АнализОпроса</content>
+  <content>Catalog.ШаблоныАнкет</content>
+  <content>Catalog.ВопросыШаблонаАнкеты</content>
+  <content>Report.АналитическийОтчетПоАнкетированию</content>
+  <content>DataProcessor.ДоступныеАнкеты</content>
+  <content>CommonCommand.НачатьИнтервью</content>
+</mdclass:FunctionalOption>

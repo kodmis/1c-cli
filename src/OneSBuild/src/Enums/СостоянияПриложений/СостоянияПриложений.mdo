@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e591f36e-ad8a-44fa-9601-0204ad7b7a62">
+  <producedTypes>
+    <refType typeId="8e81cbb2-47e3-4862-a5da-5e1b969bda68" valueTypeId="9fc1a062-9178-46a0-9549-19ed2acde97c"/>
+    <listType typeId="70d1e8c0-910c-47d2-86c7-6307cc086d8f" valueTypeId="ea81f9b5-63e9-46d3-b46a-e1888e4de4f7"/>
+    <managerType typeId="aac9044f-0b4d-4c90-9191-1a918cc96adf" valueTypeId="9ccafc97-1e73-4552-a9fd-86b84d1d576f"/>
+  </producedTypes>
+  <name>СостоянияПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния приложений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c9e18ad1-8554-430e-9e3d-fa970a62a57d">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5966c89-67af-45dd-b5d3-e77e1d3a34bc">
+    <name>Готово</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готово</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f1cabe9-1485-4e27-bb25-80a48f1732c6">
+    <name>ГотовитсяКИспользованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовится к использованию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a241fa9-3d98-473b-906c-38a3f5b6b5d3">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59dcfd4a-ebed-470a-a134-97c6e31afe49">
+    <name>Конвертируется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертируется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af4ece0d-878b-46dd-a4a5-dfd89dfa662e">
+    <name>Копируется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копируется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77bd1e11-03b4-45bb-8e71-0ae5bca41512">
+    <name>КУдалению</name>
+    <synonym>
+      <key>ru</key>
+      <value>К удалению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ea7953a-cb90-41d2-a27c-78b16c5749bd">
+    <name>Удалена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="589a4110-e79e-4979-896a-496d3bfa708a">
+    <name>Отсутствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ad316ff-137f-4fb1-8a98-138f5f8d3fd2">
+    <name>ОшибкаПодготовки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка подготовки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee386fe2-d466-4aa8-929d-42c11757536c">
+    <name>ИмпортИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт из файла</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="748472be-ed2a-4af0-9eb0-d2739b0b7d55">
+    <name>МиграцияПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Миграция приложения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

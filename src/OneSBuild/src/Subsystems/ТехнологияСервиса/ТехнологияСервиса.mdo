@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c5faa39-61de-4737-b0ae-5b97c00a6691">
+  <name>ТехнологияСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технология сервиса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>StyleItem.АктуальнаяПодпискаЦвет</content>
+  <content>StyleItem.ИнформационныйЦентрЗеленыйЦвет</content>
+  <content>StyleItem.ИнформационныйЦентрКрасныйЦвет</content>
+  <content>StyleItem.ИнформационныйЦентрПодчеркнутыйШрифт10</content>
+  <content>StyleItem.ИнформационныйЦентрПолужирныйШрифт10</content>
+  <content>StyleItem.ИнформационныйЦентрПолужирныйШрифт8</content>
+  <content>StyleItem.ОплатаСервисаБудущиеПодпискиЦвет</content>
+  <content>StyleItem.ОплатаСервисаБудущийДополнительныйТарифФон</content>
+  <content>StyleItem.ОплатаСервисаДополнительныйТарифФон</content>
+  <content>StyleItem.ОплатаСервисаИстекающаяПодпискаЦвет</content>
+  <content>StyleItem.ОплатаСервисаКрупныйПолужирныйШрифт</content>
+  <content>StyleItem.ОплатаСервисаКрупныйШрифт</content>
+  <content>StyleItem.ОплатаСервисаПолужирныйШрифт</content>
+  <content>StyleItem.ОплатаСервисаРекомендуемыеПодпискиЦвет</content>
+  <content>StyleItem.ОплатаСервисаТекущиеПодпискиЦвет</content>
+  <content>DataProcessor.ПанельАдминистрированияБТС</content>
+  <subsystems>АвтоматизацияПроцессов</subsystems>
+  <subsystems>АсинхронноеПолучениеДанных</subsystems>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>ВнешнийПрограммныйИнтерфейс</subsystems>
+  <subsystems>ВыгрузкаЗагрузкаДанных</subsystems>
+  <subsystems>ВыгрузкаЗагрузкаОбластейДанных</subsystems>
+  <subsystems>ИнтеграцияОбъектовОбластейДанных</subsystems>
+  <subsystems>ИнтеграцияССистемойВзаимодействия</subsystems>
+  <subsystems>ИнформационныйЦентр</subsystems>
+  <subsystems>МиграцияПриложений</subsystems>
+  <subsystems>ОбменСообщениями</subsystems>
+  <subsystems>ОплатаСервиса</subsystems>
+  <subsystems>ОповещениеПользователейБТС</subsystems>
+  <subsystems>ОчередьЗаданий</subsystems>
+  <subsystems>ОчередьЗаданийВнешнийИнтерфейс</subsystems>
+  <subsystems>ПередачаДанных</subsystems>
+  <subsystems>ПоставляемыеДанные</subsystems>
+  <subsystems>ПоставляемыеДанныеАбонентов</subsystems>
+  <subsystems>ПроверкаИКорректировкаДанных</subsystems>
+  <subsystems>РазмерПриложений</subsystems>
+  <subsystems>РасширенияВМоделиСервиса</subsystems>
+  <subsystems>РезервноеКопированиеОбластейДанных</subsystems>
+  <subsystems>СводныеПриложения</subsystems>
+  <subsystems>УдаленноеАдминистрирование</subsystems>
+  <subsystems>УниверсальнаяИнтеграция</subsystems>
+  <subsystems>УправлениеТарифами</subsystems>
+  <subsystems>ФайлыОбластейДанных</subsystems>
+  <subsystems>ЦентрКонтроляКачества</subsystems>
+  <subsystems>ЭлектроннаяПодписьВМоделиСервиса</subsystems>
+</mdclass:Subsystem>

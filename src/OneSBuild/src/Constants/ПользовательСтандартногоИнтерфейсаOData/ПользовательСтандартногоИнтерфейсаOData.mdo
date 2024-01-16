@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b62e0d1-8dba-47db-8dbb-517ad935fa0d">
+  <producedTypes>
+    <managerType typeId="af1896ac-2d47-432a-b3c4-99f49fa2f737" valueTypeId="13834a93-276b-4004-83a5-4ba8fdd9955f"/>
+    <valueManagerType typeId="0fbb7ec5-034c-4b05-b3b5-a5a1de24b696" valueTypeId="6ff3171e-b9b6-4b36-b595-0e934a0949c9"/>
+    <valueKeyType typeId="b38a7581-566b-5b31-99ea-f08efa6b309d" valueTypeId="57f66aed-12c1-5fa0-ae47-fb2a25da6567"/>
+  </producedTypes>
+  <name>ПользовательСтандартногоИнтерфейсаOData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь стандартного интерфейса OData</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

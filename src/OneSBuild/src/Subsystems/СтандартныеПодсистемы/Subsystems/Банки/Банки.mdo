@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0e38c3e-7088-4e35-9d84-2d0ab9655402">
+  <name>Банки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банки</value>
+  </synonym>
+  <content>CommonModule.РаботаСБанками</content>
+  <content>Constant.ВерсияКлассификатораБанков</content>
+  <content>Catalog.КлассификаторБанков</content>
+  <content>CommonModule.РаботаСБанкамиГлобальный</content>
+  <content>CommonModule.РаботаСБанкамиКлиент</content>
+  <content>CommonModule.РаботаСБанкамиПереопределяемый</content>
+  <content>Role.ДобавлениеИзменениеБанков</content>
+  <content>DataProcessor.ЗагрузкаКлассификатораБанков</content>
+  <content>CommonModule.РаботаСБанкамиСлужебный</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

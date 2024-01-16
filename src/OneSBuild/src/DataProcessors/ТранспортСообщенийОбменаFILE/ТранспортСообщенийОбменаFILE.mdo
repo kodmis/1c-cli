@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c37a660e-16c5-495e-9486-e61bcb693fa0">
+  <producedTypes>
+    <objectType typeId="4251b0e9-e368-479f-9c04-d734ffaf25dd" valueTypeId="18b99236-349b-4d16-adda-fcb7aa7b1d63"/>
+    <managerType typeId="e2a4e82f-a41e-44d2-ad0f-1079fd8629d4" valueTypeId="93b039a2-00f2-461d-aec3-e2440edcb293"/>
+  </producedTypes>
+  <name>ТранспортСообщенийОбменаFILE</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорт сообщений обмена через общий сетевой ресурс</value>
+  </synonym>
+  <defaultForm>DataProcessor.ТранспортСообщенийОбменаFILE.Form.Форма</defaultForm>
+  <attributes uuid="8f44ebad-1160-474e-a566-fb9da55ffcba">
+    <name>FILEКаталогОбменаИнформацией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог обмена информацией</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="11cf336e-7890-4972-bf71-32d7416ff647">
+    <name>FILEСжиматьФайлИсходящегоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сжимать файл исходящего сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4c4d61a6-6bb6-4a15-9a81-25fdcf96ec4b">
+    <name>ПарольАрхиваСообщенияОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль архива сообщения обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="14bd3392-36cd-4ed0-8847-44375d6fb861">
+    <name>ШаблонИмениФайлаСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон имени файла сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="759ede7a-e832-44e6-9b11-5bfb3c507820">
+    <name>ИспользоватьВременныйКаталогДляОтправкиИПриемаСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать временный каталог для отправки и приема сообщений</value>
+    </synonym>
+    <comment>Истина - Отправка и получение сообщений обмена будет выполняться через временный каталог; Ложь – отправка и получение будет выполняться напрямую через каталог обмена</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="64484611-b32c-4155-a063-7df5a3f924dd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

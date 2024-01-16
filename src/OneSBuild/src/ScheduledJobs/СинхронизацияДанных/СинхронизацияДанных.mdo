@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0519f0c-9c99-4f5c-a3a9-27adce45737d">
+  <name>СинхронизацияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных</value>
+  </synonym>
+  <comment>Задание предназначено для синхронизации данных по расписанию</comment>
+  <methodName>CommonModule.ОбменДаннымиСервер.ВыполнитьОбменДаннымиПоРегламентномуЗаданию</methodName>
+  <description>Синхронизация данных</description>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

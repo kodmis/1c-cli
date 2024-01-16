@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1260b5dd-0a74-43df-bdbb-215b253da28e">
+  <name>ПолучениеСубъектовДляСкрытияПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение субъектов для скрытия персональных данных</value>
+  </synonym>
+  <methodName>CommonModule.ЗащитаПерсональныхДанных.ПолучениеСубъектовДляСкрытияПерсональныхДанных</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ae93712-74e8-41c7-8f2d-4dfc8983697d">
+  <name>ПользователиВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи в модели сервиса</value>
+  </synonym>
+  <content>CommonModule.ПользователиСлужебныйВМоделиСервиса</content>
+  <content>CommonForm.ПользователиСервиса</content>
+  <content>CommonCommand.ДобавитьПользователейСервиса</content>
+  <content>CommonModule.ПользователиСлужебныйВМоделиСервисаКлиент</content>
+  <content>CommonForm.АутентификацияВСервисе</content>
+  <content>CommonModule.ПользователиСлужебныйВМоделиСервисаВызовСервера</content>
+  <content>CommonModule.ПользователиСлужебныйВМоделиСервисаКлиентСервер</content>
+  <content>CommonModule.ПользователиСлужебныйВМоделиСервисаПовтИсп</content>
+  <content>EventSubscription.ОбработкаПолученияФормыПользователяДляНеразделенныхПользователей</content>
+  <content>CommonForm.ИнформацияНеразделенногоПользователя</content>
+  <content>XDTOPackage.DataArtefacts_ServiceUsers_1_0_0_1</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхСверткаСсылокНаПользователейВРазделенныхДанных</content>
+  <content>InformationRegister.НеразделенныеПользователи</content>
+  <content>FunctionalOption.ПользователиВМоделиСервиса</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

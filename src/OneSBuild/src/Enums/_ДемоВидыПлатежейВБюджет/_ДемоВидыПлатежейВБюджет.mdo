@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d2189f1-306c-4236-836a-1a4bfc0cff13">
+  <producedTypes>
+    <refType typeId="e4253022-3bfb-430b-bd60-e507622d28c9" valueTypeId="2b90a755-c5f0-4075-b543-5eaf9c0f9b54"/>
+    <listType typeId="3a7ddce0-9165-4ff2-ab59-f91506e04201" valueTypeId="6d76ebe3-a08e-4c5e-ad5d-c9f739008a98"/>
+    <managerType typeId="6a120ac5-26bf-4c49-b7e5-37917a0c787e" valueTypeId="e8eb2b7a-fbde-45c9-9e8a-1a2a0a0832bf"/>
+  </producedTypes>
+  <name>_ДемоВидыПлатежейВБюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Виды платежей в бюджет</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a03d3535-090a-46f5-a411-3567c8c12bc1">
+    <name>Налог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налог (взносы): начислено / уплачено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

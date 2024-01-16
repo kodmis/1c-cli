@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22c56eb1-e36c-445d-a945-29ec488b2e82">
+  <producedTypes>
+    <managerType typeId="760fcb1f-4d3f-4a42-8bc2-9f42083ac6f5" valueTypeId="ba5dd68b-10b0-4713-8806-924b3e694852"/>
+    <valueManagerType typeId="c4580f2c-84b8-4c9b-8e01-f1afdb727534" valueTypeId="1aca0496-758b-4fd1-bf81-0f194abf378b"/>
+    <valueKeyType typeId="7bc8b8ef-1ccc-4174-a78f-2c59dafdfceb" valueTypeId="c8b148c0-466f-464a-b3db-76ec066e19e3"/>
+  </producedTypes>
+  <name>ИспользоватьДифференциальноеРезервноеКопирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дифференциальное резервное копирование</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

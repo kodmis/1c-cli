@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b27eb77-d535-43a5-8ae1-fa2fec15d92c">
+  <producedTypes>
+    <refType typeId="e7fbac07-0477-46c7-be2a-b96f1f31bd6a" valueTypeId="2dd72075-4901-4907-937a-55ce4128eff5"/>
+    <listType typeId="2e8f1501-039b-4bbe-888e-a4c41e5c30b2" valueTypeId="45d4667c-1e03-4c32-8533-0bcc14de0672"/>
+    <managerType typeId="70157865-8785-4b52-89c0-e971876b71c6" valueTypeId="c19ab961-dade-4321-a236-0cac58511087"/>
+  </producedTypes>
+  <name>СпособыУстановкиВремениНапоминания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы установки времени напоминания</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7743fe24-b941-4dad-bc76-05fb6b26b1d7">
+    <name>ВУказанноеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>В указанное время</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5bf2da0d-f318-4036-9234-8a3a6eca88b2">
+    <name>ОтносительноТекущегоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Относительно текущего времени</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="288525fc-d3fa-4c8e-a1d7-d2d1ef4cd0ef">
+    <name>ОтносительноВремениПредмета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Относительно времени предмета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3634571-6fe5-45ab-9362-161305eef661">
+    <name>Периодически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодически</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

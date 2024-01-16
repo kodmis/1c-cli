@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="300ecdd6-144f-48c8-9fd4-6166f1de1047">
+  <name>УстановитьПредметВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить предмет взаимодействия</value>
+  </synonym>
+</mdclass:CommonPicture>

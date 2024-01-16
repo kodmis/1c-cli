@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05c30f10-c7aa-4806-9f63-5ba24872f7be">
+  <producedTypes>
+    <managerType typeId="787d7e33-60a5-4fa3-af6f-9d706d3f86b2" valueTypeId="38875f28-81b2-4522-8e38-4da44d678efb"/>
+    <valueManagerType typeId="eaa7b0a7-f1fe-49d9-b0b2-80d0091f9d43" valueTypeId="49b71cd7-b62e-46a7-a71b-123357b07bca"/>
+    <valueKeyType typeId="9b1c61a0-f8d4-5e24-a52b-69cc09b4d2f7" valueTypeId="abd5bd68-64ef-5c2c-bd81-02764486ad34"/>
+  </producedTypes>
+  <name>ИспользуетсяМиграцияПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется миграция приложений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

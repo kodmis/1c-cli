@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ef8446c-c380-4782-9297-9ccef9972174">
+  <producedTypes>
+    <objectType typeId="ccbfc285-f66e-431b-a4e2-0fd6fb210911" valueTypeId="db6389e2-b247-429d-ba30-ac6f85597ea0"/>
+    <managerType typeId="8991432e-516e-4bf8-aaf7-98dd1f4ac4da" valueTypeId="d20f0e43-0ff1-499f-8128-05676131afae"/>
+  </producedTypes>
+  <name>ОбновлениеКлассификаторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление классификаторов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеКлассификаторов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="64aeee23-9e92-4815-8a03-a62c7d11b5f1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

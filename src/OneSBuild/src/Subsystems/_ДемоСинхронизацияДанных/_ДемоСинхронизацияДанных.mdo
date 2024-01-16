@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6c265c7-1127-462a-81a7-0fd819bb2a1b">
+  <name>_ДемоСинхронизацияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Синхронизация данных с другими программами и организация совместной работы в распределенной информационной базе (РИБ)</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделСинхронизацияДанных</picture>
+  </picture>
+  <content>DataProcessor.ПомощникИнтерактивногоОбменаДанными</content>
+  <content>ExchangePlan._ДемоОбменВРаспределеннойИнформационнойБазе</content>
+  <content>CommonCommand.Синхронизировать</content>
+  <content>DataProcessor._ДемоПереносСведенийОПользователяхВДругуюПрограмму</content>
+  <content>CommonModule._ДемоОбменДаннымиСобытия</content>
+  <content>EventSubscription._ДемоОбменВРаспределеннойИнформационнойБазеРегистрация</content>
+  <content>EventSubscription._ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияДокумента</content>
+  <content>EventSubscription._ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияНабора</content>
+  <content>EventSubscription._ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияУдаления</content>
+  <content>EventSubscription._ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияКонстанты</content>
+  <content>FunctionalOption._ДемоИспользоватьСинхронизациюДанныхБСП</content>
+  <content>ExchangePlan._ДемоАвтономнаяРабота</content>
+  <content>EventSubscription._ДемоАвтономнаяРаботаРегистрация</content>
+  <content>EventSubscription._ДемоАвтономнаяРаботаРегистрацияДокумента</content>
+  <content>EventSubscription._ДемоАвтономнаяРаботаРегистрацияКонстанты</content>
+  <content>EventSubscription._ДемоАвтономнаяРаботаРегистрацияНабора</content>
+  <content>EventSubscription._ДемоАвтономнаяРаботаРегистрацияУдаления</content>
+  <content>Constant._ДемоУчитыватьНДС</content>
+  <content>FunctionalOption._ДемоУчитыватьНДС</content>
+  <content>InformationRegister.СоответствияОбъектовИнформационныхБаз</content>
+  <content>InformationRegister.СостоянияОбменовДанными</content>
+  <content>CommonForm.НастройкиСинхронизацииДанных</content>
+  <content>CommonCommand.НастройкиСинхронизацииДанных</content>
+  <content>CommonCommand.ПредупрежденияПриСинхронизацииДанных</content>
+  <content>Constant._ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем</content>
+  <content>EventSubscription._ДемоАвтономнаяРаботаРегистрацияНабораРасчета</content>
+  <content>EventSubscription._ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияНабораРасчета</content>
+  <content>DataProcessor._ДемоПанельАдминистрирования</content>
+  <content>CommonPicture._ДемоРазделСинхронизацияДанных</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>Role.Подсистема_ДемоСинхронизацияДанных</content>
+  <content>CommonCommand.РазместитьФайлыНачальногоОбраза</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData</content>
+  <content>XDTOPackage._DemoEnterpriseDataExt_1_1_1</content>
+  <content>XDTOPackage._DemoEnterpriseDataExt_1_2_1</content>
+  <subsystems>_ДемоНастройкаСинхронизации</subsystems>
+  <subsystems>_ДемоПрефиксацияОбъектов</subsystems>
+  <subsystems>_ДемоСинхронизируемыеДанные</subsystems>
+</mdclass:Subsystem>

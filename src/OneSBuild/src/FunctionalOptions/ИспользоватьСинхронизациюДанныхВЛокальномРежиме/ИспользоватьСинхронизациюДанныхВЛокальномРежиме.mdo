@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad09d1e6-5982-4e1c-864e-452ac5b2915a">
+  <name>ИспользоватьСинхронизациюДанныхВЛокальномРежиме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать синхронизацию данных в локальном режиме</value>
+  </synonym>
+  <location>Constant.ИспользоватьСинхронизациюДанныхВЛокальномРежиме</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.СтандартныеПодсистемы.Subsystem.ОбменДанными</content>
+  <content>Catalog.СценарииОбменовДанными</content>
+  <content>CommonCommand.НастройкиПодключения</content>
+  <content>CommonCommand.СобытияПолучения</content>
+  <content>CommonCommand.ЗагрузитьПравилаКонвертацииОбъектов</content>
+  <content>CommonCommand.ЗагрузитьПравилаРегистрацииОбъектов</content>
+  <content>CommonCommand.Синхронизировать</content>
+  <content>CommonCommand.СобытияОтправки</content>
+  <content>CommonCommand.СценарииСинхронизации</content>
+  <content>CommonCommand.СинхронизироватьСДополнительнымиПараметрами</content>
+  <content>CommonForm.ВыборОбъектовИнформационнойБазыКорреспондента</content>
+  <content>CommonForm.НастройкиСинхронизацииДанных</content>
+  <content>CommonCommand.ПолучитьНастройкиСинхронизацииДляДругойПрограммы</content>
+  <content>CommonCommand._ДемоРаспределеннаяИнформационнаяБаза</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Task.ЗадачаИсполнителя.Command.ВсеЗадачи</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Заметки.Command.ВсеЗаметки</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Заметки.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.НапоминанияПользователя.Command.НапоминанияПользователей</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>InformationRegister.НапоминанияПользователя.Command.МоиНапоминания</commands>
+      <commands>Catalog._ДемоКонтрагенты.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоСчетНаОплатуПокупателю.StandardCommand.OpenList</commands>
+      <commands>Task.ЗадачаИсполнителя.Command.МоиЗадачи</commands>
+      <commands>Task.ЗадачаИсполнителя.Command.ВсеЗадачи</commands>
+      <commands>Catalog.Заметки.Command.ВсеЗаметки</commands>
+      <commands>Catalog.Заметки.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.НапоминанияПользователя.Command.НапоминанияПользователей</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>87276417-3d4b-4713-9ff2-bda3d82d9726</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

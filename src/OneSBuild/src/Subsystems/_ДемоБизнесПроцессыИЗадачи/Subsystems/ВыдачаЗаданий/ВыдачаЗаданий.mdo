@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed6fe151-f98f-4058-9cfc-89fd49c7a728">
+  <name>ВыдачаЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача заданий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document._ДемоЗаказПокупателя</content>
+  <content>BusinessProcess.Задание</content>
+  <content>BusinessProcess._ДемоЗаданиеСРолевойАдресацией</content>
+  <content>CommonCommand._ДемоСоздатьЗадачуБезБизнесПроцесса</content>
+  <content>Catalog.Файлы</content>
+  <content>Catalog.Пользователи</content>
+  <content>Document._ДемоСчетНаОплатуПокупателю</content>
+  <parentSubsystem>Subsystem._ДемоБизнесПроцессыИЗадачи</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b7d7e21-0b0c-4f50-b75d-5cd4c0cf74b7">
+  <producedTypes>
+    <managerType typeId="db2a4667-41b5-4fd3-bdaf-11fd624a0ca7" valueTypeId="4b74f180-d9e8-484f-a307-51d178aeedb5"/>
+    <valueManagerType typeId="e87ef515-06f0-40a7-9e94-8cdee638c70c" valueTypeId="30758e94-c35a-426a-a953-77fde50b88eb"/>
+    <valueKeyType typeId="8f2e1d41-02f4-44b2-83c4-e9f032fa4243" valueTypeId="7837d63d-34ac-4e92-9f1d-aadf191c7c10"/>
+  </producedTypes>
+  <name>ИнформацияОПроцедуреЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация о процедуре загрузки</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

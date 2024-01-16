@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3500c6fa-813a-49dd-a4bf-163500db5b7f">
+  <producedTypes>
+    <refType typeId="5507e9a1-c199-40e0-a820-7436d2faac4b" valueTypeId="5344141b-d2b8-48ba-b89e-2903138ce94f"/>
+    <listType typeId="2f5d522f-2294-401e-8e2e-2d5dd6cdcc31" valueTypeId="d4570187-c188-4ccc-8325-725f9c0955bc"/>
+    <managerType typeId="226227c8-646d-4a2d-9383-2c79cb3de3e9" valueTypeId="f5b4a13d-a743-432d-8a63-99fb340dcc51"/>
+  </producedTypes>
+  <name>ТипыОтветовНаВопрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ответов на вопрос</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1d02493a-dd89-4a51-b75e-9c49f9818b95">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2845c5d1-e836-4499-bcae-f3c8fdae75ee">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe4e8e4e-9471-4583-b9b3-576007db08ee">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49deaaa8-6d50-4b25-8153-6712d88fb0fb">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1eeb7634-e924-4ad8-92e0-1c54c22b1ba6">
+    <name>Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Булево</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46a06de8-06fd-4b49-835f-4f24b832b3c4">
+    <name>ЗначениеИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение информационной базы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3845a567-4375-4c3a-af61-5b82674060ab">
+    <name>ОдинВариантИз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор одного варианта ответа из предложенных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab210fb8-4fc4-47f8-b8ef-3a00eeb0ab8b">
+    <name>НесколькоВариантовИз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор нескольких вариантов ответа из предложенных</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

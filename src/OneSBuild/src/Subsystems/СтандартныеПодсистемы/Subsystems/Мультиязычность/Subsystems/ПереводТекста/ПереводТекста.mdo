@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e49d980-581b-459f-a4b0-024e8c97e4c0">
+  <name>ПереводТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перевод текста</value>
+  </synonym>
+  <content>CommonModule.ПереводТекстаНаДругиеЯзыки</content>
+  <content>CommonModule.ЯндексПереводчик</content>
+  <content>CommonModule.GoogleПереводчик</content>
+  <content>CommonForm.НастройкаПереводаТекста</content>
+  <content>Enum.СервисыПереводаТекста</content>
+  <content>Constant.ИспользоватьСервисПереводаТекста</content>
+  <content>InformationRegister.КэшПереводов</content>
+  <content>FunctionalOption.ИспользоватьСервисПереводаТекста</content>
+  <content>Constant.СервисПереводаТекста</content>
+  <content>CommonModule.ПереводТекстаНаДругиеЯзыкиКлиент</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.Мультиязычность</parentSubsystem>
+</mdclass:Subsystem>

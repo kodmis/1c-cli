@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd930b50-4ada-4e7f-8bfd-ed9a7c4e8964">
+  <name>ЭлектроннаяПодписьСервисаDSS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронная подпись сервиса DSS</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>Constant.ИспользоватьСервисDSS</content>
+  <content>Catalog.ЭкземплярыСервераDSS</content>
+  <content>Enum.СпособыАвторизацииDSS</content>
+  <content>Catalog.УчетныеЗаписиDSS</content>
+  <content>InformationRegister.СертификатыПользователяDSS</content>
+  <content>DataProcessor.УправлениеПодключениемDSS</content>
+  <content>Report.СостояниеУчетнойЗаписиDSS</content>
+  <content>SessionParameter.ПодключениеDSS</content>
+  <content>Role.ДобавлениеИзменениеУчетныхЗаписейСерверовDSS</content>
+  <content>Role.ДобавлениеИзменениеСерверовDSS</content>
+  <content>Role.ЧтениеДанныхСервисаDSS</content>
+  <content>CommonModule.СервисКриптографииDSS</content>
+  <content>CommonModule.СервисКриптографииDSSКлиент</content>
+  <content>CommonModule.СервисКриптографииDSSСлужебныйВызовСервера</content>
+  <content>CommonModule.СервисКриптографииDSSСлужебный</content>
+  <content>CommonModule.СервисКриптографииDSSСлужебныйКлиент</content>
+  <content>CommonModule.СервисКриптографииDSSПереопределяемый</content>
+  <content>CommonModule.СервисКриптографииDSSПодтверждениеСервер</content>
+  <content>CommonModule.СервисКриптографииDSSПодтверждениеКлиент</content>
+  <content>CommonModule.СервисКриптографииDSSКлиентСервер</content>
+  <content>CommonModule.СервисКриптографииDSSASNКлиентСервер</content>
+  <content>StyleItem.МелкийЗаголовокПодтвержденияШрифт</content>
+  <content>StyleItem.ВыделенныйЗаголовокПодтвержденияШрифт</content>
+  <content>StyleItem.ПодтверждениеОперацииОписаниеЦвет</content>
+  <content>CommonPicture.ЭтапыПодтверждения</content>
+  <content>CommonPicture.ТипыСертификатов</content>
+  <content>CommonPicture.РазделительШагов</content>
+  <content>CommonPicture.ПодписьОблако</content>
+  <content>CommonPicture.ПодписьСервиса</content>
+  <content>CommonPicture.ЗакрытыйКлюч</content>
+  <content>CommonPicture.ВидимостьПароляЗакрыто</content>
+  <content>CommonPicture.ВидимостьПароляОткрыто</content>
+  <content>CommonPicture.АнимацияПодтверждения</content>
+  <content>Enum.СостоянияЗаявленияУчетнойЗаписиDSS</content>
+  <content>FunctionalOption.ИспользоватьСервисDSS</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

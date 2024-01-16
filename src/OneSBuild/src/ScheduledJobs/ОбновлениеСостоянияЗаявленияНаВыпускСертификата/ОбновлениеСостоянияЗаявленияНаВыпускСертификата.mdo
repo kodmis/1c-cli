@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddaba839-5ed2-4707-8cb8-ebd5784f642a">
+  <name>ОбновлениеСостоянияЗаявленияНаВыпускСертификата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление состояния заявления на выпуск сертификата</value>
+  </synonym>
+  <comment>Обновление состояния заявления на выпуск сертификата квалифицированной подписи</comment>
+  <methodName>CommonModule.ЭлектроннаяПодпись.ОбновлениеСостоянияЗаявленияНаВыпускСертификата</methodName>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40f93527-7bff-4f9c-b855-2b69f7c5eb33">
+  <name>СертификатВЛичномХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификат в личном хранилище</value>
+  </synonym>
+</mdclass:CommonPicture>

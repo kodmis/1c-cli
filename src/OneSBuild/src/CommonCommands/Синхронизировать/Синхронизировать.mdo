@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47da49ee-b243-4e78-9c8f-bb26c60e6136">
+  <name>Синхронизировать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизировать</value>
+  </synonym>
+  <group>CommandGroup.СинхронизацияДанных</group>
+  <commandParameterType>
+    <types>ExchangePlanRef._ДемоОбменВРаспределеннойИнформационнойБазе</types>
+    <types>ExchangePlanRef._ДемоАвтономнаяРабота</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Синхронизировать данные автоматически</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СинхронизацияДанныхВыполнение</picture>
+  </picture>
+</mdclass:CommonCommand>

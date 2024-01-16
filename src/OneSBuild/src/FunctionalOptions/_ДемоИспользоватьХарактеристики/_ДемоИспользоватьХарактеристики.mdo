@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="299f1b99-acd7-4839-8e84-552b2f12cbf7">
+  <name>_ДемоИспользоватьХарактеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать характеристики</value>
+  </synonym>
+  <location>Constant._ДемоИспользоватьХарактеристики</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog._ДемоХарактеристики</content>
+  <content>Document._ДемоСчетНаОплатуПокупателю.TabularSection.Товары.Attribute.Характеристика</content>
+</mdclass:FunctionalOption>

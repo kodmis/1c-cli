@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c86aa97a-5898-4cb2-ae62-598bddf8e99f">
+  <name>Сообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения</value>
+  </synonym>
+  <namespace>http://www.1c.ru/SaaS/Messages</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2ef8d6b-de7b-430d-ac30-76cdaf0579c2">
+  <name>_ДемоПрефиксыОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Префиксы организаций</value>
+  </synonym>
+  <location>Catalog._ДемоОрганизации.Attribute.Префикс</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

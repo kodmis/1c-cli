@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8679d82-075c-4556-8231-c004d144fe61">
+  <name>СоздаватьЭлектронныеПодписиНаСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создавать электронные подписи на сервере</value>
+  </synonym>
+  <location>Constant.СоздаватьЭлектронныеПодписиНаСервере</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Command.ПутиКПрограммеНаСерверахLinux</content>
+</mdclass:FunctionalOption>

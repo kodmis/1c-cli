@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44b28019-01c0-468d-9b60-e050ff8b71ac">
+  <producedTypes>
+    <managerType typeId="267341ef-0bd3-4da7-b117-30fb11ff8822" valueTypeId="601fe8de-6bc9-4271-9483-7b5dad6a3b24"/>
+    <valueManagerType typeId="5f810441-942a-4df6-b25d-a0d2a84a8b10" valueTypeId="adeeabff-5b6b-4cb8-8a59-a24217262ec8"/>
+    <valueKeyType typeId="4521e941-2efa-55e2-8696-8a993ce5ddf5" valueTypeId="1321e507-2674-5e2b-80fb-e8cc15e42703"/>
+  </producedTypes>
+  <name>КаталогОбменаФайламиВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог обмена файлами в модели сервиса</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

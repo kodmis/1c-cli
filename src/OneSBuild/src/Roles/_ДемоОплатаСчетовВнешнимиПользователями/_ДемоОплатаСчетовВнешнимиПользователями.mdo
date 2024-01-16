@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29fa5f2f-a09e-4ac2-aa42-1c57074de833">
+  <name>_ДемоОплатаСчетовВнешнимиПользователями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Оплата счетов внешними пользователями</value>
+  </synonym>
+  <comment>Роль для демонстрации работы партнера со счетами на оплату через предоставление ему внешнего доступа. </comment>
+</mdclass:Role>

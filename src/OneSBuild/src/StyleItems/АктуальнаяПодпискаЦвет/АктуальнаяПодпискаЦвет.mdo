@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a89e6a6c-1804-4066-8497-38b2f7c61f0b">
+  <name>АктуальнаяПодпискаЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуальная подписка цвет</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <green>150</green>
+      <blue>70</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e48352a-0de4-40a3-9180-673364d1aa3a">
+  <producedTypes>
+    <objectType typeId="c924b7bf-bac0-44bc-86f1-976443b677be" valueTypeId="75a85bdf-09e9-4187-a0df-e38b6403740a"/>
+    <managerType typeId="cdef2b79-28f3-4ad6-b792-020c58b37ffb" valueTypeId="50dc545a-12f0-4dbb-b319-2f200199455a"/>
+  </producedTypes>
+  <name>_ДемоСозданиеДублей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Создание дублей</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоСозданиеДублей.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="a4a8ab25-e6de-431d-af85-ece62572440a">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="af169e0f-38cf-44b2-a9c6-6838188724ae">
+    <name>_ДемоСозданиеДублей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Создание дублей</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Создание дублирующихся объектов</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

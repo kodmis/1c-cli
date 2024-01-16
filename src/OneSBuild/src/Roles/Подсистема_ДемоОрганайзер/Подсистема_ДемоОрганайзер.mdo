@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69b6f61b-88e3-4fe3-abb1-33ee0a9845fd">
+  <name>Подсистема_ДемоОрганайзер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел &quot;Органайзер&quot;</value>
+  </synonym>
+</mdclass:Role>

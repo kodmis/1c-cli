@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5efb4bc6-d331-4ba6-a58a-3077a963679d">
+  <producedTypes>
+    <objectType typeId="265339f7-de9f-4c16-950e-a17059c5112e" valueTypeId="cfc4a016-3cad-477f-a969-745bbc8c9836"/>
+    <managerType typeId="703da687-4942-4575-8f82-f1ec2b978207" valueTypeId="2969d195-a9b9-44f2-98ce-c33fa47d621c"/>
+  </producedTypes>
+  <name>_ДемоЗаполнениеКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Заполнение контрагентов</value>
+  </synonym>
+  <comment>Для обновления следует поднять номер версии в функции СведенияОВнешнейОбработке и запустить обновление ИБ.</comment>
+  <defaultForm>DataProcessor._ДемоЗаполнениеКонтрагентов.Form.ОсновнаяФорма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="78dc7857-f300-424e-a3b4-0386382a1a54">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

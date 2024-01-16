@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3be12c7-9bda-4786-869f-9c8dffb51d88">
+  <name>_ДемоВызовОнлайнПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Вызов онлайн-поддержки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm._ДемоПолезныеСсылки</content>
+  <content>Role._ДемоВызовОнлайнПоддержки</content>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

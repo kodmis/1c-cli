@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eaaa6d15-f212-4a47-ae92-c5398ed6296d">
+  <producedTypes>
+    <managerType typeId="133fd53a-4064-41f3-af43-148ba8f74aa2" valueTypeId="5e880ab4-4e7b-4f55-9597-80a12e35fa3b"/>
+    <valueManagerType typeId="a46eb7e4-579a-46bb-9583-5b652c9746f3" valueTypeId="ce80f907-bc5b-4bee-8c9c-d648cc329b8f"/>
+    <valueKeyType typeId="1459ee59-7ebb-51a0-ac9d-4ca22e26f193" valueTypeId="b028c710-d6c8-5f4f-b103-4c9dafeac716"/>
+  </producedTypes>
+  <name>ИспользоватьКонтрольТарификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль тарификации</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

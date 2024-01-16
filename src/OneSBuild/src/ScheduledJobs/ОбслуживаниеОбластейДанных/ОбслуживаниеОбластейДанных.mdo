@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bc2ca38-4a10-4ebd-a5dc-3418db494f0c">
+  <name>ОбслуживаниеОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание областей данных</value>
+  </synonym>
+  <methodName>CommonModule.РаботаВМоделиСервиса.ОбслуживаниеОбластейДанных</methodName>
+  <key>1</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

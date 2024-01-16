@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d5e262b-a372-46b0-8138-3e03e9d11f82">
+  <producedTypes>
+    <objectType typeId="1905b6fb-1b0b-4a57-b6e9-7bb99588e664" valueTypeId="1dab7fe0-d872-4474-b597-b80fd8fc2149"/>
+    <managerType typeId="cb9651a1-93c2-42f5-ba05-a538262f82fe" valueTypeId="95d7e153-7a86-41c9-b3ca-b8f00c9130d1"/>
+  </producedTypes>
+  <name>_ДемоЗагрузкаЮридическихЛицКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Загрузка юридических лиц контрагентов</value>
+  </synonym>
+  <comment>Для обновления следует поднять номер версии в функции СведенияОВнешнейОбработке и запустить обновление ИБ.</comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="fd5ea369-fefb-4875-bf61-7275cfb13ff9">
+    <name>ЗагрузкаИзФайлаКонтрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка из файла контрагенты</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

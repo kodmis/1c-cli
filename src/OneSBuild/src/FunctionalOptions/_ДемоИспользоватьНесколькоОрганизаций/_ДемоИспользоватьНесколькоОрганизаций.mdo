@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12d3459d-d396-4616-979f-fd880faf4b82">
+  <name>_ДемоИспользоватьНесколькоОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать несколько организаций</value>
+  </synonym>
+  <location>Constant._ДемоИспользоватьНесколькоОрганизаций</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog._ДемоПроекты.Attribute.Организация</content>
+  <content>Document._ДемоЗаказПокупателя.Attribute.Организация</content>
+  <content>Document._ДемоОприходованиеТоваров.Attribute.Организация</content>
+  <content>Document._ДемоПеремещениеТоваров.Attribute.Организация</content>
+  <content>Document._ДемоПоступлениеТоваров.Attribute.Организация</content>
+  <content>Document._ДемоРасходныйКассовыйОрдер.Attribute.Касса</content>
+  <content>Document._ДемоРеализацияТоваров.Attribute.ГоловнаяОрганизация</content>
+  <content>Document._ДемоСписаниеТоваров.Attribute.Организация</content>
+  <content>Document._ДемоСчетНаОплатуПокупателю.Attribute.Организация</content>
+  <content>InformationRegister._ДемоРаботникиОрганизаций.Dimension.Организация</content>
+  <content>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения.Dimension.Организация</content>
+</mdclass:FunctionalOption>

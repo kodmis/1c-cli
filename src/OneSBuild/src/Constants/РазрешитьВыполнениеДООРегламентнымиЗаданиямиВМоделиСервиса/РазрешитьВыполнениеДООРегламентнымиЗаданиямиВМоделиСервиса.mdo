@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65dd4904-0837-4de5-a5e5-601151055d94">
+  <producedTypes>
+    <managerType typeId="b9a78f14-1585-443d-9ab3-a4f6db65b94e" valueTypeId="3963eecd-8be4-4df0-b335-c1036deed8db"/>
+    <valueManagerType typeId="56abe531-f4c2-431d-ba0b-7e94e73b9836" valueTypeId="045d1cc3-a711-4876-b1a2-f27948507fb7"/>
+    <valueKeyType typeId="fb58ee65-a6d7-53b9-8791-cc6aebcc67df" valueTypeId="82916131-cd5f-5647-b416-a01cd1c25f66"/>
+  </producedTypes>
+  <name>РазрешитьВыполнениеДООРегламентнымиЗаданиямиВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить выполнение дополнительных отчетов и обработок регламентными заданиями в модели сервиса</value>
+  </synonym>
+  <comment>АПК:58 в имени используется сокращение</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

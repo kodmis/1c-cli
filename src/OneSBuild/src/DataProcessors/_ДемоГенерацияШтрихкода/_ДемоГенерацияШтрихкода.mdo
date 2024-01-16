@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e983391b-e96a-4156-8d6d-b9f0be65c600">
+  <producedTypes>
+    <objectType typeId="9f6874bd-09cc-47cf-8d30-166223eed2ba" valueTypeId="5eb0438d-1d76-423c-9e5d-80c6ba37f76e"/>
+    <managerType typeId="6a3596ef-8b00-4d43-9c9d-948f63a1855b" valueTypeId="1b8814f3-962f-4bbe-bcc2-3623fe34db30"/>
+  </producedTypes>
+  <name>_ДемоГенерацияШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Генерация штрихкода</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоГенерацияШтрихкода.Form.Форма</defaultForm>
+  <forms uuid="8d86192b-f421-4328-983d-40179c7aa2c9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4f549963-efb2-4d60-9681-322a4740fb01">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="ab66a386-b7a6-4f20-8e56-ffecbbfeb86b">
+    <name>МакетДляОпределенияКоэффициентовЕдиницИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет для определения коэффициентов единиц измерения</value>
+    </synonym>
+  </templates>
+  <commands uuid="ba059c99-b392-42dd-8e4e-2e425601fce6">
+    <name>ГенерацияШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Генерация штрихкода</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

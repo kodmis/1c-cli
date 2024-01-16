@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6179c7bf-08d6-4600-8cdc-ea6d4187bd55">
+  <name>ПравилаРегистрацииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила регистрации объектов</value>
+  </synonym>
+  <comment>Общая таблица правил регистрации объектов для всех планов обмена конфигурации</comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+</mdclass:SessionParameter>

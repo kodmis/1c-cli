@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35a652ba-2078-4e01-b747-9e63f621ef5c">
+  <name>СводныеПриложенияПередЗаписьюНабора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводные приложения перед записью набора</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+    <types>AccountingRegisterRecordSet</types>
+    <types>AccumulationRegisterRecordSet</types>
+    <types>SequenceRecordSet</types>
+    <types>RecalculationRecordSet</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.СводныеПриложения.ПередЗаписьюНабора</handler>
+</mdclass:EventSubscription>

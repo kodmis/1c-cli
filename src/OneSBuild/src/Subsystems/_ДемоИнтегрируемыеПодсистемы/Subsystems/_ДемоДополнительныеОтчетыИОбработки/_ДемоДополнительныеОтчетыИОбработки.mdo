@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6454be86-c006-4baf-96d2-c86367266f45">
+  <name>_ДемоДополнительныеОтчетыИОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные отчеты и обработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>Catalog._ДемоКонтрагенты</content>
+  <content>Document._ДемоСписаниеТоваров</content>
+  <content>Document._ДемоСчетНаОплатуПокупателю</content>
+  <content>Report._ДемоОтчетПоСчетамНаОплатуГлобальный</content>
+  <content>Report._ДемоОтчетПоСчетамНаОплатуКонтекстный</content>
+  <content>DataProcessor._ДемоУправлениеПолнотекстовымПоиском</content>
+  <content>DataProcessor._ДемоЗагрузкаЮридическихЛицКонтрагентов</content>
+  <content>DataProcessor._ДемоЗагрузкаНоменклатурыИзПрайсЛистаПрофилиБезопасности</content>
+  <content>DataProcessor._ДемоЗаполнениеКонтрагентов</content>
+  <content>DataProcessor._ДемоПечатьСписанийТоваровOpenOfficeXML</content>
+  <content>DataProcessor._ДемоПечатьСчетовНаОплатуПокупателю</content>
+  <content>DataProcessor._ДемоВводНаОснованииОприходованийТоваров</content>
+  <content>Document._ДемоОприходованиеТоваров</content>
+  <content>DocumentJournal._ДемоСкладскиеДокументы</content>
+  <content>DataProcessor._ДемоЗагрузкаДополнительныхОтчетовИОбработокИзМетаданных</content>
+  <content>Role._ДемоЧтениеДополнительныхОтчетовИОбработок</content>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

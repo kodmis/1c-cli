@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be84122f-fb13-4507-bd2b-9740278cecdc">
+  <producedTypes>
+    <selectionType typeId="c8eb43aa-2272-4407-bdef-14e6d0c465b5" valueTypeId="86e5149e-eb0c-4252-9a35-08c7cb0c8517"/>
+    <listType typeId="24bb6e3d-0d79-4f0f-8665-9f2d7b574660" valueTypeId="6baa2361-3a14-4438-975d-e4ee277f5c96"/>
+    <managerType typeId="5d9df7df-6e59-4ee2-a95b-77d306d69e12" valueTypeId="fd29d247-b0b5-43cd-acb1-a82ff822c313"/>
+    <recordSetType typeId="4b56f0be-bfe3-4f7d-9289-5da0d097d7dc" valueTypeId="8ce7daef-f53d-4229-9329-0cd3afe68ef2"/>
+    <recordKeyType typeId="976e86da-df63-4948-a7ee-3ab2e59b8ae4" valueTypeId="ef07ec94-0927-4328-bfa3-abd244dc4377"/>
+    <recordType typeId="f61379a7-63fb-43ab-b62f-ab1c2e723085" valueTypeId="65b16201-91a3-4db6-8c60-c28c0a315d96"/>
+    <recordManagerType typeId="2aa05862-4047-4b73-bc44-a371029b0989" valueTypeId="f9b2b5ff-7fdf-443c-ba1f-9b49517936f7"/>
+  </producedTypes>
+  <name>ВерсииКлассификаторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии классификаторов</value>
+  </synonym>
+  <comment>Версии классификаторов, которые используется в программе.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ВерсииКлассификаторов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ВерсииКлассификаторов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d76ccae9-a781-4b5e-a829-cb20bc47a7fe">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment>Номер версии загруженного классификатора</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e2196209-2c81-4a1f-8565-01079c45eb2f">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9008d477-3db2-4677-9154-3fcb6df2219f">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="1463ea37-7f93-4bfb-a553-9a3507c6af5a">
+    <name>ОбновлятьАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять автоматически</value>
+    </synonym>
+    <comment>Регулирует необходимость автоматического обновления классификатора</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="71fb401b-b610-4466-b825-f89af0ab1ee8">
+    <name>ОбработкаРазделенныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка разделенных данных</value>
+    </synonym>
+    <comment>Указывает на необходимость дополнительной обработки данных областей после загрузки классификатора при работе в модели сервиса. </comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="60c8096d-acac-4888-a5f4-b0610de8fb34">
+    <name>ОбщиеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие данные</value>
+    </synonym>
+    <comment>В модели сервиса используется для определения режима распространения данных (загружать в общие данные/ тиражировать по областям)</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e93d82bb-90b9-407c-b132-d3ffec295d64">
+    <name>СохранятьФайлВКэш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранять файл в кэш</value>
+    </synonym>
+    <comment>Указывает на необходимость сохранения файла в кэше поставляемых данных при работе в модели сервиса.</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f23b7247-ca6a-4141-ac27-cb2ebb980415">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment>Идентификатор классификатора на Портале 1С:ИТС</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a2726f0a-a7b9-4e66-8036-ca2647c402ba">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="877d7e2d-5d06-477e-af2a-fed3381c1aac">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

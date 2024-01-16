@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19b98b60-deb1-4642-8159-2a11332558e2">
+  <producedTypes>
+    <managerType typeId="8bfe0f5e-f2ae-457e-ad77-936af219584b" valueTypeId="3cfcef37-628b-4add-a102-8b935461162a"/>
+    <valueManagerType typeId="dacf3dc9-6537-49ea-8434-cebd9f4b766e" valueTypeId="69bfbf80-6d7b-456e-b750-0bd46758fefc"/>
+    <valueKeyType typeId="7787cab9-7647-4ea6-83c3-b68ba5a581e9" valueTypeId="262168b8-75bc-4806-b451-f09feb2c23f5"/>
+  </producedTypes>
+  <name>ЗапретитьОтображениеНебезопасногоСодержимогоВПисьмах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запретить отображение небезопасного содержимого в письмах</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

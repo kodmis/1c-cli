@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54b5b44c-5f24-4b2a-982c-4489b18db7f0">
+  <producedTypes>
+    <objectType typeId="4e8135c3-b673-47dc-810a-6cdf2a5b8eb9" valueTypeId="5e3baa3c-979c-46ea-aa30-e1e8639a06a8"/>
+    <managerType typeId="4f8691c9-53a8-409c-82be-f72a9ee5c5ef" valueTypeId="e74d7241-bba2-49a9-8e25-0abf1a5f4b7d"/>
+  </producedTypes>
+  <name>ЗаявлениеНаВыпускНовогоКвалифицированногоСертификата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление на выпуск нового квалифицированного сертификата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаявлениеНаВыпускНовогоКвалифицированногоСертификата.Form.ТехническаяИнформация</defaultForm>
+  <forms uuid="5bc04a9a-6a0a-4607-b8eb-743b87143ae7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e8045f52-7b27-48b0-b009-d488718b3bef">
+    <name>ФормаСоглашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма соглашения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1796bcbb-a629-4509-95c9-78562689f809">
+    <name>СведенияОбОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения об организации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cd9799c9-f5bf-4537-8885-06fb6e6b8f93">
+    <name>СведенияОВладельцеСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения о владельце сертификата</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d19e8fcc-62cc-4ce4-81bc-ead33a2714df">
+    <name>ТехническаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техническая информация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1aa6b483-0f87-4ed3-94ea-8b81813532d6">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0f79d87e-3311-4281-8f46-6154e708b930">
+    <name>ИнформацияОДоступностиВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о доступности выпуска квалифицированного сертификата для юридических лиц</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e057e428-99c1-419d-a169-697c1e825e94">
+    <name>ИндивидуальныйПредприниматель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальный предприниматель</value>
+    </synonym>
+  </templates>
+  <templates uuid="784a60bd-4070-476d-9b8b-f607c76dc52b">
+    <name>ЮридическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+  </templates>
+  <templates uuid="904d5bd0-3843-4aaa-86a3-f8e12282e5c0">
+    <name>ИменаРегионовРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена регионов РФ по рекомендациям для СКПЭП</value>
+    </synonym>
+    <comment>Дата актуальности - 24.03.2014 (http://www.gnivc.ru/inf_provision/classifiers_reference/ssrf/)</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="90420fe9-f75a-4bcc-8e1a-9d665a61ecef">
+    <name>Соглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="748f7ddb-4cdc-46e5-9108-f7a550b33537">
+    <name>ИнформацияЗаявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация заявления</value>
+    </synonym>
+  </templates>
+  <templates uuid="0534460b-0548-45f0-ac79-aa4bc109655c">
+    <name>Сертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

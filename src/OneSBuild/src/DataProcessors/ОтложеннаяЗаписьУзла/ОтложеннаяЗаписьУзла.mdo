@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fbb189a-ecf0-483f-a904-0c34b1c23433">
+  <producedTypes>
+    <objectType typeId="77c93aea-b053-4cbc-8c5f-434d6ea8bda4" valueTypeId="c1efb1f9-cd3d-4002-a954-8b33812354cf"/>
+    <managerType typeId="5bbd290f-ba29-4a9e-9801-cd43a07176f0" valueTypeId="7b6bf59c-d6a9-485a-b827-5551315c7f2b"/>
+  </producedTypes>
+  <name>ОтложеннаяЗаписьУзла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенная запись узла</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОтложеннаяЗаписьУзла.Form.Форма</defaultForm>
+  <forms uuid="2a34c9e8-eb4f-4600-988e-594ac7399abc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

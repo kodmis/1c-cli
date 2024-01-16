@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bdc1a18-f184-4f95-bda4-8f5c4b7c3aa1">
+  <name>РежимИспользованияПриложенияВСервисеЛокально</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим использования приложения</value>
+  </synonym>
+  <comment>Режим использования приложения (в сервисе или локально)</comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cfb34a4-4ffa-421e-ace8-0870f92ad96d">
+  <producedTypes>
+    <objectType typeId="467190bf-3676-4ceb-bdc2-a48b980134ae" valueTypeId="510ed56e-9ee7-4afa-b4d7-3482abaf613c"/>
+    <managerType typeId="bad7e047-c616-488e-b605-2f7847ba6f35" valueTypeId="25f80b58-e184-480b-9bc7-6fdba6cc68f8"/>
+  </producedTypes>
+  <name>УправлениеСистемойВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обсуждения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеСистемойВзаимодействия.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="515a04b4-6f71-4183-9c9e-494f272a4fad">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a3eb63c-b190-4b31-9e88-38119a7950c0">
+    <name>ФормаСвязиПриложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма связи приложений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c6185d0-f038-4eb4-a6c4-40a15e3ff606">
+    <name>ФормаВводаДанныхДляУправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода данных для управления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="48d8fd3a-c922-4483-a49c-7c8dc0543f07">
+    <name>ФормаОтменыРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отмены регистрации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d9194594-0f9b-424d-910a-7c7e709c2924">
+    <name>УправлениеСистемойВзаимодействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление системой взаимодействия</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

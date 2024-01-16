@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b26aa5f-1e77-4261-adf6-6f2f24f5af33">
+  <producedTypes>
+    <refType typeId="655dc0e9-f2a6-4ff9-83da-6ba3d557e6e6" valueTypeId="d22cb91b-4f75-44fe-b320-2b0cd64f7120"/>
+    <listType typeId="f338e99a-76d1-470f-a410-c513fb9ea76e" valueTypeId="5be1f1f4-9b13-44c5-97f2-b1db3aa6feb3"/>
+    <managerType typeId="5475ec19-1f7c-4745-b3f6-3754c2a06900" valueTypeId="9f17d413-722f-4a32-a47d-60a012e03a78"/>
+  </producedTypes>
+  <name>СпособыАвторизацииDSS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы авторизации DSS</value>
+  </synonym>
+  <comment>Перечисляет первичные и вторичные способы авторизации</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b6b5e6c1-3967-4c2f-b8bc-0acc96afe240">
+    <name>Вторичный_AirKeyLite</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторичный air key lite</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de355360-f87a-4b0d-a37c-d0a091e7e984">
+    <name>Вторичный_DSSSDK</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторичный DSS SDK</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8819399f-4803-413c-ad5e-7fa2c8878e5f">
+    <name>Вторичный_МобильноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторичный мобильное приложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99ff834a-f030-4af3-9b7d-f92a03f7c6f4">
+    <name>Вторичный_ОфлайнПодтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторичный офлайн подтверждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afea5f32-22ff-4940-8156-3ec8b9c7bbb9">
+    <name>Вторичный_СМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторичный СМС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa01c28c-44d1-4fa9-b167-73d6cecb7730">
+    <name>Вторичный_ЭлектроннаяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторичный электронная почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d82c675e-7d38-417c-9cfc-6af0e86addfd">
+    <name>Первичный_ДвухФакторная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный двухфакторная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="319c4428-9463-4aa4-a87a-2749c49f4069">
+    <name>Первичный_КодАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный код авторизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="497deeb7-0630-4f72-bcdb-ebacf8963d79">
+    <name>Первичный_СертификатАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный сертификат авторизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef471953-7c99-40f9-a31d-f50ed8ba3fc5">
+    <name>Первичный_УчетныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный учетные данные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

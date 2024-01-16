@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e7fbea4-57ac-4633-bb39-8725e57bc7ba">
+  <producedTypes>
+    <objectType typeId="c302b908-f763-4c92-bf31-29c222911ee3" valueTypeId="65848465-009e-42c1-ac19-c31743c1b414"/>
+    <managerType typeId="917f6cf7-9497-4f72-ac6f-7ec00ee6e60c" valueTypeId="36942288-87fe-4d60-a390-526c31300ffe"/>
+  </producedTypes>
+  <name>КонвертацияОбъектовРаспределенныхИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертация объектов распределенных информационных баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонвертацияОбъектовРаспределенныхИнформационныхБаз.Form.Форма</defaultForm>
+  <attributes uuid="83ae9b22-20ff-4e94-9282-19daf2274328">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dcad5d84-6643-4f0b-9e6e-73fe343db4a7">
+    <name>КоличествоЭлементовВТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество элементов в транзакции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e1ca1374-6dad-46d3-bb72-b67f3e6b1809">
+    <name>КлючСообщенияЖурналаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ сообщения журнала регистрации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a92b2b70-7e69-49d1-b921-c9d1b0718f94">
+    <name>ПолеИмяФайлаСообщенияОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле имя файла сообщения обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d57a3300-0f9f-4fe5-b627-01c96b723053">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="540a47b8-f6d4-4531-ac87-3f7cfbef4c8c">
+  <producedTypes>
+    <refType typeId="55a61245-62d0-45f3-8397-31b9b8787ccf" valueTypeId="45644edd-845c-4f43-bcac-594b2a189e80"/>
+    <listType typeId="08a04be6-7233-41a5-9f06-d44a5f51220f" valueTypeId="38da7a7b-b73e-4c46-a4d2-7f57437ffc12"/>
+    <managerType typeId="ca94cbfd-f047-4b9c-a04e-7813a9bb01fb" valueTypeId="0dd43148-7e7d-4e3f-9016-74fadb372776"/>
+  </producedTypes>
+  <name>СостоянияЗаявленияНаВыпускСертификата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заявления на выпуск сертификата</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a51f7c6f-2631-4d23-becc-c0e8b711fddd">
+    <name>НеПодготовлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подготовлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37806357-d92c-4bea-a5ef-77f138578fda">
+    <name>Подготовлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91b100e6-fbbe-4bb0-8d51-d12595a2a3e8">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a880538-f97f-448e-a4a9-82b0194dbe28">
+    <name>Отклонено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24b4dd9e-825f-471b-b15d-ae21a508d183">
+    <name>ИсполненоРаспискаНеОтправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнено, расписка не отправлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="179868b7-d342-4df0-9386-c114d75faf3a">
+    <name>ИсполненоСертификатНеУстановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнено, сертификат не установлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbc4cc8c-31c2-4fcf-b86c-9ec65b2772b0">
+    <name>Исполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

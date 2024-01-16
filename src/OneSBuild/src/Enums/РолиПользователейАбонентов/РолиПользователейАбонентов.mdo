@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2c5cbf7-2475-4bdc-903e-5ba8bd2e2d71">
+  <producedTypes>
+    <refType typeId="26fc57d1-0bd9-4304-a047-44570315cc8d" valueTypeId="0593273f-95f0-4a27-aea5-58b1d1ab9241"/>
+    <listType typeId="19515075-e76a-4433-ad9d-35bd1eb83d7d" valueTypeId="bab53435-0b70-4e80-81f7-27831b439df5"/>
+    <managerType typeId="11f31a3d-e76f-4730-8bdb-ef4de49a4ff5" valueTypeId="2d8005a1-99bd-4231-aaf5-ebfc63aac26e"/>
+  </producedTypes>
+  <name>РолиПользователейАбонентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли пользователей абонентов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6ad745df-057a-4fb2-a376-d8456e308676">
+    <name>АдминистраторАбонента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор абонента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a4af190-15a3-47a7-adb2-44400bcdde8a">
+    <name>ВладелецАбонента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец абонента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="038f8729-735b-41e6-865e-e39d34c63ddf">
+    <name>ОператорОбслуживающейОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оператор обслуживающей организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67b16e4b-ff8c-4466-9028-ce0c7fd7edb4">
+    <name>ПользовательАбонента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь абонента</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

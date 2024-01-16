@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be48abe9-65a7-4a5a-9d0c-5543d8b83b99">
+  <name>ПроверкаИКорректировкаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка и корректировка данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ПроверкаИКорректировкаДанных</content>
+  <content>CommonModule.ПроверкаИКорректировкаДанныхПереопределяемый</content>
+  <content>Catalog.ИсторияПроверкиИКорректировкиДанных</content>
+  <content>Catalog.ИсторияПроверкиИКорректировкиДанныхПрисоединенныеФайлы</content>
+  <content>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайлаБТС</content>
+  <content>CommonCommand.ТестированиеИИсправлениеОбластиДанных</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

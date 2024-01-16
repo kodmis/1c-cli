@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2966118b-0285-4ffa-bdce-4bb45f662a17">
+  <producedTypes>
+    <objectType typeId="c547b30b-00db-417e-bd54-92a28748c069" valueTypeId="063dbfd6-5915-4f2f-a7a0-008c5acc7432"/>
+    <managerType typeId="d4e24bc1-65f1-48a1-8ab2-49541470e1c8" valueTypeId="4482a0c0-6ed4-4a5d-9cf3-e9f03baf2391"/>
+  </producedTypes>
+  <name>_ДемоОперацииСБизнесПроцессамиИЗадачами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Операции с бизнес-процессами и задачами</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоОперацииСБизнесПроцессамиИЗадачами.Form.СозданиеЗадачБезБизнесПроцессов</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="abf7505b-a208-48e2-9f4f-e6b8a97da2c6">
+    <name>СозданиеЗадачБезБизнесПроцессов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание задач без бизнес-процессов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

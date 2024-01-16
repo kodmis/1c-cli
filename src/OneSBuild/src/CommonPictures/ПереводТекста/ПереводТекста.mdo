@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75378d9c-a364-4b46-a6d1-b745604c46a2">
+  <name>ПереводТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перевод текста</value>
+  </synonym>
+</mdclass:CommonPicture>

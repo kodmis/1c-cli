@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4b49ed0-3d3f-4b68-bc1e-949e8e338e9a">
+  <producedTypes>
+    <objectType typeId="77b5fdb9-5aae-4278-ad9b-8a905a2cb4e1" valueTypeId="11499275-fb11-4df8-850a-34ccfafc9c31"/>
+    <managerType typeId="f00b628f-066f-4b4d-b50d-91a28c07b2f0" valueTypeId="0e90af24-d120-42d9-9013-ec10a3c2a194"/>
+  </producedTypes>
+  <name>ПродлениеСрокаДействияЭлектронныхПодписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продление срока действия электронных подписей</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПродлениеСрокаДействияЭлектронныхПодписей.Template.Макет</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="542a53f5-56c5-4ca9-90d1-d689532c69fd">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

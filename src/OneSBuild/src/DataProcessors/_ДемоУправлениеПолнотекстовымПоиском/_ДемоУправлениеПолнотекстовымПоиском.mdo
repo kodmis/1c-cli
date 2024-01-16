@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e10c3d12-de5a-41a8-879a-9e68d091ab12">
+  <producedTypes>
+    <objectType typeId="352a7a8f-5ded-4f1a-abe1-fa05138f65ed" valueTypeId="cb40e2b5-66e2-4e21-b955-37edf1d7bb49"/>
+    <managerType typeId="9297d839-479b-4498-bf3d-59c10f39740f" valueTypeId="618a4b1f-a8f2-4a36-8ced-744c8887719e"/>
+  </producedTypes>
+  <name>_ДемоУправлениеПолнотекстовымПоиском</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Управление полнотекстовым поиском</value>
+  </synonym>
+  <comment>Для обновления следует поднять номер версии в функции СведенияОВнешнейОбработке и запустить обновление ИБ.</comment>
+  <defaultForm>DataProcessor._ДемоУправлениеПолнотекстовымПоиском.Form.ОсновнаяФорма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="fe3e8c79-befb-41e1-94a6-f60b436f5360">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

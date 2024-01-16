@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aed2ceeb-cc0f-4bdc-bb94-2e15cd68aa96">
+  <producedTypes>
+    <objectType typeId="e4a27ddc-c07f-46f3-b4b1-b4c8e844f476" valueTypeId="d6eaee68-7c58-473d-843f-0c602f7cf497"/>
+    <managerType typeId="655503db-d575-4a60-abf9-39b46495780e" valueTypeId="567cbeec-a8a4-4740-90da-fe8a726539da"/>
+  </producedTypes>
+  <name>ТекущиеДела</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие дела</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТекущиеДела.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="04b5ae71-7fa4-4a64-b406-59dc603b80c5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f23a2023-f776-40db-8689-1fc3f7ebc482">
+    <name>НастройкаТекущихДел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка текущих дел</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

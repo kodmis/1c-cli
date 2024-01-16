@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b5720a8-0bcc-4196-934d-84db9d99ec27">
+  <name>ПроверкаСертификатаНеВыполнялась</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка сертификата не выполнялась</value>
+  </synonym>
+</mdclass:CommonPicture>

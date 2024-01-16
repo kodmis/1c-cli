@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="663556ff-07e6-4342-b24c-1a5368c26b25">
+  <producedTypes>
+    <objectType typeId="56b3b250-623b-4df4-8fcb-66c60cf88e3b" valueTypeId="f92d3d01-af3c-487f-b462-07820273b5f5"/>
+    <managerType typeId="9d1e9ffc-f3f9-4e15-87cb-c5f5bb8ba55a" valueTypeId="a5b6c779-2504-4cd6-9714-9c9a2ce700c1"/>
+  </producedTypes>
+  <name>ВыгрузкаЗагрузкаДанныхМенеджерКонтейнера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка загрузка данных менеджер контейнера</value>
+  </synonym>
+  <attributes uuid="aab7a5f6-a8c4-445c-8621-272fac14529a">
+    <name>ДополнительныеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные свойства</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

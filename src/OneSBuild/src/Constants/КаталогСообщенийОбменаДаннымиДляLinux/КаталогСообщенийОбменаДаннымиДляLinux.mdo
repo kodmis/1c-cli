@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c443dd3-4acb-4c5a-9c4b-af8b0c87e861">
+  <producedTypes>
+    <managerType typeId="d17fd243-97a9-4080-8b75-1dae24e930d0" valueTypeId="60363b1c-e01c-4e04-8b59-2467722e7235"/>
+    <valueManagerType typeId="236e17dd-dc05-441f-b32b-2eb7f085b630" valueTypeId="342c7cd0-b553-4610-8ef9-b6854dcde804"/>
+    <valueKeyType typeId="797b391a-2878-56a0-b1e6-c76542ecdc5a" valueTypeId="6388e03f-d4a6-595d-904d-65780e91e871"/>
+  </producedTypes>
+  <name>КаталогСообщенийОбменаДаннымиДляLinux</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог сообщений синхронизации для Linux</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

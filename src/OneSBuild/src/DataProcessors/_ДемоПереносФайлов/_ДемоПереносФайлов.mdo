@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03424f48-9509-4610-b88f-2cde095daeaa">
+  <producedTypes>
+    <objectType typeId="5395d1a2-994f-4556-b45e-4436dcabbbfb" valueTypeId="856797b1-7f38-47ac-80fc-cc9f7a805d2f"/>
+    <managerType typeId="f6ea76d6-7c59-4177-ba4b-560a6d9136c2" valueTypeId="e845bace-bc56-4aea-b7a9-6028694a31ad"/>
+  </producedTypes>
+  <name>_ДемоПереносФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Перенос файлов</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоПереносФайлов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="83a16faa-4d57-4e8d-80f7-6caf27a94b71">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ff23f59a-2e9b-4791-a7fd-18b3ad97c574">
+    <name>ПереносФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Перенос файлов</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba7a75a7-fa56-4bab-b3e2-fc5f9c38ed02">
+  <name>_ДемоАнкетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анкетирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделАнкетирование</picture>
+  </picture>
+  <content>CommonModule.Анкетирование</content>
+  <content>CommonModule.АнкетированиеКлиент</content>
+  <content>CommonModule.АнкетированиеКлиентСервер</content>
+  <content>CommonPicture._ДемоРазделАнкетирование48</content>
+  <content>Constant.ИспользоватьАнкетирование</content>
+  <content>Catalog.ВариантыОтветовАнкет</content>
+  <content>Catalog.ВопросыШаблонаАнкеты</content>
+  <content>Catalog.ШаблоныАнкет</content>
+  <content>Document.Анкета</content>
+  <content>Document.НазначениеОпросов</content>
+  <content>Enum.ТипыВопросовШаблонаАнкеты</content>
+  <content>Enum.ТипыТабличныхВопросов</content>
+  <content>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</content>
+  <content>Role._ДемоЧтениеДанныхДляОтветовНаВопросыАнкет</content>
+  <content>Role._ДемоЧтениеДанныхРеспондентов</content>
+  <content>FunctionalOption._ДемоИспользоватьАнкетированиеБСП</content>
+  <content>CommonCommand._ДемоПанельОтчетовАнкетирование</content>
+  <content>CommonPicture._ДемоРазделАнкетирование</content>
+  <content>Role.Подсистема_ДемоАнкетирование</content>
+  <content>CommonForm._ДемоПримечание</content>
+  <subsystems>СозданиеАнкетИОпросов</subsystems>
+  <subsystems>ХодАнкетированияИАнализ</subsystems>
+  <subsystems>Респонденты</subsystems>
+</mdclass:Subsystem>

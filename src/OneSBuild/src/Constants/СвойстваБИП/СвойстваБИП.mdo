@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba0d1294-56dc-4415-88a9-3ce06988a61a">
+  <producedTypes>
+    <managerType typeId="4841de45-aea1-434c-9f83-e45cc7a612c6" valueTypeId="17c34aa0-3ca4-4db4-b0c1-06938a9190ff"/>
+    <valueManagerType typeId="d4cff6ba-ab4f-4549-a431-9abab99c91ec" valueTypeId="e693ba84-5067-49ab-869b-62b5f30952dc"/>
+    <valueKeyType typeId="b234d262-46a2-5ea7-a31b-ff12c88348cc" valueTypeId="5ed86357-625a-517e-9e92-3d7e194ed99c"/>
+  </producedTypes>
+  <name>СвойстваБИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства БИП</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

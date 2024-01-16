@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11208d4b-3478-4d4a-9d72-e0ca4cda35b3">
+  <producedTypes>
+    <objectType typeId="aef33fb6-ac79-41a2-94ee-58251275f110" valueTypeId="cc712ed0-ad53-4762-81d2-33019d94b8ac"/>
+    <managerType typeId="9b9027bf-99a0-4a8c-9862-0fd4235aaffd" valueTypeId="3f7a0c42-751b-443d-abb7-b626664bc9c1"/>
+  </producedTypes>
+  <name>_ДемоОтключениеПодсистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Отключение подсистем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоОтключениеПодсистем.Form.Форма</defaultForm>
+  <forms uuid="385c7445-da9f-4df5-837e-b6bc4fc927f7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

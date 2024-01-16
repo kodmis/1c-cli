@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b143bc6d-ead6-41a2-9a15-1a44488c1ce4">
+  <name>ЗарегистрированыИзмененияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрированы изменения данных</value>
+  </synonym>
+  <location>Constant.ЗарегистрированыИзмененияДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

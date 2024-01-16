@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca75d086-cd01-4f54-b57d-1b35bcb1272a">
+  <name>СообщенияКонтрольУдаленногоАдминистрированияИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения контроль удаленного администрирования интерфейс</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

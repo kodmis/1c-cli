@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eccdf482-ea1f-4bd8-a122-3246f5861dd5">
+  <producedTypes>
+    <objectType typeId="b20df5e6-d9ee-490d-a47d-b4e89df1076a" valueTypeId="d5f4a339-f678-424a-9a89-a9747af6067d"/>
+    <managerType typeId="adbc6a71-f690-4d76-9e71-2b3b92ee550e" valueTypeId="5d4e66cf-41a2-495f-b863-be68bf0c6d3a"/>
+  </producedTypes>
+  <name>_ДемоСозданиеПомеченныхНаУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Создание помеченных на удаление</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоСозданиеПомеченныхНаУдаление.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="13809281-14c4-42b1-b0be-ce6108e6d0f6">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="780ac8ff-76fa-499d-80e3-ce8cae10a172">
+    <name>_ДемоСозданиеПомеченныхНаУдаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Создание помеченных на удаление</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Создание объектов, помеченных на удаление</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

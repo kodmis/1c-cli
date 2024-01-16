@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cb575a9-dc82-45e0-81f0-d651e12246da">
+  <name>УправлениеДоступомСлужебныйВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление доступом служебный в модели сервиса</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="069b94c1-e4c5-4b52-acb4-74423a820788">
+  <producedTypes>
+    <managerType typeId="77838153-8b66-44a0-ad88-32fcff1cd0df" valueTypeId="1a28bbf3-9598-4790-9f37-2ece80e65c1e"/>
+    <valueManagerType typeId="69fd7254-9adf-4ec3-b85a-2eaa1eba5a93" valueTypeId="8a92ff39-9d24-4892-a050-49857749fa24"/>
+    <valueKeyType typeId="91c81b81-e367-4a1b-835e-5d93b9f3551f" valueTypeId="939bccc2-605f-48c6-a01b-f239d15d9858"/>
+  </producedTypes>
+  <name>ПараметрыЗапускаИнтерактивнойПроцедурыЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры запуска интерактивной процедуры загрузки</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

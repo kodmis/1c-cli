@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="422d77a7-eb55-4803-b493-1449abee2a9b">
+  <producedTypes>
+    <objectType typeId="91fa6253-4d7d-4748-9b15-f426698353be" valueTypeId="06e31c7e-90ea-4d01-a0c5-f21a6ddf8da3"/>
+    <managerType typeId="411cc7f9-e9de-45b5-9e00-ef63ced0367e" valueTypeId="f3344d7e-bc2e-4a94-b966-df764ebc2e4e"/>
+  </producedTypes>
+  <name>_ДемоОтчетПоСчетамНаОплатуГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Отчет по счетам на оплату (глобальный)</value>
+  </synonym>
+  <comment>Для обновления следует поднять номер версии в функции СведенияОВнешнейОбработке и запустить обновление ИБ.</comment>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report._ДемоОтчетПоСчетамНаОплатуГлобальный.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="09f06355-1d21-41ef-8429-7c9d330c0a83">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

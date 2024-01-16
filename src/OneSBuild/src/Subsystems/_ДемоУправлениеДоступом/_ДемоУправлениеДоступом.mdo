@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e1b1298-f3b0-4bc0-9127-7ff9f24d4d0c">
+  <name>_ДемоУправлениеДоступом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление доступом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Настройка прав и пользователей</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделУправлениеДоступом</picture>
+  </picture>
+  <content>CommonCommand._ДемоВнешнийОтчетОбработка</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>InformationRegister.КлючиДоступаКРегистру_ДемоОстаткиТоваровВМестахХранения</content>
+  <content>InformationRegister.КлючиДоступаКРегистру_ДемоЗагружаемыеПоступленияОтЮридическихЛиц</content>
+  <subsystems>_ДемоПользователи</subsystems>
+  <subsystems>_ДемоУправлениеДоступом</subsystems>
+</mdclass:Subsystem>

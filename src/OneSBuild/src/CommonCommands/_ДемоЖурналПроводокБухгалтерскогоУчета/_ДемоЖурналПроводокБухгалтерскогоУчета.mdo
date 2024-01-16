@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fea8c13-cd25-4f0f-b3d3-f5bf37c3db4f">
+  <name>_ДемоЖурналПроводокБухгалтерскогоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Журнал проводок бухгалтерского учета</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DocumentRef._ДемоПоступлениеТоваров</types>
+    <types>DocumentRef._ДемоРеализацияТоваров</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb3cee83-57be-4a2a-a180-366c2f6454bc">
+  <name>ВидимостьПароляЗакрыто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Видимость пароля закрыто</value>
+  </synonym>
+</mdclass:CommonPicture>

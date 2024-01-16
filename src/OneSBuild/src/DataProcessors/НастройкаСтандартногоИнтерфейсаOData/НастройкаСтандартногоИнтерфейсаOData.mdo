@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70a06a02-8fb8-4a39-9e50-b7c27c41f49f">
+  <producedTypes>
+    <objectType typeId="ffa3a779-3319-4a78-8cf9-d81aba4a48d1" valueTypeId="762ce362-428d-4403-8de9-5b0c48826142"/>
+    <managerType typeId="3c43d02e-d677-447d-9537-6d5c1479392c" valueTypeId="7a141a60-285c-44e8-bd28-f3d8bd0f0d78"/>
+  </producedTypes>
+  <name>НастройкаСтандартногоИнтерфейсаOData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка стандартного интерфейса OData</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкаСтандартногоИнтерфейсаOData.Form.НастройкаИспользованияСтандартногоИнтерфейсаOData</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="810755ad-e921-4250-a0d3-af77fe1b6c79">
+    <name>НастройкаИспользованияСтандартногоИнтерфейсаOData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка использования стандартного интерфейса OData</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f0f2f6de-b5ca-416c-b2e7-70a2df0993a1">
+    <name>ЗависимостиОбъектаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимости объекта метаданных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="99a40d71-f47a-4c04-9137-d297eda2fad9">
+    <name>СхемаРоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема роли</value>
+    </synonym>
+    <comment>АПК:497 - не локализуется</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="33fa908a-5516-43c8-94d3-28c60eba8d66">
+    <name>НастройкиСтандартногоИнтерфейсаOData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки стандартного интерфейса OData</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

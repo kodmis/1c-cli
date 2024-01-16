@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bd1ab8f-7b04-4ef4-b172-e556b1e9f31c">
+  <name>ОчередьЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь заданий</value>
+  </synonym>
+  <content>CommonModule.ОчередьЗаданий</content>
+  <content>CommonModule.ОчередьЗаданийПереопределяемый</content>
+  <content>Constant.МаксимальнаяДлительностьВыполненияИсполняющегоФоновогоЗадания</content>
+  <content>Constant.МаксимальноеКоличествоИсполняющихФоновыхЗаданий</content>
+  <content>Enum.СостоянияЗаданий</content>
+  <content>ScheduledJob.ПланированиеОбработкиЗаданий</content>
+  <content>Catalog.ШаблоныЗаданийОчереди</content>
+  <content>ScheduledJob.УдалитьОбработкаОчередиЗаданийБТС</content>
+  <content>Catalog.ОбработчикиОчередиЗаданий</content>
+  <content>ScheduledJob.РегламентнаяОбработкаОчередиЗадачОбластейДанных</content>
+  <content>ScheduledJob.РегламентнаяОбработкаОчередиЗадач</content>
+  <content>Catalog.УдалитьОчередьЗаданий</content>
+  <content>CommonModule.ОчередьЗаданийСлужебный</content>
+  <content>CommonModule.ОчередьЗаданийСлужебныйРазделениеДанных</content>
+  <content>ScheduledJob.ЗапускОбработкиЗаданий</content>
+  <content>InformationRegister.ЗапущенныеОбработчикиОчередиЗаданий</content>
+  <content>Constant.ЛогироватьЗапускиЗаданийОчереди</content>
+  <content>InformationRegister.ИсторияЗапускаЗаданийОчереди</content>
+  <content>CommonModule.ОчередьЗаданийРазделениеДанных</content>
+  <content>Constant.ПериодХраненияИсторииЗапусковЗаданийОчереди</content>
+  <content>FunctionalOption.ЛогироватьЗапускиЗаданийОчереди</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

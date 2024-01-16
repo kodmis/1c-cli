@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96233cbd-644f-4761-bd8d-9ada391989dd">
+  <name>КалендарныеГрафики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарные графики</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor._ДемоСохранениеДанныхПроизводственногоКалендаря</content>
+  <parentSubsystem>Subsystem._ДемоИнструментыРазработчика</parentSubsystem>
+</mdclass:Subsystem>

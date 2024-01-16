@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5965112e-5b12-4b8a-8830-5aa2ecc41b2e">
+  <name>ГенерацияШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация штрихкода</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor._ДемоГенерацияШтрихкода</content>
+  <parentSubsystem>Subsystem._ДемоИнструментыРазработчика</parentSubsystem>
+</mdclass:Subsystem>

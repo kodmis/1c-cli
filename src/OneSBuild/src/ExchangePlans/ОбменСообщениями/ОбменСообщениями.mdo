@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ce4c8a4-b20b-4550-bee3-f677e9ec64e9" thisNode="ad6842e8-a61d-4395-a360-0831eae11b3e">
+  <producedTypes>
+    <objectType typeId="edd3a436-149d-4733-89d1-451b8841bba3" valueTypeId="610707ac-0da8-4a5d-8ab6-be3083520fa8"/>
+    <refType typeId="a7a9174c-d4a7-4acd-954b-5ff6d92addad" valueTypeId="1b5a3316-e815-42da-9775-346f3c590a58"/>
+    <selectionType typeId="350df20e-ab98-4f15-acd4-5c5ac81f76ad" valueTypeId="f66f0562-5c21-4f9e-bca9-c94e6e9a0cb5"/>
+    <listType typeId="1562b0f5-b646-4dc1-ad51-042cad62c321" valueTypeId="69ef7f34-c916-49a8-815d-fc5ccaa703c8"/>
+    <managerType typeId="aeb457eb-0b1d-4f92-95d3-38e9ef9b90f8" valueTypeId="5b95f0e4-cfcc-4b7e-9a76-474e929e6078"/>
+  </producedTypes>
+  <name>ОбменСообщениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен сообщениями</value>
+  </synonym>
+  <inputByString>ExchangePlan.ОбменСообщениями.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменСообщениями.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя конечной точки</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код конечной точки</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Конечная точка</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Конечные точки</value>
+  </listPresentation>
+  <codeLength>36</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Catalog.СообщенияОбластейДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПодпискиПолучателей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СообщенияСистемы</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="30d5c2a6-b3cf-4ed5-ba75-850bcae932d1">
+    <name>Ведущая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведущая</value>
+    </synonym>
+    <comment>Признак того, что конечная точка является инициатором отправки и получения сообщений, а также инициатором обработки очереди сообщений.</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что конечная точка является инициатором отправки и получения сообщений, а также инициатором обработки очереди сообщений в этой и других (ведомых) конечных точках.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0bf5e9c1-905a-4202-8b96-ed831b41be4b">
+    <name>Заблокирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокирована</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак блокировки конечной точки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ExchangePlan>

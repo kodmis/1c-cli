@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="314303c5-1e90-424e-bf1f-a92b2befd779">
+  <name>_ДемоСклонениеПредставленийОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склонение представлений объектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog._ДемоНоменклатура</content>
+  <content>Catalog._ДемоФизическиеЛица</content>
+  <content>Enum._ДемоСовместимостьНоменклатуры</content>
+  <subsystems>Использование</subsystems>
+  <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение</parentSubsystem>
+</mdclass:Subsystem>

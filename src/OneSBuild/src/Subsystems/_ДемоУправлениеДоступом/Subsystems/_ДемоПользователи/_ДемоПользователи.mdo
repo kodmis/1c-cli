@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f7fd5cf-7cc5-452f-9a7a-2854ff87a1b1">
+  <name>_ДемоПользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема Пользователи</value>
+  </explanation>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ВнешниеПользователи</content>
+  <content>Catalog.ГруппыВнешнихПользователей</content>
+  <content>Catalog.ГруппыПользователей</content>
+  <content>Catalog._ДемоПодразделения</content>
+  <content>Catalog._ДемоФизическиеЛица</content>
+  <content>FunctionalOption._ДемоОграничиватьДоступНаУровнеЗаписейБСП</content>
+  <content>FunctionalOption._ДемоИспользоватьВнешнихПользователейБСП</content>
+  <subsystems>Использование</subsystems>
+  <parentSubsystem>Subsystem._ДемоУправлениеДоступом</parentSubsystem>
+</mdclass:Subsystem>

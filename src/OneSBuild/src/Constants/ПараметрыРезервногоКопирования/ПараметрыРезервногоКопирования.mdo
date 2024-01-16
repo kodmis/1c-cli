@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d8c215d-1210-47a2-897d-a3257b9f849a">
+  <producedTypes>
+    <managerType typeId="ded9927b-1100-44fa-a0fd-88d79c1eb1cb" valueTypeId="c91dda1c-399a-4aa9-933c-c5360826acdc"/>
+    <valueManagerType typeId="71965975-6a52-4778-a72b-d3eda9ada8a2" valueTypeId="9f0df01e-ad30-471f-bb52-c64972e99a32"/>
+    <valueKeyType typeId="33122bf7-9751-5b13-9fc1-fedee6fccb77" valueTypeId="c083272a-d14f-5e82-8f93-7f9462abdbba"/>
+  </producedTypes>
+  <name>ПараметрыРезервногоКопирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры резервного копирования</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

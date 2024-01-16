@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9a6b053-2b93-4946-9531-040d3131dcc5">
+  <name>ВключитьИспользованиеПланаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включить использование плана обмена</value>
+  </synonym>
+  <source>
+    <types>ExchangePlanObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытия.ВключитьИспользованиеПланаОбмена</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c67211dc-22e8-40a1-966b-2bbdb6918f16">
+  <name>РаботаСКлассификаторами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с классификаторами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РаботаСКлассификаторамиСлужебныйВМоделиСервиса</content>
+  <content>EventSubscription.КонтрольНеразделенныхНаборовЗаписейПриЗаписиРаботаСКлассификаторами</content>
+  <content>CommonModule.РаботаСКлассификаторамиВМоделиСервисаПереопределяемый</content>
+  <content>7626996f-8187-4855-8365-0cc7e4384801</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

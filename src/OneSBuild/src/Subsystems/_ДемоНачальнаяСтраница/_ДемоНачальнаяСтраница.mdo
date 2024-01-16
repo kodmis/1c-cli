@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9208f9d-41ed-40a4-9c92-4d3aa80135d0">
+  <name>_ДемоНачальнаяСтраница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начальная страница</value>
+  </synonym>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема, содержащая объекты, размещаемые на начальной странице.</value>
+  </explanation>
+  <content>CommonCommand._ДемоДополнительныеОбработкиРабочийСтол</content>
+  <content>CommonCommand._ДемоДополнительныеОтчетыРабочийСтол</content>
+  <content>CommonCommand._ДемоПанельОтчетовНачальнаяСтраница</content>
+  <content>Report._ДемоФайлыВспомогательный</content>
+</mdclass:Subsystem>

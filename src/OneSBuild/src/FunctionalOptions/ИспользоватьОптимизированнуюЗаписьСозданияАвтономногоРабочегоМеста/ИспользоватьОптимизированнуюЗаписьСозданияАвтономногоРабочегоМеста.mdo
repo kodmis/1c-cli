@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc039475-c872-4b99-9248-c74aae75f0e1">
+  <name>ИспользоватьОптимизированнуюЗаписьСозданияАвтономногоРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оптимизированную запись создания автономного рабочего места</value>
+  </synonym>
+  <location>Constant.ИспользоватьОптимизированнуюЗаписьСозданияАвтономногоРабочегоМеста</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

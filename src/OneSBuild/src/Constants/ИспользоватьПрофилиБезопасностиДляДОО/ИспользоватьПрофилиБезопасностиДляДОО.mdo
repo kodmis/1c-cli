@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6527be82-a665-4f8a-818b-a35b96b3484b">
+  <producedTypes>
+    <managerType typeId="0e9c74a6-809b-4d3e-928c-c847df97de71" valueTypeId="c35b291b-2bc7-4cf8-989a-5fad2a8a567f"/>
+    <valueManagerType typeId="5f5964b0-7866-481c-8d7a-66b418bf3888" valueTypeId="530869f9-62d1-4961-a95a-32f810761478"/>
+    <valueKeyType typeId="c927c985-626c-5e7d-a207-6c2c020e6b62" valueTypeId="3f5b8731-1064-5d20-8984-901165f3d774"/>
+  </producedTypes>
+  <name>ИспользоватьПрофилиБезопасностиДляДОО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать профили безопасности для дополнительных отчетов и обработок</value>
+  </synonym>
+  <comment>АПК:58 в имени используется сокращение</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

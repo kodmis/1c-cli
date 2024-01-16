@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c0037f3-4422-4836-b116-8c72e32bdd55">
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>ScheduledJob.ЗагрузкаКурсовВалют</content>
+  <content>Catalog.Валюты</content>
+  <content>DataProcessor.ЗагрузкаКурсовВалют</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>CommonModule.РаботаСКурсамиВалют</content>
+  <content>CommonModule.РаботаСКурсамиВалютКлиентСервер</content>
+  <content>CommonModule.РаботаСКурсамиВалютКлиент</content>
+  <content>CommonModule.РаботаСКурсамиВалютГлобальный</content>
+  <content>CommonModule.РаботаСКурсамиВалютПереопределяемый</content>
+  <content>Enum.СпособыУстановкиКурсаВалюты</content>
+  <content>Role.ДобавлениеИзменениеКурсовВалют</content>
+  <content>Role.ЧтениеКурсовВалют</content>
+  <content>Constant.ИспользоватьАльтернативныйСерверДляЗагрузкиКурсовВалют</content>
+  <content>DefinedType.ДенежнаяСуммаЛюбогоЗнака</content>
+  <content>DefinedType.ДенежнаяСуммаНеотрицательная</content>
+  <content>CommonModule.РаботаСКурсамиВалютСлужебный</content>
+  <content>CommonCommand.ЗагрузитьКурсыВалют</content>
+  <content>XDTOPackage.CurrencyRates</content>
+  <content>DefinedType.КурсВалюты</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b7372be-af0d-464e-8d09-8172229790af">
+  <producedTypes>
+    <objectType typeId="3be2d07b-dcf4-4b77-a857-9aa791d220b1" valueTypeId="092a0be5-53c2-4b0e-a03e-6ac57018c463"/>
+    <managerType typeId="b5c8f77b-40fb-4425-b7b8-882dd1e51450" valueTypeId="3f56b6cf-9b4a-4105-aab6-78c61a2b2a4b"/>
+  </producedTypes>
+  <name>ЗадачиИстекающиеНаДату</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи, истекающие на дату</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗадачиИстекающиеНаДату.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="d85346db-be25-4dab-a2db-647c3d40dd17">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

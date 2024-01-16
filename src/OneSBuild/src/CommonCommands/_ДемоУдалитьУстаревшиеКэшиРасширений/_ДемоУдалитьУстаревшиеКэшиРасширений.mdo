@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37e36a72-4f28-44c7-9c73-f4c445f7722e">
+  <name>_ДемоУдалитьУстаревшиеКэшиРасширений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Удалить устаревшие кэши расширений</value>
+  </synonym>
+  <comment>Для автотестов</comment>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Удалить устаревшие версии параметров работы расширений</value>
+  </toolTip>
+</mdclass:CommonCommand>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="000932fc-f508-4326-93c6-e2351be1cf25">
+  <name>ПоставляемыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставляемые данные</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ПоставляемыеДанные</content>
+  <content>Catalog.ПоставляемыеДополнительныеОтчетыИОбработки</content>
+  <content>InformationRegister.ПоставляемыеДанныеТребующиеОбработки</content>
+  <content>Catalog.ПоставляемыеРасширения</content>
+  <content>InformationRegister.ПоставляемыеДанныеТребующиеОбработкиВОбластях</content>
+  <parentSubsystem>Subsystem.АдминистрированиеСервиса</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f405af95-3a59-41fa-ac30-579799e42c69">
+  <producedTypes>
+    <objectType typeId="cc15e167-6961-4ebc-8aba-fd6b6b4b7200" valueTypeId="f489a090-8104-4791-a7bd-9a7edac297a9"/>
+    <managerType typeId="9374ef45-c5f4-4602-a5e2-c902bda141d0" valueTypeId="1bfb2be9-828f-4b0e-bcbc-1e566e258386"/>
+  </producedTypes>
+  <name>_ДемоВыводСообщенийПользователю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Вывод сообщений пользователю</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоВыводСообщенийПользователю.Form.Форма</defaultForm>
+  <attributes uuid="ad2bf354-8210-48cc-8e62-9a37aa84aa35">
+    <name>РеквизитОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Реквизит, с которым связывается сообщение пользователю.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="179d3b60-ac16-4c00-a88e-9d7096663a77">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82a6457a-d658-4e9a-b179-1e5f79e391c1">
+    <name>ПримерКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пример кода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

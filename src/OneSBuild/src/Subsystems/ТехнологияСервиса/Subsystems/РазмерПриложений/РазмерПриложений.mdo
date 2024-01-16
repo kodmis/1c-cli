@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a1ae454-db50-4176-aa1e-760096e27f5e">
+  <name>РазмерПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер приложений</value>
+  </synonym>
+  <content>CommonModule.РазмерПриложений</content>
+  <content>Constant.НастройкиРасчетаРазмераПриложений</content>
+  <content>Report.ИсторияРазмераПриложения</content>
+  <content>InformationRegister.РазмерОбъектовМетаданныхПриложений</content>
+  <content>InformationRegister.РазмерПриложений</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

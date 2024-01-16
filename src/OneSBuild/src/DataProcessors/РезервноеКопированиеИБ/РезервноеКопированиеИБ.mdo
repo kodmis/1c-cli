@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="973967e5-1702-4fb8-ba36-70fd5b3b7e7c">
+  <producedTypes>
+    <objectType typeId="47321f2f-0ab3-40ca-8419-14c5989b83cc" valueTypeId="b7c649b9-8780-470f-9970-517d3968635e"/>
+    <managerType typeId="7c43ce7e-4dfa-4b9e-b874-4f75b082ea4f" valueTypeId="62a39543-e289-4a54-9e0f-73fb6f466705"/>
+  </producedTypes>
+  <name>РезервноеКопированиеИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервное копирование ИБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РезервноеКопированиеИБ.Form.РезервноеКопированиеДанных</defaultForm>
+  <attributes uuid="96ab5424-7be1-416d-b74d-d0c815726b1f">
+    <name>ВариантРасписанияРезервногоКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант расписания резервного копирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Варианты расписания резервного копирования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3714e794-ddef-4ad9-a933-6130bbc84545">
+    <name>ВыполнитьРезервноеКопированиеСейчас</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить резервное копирование сейчас</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Запустить выполнение резервного копирования сейчас</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="282b089c-7411-40d6-9a0a-ceaf6abb5586">
+    <name>КаталогСРезервнымиКопиями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог с резервными копиями</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выберите каталог для сохранения резервной копии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="678188aa-76e7-49bc-a4be-1c55ccd625b1">
+    <name>КодТипаРезервногоКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код типа резервного копирования</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Внутренний код типа резервного копирования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c27eece-2f8e-48eb-b9c7-f9c414ee15bd">
+    <name>ПроводитьРезервноеКопированиеПриВосстановленииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проводить резервное копирование при восстановлении данных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Требуется проводить резервное копирование при восстановлении данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b3415b4a-d8de-4536-aa4b-82e75fd986ee">
+    <name>ФайлЗагрузкиРезервнойКопии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл загрузки резервной копии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя файл загрузки резервной копии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="acc996ab-672a-4602-b7ad-8eee83557e61">
+    <name>ПарольАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль администратора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пароль администратора для копирования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="bf9e9c2f-e5dc-4f82-8e9a-7f35e3ad9a0b">
+    <name>ВосстановлениеДанныхИзРезервнойКопии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление данных из резервной копии</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="371361b6-15fd-4e62-9f60-cc8ee3fbacf0">
+    <name>РезервноеКопированиеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервное копирование данных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="97745768-ed35-44f1-beba-abb8b28a29ae">
+    <name>МакетФайлаРезервногоКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет файла резервного копирования</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="69364942-bcd1-4b06-9b57-fa59b4e7c552">
+    <name>ЗаставкаРезервногоКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заставка резервного копирования</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ab201c5f-4134-42cf-a528-c1c4df02f2d7">
+    <name>ДопФайлРезервногоКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп файл резервного копирования</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="303fb7b5-6a23-40ea-ae12-b54f4ebae026">
+    <name>МакетФайлаЗагрузкаИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет файла загрузка ИБ</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="634cd26b-78f1-4446-8aad-b96ed16e5329">
+    <name>ЗаставкаВосстановления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заставка восстановления</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="d8e62f1a-92ca-4971-9609-e79da798c083">
+    <name>ВыполнитьВосстановлениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить восстановление данных</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

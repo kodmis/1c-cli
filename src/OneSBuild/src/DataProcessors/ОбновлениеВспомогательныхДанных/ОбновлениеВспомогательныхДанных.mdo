@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f8f07c2-e814-44ed-aab5-29ccb8ff45cf">
+  <producedTypes>
+    <objectType typeId="8e96879c-f5fa-4ad5-9c0e-aac4c2b31ee3" valueTypeId="1154466a-83b9-498b-9a1f-c4c1f6fc78a5"/>
+    <managerType typeId="eae09049-7f42-4aae-8efe-aaac1a45a740" valueTypeId="b26fc85d-e878-4d6a-ab64-e8e55235b6bc"/>
+  </producedTypes>
+  <name>ОбновлениеВспомогательныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление вспомогательных данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеВспомогательныхДанных.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="0ab801bf-79a9-475d-900f-11456b4546d4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3a3b56dd-0c3a-440c-b013-9348505623f8">
+    <name>ОбновлениеВспомогательныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление вспомогательных данных</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

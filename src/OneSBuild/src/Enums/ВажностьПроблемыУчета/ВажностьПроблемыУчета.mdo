@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67e85b9a-a138-49ea-b474-04475f0f8c90">
+  <producedTypes>
+    <refType typeId="c8f0f421-adcf-417b-8509-93d4569c4435" valueTypeId="f956fb82-0262-4129-a80d-f2642eea52a9"/>
+    <listType typeId="001333d9-a79f-4306-900e-a56c9e37802f" valueTypeId="af63da14-948a-422d-b091-cbd094b4552f"/>
+    <managerType typeId="7b08935e-284b-4995-ae95-f93cc6666d02" valueTypeId="0c07f33d-f024-498e-91c5-cadd7bd73756"/>
+  </producedTypes>
+  <name>ВажностьПроблемыУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Важность проблемы учета</value>
+  </synonym>
+  <comment>Определяет значимость проблемы, выявленной при проверке</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5d990585-02dd-4a13-8dfa-920df7d1dbb0">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="788a98e0-194f-466c-b4fa-bafd527aae26">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07820e9e-9d6b-4c37-909e-90dbd33e30c0">
+    <name>ВажнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важная информация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="364218e0-87ba-4008-a3e3-e2351a5e04b8">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="143f6db9-a4dc-4039-90d0-6161394a3e2f">
+    <name>ПолезныйСовет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полезный совет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

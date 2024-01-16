@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2276a1d4-b4d9-4643-8342-36143ce4eb26">
+  <producedTypes>
+    <containerType typeId="a1b8acab-d5aa-483e-9173-a769157c002c" valueTypeId="a5a183b6-9e96-4e9f-9c5f-65133c0ce888"/>
+  </producedTypes>
+  <name>БизнесПроцессОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес процесс объект</value>
+  </synonym>
+  <type>
+    <types>BusinessProcessObject.Задание</types>
+    <types>BusinessProcessObject._ДемоЗаданиеСРолевойАдресацией</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdaf9255-d621-4a98-9530-f618ed440795">
+  <producedTypes>
+    <managerType typeId="f3a49b5f-463e-4de5-9116-d961d6f944fc" valueTypeId="4d748aa0-146b-4fbd-8add-344286a4b44b"/>
+    <valueManagerType typeId="1de523c0-2e11-4a8c-b4bb-99821b3e39bd" valueTypeId="1a57c9e6-0f29-4d56-909f-76db8b4357b5"/>
+    <valueKeyType typeId="0c6f9aae-ba30-5381-b45f-78b76b3d1b47" valueTypeId="cb37d851-04dc-5a72-b6dc-317015e2ad44"/>
+  </producedTypes>
+  <name>ИспользоватьДатуНачалаЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дату начала задач</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

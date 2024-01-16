@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44f07873-6d15-4eff-b212-8bca6dfca376">
+  <name>_ДемоНапомнитьЗа5Минут</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Напомнить за 5 минут</value>
+  </synonym>
+  <group>CommandGroup.Органайзер</group>
+  <commandParameterType>
+    <types>TaskRef.ЗадачаИсполнителя</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Напоминание</picture>
+  </picture>
+</mdclass:CommonCommand>

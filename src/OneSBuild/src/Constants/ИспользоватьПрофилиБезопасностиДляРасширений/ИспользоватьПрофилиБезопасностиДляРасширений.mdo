@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce61f0eb-ad60-4161-8cf6-525afcf5463e">
+  <producedTypes>
+    <managerType typeId="ba7939c5-9988-4d61-afdd-3aebd37c4215" valueTypeId="fba23e8c-e4ff-4212-a31f-e4afe531d0d8"/>
+    <valueManagerType typeId="24502d69-680a-4beb-ad7e-8f04000e7464" valueTypeId="d2d19ecc-9cef-48ea-b159-0b2f153d224e"/>
+    <valueKeyType typeId="89675ab7-8a58-5034-bc07-22fa79fd4ede" valueTypeId="9f6172d7-a7c5-5313-bfdd-66406aefa4d7"/>
+  </producedTypes>
+  <name>ИспользоватьПрофилиБезопасностиДляРасширений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать профили безопасности для расширений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

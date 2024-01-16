@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1b66ea8-262d-4b38-a039-b83a843f6ee8">
+  <producedTypes>
+    <objectType typeId="6ca3c3e8-a2ed-4a00-9d0f-d2de9648b7d1" valueTypeId="ccbf49e7-6216-4050-b4f6-f39ad9eb227e"/>
+    <managerType typeId="6426a46c-b161-4f85-9219-a66934cce87e" valueTypeId="943ec60c-e8e2-411b-b9df-b3aaab87cd9a"/>
+  </producedTypes>
+  <name>ЗагрузкаПравилРегистрацииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка правил регистрации объектов</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗагрузкаПравилРегистрацииОбъектов.Form.Форма</defaultForm>
+  <attributes uuid="bcae6e05-f1fd-413e-9eef-2e1cee42a962">
+    <name>ИмяПланаОбменаДляЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя плана обмена для загрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="40da1bca-ebb3-4c64-bf54-1f37b71d47b6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

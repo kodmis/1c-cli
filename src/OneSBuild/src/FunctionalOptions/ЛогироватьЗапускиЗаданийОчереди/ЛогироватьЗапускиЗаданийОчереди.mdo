@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="404579d0-1a4e-4d8b-9f3b-a89f6309c243">
+  <name>ЛогироватьЗапускиЗаданийОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логировать запуски заданий очереди</value>
+  </synonym>
+  <location>Constant.ЛогироватьЗапускиЗаданийОчереди</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ИсторияЗапускаЗаданийОчереди</content>
+</mdclass:FunctionalOption>

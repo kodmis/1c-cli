@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e2828b4-2b55-471e-ac69-55119c2480f8">
+  <producedTypes>
+    <managerType typeId="57c1b276-92eb-4bcd-a147-89591434117a" valueTypeId="6be601a6-5652-482b-a70b-a90150407d7b"/>
+    <valueManagerType typeId="4d5d4cc0-fab1-4854-91e8-47c11cf14b5d" valueTypeId="8eaa20f6-ebf1-4147-97e7-673793cef5e0"/>
+    <valueKeyType typeId="95cee076-50be-5ac6-b696-980689b0b9de" valueTypeId="e02b2028-8ee3-5b2c-8b16-2c34f5b1e7b9"/>
+  </producedTypes>
+  <name>КлючОбластиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ области данных</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

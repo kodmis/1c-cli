@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8c1164d-73a9-4719-8f31-59869d0dd1e1">
+  <name>_ДемоОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog._ДемоОрганизации</content>
+  <content>Document._ДемоРеализацияТоваров</content>
+  <content>FunctionalOption._ДемоИспользоватьНесколькоОрганизаций</content>
+  <content>DataProcessor._ДемоПечатьКарточкиОрганизации</content>
+  <parentSubsystem>Subsystem._ДемоНормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf428e7a-2970-4bab-8c8e-35ea16151c0e">
+  <producedTypes>
+    <selectionType typeId="d442b63d-df3a-4ca9-83e4-c46bf1efc5ae" valueTypeId="ac112c59-3298-4375-b6fc-426f7fe8143d"/>
+    <listType typeId="9758ec82-d2b5-4d31-95a9-b3ba8cdf8f1e" valueTypeId="5d37b6da-0b5a-47b7-a07f-0a7a1ebe6025"/>
+    <managerType typeId="915285d2-9259-41da-87d6-ca8c6a0b2fc2" valueTypeId="d8232caf-1668-40b0-933b-54bf9075b84a"/>
+    <recordSetType typeId="5e5f7e30-549a-4b62-83e5-511f1d2dfd35" valueTypeId="2391a98d-e8b8-4dfc-a7b6-f22ce82609c3"/>
+    <recordKeyType typeId="8719be6a-a7c6-4b87-bc1f-ba44600aa7a0" valueTypeId="7d280e7f-d4ae-44c8-a069-bc30a22837c6"/>
+    <recordType typeId="377b6d8c-ada6-4b72-9916-1f96a15844bf" valueTypeId="2ec5885b-124c-4efa-b0b8-030f63e5d226"/>
+    <recordManagerType typeId="d4e2e359-c797-4a11-a005-541b6f5395e2" valueTypeId="c5afbdad-88aa-4b78-a92e-3620b2a3207f"/>
+  </producedTypes>
+  <name>НастройкиТранспортаОбменаОбластиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки транспорта обмена области данных</value>
+  </synonym>
+  <comment>Хранит частные настройки транспорта сообщений обмена для каждой области данных.</comment>
+  <defaultRecordForm>InformationRegister.НастройкиТранспортаОбменаОбластиДанных.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкиТранспортаОбменаОбластиДанных.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="232dbd5f-b7f1-4463-946c-b8fbf93ac466">
+    <name>КонечнаяТочкаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечная точка корреспондента</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КонечнаяТочкаОбменаСообщениями</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конечная точка корреспондента.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ExchangePlan.ОбменСообщениями.EmptyRef</value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="a1a74b34-4174-4769-8f03-bd4a32e83418">
+    <name>КаталогОбменаИнформацией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог обмена информацией (относительно основного каталога)</value>
+    </synonym>
+    <comment>Относительный путь к каталогу обмена на сервере или в локальной сети.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог обмена информацией на сетевом ресурсе.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="32fd1fe7-34d3-43ed-baba-16ccd43aa25a">
+    <name>Корреспондент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корреспондент</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Получатель</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>4898249e-d639-4b75-aad5-652b0ce3b1cf.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8f4d1259-abdc-4495-8e1e-8c8abcd336ca">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7086199b-20ec-4a74-a52f-71824134e8c5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

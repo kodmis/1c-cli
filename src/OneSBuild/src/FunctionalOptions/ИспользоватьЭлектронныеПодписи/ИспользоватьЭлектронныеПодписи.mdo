@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dcc3bbf-afbe-4a4e-bc4a-17534d5fab28">
+  <name>ИспользоватьЭлектронныеПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать электронные подписи</value>
+  </synonym>
+  <location>Constant.ИспользоватьЭлектронныеПодписи</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВерсииФайлов.TabularSection.УдалитьЭлектронныеПодписи</content>
+  <content>Catalog.ВстречаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</content>
+  <content>Catalog.ВстречаПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</content>
+  <content>Catalog.СообщениеSMSПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.СообщениеSMSПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</content>
+  <content>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</content>
+  <content>Catalog.Файлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</content>
+  <content>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</content>
+  <content>Constant.УсовершенствоватьПодписиАвтоматически</content>
+  <content>Constant.ДобавлятьМеткиВремениАвтоматически</content>
+  <content>Constant.АдресаСерверовМетокВремени</content>
+  <content>Constant.ТипПодписиКриптографииПоУмолчанию</content>
+  <content>Constant.УсовершенствоватьПодписиСДаты</content>
+  <content>Constant.РазрешенныеНеаккредитованныеУЦ</content>
+  <content>CommonForm.РазрешенныеНеаккредитованныеУЦ</content>
+</mdclass:FunctionalOption>

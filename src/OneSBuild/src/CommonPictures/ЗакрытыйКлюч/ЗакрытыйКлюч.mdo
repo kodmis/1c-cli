@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9255acf-dc35-4225-8d3a-544e66b7334d">
+  <name>ЗакрытыйКлюч</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытый ключ</value>
+  </synonym>
+</mdclass:CommonPicture>

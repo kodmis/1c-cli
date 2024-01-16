@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67cddc4f-4400-4f54-93bd-aed8e6291041">
+  <name>ИнформационныйЦентр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационный центр</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнформационныйЦентрКлиент</content>
+  <content>CommonModule.ИнформационныйЦентрСервер</content>
+  <content>CommonModule.ИнформационныйЦентрСерверПереопределяемый</content>
+  <content>CommonModule.ИнформационныйЦентрСлужебный</content>
+  <content>CommonCommand.ИнформацияИПоддержка</content>
+  <content>CommonTemplate.ИнформационныеСсылки_Общие</content>
+  <content>CommonTemplate.СоответствиеТэговОбщимФормам</content>
+  <content>Catalog.ОбщиеДанныеИнформационногоЦентра</content>
+  <content>Catalog.ТипыИнформацииИнформационногоЦентра</content>
+  <content>DataProcessor.ИнформационныйЦентр</content>
+  <content>InformationRegister.ПросмотренныеДанныеИнформационногоЦентра</content>
+  <content>CommonPicture.СообщениеВТехПоддержку</content>
+  <content>CommonPicture.УведомлениеСервиса</content>
+  <content>CommonPicture.ФорумСервиса</content>
+  <content>Constant.АдресУправленияКонференцией</content>
+  <content>Catalog.ИнформационныеСсылкиДляФорм</content>
+  <content>Catalog.ПолныеПутиКФормам</content>
+  <content>CommonPicture.СообщениеСервиса</content>
+  <content>Constant.АдресПрограммногоИнтерфейсаСлужбыПоддержки</content>
+  <content>EventSubscription.ПолныйПутьКФормеПередЗаписью</content>
+  <content>XDTOPackage.InformationReferences_1_0_1_1</content>
+  <content>XDTOPackage.InformationReferences</content>
+  <content>Constant.АдресСервисаНовостей</content>
+  <content>Constant.АдресСервисаЦентраИдей</content>
+  <content>Constant.ПрефиксСервисаДляНовостей</content>
+  <content>ScheduledJob.ЧтениеНовостейСлужбыПоддержки</content>
+  <content>Role.ИспользованиеИнформационногоЦентра</content>
+  <content>CommonModule.ИнформационныйЦентрСерверПовтИсп</content>
+  <content>CommonPicture.ЗапланированнаяИдея</content>
+  <content>CommonPicture.ПодатьИдею</content>
+  <content>CommonPicture.ВзаимодействияИЦ</content>
+  <content>CommonPicture.ЗакрытоеОбращение</content>
+  <content>CommonPicture.НовоеОбращение</content>
+  <content>CommonPicture.ОбращениеВРаботе</content>
+  <content>CommonPicture.ОбращениеНуженОтвет</content>
+  <content>CommonPicture.ПереходВлевоАктивный</content>
+  <content>CommonPicture.ПереходВлевоНеАктивный</content>
+  <content>CommonPicture.ПереходВправоАктивный</content>
+  <content>CommonPicture.ПереходВправоНеАктивный</content>
+  <content>CommonModule.ИнформационныйЦентрВызовСервера</content>
+  <content>CommonModule.ИнформационныйЦентрКлиентСервер</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

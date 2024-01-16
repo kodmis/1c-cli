@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e03264d-f8a2-4af8-bcc8-0ab755242c58">
+  <producedTypes>
+    <objectType typeId="e19ca8c7-6151-425a-b562-679feea4cdb1" valueTypeId="72270d2f-3ba4-4f84-9ada-ce8d639a4b50"/>
+    <managerType typeId="5c80be3e-b5ab-407a-adad-d19fde032120" valueTypeId="7d694578-3683-4452-af9c-10cbbc677d6d"/>
+  </producedTypes>
+  <name>ПереходНаВерсию301</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход на версию 3.0.1</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПереходНаВерсию301.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="2a446631-5bb8-48a9-a119-7b3cce6b0d8b">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="503663a2-fefb-4388-865c-1b11304bb8b1">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="1c7e1647-01c3-43d0-b403-83b5fbe109cf">
+    <name>ПереходНаВерсию301</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переход на версию 3.0.1</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Расстановка фрагментов кода для перехода на версию 3.0.1</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

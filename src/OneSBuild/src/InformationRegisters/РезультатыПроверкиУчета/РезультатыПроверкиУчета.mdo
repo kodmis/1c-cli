@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb9c08ee-92e9-4bd9-8794-ef0f221eee99">
+  <producedTypes>
+    <selectionType typeId="ed3c4c1b-e1fb-475e-b2eb-7810c065fda0" valueTypeId="24567769-f69b-4171-ab07-20bb033bcc7a"/>
+    <listType typeId="dfabe7b0-0704-42be-88da-79ac90cb48a3" valueTypeId="b05d86e7-3d3f-4c43-88f0-62773a5870bb"/>
+    <managerType typeId="1911f2b1-d115-40b8-82f9-3c369671e05c" valueTypeId="138fc751-9aa2-4cc8-877b-1df48e64fa0a"/>
+    <recordSetType typeId="b2ed7062-d3cf-4b57-a895-aab87dff4346" valueTypeId="4c03575f-8ef1-4c2c-b934-7b325c2c0710"/>
+    <recordKeyType typeId="087e7246-de39-4a39-9663-60978aa7d37e" valueTypeId="367db402-8a95-425a-9992-f86bacc14487"/>
+    <recordType typeId="a4091c1d-3baa-453e-b174-b18c00611de3" valueTypeId="e44ad48a-2d21-4dc1-b278-d4a9fe7f9110"/>
+    <recordManagerType typeId="f00af852-f121-47a4-b329-7df57a07a4ee" valueTypeId="e2d014f6-2175-401b-a77f-8ec9984dd7d6"/>
+  </producedTypes>
+  <name>РезультатыПроверкиУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты проверки учета</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e4cd44e6-1255-490f-96d9-f805ac92cf67">
+    <name>УточнениеПроблемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уточнение проблемы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подробные сведения о проблеме</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8ae9be37-cda5-4b66-8a97-5e77d2a2c75f">
+    <name>ВажностьПроблемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важность проблемы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВажностьПроблемыУчета</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Важность выявленной проблемы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5a9011fc-c023-47fb-a999-2c6ca33a04b9">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за проблемный объект</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ab574fa5-0730-4456-b741-111e5ea8a896">
+    <name>ДополнительнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная информация</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Служебный реквизит с дополнительными сведениями, связанными с выявленной проблемой</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b8d5adf0-dc2f-4041-bc97-cb2442f00054">
+    <name>Выявлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выявлено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата и время выявления проблемы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="398199c4-4830-48e9-89c5-45c2c5a30ee6">
+    <name>УдалитьИгнорироватьПроблему</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Игнорировать проблему</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="546ba3bb-4614-423f-954c-466530f42784">
+    <name>КонтрольнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная сумма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрольная сумма измерений ПроблемныйОбъект, ПравилоПроверки, ВидПроверки и ресурса УточнениеПроблемы по алгоритму MD5</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                </value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="2336e71e-a310-4a7a-a0c0-75f8bf65d548">
+    <name>_ДемоОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоОрганизации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, к которой относится проблемный объект (для ограничения доступа).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e5bc54f0-d7d0-471c-adda-a0e73e0dd3cf">
+    <name>ПроблемныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проблемный объект</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+      <types>BusinessProcessRef</types>
+      <types>DocumentRef</types>
+      <types>ChartOfCalculationTypesRef</types>
+      <types>TaskRef</types>
+      <types>ChartOfCharacteristicTypesRef</types>
+      <types>ChartOfAccountsRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект, в котором выявлена проблема</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="af447f33-ef41-4eda-96ec-5bac26fff33e">
+    <name>ПравилоПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило проверки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПравилаПроверкиУчета</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Правило проверки, выявившее проблему в объекте</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f0c83fc5-6e9a-4185-ab43-2b419ace7909">
+    <name>ВидПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид проверки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПроверок</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид проверки, в которому относится правило, выявившее проблему в объекте</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4bd15718-6a0e-4a86-921a-09d38ba4be4c">
+    <name>КлючУникальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ уникальности</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Служебный ключ для регистрации нескольких проблем одного вида по одному объекту</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="32586ba6-8922-4321-b134-70d1b77a16a4">
+    <name>ИгнорироватьПроблему</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игнорировать проблему</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что проблема не должна быть устранена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

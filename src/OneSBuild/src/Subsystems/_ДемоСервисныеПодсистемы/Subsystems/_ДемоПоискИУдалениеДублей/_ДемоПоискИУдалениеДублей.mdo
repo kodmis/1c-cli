@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c46d1f15-5ea5-4266-a646-896e39fb3588">
+  <name>_ДемоПоискИУдалениеДублей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск и удаление дублей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog._ДемоНоменклатура</content>
+  <content>ChartOfAccounts._ДемоОсновной</content>
+  <content>ChartOfCalculationTypes._ДемоОсновныеНачисления</content>
+  <content>ChartOfCharacteristicTypes._ДемоВидыСубконто</content>
+  <content>CommonCommand._ДемоМестаИспользованияЭлемента</content>
+  <content>CommonCommand._ДемоФактическиеНачисленияСотрудника</content>
+  <content>Enum._ДемоВидыПлатежейВБюджет</content>
+  <content>DataProcessor.ЗаменаИОбъединениеЭлементов</content>
+  <content>DataProcessor.ПоискИУдалениеДублей</content>
+  <content>Catalog._ДемоФизическиеЛица</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog._ДемоДоговорыКонтрагентов</content>
+  <content>Enum._ДемоСовместимостьНоменклатуры</content>
+  <content>DataProcessor._ДемоСозданиеДублей</content>
+  <content>Catalog._ДемоКлючиАналитикиНоменклатуры</content>
+  <content>Catalog._ДемоПартнеры</content>
+  <subsystems>КонтрольРезультатов</subsystems>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

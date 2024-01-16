@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53f36dcb-9b68-4365-9335-54fdd33793d9">
+  <name>_ДемоНепоставляемыеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Непоставляемые объекты</value>
+  </synonym>
+  <comment>Непоставляемые объекты без префикса _Демо</comment>
+  <content>CommonTemplate.ОписаниеИзмененийСистемы</content>
+</mdclass:Subsystem>

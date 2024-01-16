@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f4f4b31-93c0-4f1d-9b5d-e229b6891b4f">
+  <name>DataArtefacts_ValueStorages_1_0_0_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Data artefacts value storages 1.0.0.1</value>
+  </synonym>
+  <namespace>http://www.1c.ru/1cFresh/Data/Artefacts/ValueStorage/1.0.0.1</namespace>
+</mdclass:XDTOPackage>

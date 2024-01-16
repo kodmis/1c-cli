@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d47838b-e1aa-4acb-96bf-6de2f9be8bdb">
+  <name>Свойства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonPicture.ДополнительныеРеквизитыСведения</content>
+  <content>CommonPicture.ДополнительныеСведения</content>
+  <content>CommonModule.УправлениеСвойствамиКлиент</content>
+  <content>CommonModule.УправлениеСвойствамиПереопределяемый</content>
+  <content>CommonModule.УправлениеСвойствами</content>
+  <content>Constant.ИспользоватьДополнительныеРеквизитыИСведения</content>
+  <content>CommonForm.РедактированиеДополнительныхСведений</content>
+  <content>Catalog.ЗначенияСвойствОбъектов</content>
+  <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
+  <content>InformationRegister.ДополнительныеСведения</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</content>
+  <content>CommonCommand.ДополнительныеСведенияКоманднаяПанель</content>
+  <content>Role.ЧтениеДополнительныхСведений</content>
+  <content>Role.ИзменениеДополнительныхСведений</content>
+  <content>FunctionalOption.ИспользоватьДополнительныеРеквизитыИСведения</content>
+  <content>Catalog.ЗначенияСвойствОбъектовИерархия</content>
+  <content>CommonModule.УправлениеСвойствамиСлужебный</content>
+  <content>DefinedType.ВладелецДополнительныхСведений</content>
+  <content>Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений</content>
+  <content>CommonForm.РедактированиеГиперссылки</content>
+  <content>EventSubscription.СвойстваПередУдалениемСсылочногоОбъекта</content>
+  <content>StyleItem.ЦветПустойГиперссылки</content>
+  <content>CommonModule.УправлениеСвойствамиПовтИсп</content>
+  <content>SessionParameter.ИнтерактивнаяПроверкаЗаполненияСвойств</content>
+  <content>EventSubscription.ДополнительныеРеквизитыОбработкаПроверкиЗаполнения</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c1655a6-bac0-4829-a09e-64083b962928">
+  <name>ТехнологияСервисаВАвтономномРежиме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технология сервиса в автономном режиме</value>
+  </synonym>
+  <location>Constant.ЭтоАвтономноеРабочееМесто</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

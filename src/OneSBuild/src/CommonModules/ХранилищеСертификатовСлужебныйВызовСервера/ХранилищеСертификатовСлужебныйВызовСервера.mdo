@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff9413c4-4f37-4545-8460-4cc5b9d189e6">
+  <name>ХранилищеСертификатовСлужебныйВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище сертификатов служебный вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

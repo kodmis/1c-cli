@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ceaf3a4-e457-431d-82fa-aafa6506e827">
+  <name>Подсистема_ДемоИнтегрируемыеПодсистемыПродолжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел &quot;Интегрируемые подсистемы (часть 2)&quot;</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3c1a825-6b35-4b09-8043-63f75b575707">
+  <producedTypes>
+    <managerType typeId="bcd2a3ff-1f93-4b0e-acd7-53f82264f4bc" valueTypeId="482604a3-cb96-48e1-99a3-7112b85225f7"/>
+    <valueManagerType typeId="1ac1f127-e9bf-4c44-83dc-bd52d4b04112" valueTypeId="2454d0a3-f4d0-4673-ace4-7f6e8d2375ae"/>
+    <valueKeyType typeId="389061fa-6731-497a-b108-eb3a516dada0" valueTypeId="d8f24bcd-3538-4901-bbb4-f7e7ef1f5e05"/>
+  </producedTypes>
+  <name>ТипПодписиКриптографииПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип подписи криптографии по умолчанию</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыПодписиКриптографии</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

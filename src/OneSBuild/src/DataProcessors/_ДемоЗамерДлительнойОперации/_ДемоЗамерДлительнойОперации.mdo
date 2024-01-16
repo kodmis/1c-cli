@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11e2e7e8-335d-4313-836c-f1ce1866d8cc">
+  <producedTypes>
+    <objectType typeId="28e5bffd-1398-4a58-be4e-7409b65b72eb" valueTypeId="d777ff54-d844-4054-b9e2-08bf5bc46ce0"/>
+    <managerType typeId="288a4eda-3cf5-40fd-9915-241c189f4718" valueTypeId="98b1cb83-83e7-4efa-bb74-a0cc25b1a9c7"/>
+  </producedTypes>
+  <name>_ДемоЗамерДлительнойОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Замер длительной операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоЗамерДлительнойОперации.Form.Форма</defaultForm>
+  <attributes uuid="fc6018ce-443a-4e0e-9367-92541d157293">
+    <name>КоличествоКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество контрагентов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество создаваемых контрагентов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="86d28e83-1a4f-4b64-b006-22a26fe9333b">
+    <name>КоличествоБанковскихСчетовКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество банковских счетов контрагента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество создаваемых банковских счетов контрагента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="400a96f6-f8e4-44a2-932f-7efb759fc4aa">
+    <name>УдалитьСозданные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить созданные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Удалить созданные объекты из информационной базы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7871c544-45c0-4d05-9697-1207c8241f06">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

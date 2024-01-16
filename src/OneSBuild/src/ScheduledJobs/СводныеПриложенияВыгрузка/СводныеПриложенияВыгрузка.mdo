@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29805f10-afdc-429b-bb4c-4dd3d31dd8ac">
+  <name>СводныеПриложенияВыгрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводные приложения выгрузка</value>
+  </synonym>
+  <methodName>CommonModule.СводныеПриложения.ЗаданиеВыгрузка</methodName>
+  <description>Сводные приложения (выгрузка)</description>
+  <key>СводныеПриложенияВыгрузка</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

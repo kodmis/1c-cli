@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4842271-4fc0-4e15-afef-876f05af78c0">
+  <name>Взаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействия</value>
+  </synonym>
+  <representation>Picture</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОтветитьНаЭлектронноеПисьмоВсем</picture>
+  </picture>
+  <category>FormCommandBar</category>
+</mdclass:CommandGroup>

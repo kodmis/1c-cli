@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9295d88f-0865-440c-a98a-4710c50211be">
+  <name>ЗарегистрироватьИзмененияОбщихДанныхУзлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрировать изменения общих данных узлов</value>
+  </synonym>
+  <source>
+    <types>ExchangePlanObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытия.ЗарегистрироватьИзмененияОбщихДанныхУзлов</handler>
+</mdclass:EventSubscription>

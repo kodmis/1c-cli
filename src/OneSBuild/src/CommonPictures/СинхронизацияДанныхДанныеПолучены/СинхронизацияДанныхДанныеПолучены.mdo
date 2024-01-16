@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f2d69b4-2f87-40f4-a78c-fe4cabc2a502">
+  <name>СинхронизацияДанныхДанныеПолучены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных данные получены</value>
+  </synonym>
+</mdclass:CommonPicture>

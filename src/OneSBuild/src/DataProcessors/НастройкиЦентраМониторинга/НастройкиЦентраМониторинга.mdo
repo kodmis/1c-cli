@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7904d64a-2c30-4434-8924-b4817b727db9">
+  <producedTypes>
+    <objectType typeId="d895cea1-5950-467f-a65c-e7e72e11d0b6" valueTypeId="4e3da1cd-5174-4ab6-8512-523209590091"/>
+    <managerType typeId="a7c1828a-4f1a-470e-8b45-0a801eadae4c" valueTypeId="2c98f3c9-57d9-403b-8b52-7c749c568b1d"/>
+  </producedTypes>
+  <name>НастройкиЦентраМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки центра мониторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкиЦентраМониторинга.Form.НастройкиЦентраМониторинга</defaultForm>
+  <forms uuid="c550a43a-1240-4f29-9045-a262f37f703a">
+    <name>НастройкиЦентраМониторинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки центра мониторинга</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="86b1feed-ed65-4672-a49a-c52282b40be3">
+    <name>ЗапросНаСборИОтправкуОтчетовОбОшибках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос на сбор и отправку отчетов об ошибках</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="85ac42d7-400a-4469-8fcd-e6a14f258792">
+    <name>ЗапросНаОтправкуОтчетовОбОшибках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос на отправку отчетов об ошибках</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ec681c28-661c-43e3-9285-9fc606f2d24c">
+    <name>ОтправкаКонтактнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка контактной информации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="be0fbbfc-5873-41a6-80ef-35ed1b8adb4c">
+    <name>НастройкаОтправкиОтчетовОбОшибках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка отправки отчетов об ошибках</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="413c2d03-f717-4503-9723-c605114b2799">
+    <name>ПроблемыПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проблемы производительности</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

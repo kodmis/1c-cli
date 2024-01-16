@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38325a66-588a-4db0-8e0c-21d239408369">
+  <name>ТрансляцияXDTOПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трансляция XDTO Переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

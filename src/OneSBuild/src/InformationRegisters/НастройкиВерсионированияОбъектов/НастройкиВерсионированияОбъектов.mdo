@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45af8f5d-d505-466b-a798-19f2219a180c">
+  <producedTypes>
+    <selectionType typeId="8750cec8-fd19-4356-9abf-0356eb282952" valueTypeId="7a424628-82ce-4935-9ebb-9bfaeb2b3f67"/>
+    <listType typeId="849f336a-043e-4ec5-bbec-5a279b24b36c" valueTypeId="64e47fb0-62f6-4a32-b633-66ae188267ac"/>
+    <managerType typeId="7f5f629e-1a5e-4762-b791-82f2adb47cfe" valueTypeId="9fbe2466-6f78-4c7e-bfe0-0f2534c9bd34"/>
+    <recordSetType typeId="824931a3-6bfb-42be-8cc2-9897c41d6c51" valueTypeId="6777e4ee-eae8-4ffe-8003-6ec3f6779e52"/>
+    <recordKeyType typeId="8b8bad06-dfe1-4437-94ca-94c05ee06e07" valueTypeId="7d23a863-724a-4851-8989-9b3eba0b960c"/>
+    <recordType typeId="213187d7-648d-42ac-afa3-cf9d0ead3fa2" valueTypeId="0f07764a-dc4a-424e-9d51-c9067958cb7c"/>
+    <recordManagerType typeId="7bcb7203-c9a2-4c08-9826-6fd9290b634f" valueTypeId="68870bc1-b0c3-413c-bad8-1cd6c821930b"/>
+  </producedTypes>
+  <name>НастройкиВерсионированияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки версионирования объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.НастройкиВерсионированияОбъектов.Form.НастройкиХраненияИстории</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки хранения истории изменений</value>
+  </listPresentation>
+  <resources uuid="8a8229bc-f70a-4434-bacc-8a81fc58154b">
+    <name>Вариант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыВерсионированияОбъектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант версионирования типа объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВариантыВерсионированияОбъектов.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="6324ad14-82ca-467b-b6b7-8d5f6049ca65">
+    <name>Использовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать версионирование объекта метаданных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="273446f0-f28b-4ce2-874c-3c6a57299b71">
+    <name>СрокХраненияВерсий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок хранения версий</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СрокиХраненияВерсий</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет, через какое время версия объекта считается устаревшей и подлежит очистке.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="eb2f7449-ee42-43ec-b59c-3e07a6e3c139">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное имя объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f8a7913a-2c64-47e1-8ae9-622fc6e9477e">
+    <name>НастройкиХраненияИстории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки хранения истории</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

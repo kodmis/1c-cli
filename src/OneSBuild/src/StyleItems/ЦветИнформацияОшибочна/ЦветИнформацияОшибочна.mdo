@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff9cf47e-a0de-4ee6-ab81-2578e00e8556">
+  <name>ЦветИнформацияОшибочна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет &quot;Информация ошибочна&quot;</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.Crimson</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

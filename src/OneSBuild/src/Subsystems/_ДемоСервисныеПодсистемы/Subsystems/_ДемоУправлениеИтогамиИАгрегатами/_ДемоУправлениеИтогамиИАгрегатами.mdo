@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c78f7cf-1cef-49f5-8652-a7ca7ebd43d1">
+  <name>_ДемоУправлениеИтогамиИАгрегатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление итогами и агрегатами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document._ДемоСчетНаОплатуПокупателю</content>
+  <content>AccumulationRegister._ДемоОборотыПоСчетамНаОплату</content>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

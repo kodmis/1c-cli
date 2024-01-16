@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba9d4625-7a3d-4634-b3e0-e3dcba9d1dc5">
+  <name>ОповещениеПользователейБТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещение пользователей БТС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ОповещенияПользователей</content>
+  <content>ScheduledJob.ОбработкаОповещенийПользователей</content>
+  <content>CommonModule.ОповещениеПользователейБТС</content>
+  <content>Enum.ВидыОповещенийПользователей</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

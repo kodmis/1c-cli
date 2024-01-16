@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c41cde4-e2a7-4ab4-9b68-8b5b3be0cf58">
+  <name>БазоваяФункциональность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand._ДемоСтраницаПродуктаНаСайте1С</content>
+  <content>CommonCommand._ДемоДокументацияПоВнедрениюИИспользованию</content>
+  <content>CommonCommand._ДемоСтандартыРазработки</content>
+  <content>Report.ЗависимостиПодсистем</content>
+  <content>DataProcessor._ДемоОтключениеПодсистем</content>
+  <parentSubsystem>Subsystem._ДемоИнструментыРазработчика</parentSubsystem>
+</mdclass:Subsystem>

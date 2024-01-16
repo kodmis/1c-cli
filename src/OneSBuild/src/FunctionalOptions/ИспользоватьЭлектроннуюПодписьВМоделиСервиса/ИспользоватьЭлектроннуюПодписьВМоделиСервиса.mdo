@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1aeed84-6ee1-43ee-b6fb-7549c214fec7">
+  <name>ИспользоватьЭлектроннуюПодписьВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать электронную подпись в модели сервиса</value>
+  </synonym>
+  <location>Constant.ИспользоватьЭлектроннуюПодписьВМоделиСервиса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.АдресКриптосервиса</content>
+  <content>Constant.АдресСервисаПодключенияЭлектроннойПодписиВМоделиСервиса</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Report._ДемоСтатусыЗаказовПокупателей.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor._ДемоУправлениеОтложеннымОбновлением.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ОбновлениеВерсииИБ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>0:95e51de6-5ffd-4921-86c2-6ffbed83da8f</commands>
+      <commands>Document._ДемоЗаказПокупателя.StandardCommand.OpenList</commands>
+      <commands>Report._ДемоСтатусыЗаказовПокупателей.Command._ДемоСтатусыЗаказовПокупателей</commands>
+      <commands>DataProcessor.ОбновлениеВерсииИБ.Command.ВерсииПодсистемИнформационнойБазы</commands>
+      <commands>DataProcessor._ДемоУправлениеОтложеннымОбновлением.Command._ДемоУправлениеОтложеннымОбновлением</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

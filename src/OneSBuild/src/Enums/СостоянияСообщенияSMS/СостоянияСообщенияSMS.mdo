@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="878fe826-fa99-44ad-9891-5eada9744017">
+  <producedTypes>
+    <refType typeId="fede78d1-e9c6-4f40-848e-dbcd32853305" valueTypeId="6c1047eb-385b-4e8b-bf25-49baccc7be2e"/>
+    <listType typeId="d50a6f5b-f67c-4a9c-8669-67380f36dcbf" valueTypeId="a4d37aa4-4519-4125-91c9-bbb910c0f6f3"/>
+    <managerType typeId="1b762993-ef50-410f-8277-d67e8183937d" valueTypeId="316e0d25-1ffa-4ce4-ace2-4a5a4e24d89c"/>
+  </producedTypes>
+  <name>СостоянияСообщенияSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния сообщения SMS</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d61712a-dfaf-46f1-b728-62993dd94fbe">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a6cf496-09b9-4947-9df5-06d23b474558">
+    <name>Исходящее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="625b498a-33d1-4162-9525-fb7790cbb6a8">
+    <name>НеУдалосьПередатьПровайдеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не удалось передать провайдеру</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28223f7b-d15a-4f12-b57c-1f6d08a902f9">
+    <name>НеОтправленоПровайдером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отправлено провайдером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd9eb5b7-5aed-4e51-9939-9ff14492d240">
+    <name>ОтправляетсяПровайдером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправляется провайдером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2a14899-d589-4990-b85e-7bffb427e8af">
+    <name>ОтправленоПровайдером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено провайдером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0981d114-05bd-4ee1-a8fd-398fa6620d0b">
+    <name>Доставлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3210ba40-382e-4917-ad0f-9bd88d23dc25">
+    <name>НеДоставлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не доставлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="835e3ead-d01f-410b-937a-902dd5e66aec">
+    <name>НеОпознаноПровайдером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не опознано провайдером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40141982-d1d6-416f-844e-19143a407ff9">
+    <name>ОшибкаПолученияСтатусаУПровайдера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка получения статуса у провайдера</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4562287-440d-4462-9de2-7097ccbf3764">
+  <name>ЗащитаПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Защита персональных данных</value>
+  </synonym>
+  <comment>Защита персональных данных (в соответствии с требованиями 152-ФЗ)</comment>
+  <content>DataProcessor.ЗащитаПерсональныхДанных</content>
+  <content>CommonPicture.КоллекцияКонтролируемыеСобытия152ФЗ</content>
+  <content>CommonModule.ЗащитаПерсональныхДанныхПовтИсп</content>
+  <content>CommonModule.ЗащитаПерсональныхДанныхПереопределяемый</content>
+  <content>StyleItem.СобытиеОтказ</content>
+  <content>CommonModule.ЗащитаПерсональныхДанных</content>
+  <content>InformationRegister.ОбластиПерсональныхДанных</content>
+  <content>CommonForm.НастройкиРегистрацииСобытийДоступаКПерсональнымДанным</content>
+  <content>CommonModule.ЗащитаПерсональныхДанныхКлиент</content>
+  <content>Document.СогласиеНаОбработкуПерсональныхДанных</content>
+  <content>DefinedType.СубъектПерсональныхДанных</content>
+  <content>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</content>
+  <content>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</content>
+  <content>InformationRegister.СогласияНаОбработкуПерсональныхДанных</content>
+  <content>Report.СогласияНаОбработкуПерсональныхДанныхИстекающие</content>
+  <content>Report.СогласияНаОбработкуПерсональныхДанныхДействующие</content>
+  <content>DataProcessor.СкрытиеКонфиденциальнойИнформации</content>
+  <content>EventSubscription.ПроверитьДатуЗапретаИзмененияПередУдалениемЗащитаПерсональныхДанных</content>
+  <content>EventSubscription.ПроверитьДатуЗапретаИзмененияПередЗаписьюДокументаЗащитаПерсональныхДанных</content>
+  <content>ScheduledJob.СкрытиеПерсональныхДанныхСубъектов</content>
+  <content>ScheduledJob.ПолучениеСубъектовДляСкрытияПерсональныхДанных</content>
+  <content>FunctionalOption.ИспользоватьСкрытиеПерсональныхДанныхСубъектов</content>
+  <content>CommonCommand.СкрытьПерсональныеДанныеСубъектов</content>
+  <content>CommonPicture.ОтсутствуетСогласие</content>
+  <content>Constant.ДнейДоСкрытияПерсональныхДанныхСубъектов</content>
+  <content>Constant.ИспользоватьСкрытиеПерсональныхДанныхСубъектов</content>
+  <content>Enum.СостоянияСубъектовДляСкрытия</content>
+  <content>InformationRegister.СубъектыДляСкрытияПерсональныхДанных</content>
+  <content>CommonModule.ЗащитаПерсональныхДанныхВызовСервера</content>
+  <content>InformationRegister.УдалитьОбластиПерсональныхДанных</content>
+  <content>CommonPicture.КоллекцияОтсутствуетСогласие</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

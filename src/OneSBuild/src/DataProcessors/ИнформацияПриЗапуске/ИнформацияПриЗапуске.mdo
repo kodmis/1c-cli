@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9704b20-c29c-4e7f-b777-0ac9080a5631">
+  <producedTypes>
+    <objectType typeId="de0e4b37-014a-4ad7-a061-d9a24e09a071" valueTypeId="5f569c60-f718-4365-894b-11a785b1e8e8"/>
+    <managerType typeId="ce9a27c2-bcc5-4091-9a0f-739f9434c764" valueTypeId="9904cc05-09bc-47bb-b0fd-e4e698bb8862"/>
+  </producedTypes>
+  <name>ИнформацияПриЗапуске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация при запуске</value>
+  </synonym>
+  <defaultForm>DataProcessor.ИнформацияПриЗапуске.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="c1372891-0f55-4868-ab97-906eff52be0e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="33e96bda-1708-4ee4-8d4d-3b919bda3e38">
+    <name>Описатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описатель</value>
+    </synonym>
+  </templates>
+  <templates uuid="3ed5d712-24b6-4333-8225-439521f2f450">
+    <name>_Демо_Старт_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Старт</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="5c052f64-6a57-489c-9d06-d72db3a8826f">
+    <name>_Демо_ИТС_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: ИТС</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="eef3176a-4549-4079-9c84-e5d8fa32b90e">
+    <name>_ДемоОписатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Описатель</value>
+    </synonym>
+  </templates>
+  <commands uuid="53fb35a7-44ab-42e7-8dba-6fa08bf5ba2c">
+    <name>ИнформацияПриЗапуске</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация при запуске</value>
+    </synonym>
+    <group>CommandGroup.Информация</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2abae20e-350a-4d8e-ba78-981f8206326c">
+  <producedTypes>
+    <objectType typeId="7c46f797-504a-4102-863f-61b837ca8b8d" valueTypeId="6e8ff270-4eb7-4fa3-91e8-a65d088f45a8"/>
+    <managerType typeId="9baafd47-4ce3-4884-832d-9665c9fa9769" valueTypeId="7067ee7f-f4db-4aef-b92c-99e64fb4ec2b"/>
+  </producedTypes>
+  <name>ЗависимостиПодсистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зависимости подсистем</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ЗависимостиПодсистем.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="5fd19299-5413-44b0-8103-b4d9209ebb8d">
+    <name>КаталогИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог ИБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Путь к каталогу информационной базы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="970292b8-a0ce-4b2e-9861-3b59add11207">
+    <name>КаталогВыгрузкиМодулей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки модулей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог, в который были выгружены модули конфигурации.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="af274efa-d2a1-4d9f-bd92-740b59a1875f">
+    <name>ИмяАдминистратораИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя администратора ИБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя администратора информационной базы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d582c9f-68c8-4a23-8f0f-92fe3df10d48">
+    <name>ЛюбаяСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Любая ссылка</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание типа ЛюбаяСсылка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="ece007f1-c58a-4a41-a3be-0527f153df6c">
+    <name>ПроверяемыеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверяемые свойства</value>
+    </synonym>
+  </templates>
+  <templates uuid="f23a4ca1-7bcd-46b1-91f4-9c969f96ab90">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="9f4da623-89c1-429b-8d0d-8431dd40e0c0">
+    <name>ОбъектыИсключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты исключения</value>
+    </synonym>
+  </templates>
+  <templates uuid="6791d401-618d-427d-b857-7467e61bb2ee">
+    <name>ПроверяемыеОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверяемые обработки</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

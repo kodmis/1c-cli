@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86bb9665-d359-45e4-8d49-b93ee28da5d6">
+  <name>_ДемоОбновлениеВерсииИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление версии ИБ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document._ДемоЗаказПокупателя</content>
+  <content>Report._ДемоСтатусыЗаказовПокупателей</content>
+  <content>Enum._ДемоСтатусыЗаказовПокупателей</content>
+  <content>DataProcessor.ОбновлениеВерсииИБ</content>
+  <content>DataProcessor._ДемоУправлениеОтложеннымОбновлением</content>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

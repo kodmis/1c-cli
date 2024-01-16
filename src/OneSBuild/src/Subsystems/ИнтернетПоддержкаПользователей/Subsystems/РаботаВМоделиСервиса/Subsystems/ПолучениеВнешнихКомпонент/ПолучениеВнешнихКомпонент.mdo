@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0df7ad0a-53a6-4dbf-87de-deb33645b8eb">
+  <name>ПолучениеВнешнихКомпонент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение внешних компонент</value>
+  </synonym>
+  <content>CommonModule.ПолучениеВнешнихКомпонентВМоделиСервисаПереопределяемый</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

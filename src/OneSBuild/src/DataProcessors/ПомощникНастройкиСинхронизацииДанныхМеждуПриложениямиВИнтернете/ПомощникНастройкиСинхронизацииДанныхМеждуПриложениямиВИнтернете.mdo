@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dcbb379-d4f5-418a-a3ab-bb7c0e169058">
+  <producedTypes>
+    <objectType typeId="a0898636-64d7-4636-9e52-4fee69957d5d" valueTypeId="e49ac8e0-a983-48db-8f93-3f62cb60a43d"/>
+    <managerType typeId="907d9dae-5dd2-4755-823f-0d24aa536f41" valueTypeId="f9ca2ffe-4634-4837-ba9b-f04a918348a4"/>
+  </producedTypes>
+  <name>ПомощникНастройкиСинхронизацииДанныхМеждуПриложениямиВИнтернете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник настройки синхронизации данных между приложениями в Интернете</value>
+  </synonym>
+</mdclass:DataProcessor>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58037b76-b548-4f07-bd67-67e552a5c6e5">
+  <name>ИспользоватьЗаметки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заметки</value>
+  </synonym>
+  <location>Constant.ИспользоватьЗаметки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.СтандартныеПодсистемы.Subsystem.ЗаметкиПользователя</content>
+  <content>Catalog.Заметки</content>
+  <content>Enum.ЦветаЗаметок</content>
+  <content>CommonCommand.СоздатьЗаметкуПоПредмету</content>
+  <content>CommonCommand.МоиЗаметкиПоПредмету</content>
+</mdclass:FunctionalOption>

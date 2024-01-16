@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30213cef-b2bc-4e6c-8094-74a61f28b2ed">
+  <name>ПереместитьВПапкуПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переместить в папку писем</value>
+  </synonym>
+</mdclass:CommonPicture>

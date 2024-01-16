@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="985106b7-7476-4b48-90ac-ad86876395b5">
+  <producedTypes>
+    <refType typeId="55993386-0e15-4a2f-b9b8-9681e51bbf01" valueTypeId="cc868b08-d0c2-407b-b249-65637dee4cd5"/>
+    <listType typeId="505ac2db-f538-4797-b398-b10a9609d2fe" valueTypeId="74dd7b97-f44b-4e5c-8f80-aaba4f8db55a"/>
+    <managerType typeId="af6d5914-5eeb-4cc5-bec1-be3be340507d" valueTypeId="4a6a4f43-e412-419a-8d86-4d6b9f2ecf95"/>
+  </producedTypes>
+  <name>СтатусыОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы областей данных</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d8db0c9-adbc-478d-997c-3d7feccac99b">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fd2ef04-c178-47bf-ab62-7baf83236d99">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4cd1b51-dbc0-4bb0-879e-5ac0d58e78c1">
+    <name>КУдалению</name>
+    <synonym>
+      <key>ru</key>
+      <value>К удалению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="320bf2e6-a3a8-490b-8aa0-21369ffb121b">
+    <name>Удалена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3bafc54-8fe4-4841-acc6-74a87baf9caf">
+    <name>ИмпортИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт из файла</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a70aa9c-0eef-4e6b-a8c5-f7def70057f8">
+  <name>ServiceCommon</name>
+  <synonym>
+    <key>ru</key>
+    <value>Service common</value>
+  </synonym>
+  <namespace>http://www.1c.ru/SaaS/ServiceCommon</namespace>
+</mdclass:XDTOPackage>

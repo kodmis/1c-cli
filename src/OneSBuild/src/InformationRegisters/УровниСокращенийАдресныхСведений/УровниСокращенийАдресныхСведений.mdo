@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fc05949-c1ba-4363-8353-6902bc041021">
+  <producedTypes>
+    <selectionType typeId="c1d3cf90-b0e1-4720-9e84-e9db39d7c89d" valueTypeId="4fb28622-2a30-4d4c-b6dc-b72e75df10e7"/>
+    <listType typeId="80802569-bed8-4d21-8c30-1e3f140f408e" valueTypeId="b8c5626e-0d60-4661-93a2-6faaf9237a7d"/>
+    <managerType typeId="fd51510f-e492-49ec-993a-ceff1d9f2fbc" valueTypeId="6b0c8f4e-8ca6-4bec-93b9-11d133aa77ad"/>
+    <recordSetType typeId="2ddf80a1-d0f2-4e0e-b8d0-470f33bcb486" valueTypeId="7b95c1a1-31fd-4a9e-b9d1-b47b8929f280"/>
+    <recordKeyType typeId="047f93ce-4738-4e6e-87ef-d67e1f1daab1" valueTypeId="27c3ddef-5d03-4987-8916-49ee4254c8d0"/>
+    <recordType typeId="13057da0-87c2-4a03-b14f-20bfbf731203" valueTypeId="bf26110f-71c3-44e6-a7a3-2f5c8269dc0f"/>
+    <recordManagerType typeId="ee202ce8-9d25-4b94-a919-7ec12874285c" valueTypeId="5f9f73d0-2ea8-48fb-93ae-b6b2a39d69cb"/>
+  </producedTypes>
+  <name>УровниСокращенийАдресныхСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни сокращений адресных сведений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d6e61d59-fe83-4a9e-aa15-e072a39fd8fd">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="614fc08c-78b6-4d49-9488-05fcf9b76d58">
+    <name>Сокращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сокращение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d983cae8-edbb-4f26-9c0a-2f701cb11046">
+    <name>Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

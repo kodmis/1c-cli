@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cda70d0-3116-4508-82ea-5ea0f0921262">
+  <name>ПоддержкаРезервногоКопирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка резервного копирования</value>
+  </synonym>
+  <location>Constant.ПоддержкаРезервногоКопирования</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.ВыполнитьРезервноеКопированиеОбластиДанных</content>
+  <content>CommonCommand.СоздатьРезервнуюКопию</content>
+</mdclass:FunctionalOption>

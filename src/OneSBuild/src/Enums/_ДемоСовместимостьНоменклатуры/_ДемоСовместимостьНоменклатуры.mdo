@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad6815df-b2aa-4b1d-bf62-190ce6ad5f65">
+  <producedTypes>
+    <refType typeId="67a51bce-2858-43d2-ab07-e61ca1397885" valueTypeId="da3c46b6-b5ff-4d36-b67f-9074363aef2c"/>
+    <listType typeId="973e94de-a88b-4656-84c8-e6b1df628814" valueTypeId="efdad0d6-be52-4c1c-9353-644d811ef564"/>
+    <managerType typeId="61d2dde4-088a-45ec-8cf7-a09477fedc19" valueTypeId="a8f9d939-c354-498a-ba9a-2d02bbc114a4"/>
+  </producedTypes>
+  <name>_ДемоСовместимостьНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Совместимость номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b1d3d9e3-c33a-4a3c-acf5-9fa42c4f8718">
+    <name>Полная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f47632e-c9cf-4c99-ab40-37960b23b582">
+    <name>Частичная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частичная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c06b6d11-1d7c-4733-9a1c-5ed520e9c494">
+  <name>_ДемоПолнотекстовыйПоиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полнотекстовый поиск</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПолнотекстовыйПоискВДанных</content>
+  <content>Catalog._ДемоКонтрагенты</content>
+  <content>Catalog._ДемоОрганизации</content>
+  <content>Catalog.Файлы</content>
+  <content>Catalog._ДемоПартнеры</content>
+  <content>CommonPicture._ДемоРазделГлавное</content>
+  <subsystems>ПустойСостав</subsystems>
+  <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

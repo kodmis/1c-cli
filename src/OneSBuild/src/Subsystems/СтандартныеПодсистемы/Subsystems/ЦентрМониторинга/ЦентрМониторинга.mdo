@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad73f3a3-1dad-4920-af41-bda2b947a2f7">
+  <name>ЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр мониторинга</value>
+  </synonym>
+  <content>CommonModule.ЦентрМониторингаСлужебный</content>
+  <content>InformationRegister.ДампыПлатформы</content>
+  <content>InformationRegister.СтатистикаКонфигурации</content>
+  <content>InformationRegister.ПакетыДляОтправки</content>
+  <content>Constant.ПараметрыЦентраМониторинга</content>
+  <content>InformationRegister.ОперацииСтатистики</content>
+  <content>InformationRegister.КомментарииСтатистики</content>
+  <content>InformationRegister.ОбластиСтатистики</content>
+  <content>InformationRegister.КомментарииОперацииСтатистики</content>
+  <content>InformationRegister.БуферОперацийСтатистики</content>
+  <content>InformationRegister.ЗамерыОперацииСтатистики</content>
+  <content>InformationRegister.ЗамерыКомментарииСтатистики</content>
+  <content>InformationRegister.ЗамерыОбластиСтатистики</content>
+  <content>CommonModule.ЦентрМониторингаПереопределяемый</content>
+  <content>CommonModule.ЦентрМониторинга</content>
+  <content>ScheduledJob.СборИОтправкаСтатистики</content>
+  <content>InformationRegister.ЗамерыСтатистики</content>
+  <content>CommonModule.ЦентрМониторингаКлиент</content>
+  <content>CommonModule.ЦентрМониторингаКлиентСлужебный</content>
+  <content>CommonModule.ЦентрМониторингаПовтИсп</content>
+  <content>DataProcessor.НастройкиЦентраМониторинга</content>
+  <content>ScheduledJob.СборИОтправкаОтчетовОбОшибках</content>
+  <content>CommonModule.ЦентрМониторингаГлобальный</content>
+  <content>WebService.RemoteControl</content>
+  <content>Role.УдаленныйКонтроль</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

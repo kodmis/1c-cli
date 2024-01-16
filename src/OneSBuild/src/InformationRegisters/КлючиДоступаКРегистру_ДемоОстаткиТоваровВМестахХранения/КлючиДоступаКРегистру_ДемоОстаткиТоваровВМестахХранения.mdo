@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c77347c9-d85e-4cf1-a23a-0a8f3a6d05a8">
+  <producedTypes>
+    <selectionType typeId="117816d0-f497-4e8a-9fcf-882967ceeadb" valueTypeId="1ae8e53e-6bab-45b9-aa2c-eb20f407e01e"/>
+    <listType typeId="2e335dcd-4462-4a54-a4f3-f4dca2c8f02e" valueTypeId="7fa1977a-cdda-4e8a-87bd-550785e1189c"/>
+    <managerType typeId="17135859-d1b3-4d94-a1ae-0096c0b4fadc" valueTypeId="c1cb931d-6d81-4854-8eaf-af6dbd768e70"/>
+    <recordSetType typeId="73eb5c1f-19e6-4f6b-a9de-7e1aea0d5084" valueTypeId="c59ca9ab-de3d-4a3b-a6bd-3247e3d0b48f"/>
+    <recordKeyType typeId="bd31720a-6e91-4497-a661-a55915c8a8c8" valueTypeId="9ee37abd-89d8-44f2-9b6b-60e3ece5534a"/>
+    <recordType typeId="074cdb12-bedb-4a4c-8f0c-4f14d4e008a5" valueTypeId="977bbd05-81a6-48c8-8e61-7f82d184764d"/>
+    <recordManagerType typeId="2d5aaa05-2ecc-4a8e-8b90-e020d4d97e46" valueTypeId="94868d10-ddc3-4fbb-9b1f-a761efa2fae2"/>
+  </producedTypes>
+  <name>КлючиДоступаКРегистру_ДемоОстаткиТоваровВМестахХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи доступа к регистру Демо: Остатки товаров в местах хранения</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Ключ доступа к регистру</value>
+  </recordPresentation>
+  <resources uuid="0c60c0fe-6589-469b-b7c5-0298e056ee76">
+    <name>КлючДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ доступа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа записей регистра с одинаковым доступом</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6f86b4bd-6828-4d62-851f-83a1d81e7b66">
+    <name>ВариантДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант доступа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Бит 0 -  ключ доступа для внешних пользователей.
+Биты 1-5 - количество полей в соединении.
+Биты 6-9 - версия состава полей в соединении.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="11d3f29e-c13b-4f80-8fd8-9002a9fb0d2f">
+    <name>Поле1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле 1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоНоменклатура</types>
+      <types>EnumRef.ДополнительныеЗначенияДоступа</types>
+      <types>CatalogRef._ДемоОрганизации</types>
+      <types>CatalogRef._ДемоМестаХранения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Поле, соответствующее первому полю регистра, от которого зависит ограничение доступа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3d19c5b3-99a7-46f5-b193-c11e1f42eb4f">
+    <name>Поле2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле 2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоНоменклатура</types>
+      <types>EnumRef.ДополнительныеЗначенияДоступа</types>
+      <types>CatalogRef._ДемоОрганизации</types>
+      <types>CatalogRef._ДемоМестаХранения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>То же, что Поле 1</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="92dcc764-fda4-47bd-b473-3d4fe9a60986">
+    <name>Поле3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле 3</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоНоменклатура</types>
+      <types>EnumRef.ДополнительныеЗначенияДоступа</types>
+      <types>CatalogRef._ДемоОрганизации</types>
+      <types>CatalogRef._ДемоМестаХранения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>То же, что Поле 1</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

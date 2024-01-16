@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ee4d753-ebd9-4088-ae6d-0fa8f1c9f8d7">
+  <producedTypes>
+    <selectionType typeId="4c5968e4-99ef-4b5e-bbb4-fd193b4cb579" valueTypeId="50bdb41a-998b-476d-937c-9bc5cc5b9d54"/>
+    <listType typeId="4995b0b9-99c8-4d15-ba97-4e736d8b5d93" valueTypeId="1fe29af7-9d7d-478a-b551-76b3742b185a"/>
+    <managerType typeId="e1053e9a-178c-4609-808f-6c5036c9d46f" valueTypeId="c7a4f787-a1ce-404a-b63f-4b16a1feae2c"/>
+    <recordSetType typeId="b1c2e929-9bcf-4e8d-8d80-475ab8f32bdc" valueTypeId="d857730e-5d07-4865-bab0-ba97144e8775"/>
+    <recordKeyType typeId="b681b09a-cb1f-4deb-bccb-65426594c696" valueTypeId="07747a47-4431-441f-b15e-9d0cd759d590"/>
+    <recordType typeId="f03b1f4d-94a6-4be5-9c48-bcfe4ca04a51" valueTypeId="c013fd1a-6c1d-41bb-a1b5-9b555160b795"/>
+    <recordManagerType typeId="4aa54bdb-596a-4830-a0e5-1d7181f60147" valueTypeId="ebeb0861-d649-4c1d-9af1-05a498c2e253"/>
+  </producedTypes>
+  <name>РежимыПодключенияВнешнихМодулейВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы подключения внешних модулей в модели сервиса</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7cdf33f0-5962-477b-9d56-f91c56db47ab">
+    <name>БезопасныйРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безопасный режим</value>
+    </synonym>
+    <type>
+      <types>DefinedType.БезопасныйРежим</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="63d000a9-fb89-4422-af6d-6bc7d3413050">
+    <name>ПредставлениеПрограммногоМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление программного модуля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="99bef533-d473-460a-b131-c040346bce94">
+    <name>ТипПрограммногоМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип программного модуля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b00a47e1-d7b7-4753-8b6e-b9c55b27a4ca">
+    <name>ИдентификаторПрограммногоМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор программного модуля</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

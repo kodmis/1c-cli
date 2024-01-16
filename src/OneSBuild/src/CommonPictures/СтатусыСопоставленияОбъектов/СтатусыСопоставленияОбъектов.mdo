@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8395bfb2-3cf4-4bec-b19b-eb6dd3aa7a39">
+  <name>СтатусыСопоставленияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сопоставления объектов</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af071a52-212b-4131-98e6-81f6048a70e6">
+  <producedTypes>
+    <selectionType typeId="e4c2fa12-1951-471f-abff-d777d777943f" valueTypeId="f3082bff-df58-48ae-81d7-23e0d69dcdf0"/>
+    <listType typeId="b04a1128-be77-4c89-8c87-a120030b0157" valueTypeId="d774d57a-541e-4b16-887a-f43dda4b1d08"/>
+    <managerType typeId="9fca16f3-b4a6-4ff8-8898-42c9054ab77b" valueTypeId="26b77886-ed42-4cc5-a5d4-1a736f60f9c9"/>
+    <recordSetType typeId="14032210-abcc-402f-88cb-d6bfa70c8f89" valueTypeId="412fa09b-2037-405a-b9db-9b0519d07d63"/>
+    <recordKeyType typeId="0ccfdb57-b9e3-4cf2-ba45-5923fb80dcd6" valueTypeId="984a17b7-66f3-48b6-9a30-b699f03366d7"/>
+    <recordType typeId="8466d336-982c-458c-a4ce-1769f2b1b01a" valueTypeId="1d62bc30-e471-4a03-b744-c0c29160717b"/>
+    <recordManagerType typeId="d66b5357-1615-44c1-9321-c1374e98cc3e" valueTypeId="0bbf3acf-d8c5-474e-8136-ab4b5dd172fd"/>
+  </producedTypes>
+  <name>ПравилаДляОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила для обмена данными</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.ПравилаДляОбменаДанными.Form.ПравилаКонвертацииОбъектов</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПравилаДляОбменаДанными.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Используется для хранения правил конвертации и регистрации данных. Правила хранятся в зачитанном и оригинальном виде.</value>
+  </explanation>
+  <resources uuid="37210dde-9a2f-475c-8341-578ac99f0e17">
+    <name>ИмяМакетаПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типовые правила из конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя макета правил конвертации/регистрации из которого были загружены правила</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e5094d4f-ee61-4142-a97b-d96172350f65">
+    <name>ИмяМакетаПравилКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типовые правила из конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя макета правил конвертации/регистрации из которого были загружены правила</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3a8fffb6-a732-440c-afb9-d1c699ea53b6">
+    <name>ИмяПланаОбменаИзПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя плана обмена из правил</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя плана обмена, как оно задано в конфигураторе, для которого были загружены правила для обмена.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b0650787-8ff5-4407-b491-bcdc2f61fd58">
+    <name>ИмяФайлаОбработкиДляОтладкиВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла обработки для отладки выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное имя файла внешней обработки для отладки выгрузки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="33dd6bba-0044-4e2f-ae9e-c8a26079ab2a">
+    <name>ИмяФайлаОбработкиДляОтладкиЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла обработки для отладки загрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное имя файла внешней обработки для отладки загрузки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3f289f67-dfc7-4f2d-90e4-b47aff76ecdb">
+    <name>ИмяФайлаПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла с правилами</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя файла правил для обмена из которого были загружены правила. Только имя файла, без относительного пути.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="9aadad98-69f5-41ce-ad1c-0afd8c610d86">
+    <name>ИмяФайлаПротоколаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла протокола обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное имя файла протокола обмена.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="706a3db0-9d4f-4c08-91cd-3ccaa6d06d3b">
+    <name>ИнформацияОПравилах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о правилах</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Строка информация о правилах конвертации/регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3d662173-e19d-4077-9a08-8c8899226e24">
+    <name>ИсточникПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник правил</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИсточникиПравилДляОбменаДанными</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак загрузки правил для обмена из файла или макета конфигурации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ИсточникиПравилДляОбменаДанными.EnumValue.МакетКонфигурации</value>
+    </fillValue>
+  </resources>
+  <resources uuid="69fd1e6e-7302-4ca8-8419-ec567ae66bef">
+    <name>НеОстанавливатьПоОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не останавливать по ошибке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак включения режима, при котором выполнение обмена данными не будет остановлено при возникновении ошибки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0eee931a-57bb-4844-8e6e-eaca342640a0">
+    <name>ПравилаXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила XML</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Оригинальный XML-файл правил конвертации/регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="20c57e30-5856-4801-9e77-8006471d89f8">
+    <name>ПравилаXMLКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила XML корреспондента</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Оригинальный XML-файл правил конвертации/регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="64eff9f4-c57b-40a0-bd83-7e371fd010ce">
+    <name>ПравилаЗачитанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила зачитанные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Зачитанные из файла правила конвертации/регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4a3fe393-8aea-4394-8c10-a234f1f191ad">
+    <name>ПравилаЗачитанныеКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачитанные правила корреспондента</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Зачитанные из файла правила конвертации/регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6f9a3d00-d935-4fa6-9fd2-14700226daff">
+    <name>РежимОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отладки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак включения возможностей режима отладки правил конвертации.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d792831c-698d-40c6-96c2-dd0ae6f30707">
+    <name>РежимОтладкиВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отладки выгрузки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак включения режима отладки выгрузки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a1d91c5f-1acd-4b46-887e-d06e7260dd20">
+    <name>РежимОтладкиЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отладки загрузки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак включения режима отладки загрузки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3fd26019-c464-4c73-b18e-0888740b1747">
+    <name>РежимПротоколированияОбменаДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим протоколирования синхронизации данных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак включения режима вывода информационных сообщений об обмене в Журнал регистрации или в файл протокола.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1c2103d3-3feb-4412-98c4-c731f22eef2b">
+    <name>ИмяМенеджераРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя менеджера регистрации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="a21989bd-a57f-4969-be3b-d8b39ead4145">
+    <name>ИспользоватьФильтрВыборочнойРегистрацииОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать фильтр выборочной регистрации объектов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования фильтра Выборочной регистрации объектов для плана обмена. Используется только для правил конвертации объектов. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </attributes>
+  <attributes uuid="c4aee120-cdbb-4b48-a1c7-99cccbafb120">
+    <name>ПравилаЗагружены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила загружены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что правила для обмена загружены в регистр (прочитаны из файла/макета правил).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6b3e07d5-9299-4933-b3fa-c3cc5f5aa7c9">
+    <name>ИмяПланаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя плана обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя плана обмена как оно задано в конфигураторе.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="a3667b25-7c18-446d-a318-685a4fe4bf89">
+    <name>ВидПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид правил</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыПравилДляОбменаДанными</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид правил для обмена данными.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыПравилДляОбменаДанными.EmptyRef</value>
+    </fillValue>
+  </dimensions>
+  <forms uuid="fd271670-bde6-4351-abec-eb82548c6c98">
+    <name>ЗагрузитьПравилаСинхронизацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить правила синхронизации данных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="498b012b-bb63-490e-8100-1d33dc84b400">
+    <name>ПравилаКонвертацииОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации объектов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8103f12c-ed50-4052-8117-33b6d11ef620">
+    <name>ПравилаРегистрацииОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4f8653e4-3f58-4bad-8ded-424fe7b1d18a">
+    <name>ПроверкаСинхронизацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка синхронизации данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="799b3dda-fbfc-4dea-a577-30321e64f4d5">
+    <name>СообщениеОНеудачномОбновлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение о неудачном обновлении</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7c7857b6-90e8-4b3f-9902-fd81bf68d133">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b8c3c82-6e8f-469e-8a80-144361d1d0b2">
+  <producedTypes>
+    <managerType typeId="a356e195-b886-4e8c-9381-5ff7a58965c0" valueTypeId="fbefe7db-be5c-4ce6-9e42-3f6a01e4c633"/>
+    <valueManagerType typeId="fe6faac9-bdb5-4336-a8a1-8cc2e0447535" valueTypeId="84dd8359-29d5-4bd6-b8c7-2fd560e3249e"/>
+    <valueKeyType typeId="a3b052ee-9f7b-5fd1-a871-331937ae54a9" valueTypeId="eca5eae9-f8eb-5de2-8a18-8efc0aed1ced"/>
+  </producedTypes>
+  <name>ИспользоватьВерсионированиеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать версионирование объектов</value>
+  </synonym>
+  <comment>Хранение значения функциональной опции</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

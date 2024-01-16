@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9847676d-f44d-46a0-83e2-4a43a835caf8">
+  <name>ПолучениеПолейПредставленияВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение полей представления взаимодействия</value>
+  </synonym>
+  <source>
+    <types>DocumentManager.СообщениеSMS</types>
+    <types>DocumentManager.Встреча</types>
+    <types>DocumentManager.ЗапланированноеВзаимодействие</types>
+    <types>DocumentManager.ЭлектронноеПисьмоИсходящее</types>
+    <types>DocumentManager.ЭлектронноеПисьмоВходящее</types>
+    <types>DocumentManager.ТелефонныйЗвонок</types>
+  </source>
+  <event>PresentationFieldsGetProcessing</event>
+  <handler>CommonModule.ВзаимодействияКлиентСервер.ОбработкаПолученияПолейПредставления</handler>
+</mdclass:EventSubscription>

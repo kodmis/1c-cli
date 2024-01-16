@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d85b00b7-b0d8-4b91-8d7f-0c2da524d446">
+  <producedTypes>
+    <managerType typeId="2d3ca9e2-da53-4d7c-a9b1-084ca4662d13" valueTypeId="de4b26e1-9817-4e15-8dc9-0b29ee842d3f"/>
+    <valueManagerType typeId="c9099c2c-695d-46f6-97a4-a4df9099fb3f" valueTypeId="a33f3621-0e03-4557-a58a-0124cc45369c"/>
+    <valueKeyType typeId="14208abf-ca2e-5567-8125-3508a17719c1" valueTypeId="535f9e2f-d144-5f9c-9deb-056c08b8d65a"/>
+  </producedTypes>
+  <name>ИспользоватьПрочиеВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать прочие взаимодействия</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

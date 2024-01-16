@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20082776-ce24-41c5-ae11-6fa9bc54db59">
+  <producedTypes>
+    <containerType typeId="33992399-f8ee-4ad7-b009-d4816d159868" valueTypeId="08b8ea82-4677-41fd-bbf0-3ef7aec0b001"/>
+  </producedTypes>
+  <name>ПрограммаЭлектроннойПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программа электронной подписи</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УчетныеЗаписиDSS</types>
+    <types>CatalogRef.ПрограммыЭлектроннойПодписиИШифрования</types>
+  </type>
+</mdclass:DefinedType>

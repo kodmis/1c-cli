@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b850d595-0fab-4f29-9eb2-334fe98c8adf">
+  <producedTypes>
+    <objectType typeId="73f6ad64-8dc0-4147-9272-9b59470daa6c" valueTypeId="a97a87bb-a553-4921-8de5-abfc3672f875"/>
+    <refType typeId="1ef90bf1-24dc-4b49-99a6-2db8031d287a" valueTypeId="b8a0e74f-afd4-4b2c-b34a-5f16afcb51ee"/>
+    <selectionType typeId="1f4a04fa-d540-4bf4-be1d-99c14944f422" valueTypeId="18dd47b0-bd18-4cb7-950a-1bcac4e53377"/>
+    <listType typeId="ecfd5720-e0a9-420d-a2c4-c8d36b34aa62" valueTypeId="11490fe6-7402-4c7d-a5ea-e479baf2f30f"/>
+    <managerType typeId="ace6af89-b4ad-4d24-b769-8a09ba54106f" valueTypeId="2c9a3e74-49c5-4113-ae40-51b73af1a923"/>
+    <containerType typeId="65ec4e36-7140-47d2-b9fa-e77029432dc4" valueTypeId="33193b95-deaf-4ea1-9290-4623511a501d"/>
+  </producedTypes>
+  <name>_ДемоВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Виды субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes._ДемоВидыСубконто.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes._ДемоВидыСубконто.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Демо: Вид субконто</value>
+  </objectPresentation>
+  <type>
+    <types>CatalogRef._ДемоДоговорыКонтрагентов</types>
+    <types>CatalogRef._ДемоСтавкиНДС</types>
+    <types>CatalogRef._ДемоНоменклатура</types>
+    <types>CatalogRef._ДемоКонтрагенты</types>
+    <types>CatalogRef._ДемоВидыНоменклатуры</types>
+    <types>CatalogRef._ДемоМестаХранения</types>
+    <types>EnumRef._ДемоВидыПлатежейВБюджет</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4ef019fc-530a-4067-82a4-6708852f5c00">
+      <name>ВидыПлатежейВБюджет</name>
+      <description>Виды платежей в бюджет</description>
+      <code>000000006</code>
+      <type>
+        <types>EnumRef._ДемоВидыПлатежейВБюджет</types>
+      </type>
+    </items>
+    <items id="0d7d2258-e04f-401d-97f1-268944d25faf">
+      <name>Договоры</name>
+      <description>Договоры</description>
+      <code>000000007</code>
+      <type>
+        <types>CatalogRef._ДемоДоговорыКонтрагентов</types>
+      </type>
+    </items>
+    <items id="dce6b425-f064-4742-94b9-13e75d0ea106">
+      <name>Контрагенты</name>
+      <description>Контрагенты</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef._ДемоКонтрагенты</types>
+      </type>
+    </items>
+    <items id="5185daaf-a7e3-44b7-8d29-78bf6d56e559">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef._ДемоНоменклатура</types>
+      </type>
+    </items>
+    <items id="b7a81556-435b-4836-868e-46258b69fa6c">
+      <name>НоменклатурныеГруппы</name>
+      <description>Номенклатурные группы</description>
+      <code>000000005</code>
+      <type>
+        <types>CatalogRef._ДемоВидыНоменклатуры</types>
+      </type>
+    </items>
+    <items id="a3460708-8801-43d9-9263-2ae5afcf7e81">
+      <name>Склады</name>
+      <description>Склады</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef._ДемоМестаХранения</types>
+      </type>
+    </items>
+    <items id="1f90fe48-81ca-4d08-a184-37cc0fd0c77a">
+      <name>СтавкиНДС</name>
+      <description>Ставки НДС</description>
+      <code>000000004</code>
+      <type>
+        <types>CatalogRef._ДемоСтавкиНДС</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes._ДемоВидыСубконто.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes._ДемоВидыСубконто.Form.ФормаСписка</defaultListForm>
+  <forms uuid="a0b0545b-fc5f-4732-93f8-cb3ccc85af88">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d70fa678-aa0b-429b-95f6-83358a6e44b5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

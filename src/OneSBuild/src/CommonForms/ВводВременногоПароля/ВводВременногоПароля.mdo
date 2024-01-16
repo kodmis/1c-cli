@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="882ec4a1-5de1-4c6a-849e-129b21e0e5fd">
+  <name>ВводВременногоПароля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод временного пароля</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>
