@@ -4,7 +4,13 @@ $stopwatch =  [system.diagnostics.stopwatch]::StartNew()
 $RootDir="$PSScriptRoot\.."
 pushd $RootDir
 
+$TestRunner = $args[0]
+if ($TestRunner -eq "va") {
+    .\build\test-va.ps1
+    exit $LastExitCode
+}
 $SettingsObject = Get-Content -Path "settings.json" | ConvertFrom-Json
+
 Write-Output "$(Get-Date): Start run unit tests"
 
 $UnitTestExtension = $SettingsObject.UnitTests.Extension

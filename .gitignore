@@ -3,6 +3,7 @@
 /.db/
 /.build/
 /.test/
+/.opm/
 /dist/
 /.*.ps1
 /.*.txt

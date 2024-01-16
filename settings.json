@@ -4,7 +4,7 @@
 	{"name": "Тесты", "EDT_ProjectDir": "src/Tests"}],
 	"JobsTimeout": 3600,
 	"UnitTests": {
-		"Config": "./test/unit/test-config.json",
+		"Config": "./test/unit/vanessa.json",
 		"Extension": "Тесты"
 	},
 	"Build":{
