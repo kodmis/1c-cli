@@ -38,46 +38,8 @@ workflow:
 
 include: 
   - local: 'build/gitlab-pipelines-prepare.yml'
-  - local: 'build/gitlab-pipelines-lint.yml'  # АПК, валидация EDT, проверка конфигуратором, сонар отключены
-    rules: *rules_mr
   - local: 'build/gitlab-pipelines-unit.yml'
-  - local: 'build/gitlab-pipelines-smoke.yml' # дымовые тесты отключены
   - local: 'build/gitlab-pipelines-cfg.yml'
     rules: *rules_dev
   - local: 'build/gitlab-pipelines-dist.yml'
     rules: *rules_rel
-    
-"EDT: Валидация исходных кодов":
-  stage: Статический анализ
-  rules:
-  - if: $CI_COMMIT_BRANCH == $CI_COMMIT_BRANCH
-    when: never
-  script: [""]
-
-"1CE: Проверка модулей":
-  stage: Статический анализ
-  rules:
-  - if: $CI_COMMIT_BRANCH == $CI_COMMIT_BRANCH
-    when: never
-  script: [""]
- 
-"1CE: Проверка конфигурации":   
-  stage: Статический анализ
-  rules:
-  - if: $CI_COMMIT_BRANCH == $CI_COMMIT_BRANCH
-    when: never
-  script: [""]
-  
-sonarqube-check:
-  stage: Статический анализ
-  rules:
-  - if: $CI_COMMIT_BRANCH == $CI_COMMIT_BRANCH
-    when: never
-  script: [""]
-
-"1CE: Дымовые тесты": 
-  stage: Тесты
-  rules:
-  - if: $CI_COMMIT_BRANCH == $CI_COMMIT_BRANCH
-    when: never
-  script: [""]

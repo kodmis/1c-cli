@@ -7,8 +7,6 @@ stages:
   stage: Сборка
   needs: 
   - job: "1CE: Модульные тесты"
-  - job: "1CE: Дымовые тесты"
-    optional: true
   cache: !reference [.aux-ib-cache-use, params]
   before_script:
     - !reference [.prepaire-1ce-platform, script]
