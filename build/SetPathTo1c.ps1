@@ -1,4 +1,7 @@
-﻿$Package = Get-Content -Path "package-lock.json" | ConvertFrom-Json
+﻿$RootDir="$PSScriptRoot\.."
+pushd $RootDir
+
+$Package = Get-Content -Path "package-lock.json" | ConvertFrom-Json
 if (!$_1CE_Version) {  $_1CE_Version=$Package.dependencies.platform.version }
 if ($_1CE_Version.Split(".").count -eq 3) { $_1CE_Version = "$_1CE_Version.????"}
 
@@ -11,3 +14,5 @@ if($platforms.count -eq 0) {echo "1C-Enterprise $_1CE_Version folder not found!"
 $_1CE_PATH=$platforms[-1].FullName
 echo "Founded 1C-Enterprise $_1CE_Version folder $_1CE_PATH"
 $Env:PATH = "$_1CE_PATH;$Env:PATH"
+
+popd
