@@ -34,3 +34,10 @@ Exec1cv8 { 1cv8.exe ENTERPRISE /WA- /DisableStartupDialogs /F "$_1CE_TargetDB" /
 
 $stopwatch.Stop()
 Write-Output "$(Get-Date): Finish run unit tests in $([int] $stopwatch.Elapsed.TotalSeconds)"
+
+$filelog='.test/unit/exitCode.txt'
+if(Test-Path -Path $filelog)
+  { if(Select-String -Path $filelog -Pattern "^0$" -Quiet) {exit 0} 
+	elseif (Select-String -Path $filelog -Pattern "^1$" -Quiet) {echo "Unit tests failed! View the results in 'junit/'."; exit 1} 
+	else {echo "In unit tests log file '$filelog' unexpected code."; exit 1} } 
+  else {echo "File '$filelog' with unit tests results is absent!"; exit 1};
